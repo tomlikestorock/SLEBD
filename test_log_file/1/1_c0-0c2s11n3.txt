@@ -1,0 +1,261 @@
+[1093] 2015-02-13T02:40:31.692294-06:00 c0-0c2s11n3 CPU49: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.719253-06:00 c0-0c2s11n3 CPU53: Core power limit notification (total events = 4839)
+[1093] 2015-02-13T02:40:31.719267-06:00 c0-0c2s11n3 CPU21: Core power limit notification (total events = 4837)
+[1093] 2015-02-13T02:40:31.719283-06:00 c0-0c2s11n3 CPU17: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.750787-06:00 c0-0c2s11n3 CPU60: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.750800-06:00 c0-0c2s11n3 CPU28: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.750810-06:00 c0-0c2s11n3 CPU52: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.775947-06:00 c0-0c2s11n3 CPU20: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.775961-06:00 c0-0c2s11n3 CPU31: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.837401-06:00 c0-0c2s11n3 CPU63: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.837431-06:00 c0-0c2s11n3 CPU62: Core power limit notification (total events = 4836)
+[1093] 2015-02-13T02:40:31.837451-06:00 c0-0c2s11n3 CPU30: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.837462-06:00 c0-0c2s11n3 CPU54: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.877329-06:00 c0-0c2s11n3 CPU22: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.877355-06:00 c0-0c2s11n3 CPU24: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.877364-06:00 c0-0c2s11n3 CPU56: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.902575-06:00 c0-0c2s11n3 CPU27: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.902601-06:00 c0-0c2s11n3 CPU59: Core power limit notification (total events = 4837)
+[1093] 2015-02-13T02:40:31.902625-06:00 c0-0c2s11n3 CPU58: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.927796-06:00 c0-0c2s11n3 CPU26: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.927818-06:00 c0-0c2s11n3 CPU48: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.953031-06:00 c0-0c2s11n3 CPU16: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.953058-06:00 c0-0c2s11n3 CPU29: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.978247-06:00 c0-0c2s11n3 CPU61: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:31.978268-06:00 c0-0c2s11n3 CPU50: Core power limit notification (total events = 4837)
+[1093] 2015-02-13T02:40:32.003494-06:00 c0-0c2s11n3 CPU18: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:32.003524-06:00 c0-0c2s11n3 CPU57: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:32.003534-06:00 c0-0c2s11n3 CPU25: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:32.028711-06:00 c0-0c2s11n3 CPU51: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:32.028733-06:00 c0-0c2s11n3 CPU19: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:32.028761-06:00 c0-0c2s11n3 CPU55: Core power limit notification (total events = 4838)
+[1093] 2015-02-13T02:40:32.053935-06:00 c0-0c2s11n3 CPU23: Core power limit notification (total events = 4838)
+[1095] 2015-02-13T02:40:32.079201-06:00 c0-0c2s11n3 CPU53: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.079224-06:00 c0-0c2s11n3 CPU21: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.117406-06:00 c0-0c2s11n3 CPU17: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.117429-06:00 c0-0c2s11n3 CPU60: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.117439-06:00 c0-0c2s11n3 CPU28: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.142605-06:00 c0-0c2s11n3 CPU52: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.167847-06:00 c0-0c2s11n3 CPU20: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.167869-06:00 c0-0c2s11n3 CPU31: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.193097-06:00 c0-0c2s11n3 CPU63: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.193120-06:00 c0-0c2s11n3 CPU62: Package temperature above threshold, cpu clock throttled (total events = 2933)
+[1095] 2015-02-13T02:40:32.218289-06:00 c0-0c2s11n3 CPU30: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.243536-06:00 c0-0c2s11n3 CPU54: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.412232-06:00 c0-0c2s11n3 CPU22: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.437504-06:00 c0-0c2s11n3 CPU24: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.462764-06:00 c0-0c2s11n3 CPU56: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.462788-06:00 c0-0c2s11n3 CPU27: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.487977-06:00 c0-0c2s11n3 CPU59: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.488003-06:00 c0-0c2s11n3 CPU58: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.513177-06:00 c0-0c2s11n3 CPU26: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.538414-06:00 c0-0c2s11n3 CPU48: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.538435-06:00 c0-0c2s11n3 CPU16: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.563664-06:00 c0-0c2s11n3 CPU29: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.563689-06:00 c0-0c2s11n3 CPU61: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.752308-06:00 c0-0c2s11n3 CPU50: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.777526-06:00 c0-0c2s11n3 CPU18: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.802761-06:00 c0-0c2s11n3 CPU57: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.802782-06:00 c0-0c2s11n3 CPU25: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.828019-06:00 c0-0c2s11n3 CPU51: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1095] 2015-02-13T02:40:32.828042-06:00 c0-0c2s11n3 CPU19: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.853207-06:00 c0-0c2s11n3 CPU55: Package temperature above threshold, cpu clock throttled (total events = 2935)
+[1095] 2015-02-13T02:40:32.878433-06:00 c0-0c2s11n3 CPU23: Package temperature above threshold, cpu clock throttled (total events = 2934)
+[1096] 2015-02-13T02:40:32.878456-06:00 c0-0c2s11n3 CPU53: Package power limit notification (total events = 4839)
+[1096] 2015-02-13T02:40:32.878468-06:00 c0-0c2s11n3 CPU21: Package power limit notification (total events = 4837)
+[1096] 2015-02-13T02:40:32.903634-06:00 c0-0c2s11n3 CPU17: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:32.903658-06:00 c0-0c2s11n3 CPU60: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:32.928877-06:00 c0-0c2s11n3 CPU28: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.097006-06:00 c0-0c2s11n3 CPU52: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.122222-06:00 c0-0c2s11n3 CPU20: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.122244-06:00 c0-0c2s11n3 CPU31: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.147524-06:00 c0-0c2s11n3 CPU63: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.147548-06:00 c0-0c2s11n3 CPU62: Package power limit notification (total events = 4836)
+[1096] 2015-02-13T02:40:33.147558-06:00 c0-0c2s11n3 CPU30: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.185354-06:00 c0-0c2s11n3 CPU54: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.185383-06:00 c0-0c2s11n3 CPU22: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.185392-06:00 c0-0c2s11n3 CPU24: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.210562-06:00 c0-0c2s11n3 CPU56: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.210587-06:00 c0-0c2s11n3 CPU27: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.210596-06:00 c0-0c2s11n3 CPU59: Package power limit notification (total events = 4836)
+[1096] 2015-02-13T02:40:33.235794-06:00 c0-0c2s11n3 CPU58: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.235820-06:00 c0-0c2s11n3 CPU26: Package power limit notification (total events = 4837)
+[1096] 2015-02-13T02:40:33.261000-06:00 c0-0c2s11n3 CPU48: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.261021-06:00 c0-0c2s11n3 CPU16: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.441627-06:00 c0-0c2s11n3 CPU29: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.466867-06:00 c0-0c2s11n3 CPU61: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.466906-06:00 c0-0c2s11n3 CPU50: Package power limit notification (total events = 4836)
+[1096] 2015-02-13T02:40:33.492062-06:00 c0-0c2s11n3 CPU18: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.492090-06:00 c0-0c2s11n3 CPU57: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.517306-06:00 c0-0c2s11n3 CPU25: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.517327-06:00 c0-0c2s11n3 CPU51: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.542555-06:00 c0-0c2s11n3 CPU19: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.542587-06:00 c0-0c2s11n3 CPU55: Package power limit notification (total events = 4838)
+[1096] 2015-02-13T02:40:33.542608-06:00 c0-0c2s11n3 CPU23: Package power limit notification (total events = 4838)
+[1098] 2015-02-13T02:40:33.567785-06:00 c0-0c2s11n3 CPU25: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.567818-06:00 c0-0c2s11n3 CPU53: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.567827-06:00 c0-0c2s11n3 CPU16: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.593037-06:00 c0-0c2s11n3 CPU48: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.593073-06:00 c0-0c2s11n3 CPU22: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.593097-06:00 c0-0c2s11n3 CPU59: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.593106-06:00 c0-0c2s11n3 CPU27: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.618222-06:00 c0-0c2s11n3 CPU17: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.618247-06:00 c0-0c2s11n3 CPU52: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.813335-06:00 c0-0c2s11n3 CPU20: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.813358-06:00 c0-0c2s11n3 CPU50: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.813367-06:00 c0-0c2s11n3 CPU18: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.813375-06:00 c0-0c2s11n3 CPU54: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.838604-06:00 c0-0c2s11n3 CPU24: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.838632-06:00 c0-0c2s11n3 CPU19: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.838647-06:00 c0-0c2s11n3 CPU51: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.838663-06:00 c0-0c2s11n3 CPU56: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.877375-06:00 c0-0c2s11n3 CPU23: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.877400-06:00 c0-0c2s11n3 CPU55: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.877409-06:00 c0-0c2s11n3 CPU60: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.877426-06:00 c0-0c2s11n3 CPU28: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.877438-06:00 c0-0c2s11n3 CPU30: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.917369-06:00 c0-0c2s11n3 CPU62: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.917394-06:00 c0-0c2s11n3 CPU58: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.917404-06:00 c0-0c2s11n3 CPU26: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.917419-06:00 c0-0c2s11n3 CPU29: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.917431-06:00 c0-0c2s11n3 CPU61: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.942565-06:00 c0-0c2s11n3 CPU57: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.942587-06:00 c0-0c2s11n3 CPU21: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.942596-06:00 c0-0c2s11n3 CPU63: Package temperature/speed normal
+[1098] 2015-02-13T02:40:33.942604-06:00 c0-0c2s11n3 CPU31: Package temperature/speed normal
+[1096] 2015-02-13T02:40:33.967815-06:00 c0-0c2s11n3 CPU49: Package power limit notification (total events = 4838)
+[1071] 2015-02-13T12:47:58.724314-06:00 c0-0c2s11n3 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-13T12:47:58.724323-06:00 c0-0c2s11n3 Unloading nic compatibility device..done
+[1073] 2015-02-13T12:47:58.724329-06:00 c0-0c2s11n3 bpmcd_exit: No local access to power statistics
+[1074] 2015-02-13T12:47:58.724441-06:00 c0-0c2s11n3 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-13T12:47:58.724452-06:00 c0-0c2s11n3 S; exiting
+[1077] 2015-02-13T12:47:58.724461-06:00 c0-0c2s11n3 Unloading XPMEM driver
+[1078] 2015-02-13T12:47:59.237360-06:00 c0-0c2s11n3 Unmounting alps spool directory..done
+[1079] 2015-02-13T12:47:59.237372-06:00 c0-0c2s11n3 Initializing Compute node runtime environment
+[1080] 2015-02-13T12:47:59.237377-06:00 c0-0c2s11n3 (stop BIND mounts)
+[1081] 2015-02-13T12:48:00.232888-06:00 c0-0c2s11n3 Stopping DVS service: 
+[1082] 2015-02-13T12:48:00.232896-06:00 c0-0c2s11n3 ..done
+[1083] 2015-02-13T12:48:03.332066-06:00 c0-0c2s11n3 System halted.
+[1084] 2015-02-13T12:48:04.888917-06:00 c0-0c2s11n3 RCADSVCS : shutdown.
+[131] 2015-02-13T13:11:18.039784-06:00 c0-0c2s11n3 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2
+[132] 2015-02-13T13:21:36.871945-06:00 c0-0c2s11n3 Wait4Boot: WRITE: 523 bytes to memory @ 0x90CD0 ... complete
+[133] 2015-02-13T13:21:36.871959-06:00 c0-0c2s11n3 Wait4Boot: Blade Controller Boot Protocol version - 1
+[134] 2015-02-13T13:21:36.895269-06:00 c0-0c2s11n3 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+[1053] 2015-02-13T13:21:36.895396-06:00 c0-0c2s11n3 OnExitBootServices..
+[1054] 2015-02-13T13:21:36.997793-06:00 c0-0c2s11n3 ConfigureXhciAtBoot() Start
+[1055] 2015-02-13T13:21:36.998008-06:00 c0-0c2s11n3 ConfigureXhciAtBoot() End
+[1056] 2015-02-13T13:21:36.998278-06:00 c0-0c2s11n3 (Wdt) RunWdtBeforeOsBoot
+[1056] 2015-02-13T13:21:37.021202-06:00 c0-0c2s11n3 (Wdt) DisableTimer
+[1057] 2015-02-13T13:21:40.055306-06:00 c0-0c2s11n3 Crypto Lib Callback.
+[1058] 2015-02-13T13:21:40.080374-06:00 c0-0c2s11n3 Heap addr before Virtual MemFixup = 7bacb018, After = 7bacb018
+[1059] 2015-02-13T13:21:40.105476-06:00 c0-0c2s11n3 NvramSmi Go Virtual
+[1060] 2015-02-13T13:21:40.673470-06:00 c0-0c2s11n3 Stopping all external HCs
+[1061] 2015-02-13T13:21:40.673478-06:00 c0-0c2s11n3 stopping all HC type 40:
+[339] 2015-02-13T13:21:49.716075-06:00 c0-0c2s11n3 i8042: No controller found
+[646] 2015-02-13T13:21:53.969750-06:00 c0-0c2s11n3 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 175
+[400] 2015-02-13T13:21:53.969758-06:00 c0-0c2s11n3 net.core.rmem_max = 16777216
+[400] 2015-02-13T13:21:53.969767-06:00 c0-0c2s11n3 net.core.wmem_max = 16777216
+[401] 2015-02-13T13:21:53.969775-06:00 c0-0c2s11n3 net.core.rmem_default = 16777216
+[401] 2015-02-13T13:21:53.969780-06:00 c0-0c2s11n3 net.core.wmem_default = 16777216
+[400] 2015-02-13T13:21:53.969788-06:00 c0-0c2s11n3 net.core.optmem_max = 16777216
+[402] 2015-02-13T13:21:53.969797-06:00 c0-0c2s11n3 net.ipv4.tcp_mem = 16777216 16777216 16777216
+[402] 2015-02-13T13:21:53.969804-06:00 c0-0c2s11n3 net.ipv4.tcp_rmem = 4096 87380 16777216
+[402] 2015-02-13T13:21:53.969813-06:00 c0-0c2s11n3 net.ipv4.tcp_wmem = 4096 65536 16777216
+[1062] 2015-02-13T13:21:54.186377-06:00 c0-0c2s11n3 nid 175: Linux version 3.0.101-0.31.1_1.0502.8394-cray_ari_c (abuild@cfosbld02) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Sep 10 04:09:26 UTC 2014
+[1063] 2015-02-13T13:21:54.236669-06:00 c0-0c2s11n3 starting pid 6922, tty '': '/etc/init.d/rc'
+[1064] 2015-02-13T13:21:54.362921-06:00 c0-0c2s11n3 bpmcd_init: Power statistics available in /sys/cray
+[1065] 2015-02-13T13:21:54.363018-06:00 c0-0c2s11n3 DVS: Revision 1873 - Built: Sep 17 2014 @ 06:40:25 for lnet version 2.5
+[957] 2015-02-13T13:21:54.388151-06:00 c0-0c2s11n3 LNet: HW CPU cores: 64, npartitions: 8
+[562] 2015-02-13T13:21:59.812901-06:00 c0-0c2s11n3 Lustre: kgnilnd build version: 2.5-trunk-1.0502.17198.8.57-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:43
+[563] 2015-02-13T13:21:59.812911-06:00 c0-0c2s11n3 LNet: Added LNI 175@gni [16/1024/0/0]
+[1066] 2015-02-13T13:22:15.539565-06:00 c0-0c2s11n3 mcelog: Family 6 Model 3f CPU: only decoding architectural errors
+[1067] 2015-02-13T13:22:15.565200-06:00 c0-0c2s11n3 SGI XPMEM kernel module v2.2 loaded
+[1068] 2015-02-13T13:22:15.616093-06:00 c0-0c2s11n3 <node_health> (xtnhd) xtnhd has started
+[1069] 2015-02-13T13:22:15.838988-06:00 c0-0c2s11n3 boot_freemem data calculated:  130106352
+[1092] 2015-02-13T14:30:22.129657-06:00 c0-0c2s11n3 net_ratelimit: 8 callbacks suppressed
+[1092] 2015-02-13T15:17:27.453150-06:00 c0-0c2s11n3 net_ratelimit: 37 callbacks suppressed
+[1092] 2015-02-13T15:17:57.463380-06:00 c0-0c2s11n3 net_ratelimit: 29 callbacks suppressed
+[1092] 2015-02-13T16:04:48.847161-06:00 c0-0c2s11n3 net_ratelimit: 8 callbacks suppressed
+[1092] 2015-02-13T16:05:18.751277-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-13T16:52:24.456267-06:00 c0-0c2s11n3 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-13T16:52:54.229617-06:00 c0-0c2s11n3 net_ratelimit: 5 callbacks suppressed
+[1092] 2015-02-13T17:40:10.589682-06:00 c0-0c2s11n3 net_ratelimit: 28 callbacks suppressed
+[1092] 2015-02-13T17:40:40.488343-06:00 c0-0c2s11n3 net_ratelimit: 44 callbacks suppressed
+[1092] 2015-02-13T18:27:05.767921-06:00 c0-0c2s11n3 net_ratelimit: 13 callbacks suppressed
+[1092] 2015-02-13T18:27:35.839141-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-13T19:13:57.395599-06:00 c0-0c2s11n3 net_ratelimit: 33 callbacks suppressed
+[1092] 2015-02-13T19:14:27.393084-06:00 c0-0c2s11n3 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-13T20:00:32.431686-06:00 c0-0c2s11n3 net_ratelimit: 25 callbacks suppressed
+[1092] 2015-02-13T20:01:02.376983-06:00 c0-0c2s11n3 net_ratelimit: 30 callbacks suppressed
+[1092] 2015-02-13T20:47:13.569048-06:00 c0-0c2s11n3 net_ratelimit: 35 callbacks suppressed
+[1092] 2015-02-13T20:47:43.553038-06:00 c0-0c2s11n3 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-13T21:34:10.717347-06:00 c0-0c2s11n3 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-13T21:34:40.961751-06:00 c0-0c2s11n3 net_ratelimit: 26 callbacks suppressed
+[1092] 2015-02-13T22:20:47.649942-06:00 c0-0c2s11n3 net_ratelimit: 34 callbacks suppressed
+[1092] 2015-02-13T22:21:17.560611-06:00 c0-0c2s11n3 net_ratelimit: 22 callbacks suppressed
+[1092] 2015-02-13T23:07:09.070903-06:00 c0-0c2s11n3 net_ratelimit: 12 callbacks suppressed
+[1092] 2015-02-13T23:07:39.173464-06:00 c0-0c2s11n3 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-13T23:53:29.980142-06:00 c0-0c2s11n3 net_ratelimit: 34 callbacks suppressed
+[1092] 2015-02-13T23:54:00.154857-06:00 c0-0c2s11n3 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-14T00:39:51.523652-06:00 c0-0c2s11n3 net_ratelimit: 17 callbacks suppressed
+[1092] 2015-02-14T00:40:21.480768-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-14T01:26:12.342019-06:00 c0-0c2s11n3 net_ratelimit: 41 callbacks suppressed
+[1092] 2015-02-14T01:26:42.383286-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-14T02:12:48.439522-06:00 c0-0c2s11n3 net_ratelimit: 39 callbacks suppressed
+[1092] 2015-02-14T02:13:18.366180-06:00 c0-0c2s11n3 net_ratelimit: 30 callbacks suppressed
+[1092] 2015-02-14T02:59:10.029835-06:00 c0-0c2s11n3 net_ratelimit: 29 callbacks suppressed
+[1092] 2015-02-14T02:59:40.078013-06:00 c0-0c2s11n3 net_ratelimit: 12 callbacks suppressed
+[1092] 2015-02-14T03:46:17.477131-06:00 c0-0c2s11n3 net_ratelimit: 22 callbacks suppressed
+[1092] 2015-02-14T03:46:47.287690-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-14T04:33:24.587718-06:00 c0-0c2s11n3 net_ratelimit: 8 callbacks suppressed
+[1092] 2015-02-14T04:33:54.653136-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-14T05:19:45.999107-06:00 c0-0c2s11n3 net_ratelimit: 30 callbacks suppressed
+[1092] 2015-02-14T05:20:16.027567-06:00 c0-0c2s11n3 net_ratelimit: 34 callbacks suppressed
+[1092] 2015-02-14T06:06:22.478104-06:00 c0-0c2s11n3 net_ratelimit: 40 callbacks suppressed
+[1092] 2015-02-14T06:06:52.521244-06:00 c0-0c2s11n3 net_ratelimit: 33 callbacks suppressed
+[1092] 2015-02-14T06:52:44.239658-06:00 c0-0c2s11n3 net_ratelimit: 8 callbacks suppressed
+[1092] 2015-02-14T06:53:14.197131-06:00 c0-0c2s11n3 net_ratelimit: 33 callbacks suppressed
+[1092] 2015-02-14T07:39:20.888707-06:00 c0-0c2s11n3 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-14T07:39:51.009755-06:00 c0-0c2s11n3 net_ratelimit: 28 callbacks suppressed
+[1092] 2015-02-14T08:25:42.754752-06:00 c0-0c2s11n3 net_ratelimit: 39 callbacks suppressed
+[1092] 2015-02-14T08:26:12.855089-06:00 c0-0c2s11n3 net_ratelimit: 24 callbacks suppressed
+[1092] 2015-02-14T09:12:19.677302-06:00 c0-0c2s11n3 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-14T09:12:49.874762-06:00 c0-0c2s11n3 net_ratelimit: 23 callbacks suppressed
+[1092] 2015-02-14T09:58:41.001308-06:00 c0-0c2s11n3 net_ratelimit: 24 callbacks suppressed
+[1092] 2015-02-14T09:59:11.083593-06:00 c0-0c2s11n3 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-14T10:45:03.299147-06:00 c0-0c2s11n3 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-14T10:45:33.418302-06:00 c0-0c2s11n3 net_ratelimit: 30 callbacks suppressed
+[1092] 2015-02-14T11:31:25.231051-06:00 c0-0c2s11n3 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-14T11:31:55.221029-06:00 c0-0c2s11n3 net_ratelimit: 30 callbacks suppressed
+[1092] 2015-02-14T12:17:47.313336-06:00 c0-0c2s11n3 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-14T12:18:17.160568-06:00 c0-0c2s11n3 net_ratelimit: 16 callbacks suppressed
+[1092] 2015-02-14T13:04:10.022467-06:00 c0-0c2s11n3 net_ratelimit: 10 callbacks suppressed
+[1092] 2015-02-14T13:04:39.694414-06:00 c0-0c2s11n3 net_ratelimit: 35 callbacks suppressed
+[1092] 2015-02-14T13:50:46.972937-06:00 c0-0c2s11n3 net_ratelimit: 37 callbacks suppressed
+[1092] 2015-02-14T13:51:16.883844-06:00 c0-0c2s11n3 net_ratelimit: 44 callbacks suppressed
+[1092] 2015-02-14T14:37:39.490750-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-14T14:38:09.540103-06:00 c0-0c2s11n3 net_ratelimit: 23 callbacks suppressed
+[1092] 2015-02-14T15:24:17.281707-06:00 c0-0c2s11n3 net_ratelimit: 35 callbacks suppressed
+[1092] 2015-02-14T15:24:47.307345-06:00 c0-0c2s11n3 net_ratelimit: 5 callbacks suppressed
+[1092] 2015-02-14T16:11:25.015674-06:00 c0-0c2s11n3 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-14T16:11:54.554631-06:00 c0-0c2s11n3 net_ratelimit: 42 callbacks suppressed
+[1092] 2015-02-14T16:58:31.859526-06:00 c0-0c2s11n3 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-14T16:59:01.845646-06:00 c0-0c2s11n3 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-14T17:45:09.205594-06:00 c0-0c2s11n3 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-14T17:45:39.144314-06:00 c0-0c2s11n3 net_ratelimit: 24 callbacks suppressed
+[1092] 2015-02-14T18:31:31.506129-06:00 c0-0c2s11n3 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-14T18:32:01.560397-06:00 c0-0c2s11n3 net_ratelimit: 15 callbacks suppressed
+[1092] 2015-02-14T19:17:54.308085-06:00 c0-0c2s11n3 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-14T19:18:24.164912-06:00 c0-0c2s11n3 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-14T20:04:16.778379-06:00 c0-0c2s11n3 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-14T20:04:46.820689-06:00 c0-0c2s11n3 net_ratelimit: 40 callbacks suppressed
+[1092] 2015-02-14T20:50:39.948661-06:00 c0-0c2s11n3 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-14T20:51:09.974302-06:00 c0-0c2s11n3 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-14T21:37:02.784624-06:00 c0-0c2s11n3 net_ratelimit: 33 callbacks suppressed
+[1092] 2015-02-14T21:37:32.420133-06:00 c0-0c2s11n3 net_ratelimit: 9 callbacks suppressed
+[1092] 2015-02-14T22:23:40.017737-06:00 c0-0c2s11n3 net_ratelimit: 28 callbacks suppressed
+[1092] 2015-02-14T22:24:10.120408-06:00 c0-0c2s11n3 net_ratelimit: 25 callbacks suppressed
+[1092] 2015-02-14T23:10:18.359875-06:00 c0-0c2s11n3 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-14T23:10:48.392585-06:00 c0-0c2s11n3 net_ratelimit: 41 callbacks suppressed
+[1092] 2015-02-14T23:57:01.150527-06:00 c0-0c2s11n3 net_ratelimit: 26 callbacks suppressed
+[1092] 2015-02-14T23:57:30.938828-06:00 c0-0c2s11n3 net_ratelimit: 31 callbacks suppressed

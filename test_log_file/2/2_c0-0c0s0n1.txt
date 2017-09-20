@@ -1,0 +1,134 @@
+[582] 2015-02-16T11:06:49.291746-06:00 c0-0c0s0n1 INIT: Switching to runlevel: 0
+[583] 2015-02-16T11:06:49.342299-06:00 c0-0c0s0n1 Boot logging started on /dev/ttyS0((no tty)) at Mon Feb 16 11:06:49 2015
+[509] 2015-02-16T11:06:49.342336-06:00 c0-0c0s0n1 Master Resource Control: previous runlevel: 3, switching to runlevel: 
+[510] 2015-02-16T11:06:49.342341-06:00 c0-0c0s0n1 [80C[10D[1m0[m
+[539] 2015-02-16T11:06:49.342353-06:00 c0-0c0s0n1 sdbnodes are: 137 137 
+[540] 2015-02-16T11:06:49.367592-06:00 c0-0c0s0n1 mynid=1
+[584] 2015-02-16T11:06:49.367614-06:00 c0-0c0s0n1 [m[?25hBoot event: Nothing to stop.
+[618] 2015-02-16T11:06:49.392868-06:00 c0-0c0s0n1 [80C[10D[1;33mskipped[m
+[585] 2015-02-16T11:06:49.418108-06:00 c0-0c0s0n1 [m[?25hShutting down aeld 7[?25l
+[423] 2015-02-16T11:06:49.418117-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[600] 2015-02-16T11:06:49.443338-06:00 c0-0c0s0n1 [m[?25hShutting down alps services
+[601] 2015-02-16T11:06:49.938277-06:00 c0-0c0s0n1 Terminating apbridge
+[429] 2015-02-16T11:06:50.701645-06:00 c0-0c0s0n1 7[?25l
+[423] 2015-02-16T11:06:50.701655-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[601] 2015-02-16T11:06:50.726911-06:00 c0-0c0s0n1 Terminating apwatch
+[429] 2015-02-16T11:06:51.264553-06:00 c0-0c0s0n1 7[?25l
+[423] 2015-02-16T11:06:51.264563-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[601] 2015-02-16T11:06:51.264581-06:00 c0-0c0s0n1 Terminating apres
+[429] 2015-02-16T11:06:51.844022-06:00 c0-0c0s0n1 7[?25l
+[423] 2015-02-16T11:06:51.844035-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[601] 2015-02-16T11:06:51.844073-06:00 c0-0c0s0n1 Terminating apevent
+[429] 2015-02-16T11:06:52.590457-06:00 c0-0c0s0n1 7[?25l
+[423] 2015-02-16T11:06:52.590467-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[585] 2015-02-16T11:06:52.691337-06:00 c0-0c0s0n1 [m[?25hShutting down auditd 7[?25l
+[423] 2015-02-16T11:06:52.691346-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[785] 2015-02-16T11:06:52.817497-06:00 c0-0c0s0n1 [m[?25hStopping bnd...done
+[818] 2015-02-16T11:06:52.842759-06:00 c0-0c0s0n1 [m[?25hK02cray-config-service: Stopping diod process. 
+[819] 2015-02-16T11:06:53.855237-06:00 c0-0c0s0n1 K02cray-config-service: Process diod has exited. 
+[820] 2015-02-16T11:06:53.905448-06:00 c0-0c0s0n1 K02cray-config-service: Unmounting the configuration directory. 
+[542] 2015-02-16T11:06:54.891952-06:00 c0-0c0s0n1 K02cray-config-service:   Success.  
+[558] 2015-02-16T11:06:54.942366-06:00 c0-0c0s0n1 [m[?25hStopping HSN proxy7[?25l
+[423] 2015-02-16T11:06:54.942376-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[591] 2015-02-16T11:06:55.018102-06:00 c0-0c0s0n1 [m[?25hShutting down haveged daemon 7[?25l
+[423] 2015-02-16T11:06:55.018109-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[592] 2015-02-16T11:06:55.043194-06:00 c0-0c0s0n1 [m[?25hStarting hw_info_init on 1
+[593] 2015-02-16T11:06:55.104226-06:00 c0-0c0s0n1 [m[?25h[m[?25hShutting down java.binfmt_misc 7[?25l
+[423] 2015-02-16T11:06:55.104240-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[821] 2015-02-16T11:06:55.104268-06:00 c0-0c0s0n1 [m[?25hShutting down lbcd
+[429] 2015-02-16T11:06:55.163667-06:00 c0-0c0s0n1 7[?25l
+[423] 2015-02-16T11:06:55.163676-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[595] 2015-02-16T11:06:55.239502-06:00 c0-0c0s0n1 [m[?25hShutting down mcelog... 7[?25l
+[423] 2015-02-16T11:06:55.239511-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[568] 2015-02-16T11:06:55.289808-06:00 c0-0c0s0n1 [m[?25hStopping MUNGE: munged7[?25l
+[423] 2015-02-16T11:06:55.289821-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[887] 2015-02-16T11:06:55.289841-06:00 c0-0c0s0n1 [m[?25hShutting down kernel based NFS server: nfsdnfsd: last server has exited, flushing export cache
+[888] 2015-02-16T11:06:55.567547-06:00 c0-0c0s0n1 statd mountd idmapd7[?25l
+[423] 2015-02-16T11:06:55.567560-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[598] 2015-02-16T11:06:56.051085-06:00 c0-0c0s0n1 [m[?25hShutting down Name Service Cache Daemon7[?25l
+[423] 2015-02-16T11:06:56.051106-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[824] 2015-02-16T11:06:56.199283-06:00 c0-0c0s0n1 [m[?25h[m[?25h[m[?25h[m[?25h[m[?25hShutting down cupsd7[?25l
+[423] 2015-02-16T11:06:56.199295-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[602] 2015-02-16T11:06:56.199305-06:00 c0-0c0s0n1 [m[?25hNOT Disabling ipogif0
+[603] 2015-02-16T11:06:56.257140-06:00 c0-0c0s0n1 [m[?25hSaving random seed7[?25l
+[423] 2015-02-16T11:06:56.257152-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[825] 2015-02-16T11:06:57.357318-06:00 c0-0c0s0n1 [m[?25h[m[?25hShutting down network time protocol daemon (NTPD)7[?25l
+[423] 2015-02-16T11:06:57.357335-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[559] 2015-02-16T11:06:57.357345-06:00 c0-0c0s0n1 [m[?25hsdbnodes are: 137 137 
+[540] 2015-02-16T11:06:57.357366-06:00 c0-0c0s0n1 mynid=1
+[423] 2015-02-16T11:06:57.409102-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[613] 2015-02-16T11:06:57.517048-06:00 c0-0c0s0n1 [m[?25hShutting down (remotefs) network interfaces:
+[566] 2015-02-16T11:06:57.517072-06:00 c0-0c0s0n1    sit0      
+[614] 2015-02-16T11:06:57.549553-06:00 c0-0c0s0n1              No configuration found for sit0 
+[615] 2015-02-16T11:06:57.549580-06:00 c0-0c0s0n1              Nevertheless the interface will be shut down.
+[470] 2015-02-16T11:06:58.023820-06:00 c0-0c0s0n1 7[?25l[1A
+[616] 2015-02-16T11:06:58.023836-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25hShutting down service (remotefs) network  .  .  .  .  .  .  .  .  .7[?25l
+[423] 2015-02-16T11:06:58.023843-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[826] 2015-02-16T11:06:58.081233-06:00 c0-0c0s0n1 [m[?25hShutting down NFS client services:7[?25l
+[423] 2015-02-16T11:06:58.081249-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[585] 2015-02-16T11:06:58.154558-06:00 c0-0c0s0n1 [m[?25hShutting down rpcbind 7[?25l
+[423] 2015-02-16T11:06:58.154568-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[827] 2015-02-16T11:07:04.250734-06:00 c0-0c0s0n1 [m[?25hcray-syslog: Sent shutdown to llmrd at process 14959....... 
+[828] 2015-02-16T11:07:04.250764-06:00 c0-0c0s0n1 cray-syslog: llmrd shutdown cleanly.
+[829] 2015-02-16T11:07:05.252304-06:00 c0-0c0s0n1 cray-syslog: Sent shutdown to rsyslogd at process 14947.. 
+[828] 2015-02-16T11:07:05.252327-06:00 c0-0c0s0n1 cray-syslog: rsyslogd shutdown cleanly.
+[830] 2015-02-16T11:07:05.377659-06:00 c0-0c0s0n1 [m[?25h[m[?25hShutting down (localfs) network interfaces:
+[831] 2015-02-16T11:07:05.422061-06:00 c0-0c0s0n1    eth0      device: Intel Corporation 82576 Gigabit Network Conne
+[470] 2015-02-16T11:07:06.104507-06:00 c0-0c0s0n1 7[?25l[1A
+[533] 2015-02-16T11:07:06.104526-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h    eth1      device: Intel Corporation 82576 Gigabit Network Conne
+[614] 2015-02-16T11:07:06.104537-06:00 c0-0c0s0n1              No configuration found for eth1 
+[615] 2015-02-16T11:07:06.104553-06:00 c0-0c0s0n1              Nevertheless the interface will be shut down.
+[470] 2015-02-16T11:07:06.565624-06:00 c0-0c0s0n1 7[?25l[1A
+[533] 2015-02-16T11:07:06.565637-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h    eth2      device: Intel Corporation 82576 Gigabit Network Conne
+[614] 2015-02-16T11:07:06.565646-06:00 c0-0c0s0n1              No configuration found for eth2 
+[615] 2015-02-16T11:07:06.565663-06:00 c0-0c0s0n1              Nevertheless the interface will be shut down.
+[470] 2015-02-16T11:07:07.053367-06:00 c0-0c0s0n1 7[?25l[1A
+[533] 2015-02-16T11:07:07.053387-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h    eth3      device: Intel Corporation 82576 Gigabit Network Conne
+[614] 2015-02-16T11:07:07.053397-06:00 c0-0c0s0n1              No configuration found for eth3 
+[615] 2015-02-16T11:07:07.053407-06:00 c0-0c0s0n1              Nevertheless the interface will be shut down.
+[470] 2015-02-16T11:07:07.484664-06:00 c0-0c0s0n1 7[?25l[1A
+[694] 2015-02-16T11:07:07.484677-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h    ipogif0   
+[614] 2015-02-16T11:07:07.484687-06:00 c0-0c0s0n1              No configuration found for ipogif0 
+[615] 2015-02-16T11:07:07.484709-06:00 c0-0c0s0n1              Nevertheless the interface will be shut down.
+[832] 2015-02-16T11:07:07.901176-06:00 c0-0c0s0n1 ipogif_down:Bringing interface down
+[470] 2015-02-16T11:07:10.243097-06:00 c0-0c0s0n1 7[?25l[1A
+[616] 2015-02-16T11:07:10.243117-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25hShutting down service (localfs) network  .  .  .  .  .  .  .  .  .7[?25l
+[423] 2015-02-16T11:07:10.243123-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[833] 2015-02-16T11:07:10.558812-06:00 c0-0c0s0n1 [m[?25h[m[?25h[m[?25hShutting down D-Bus daemon7[?25l
+[423] 2015-02-16T11:07:10.558823-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[834] 2015-02-16T11:07:10.584212-06:00 c0-0c0s0n1 [m[?25hRunning /etc/init.d/halt.local
+[470] 2015-02-16T11:07:10.621498-06:00 c0-0c0s0n1 7[?25l[1A
+[835] 2015-02-16T11:07:10.621511-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h7[?25l
+[423] 2015-02-16T11:07:10.621516-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[836] 2015-02-16T11:07:10.697268-06:00 c0-0c0s0n1 The System Time is in sync with Hardware Clock 
+[618] 2015-02-16T11:07:10.697281-06:00 c0-0c0s0n1 [80C[10D[1;32mgood[m
+[837] 2015-02-16T11:07:10.697291-06:00 c0-0c0s0n1 Turning off swap files
+[838] 2015-02-16T11:07:11.674342-06:00 c0-0c0s0n1 boot.xtsessionid: setting shutdown sessionid to p0-20150216t110700
+[768] 2015-02-16T11:07:11.708465-06:00 c0-0c0s0n1 boot.xtsessionid: xtspec of sessionid succeeded
+[839] 2015-02-16T11:07:11.708482-06:00 c0-0c0s0n1 Unmounting file systems
+[840] 2015-02-16T11:07:11.826159-06:00 c0-0c0s0n1 /dev/sdb4 has been unmounted
+[840] 2015-02-16T11:07:12.116221-06:00 c0-0c0s0n1 /dev/sdb1 has been unmounted
+[470] 2015-02-16T11:07:12.315391-06:00 c0-0c0s0n1 7[?25l[1A
+[841] 2015-02-16T11:07:12.315402-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h  No volume groups found
+[429] 2015-02-16T11:07:12.340607-06:00 c0-0c0s0n1 7[?25l
+[423] 2015-02-16T11:07:12.340621-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[842] 2015-02-16T11:07:12.607247-06:00 c0-0c0s0n1 Stopping udevd: 7[?25l
+[423] 2015-02-16T11:07:12.607258-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m8[?25h
+[843] 2015-02-16T11:07:12.632454-06:00 c0-0c0s0n1 Sending all processes the TERM signal...
+[507] 2015-02-16T11:07:12.632477-06:00 c0-0c0s0n1 [1A
+[618] 2015-02-16T11:07:12.632486-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m
+[844] 2015-02-16T11:07:12.632494-06:00 c0-0c0s0n1 Sending all processes the KILL signal...
+[507] 2015-02-16T11:07:12.632507-06:00 c0-0c0s0n1 [1A
+[618] 2015-02-16T11:07:12.632514-06:00 c0-0c0s0n1 [80C[10D[1;32mdone[m
+[845] 2015-02-16T11:07:12.943930-06:00 c0-0c0s0n1 The system will be halted immediately.
+[298] 2015-02-16T11:07:12.943944-06:00 c0-0c0s0n1 igb 0000:06:00.1: PCI INT B disabled
+[298] 2015-02-16T11:07:12.986001-06:00 c0-0c0s0n1 igb 0000:06:00.0: PCI INT A disabled
+[298] 2015-02-16T11:07:13.013673-06:00 c0-0c0s0n1 igb 0000:04:00.1: PCI INT B disabled
+[298] 2015-02-16T11:07:13.098291-06:00 c0-0c0s0n1 igb 0000:04:00.0: PCI INT A disabled
+[846] 2015-02-16T11:07:13.098309-06:00 c0-0c0s0n1 pcieport 0000:00:03.0: wake-up capability enabled by ACPI
+[847] 2015-02-16T11:07:13.130720-06:00 c0-0c0s0n1 ehci_hcd 0000:00:1d.0: PCI INT A disabled
+[847] 2015-02-16T11:07:13.130743-06:00 c0-0c0s0n1 ehci_hcd 0000:00:1a.0: PCI INT A disabled
+[848] 2015-02-16T11:07:13.130752-06:00 c0-0c0s0n1 ACPI: Preparing to enter system sleep state S5
+[849] 2015-02-16T11:07:13.130760-06:00 c0-0c0s0n1 Disabling non-boot CPUs ...
+[850] 2015-02-16T11:07:13.190528-06:00 c0-0c0s0n1 Power down.
+[131] 2015-02-16T14:50:54.529912-06:00 c0-0c0s0n1 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2

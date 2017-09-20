@@ -1,0 +1,11 @@
+Topology based sequence mining algorithm (TSM)
+Program execution main entrance:
+block_report_analyze_main.py
+Program execution command: python block_report_analyze_main.py test_files
+About test files:
+	Such test files set have 18 nodes' block reports. We select 132 event types which happened in all these 18 files and write these types' names in sequence_tmp_report/analyze_block_node.txt. When doing sequence mining, our program must preload this interested event type list first. 
+	
+Please keep folder sequence_tmp_report anytime.
+
+This program have one mining feature and 3 testing features.
+

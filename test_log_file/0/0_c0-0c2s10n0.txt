@@ -1,0 +1,133 @@
+[131] 2015-02-11T17:25:58.100374-06:00 c0-0c2s10n0 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2
+[132] 2015-02-11T17:36:34.329142-06:00 c0-0c2s10n0 Wait4Boot: WRITE: 523 bytes to memory @ 0x90CD0 ... complete
+[133] 2015-02-11T17:36:34.329147-06:00 c0-0c2s10n0 Wait4Boot: Blade Controller Boot Protocol version - 1
+[134] 2015-02-11T17:36:34.329168-06:00 c0-0c2s10n0 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+[1053] 2015-02-11T17:36:34.329173-06:00 c0-0c2s10n0 OnExitBootServices..
+[1054] 2015-02-11T17:36:34.354052-06:00 c0-0c2s10n0 ConfigureXhciAtBoot() Start
+[1055] 2015-02-11T17:36:34.354401-06:00 c0-0c2s10n0 ConfigureXhciAtBoot() End
+[1056] 2015-02-11T17:36:34.354740-06:00 c0-0c2s10n0 (Wdt) RunWdtBeforeOsBoot
+[1056] 2015-02-11T17:36:34.355021-06:00 c0-0c2s10n0 (Wdt) DisableTimer
+[1057] 2015-02-11T17:36:37.397434-06:00 c0-0c2s10n0 Crypto Lib Callback.
+[1058] 2015-02-11T17:36:37.422283-06:00 c0-0c2s10n0 Heap addr before Virtual MemFixup = 7bacb018, After = 7bacb018
+[1059] 2015-02-11T17:36:37.422639-06:00 c0-0c2s10n0 NvramSmi Go Virtual
+[1060] 2015-02-11T17:36:37.548873-06:00 c0-0c2s10n0 Stopping all external HCs
+[1061] 2015-02-11T17:36:37.573913-06:00 c0-0c2s10n0 stopping all HC type 40:
+[339] 2015-02-11T17:36:47.093800-06:00 c0-0c2s10n0 i8042: No controller found
+[646] 2015-02-11T17:36:51.156645-06:00 c0-0c2s10n0 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 168
+[400] 2015-02-11T17:36:51.156653-06:00 c0-0c2s10n0 net.core.rmem_max = 16777216
+[400] 2015-02-11T17:36:51.156658-06:00 c0-0c2s10n0 net.core.wmem_max = 16777216
+[401] 2015-02-11T17:36:51.156664-06:00 c0-0c2s10n0 net.core.rmem_default = 16777216
+[401] 2015-02-11T17:36:51.156670-06:00 c0-0c2s10n0 net.core.wmem_default = 16777216
+[400] 2015-02-11T17:36:51.156674-06:00 c0-0c2s10n0 net.core.optmem_max = 16777216
+[402] 2015-02-11T17:36:51.156686-06:00 c0-0c2s10n0 net.ipv4.tcp_mem = 16777216 16777216 16777216
+[402] 2015-02-11T17:36:51.156692-06:00 c0-0c2s10n0 net.ipv4.tcp_rmem = 4096 87380 16777216
+[402] 2015-02-11T17:36:51.156697-06:00 c0-0c2s10n0 net.ipv4.tcp_wmem = 4096 65536 16777216
+[1062] 2015-02-11T17:36:51.156704-06:00 c0-0c2s10n0 nid 168: Linux version 3.0.101-0.31.1_1.0502.8394-cray_ari_c (abuild@cfosbld02) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Sep 10 04:09:26 UTC 2014
+[1063] 2015-02-11T17:36:51.156712-06:00 c0-0c2s10n0 starting pid 6933, tty '': '/etc/init.d/rc'
+[1064] 2015-02-11T17:36:51.156717-06:00 c0-0c2s10n0 bpmcd_init: Power statistics available in /sys/cray
+[1065] 2015-02-11T17:36:51.156737-06:00 c0-0c2s10n0 DVS: Revision 1873 - Built: Sep 17 2014 @ 06:40:25 for lnet version 2.5
+[957] 2015-02-11T17:36:51.156747-06:00 c0-0c2s10n0 LNet: HW CPU cores: 64, npartitions: 8
+[562] 2015-02-11T17:36:55.047379-06:00 c0-0c2s10n0 Lustre: kgnilnd build version: 2.5-trunk-1.0502.17198.8.57-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:43
+[563] 2015-02-11T17:36:55.189421-06:00 c0-0c2s10n0 LNet: Added LNI 168@gni [16/1024/0/0]
+[1066] 2015-02-11T17:37:11.194664-06:00 c0-0c2s10n0 mcelog: Family 6 Model 3f CPU: only decoding architectural errors
+[1067] 2015-02-11T17:37:11.220316-06:00 c0-0c2s10n0 SGI XPMEM kernel module v2.2 loaded
+[1068] 2015-02-11T17:37:11.220326-06:00 c0-0c2s10n0 <node_health> (xtnhd) xtnhd has started
+[1069] 2015-02-11T17:37:11.375551-06:00 c0-0c2s10n0 boot_freemem data calculated:  130105420
+[1092] 2015-02-11T18:31:22.519099-06:00 c0-0c2s10n0 net_ratelimit: 19 callbacks suppressed
+[1092] 2015-02-11T19:20:26.915415-06:00 c0-0c2s10n0 net_ratelimit: 37 callbacks suppressed
+[1092] 2015-02-11T19:20:56.968629-06:00 c0-0c2s10n0 net_ratelimit: 46 callbacks suppressed
+[1092] 2015-02-11T20:10:02.166971-06:00 c0-0c2s10n0 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-11T20:10:32.202015-06:00 c0-0c2s10n0 net_ratelimit: 15 callbacks suppressed
+[1092] 2015-02-11T20:59:22.146169-06:00 c0-0c2s10n0 net_ratelimit: 41 callbacks suppressed
+[1092] 2015-02-11T20:59:52.141078-06:00 c0-0c2s10n0 net_ratelimit: 45 callbacks suppressed
+[1092] 2015-02-11T21:48:31.809116-06:00 c0-0c2s10n0 net_ratelimit: 44 callbacks suppressed
+[1092] 2015-02-11T21:49:01.875407-06:00 c0-0c2s10n0 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-11T22:37:52.160493-06:00 c0-0c2s10n0 net_ratelimit: 14 callbacks suppressed
+[1092] 2015-02-11T22:38:22.255036-06:00 c0-0c2s10n0 net_ratelimit: 36 callbacks suppressed
+[1070] 2015-02-11T22:57:57.462331-06:00 c0-0c2s10n0 hpcc[38158] general protection ip:b6c9fa sp:7fffffffbc80 error:0 in hpcc[400000+904000]
+[1092] 2015-02-11T23:26:52.450106-06:00 c0-0c2s10n0 net_ratelimit: 37 callbacks suppressed
+[1092] 2015-02-11T23:27:22.391779-06:00 c0-0c2s10n0 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-12T00:16:12.502943-06:00 c0-0c2s10n0 net_ratelimit: 43 callbacks suppressed
+[1092] 2015-02-12T00:16:42.500337-06:00 c0-0c2s10n0 net_ratelimit: 46 callbacks suppressed
+[1092] 2015-02-12T01:05:29.120102-06:00 c0-0c2s10n0 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-12T01:05:58.843038-06:00 c0-0c2s10n0 net_ratelimit: 42 callbacks suppressed
+[1092] 2015-02-12T01:54:45.103713-06:00 c0-0c2s10n0 net_ratelimit: 34 callbacks suppressed
+[1092] 2015-02-12T01:55:15.452542-06:00 c0-0c2s10n0 net_ratelimit: 44 callbacks suppressed
+[1092] 2015-02-12T02:44:06.089728-06:00 c0-0c2s10n0 net_ratelimit: 36 callbacks suppressed
+[1092] 2015-02-12T02:44:36.243398-06:00 c0-0c2s10n0 net_ratelimit: 47 callbacks suppressed
+[1092] 2015-02-12T03:33:26.548942-06:00 c0-0c2s10n0 net_ratelimit: 33 callbacks suppressed
+[1092] 2015-02-12T03:33:56.450863-06:00 c0-0c2s10n0 net_ratelimit: 37 callbacks suppressed
+[1092] 2015-02-12T04:23:12.694976-06:00 c0-0c2s10n0 net_ratelimit: 34 callbacks suppressed
+[1092] 2015-02-12T04:23:42.405000-06:00 c0-0c2s10n0 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-12T05:12:48.415154-06:00 c0-0c2s10n0 net_ratelimit: 34 callbacks suppressed
+[1092] 2015-02-12T05:13:18.369118-06:00 c0-0c2s10n0 net_ratelimit: 50 callbacks suppressed
+[1092] 2015-02-12T06:02:04.594133-06:00 c0-0c2s10n0 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-12T06:02:34.468643-06:00 c0-0c2s10n0 net_ratelimit: 40 callbacks suppressed
+[1092] 2015-02-12T06:51:20.895752-06:00 c0-0c2s10n0 net_ratelimit: 46 callbacks suppressed
+[1092] 2015-02-12T06:51:51.120347-06:00 c0-0c2s10n0 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-12T07:40:57.632943-06:00 c0-0c2s10n0 net_ratelimit: 31 callbacks suppressed
+[1092] 2015-02-12T07:41:27.884992-06:00 c0-0c2s10n0 net_ratelimit: 27 callbacks suppressed
+[1092] 2015-02-12T08:29:39.796844-06:00 c0-0c2s10n0 net_ratelimit: 49 callbacks suppressed
+[1092] 2015-02-12T08:30:09.841859-06:00 c0-0c2s10n0 net_ratelimit: 38 callbacks suppressed
+[1092] 2015-02-12T09:18:56.092667-06:00 c0-0c2s10n0 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-12T09:19:26.037030-06:00 c0-0c2s10n0 net_ratelimit: 50 callbacks suppressed
+[1092] 2015-02-12T10:06:57.043455-06:00 c0-0c2s10n0 net_ratelimit: 33 callbacks suppressed
+[1092] 2015-02-12T10:07:27.198830-06:00 c0-0c2s10n0 net_ratelimit: 24 callbacks suppressed
+[1092] 2015-02-12T10:55:33.574956-06:00 c0-0c2s10n0 net_ratelimit: 46 callbacks suppressed
+[1092] 2015-02-12T10:56:03.594058-06:00 c0-0c2s10n0 net_ratelimit: 43 callbacks suppressed
+[1092] 2015-02-12T11:44:50.215185-06:00 c0-0c2s10n0 net_ratelimit: 50 callbacks suppressed
+[1092] 2015-02-12T11:45:20.210731-06:00 c0-0c2s10n0 net_ratelimit: 35 callbacks suppressed
+[1092] 2015-02-12T12:34:07.025399-06:00 c0-0c2s10n0 net_ratelimit: 25 callbacks suppressed
+[1092] 2015-02-12T12:34:37.037560-06:00 c0-0c2s10n0 net_ratelimit: 33 callbacks suppressed
+[1092] 2015-02-12T13:22:49.009508-06:00 c0-0c2s10n0 net_ratelimit: 32 callbacks suppressed
+[1092] 2015-02-12T13:23:19.056075-06:00 c0-0c2s10n0 net_ratelimit: 40 callbacks suppressed
+[1092] 2015-02-12T14:11:46.251435-06:00 c0-0c2s10n0 net_ratelimit: 37 callbacks suppressed
+[1092] 2015-02-12T14:12:16.409585-06:00 c0-0c2s10n0 net_ratelimit: 43 callbacks suppressed
+[1071] 2015-02-12T14:33:44.706078-06:00 c0-0c2s10n0 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-12T14:33:44.706088-06:00 c0-0c2s10n0 Unloading nic compatibility device..done
+[1073] 2015-02-12T14:33:44.731315-06:00 c0-0c2s10n0 bpmcd_exit: No local access to power statistics
+[1074] 2015-02-12T14:33:45.215576-06:00 c0-0c2s10n0 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-12T14:33:45.215588-06:00 c0-0c2s10n0 S; exiting
+[1077] 2015-02-12T14:33:45.215593-06:00 c0-0c2s10n0 Unloading XPMEM driver
+[1078] 2015-02-12T14:33:45.215598-06:00 c0-0c2s10n0 Unmounting alps spool directory..done
+[1079] 2015-02-12T14:33:45.215603-06:00 c0-0c2s10n0 Initializing Compute node runtime environment
+[1080] 2015-02-12T14:33:45.215607-06:00 c0-0c2s10n0 (stop BIND mounts)
+[1081] 2015-02-12T14:33:46.236777-06:00 c0-0c2s10n0 Stopping DVS service: 
+[1082] 2015-02-12T14:33:46.236789-06:00 c0-0c2s10n0 ..done
+[1083] 2015-02-12T14:33:49.304104-06:00 c0-0c2s10n0 System halted.
+[1084] 2015-02-12T14:33:54.944476-06:00 c0-0c2s10n0 RCADSVCS : shutdown.
+[131] 2015-02-12T15:28:37.247343-06:00 c0-0c2s10n0 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2
+[132] 2015-02-12T15:39:08.977448-06:00 c0-0c2s10n0 Wait4Boot: WRITE: 523 bytes to memory @ 0x90CD0 ... complete
+[133] 2015-02-12T15:39:08.977456-06:00 c0-0c2s10n0 Wait4Boot: Blade Controller Boot Protocol version - 1
+[134] 2015-02-12T15:39:08.977464-06:00 c0-0c2s10n0 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+[1053] 2015-02-12T15:39:08.977472-06:00 c0-0c2s10n0 OnExitBootServices..
+[1054] 2015-02-12T15:39:09.013753-06:00 c0-0c2s10n0 ConfigureXhciAtBoot() Start
+[1055] 2015-02-12T15:39:09.013927-06:00 c0-0c2s10n0 ConfigureXhciAtBoot() End
+[1056] 2015-02-12T15:39:09.014191-06:00 c0-0c2s10n0 (Wdt) RunWdtBeforeOsBoot
+[1056] 2015-02-12T15:39:09.014371-06:00 c0-0c2s10n0 (Wdt) DisableTimer
+[1057] 2015-02-12T15:39:12.032225-06:00 c0-0c2s10n0 Crypto Lib Callback.
+[1058] 2015-02-12T15:39:12.032621-06:00 c0-0c2s10n0 Heap addr before Virtual MemFixup = 7bacb018, After = 7bacb018
+[1059] 2015-02-12T15:39:12.032818-06:00 c0-0c2s10n0 NvramSmi Go Virtual
+[1060] 2015-02-12T15:39:12.184051-06:00 c0-0c2s10n0 Stopping all external HCs
+[1061] 2015-02-12T15:39:12.184196-06:00 c0-0c2s10n0 stopping all HC type 40:
+[339] 2015-02-12T15:39:21.712581-06:00 c0-0c2s10n0 i8042: No controller found
+[646] 2015-02-12T15:39:25.801208-06:00 c0-0c2s10n0 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 168
+[400] 2015-02-12T15:39:25.801216-06:00 c0-0c2s10n0 net.core.rmem_max = 16777216
+[400] 2015-02-12T15:39:25.801223-06:00 c0-0c2s10n0 net.core.wmem_max = 16777216
+[401] 2015-02-12T15:39:25.801228-06:00 c0-0c2s10n0 net.core.rmem_default = 16777216
+[401] 2015-02-12T15:39:25.801240-06:00 c0-0c2s10n0 net.core.wmem_default = 16777216
+[400] 2015-02-12T15:39:25.801246-06:00 c0-0c2s10n0 net.core.optmem_max = 16777216
+[402] 2015-02-12T15:39:25.801256-06:00 c0-0c2s10n0 net.ipv4.tcp_mem = 16777216 16777216 16777216
+[402] 2015-02-12T15:39:25.801261-06:00 c0-0c2s10n0 net.ipv4.tcp_rmem = 4096 87380 16777216
+[402] 2015-02-12T15:39:25.801266-06:00 c0-0c2s10n0 net.ipv4.tcp_wmem = 4096 65536 16777216
+[1062] 2015-02-12T15:39:25.801271-06:00 c0-0c2s10n0 nid 168: Linux version 3.0.101-0.31.1_1.0502.8394-cray_ari_c (abuild@cfosbld02) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Sep 10 04:09:26 UTC 2014
+[1063] 2015-02-12T15:39:25.801282-06:00 c0-0c2s10n0 starting pid 6947, tty '': '/etc/init.d/rc'
+[1064] 2015-02-12T15:39:25.801291-06:00 c0-0c2s10n0 bpmcd_init: Power statistics available in /sys/cray
+[1065] 2015-02-12T15:39:25.801297-06:00 c0-0c2s10n0 DVS: Revision 1873 - Built: Sep 17 2014 @ 06:40:25 for lnet version 2.5
+[957] 2015-02-12T15:39:25.801310-06:00 c0-0c2s10n0 LNet: HW CPU cores: 64, npartitions: 8
+[562] 2015-02-12T15:39:29.735004-06:00 c0-0c2s10n0 Lustre: kgnilnd build version: 2.5-trunk-1.0502.17198.8.57-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:43
+[563] 2015-02-12T15:39:29.861231-06:00 c0-0c2s10n0 LNet: Added LNI 168@gni [16/1024/0/0]
+[1066] 2015-02-12T15:39:45.873486-06:00 c0-0c2s10n0 mcelog: Family 6 Model 3f CPU: only decoding architectural errors
+[1067] 2015-02-12T15:39:45.873663-06:00 c0-0c2s10n0 SGI XPMEM kernel module v2.2 loaded
+[1068] 2015-02-12T15:39:45.873709-06:00 c0-0c2s10n0 <node_health> (xtnhd) xtnhd has started
+[1069] 2015-02-12T15:39:46.119036-06:00 c0-0c2s10n0 boot_freemem data calculated:  130104840

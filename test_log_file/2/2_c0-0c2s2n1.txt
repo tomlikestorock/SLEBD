@@ -1,0 +1,87 @@
+[1004] 2015-02-16T11:06:29.778318-06:00 c0-0c2s2n1 <node_health:5.1> APID:0 (nhc_db) ERROR: nhc_try_query failed:-1
+[1005] 2015-02-16T11:06:29.818648-06:00 c0-0c2s2n1 <node_health:5.1> APID:0 (nhc_db) ERROR: Error code:800672818
+[1006] 2015-02-16T11:06:29.818691-06:00 c0-0c2s2n1 <node_health:5.1> APID:0 (nhcdbd) ERROR: Unable to get connection to database. Will retry...
+[1007] 2015-02-16T11:06:29.857368-06:00 c0-0c2s2n1 The driver rep<node_health:5.1> APID:0 (nhc_db) ERROR: Error unable to connect. Error code:-1011
+[1008] 2015-02-16T11:06:29.857384-06:00 c0-0c2s2n1 orted the follow
+[1009] 2015-02-16T11:06:29.857393-06:00 c0-0c2s2n1 ing diagnostics whilst running codbc_dsn_connect_with_option
+[1010] 2015-02-16T11:06:29.857402-06:00 c0-0c2s2n1 No diagnostics retrieved (rc=-2)
+[1007] 2015-02-16T11:06:34.828596-06:00 c0-0c2s2n1 The driver rep<node_health:5.1> APID:0 (nhc_db) ERROR: Error unable to connect. Error code:-1011
+[1008] 2015-02-16T11:06:34.828631-06:00 c0-0c2s2n1 orted the follow
+[1009] 2015-02-16T11:06:34.828642-06:00 c0-0c2s2n1 ing diagnostics whilst running codbc_dsn_connect_with_option
+[1011] 2015-02-16T11:06:34.828651-06:00 c0-0c2s2n1 ‡(­ûNo diagnostics retrieved (rc=-2)
+[582] 2015-02-16T11:06:38.892854-06:00 c0-0c2s2n1 INIT: Switching to runlevel: 0
+[583] 2015-02-16T11:06:38.892864-06:00 c0-0c2s2n1 Boot logging started on /dev/ttyS0((no tty)) at Mon Feb 16 11:06:38 2015
+[509] 2015-02-16T11:06:38.932212-06:00 c0-0c2s2n1 Master Resource Control: previous runlevel: 3, switching to runlevel: 
+[510] 2015-02-16T11:06:38.932217-06:00 c0-0c2s2n1 [80C[10D[1m0[m
+[1013] 2015-02-16T11:06:38.932355-06:00 c0-0c2s2n1 nhcdbd starter: Stopping nhcdbd
+[584] 2015-02-16T11:06:38.932525-06:00 c0-0c2s2n1 [m[?25hBoot event: Nothing to stop.
+[585] 2015-02-16T11:06:38.955221-06:00 c0-0c2s2n1 [m[?25hShutting down apptermd 7[?25l
+[423] 2015-02-16T11:06:38.955235-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[585] 2015-02-16T11:06:39.005479-06:00 c0-0c2s2n1 [m[?25hShutting down auditd 7[?25l
+[423] 2015-02-16T11:06:39.005501-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[586] 2015-02-16T11:06:39.030691-06:00 c0-0c2s2n1 [m[?25hStopping batchlimitd
+[538] 2015-02-16T11:06:39.055934-06:00 c0-0c2s2n1 [m[?25hCould not start BND as this is not the boot node.
+[539] 2015-02-16T11:06:39.055957-06:00 c0-0c2s2n1 bootnodes are: 1 1 
+[540] 2015-02-16T11:06:39.055965-06:00 c0-0c2s2n1 mynid=137
+[587] 2015-02-16T11:06:39.081158-06:00 c0-0c2s2n1 [m[?25hK02cray-config-service: Unmounting the configuration directory. 
+[542] 2015-02-16T11:06:40.091403-06:00 c0-0c2s2n1 K02cray-config-service:   Success.  
+[512] 2015-02-16T11:06:40.116721-06:00 c0-0c2s2n1 [m[?25hUnloading nic compatibility device7[?25l
+[423] 2015-02-16T11:06:40.116730-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[588] 2015-02-16T11:06:40.116749-06:00 c0-0c2s2n1 [m[?25hbpmcd_exit: No local access to power statistics
+[589] 2015-02-16T11:06:42.073597-06:00 c0-0c2s2n1 [m[?25hStopping DVS service: LNet: 9165:0:(gnilnd.c:761:kgnilnd_complete_closed_conn()) Closed conn 0xffff88100c213400->2@gni (errno -108, peer errno 0): canceled 1 TX, 0/0 RDMA
+[590] 2015-02-16T11:06:44.664123-06:00 c0-0c2s2n1 LNet: Removed LNI 137@gni
+[429] 2015-02-16T11:06:46.604682-06:00 c0-0c2s2n1 7[?25l
+[423] 2015-02-16T11:06:46.604696-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[591] 2015-02-16T11:06:46.692901-06:00 c0-0c2s2n1 [m[?25hShutting down haveged daemon 7[?25l
+[423] 2015-02-16T11:06:46.692911-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[592] 2015-02-16T11:06:46.743338-06:00 c0-0c2s2n1 [m[?25hStarting hw_info_init on 137
+[539] 2015-02-16T11:06:46.743365-06:00 c0-0c2s2n1 bootnodes are: 1 1 
+[540] 2015-02-16T11:06:46.743374-06:00 c0-0c2s2n1 mynid=137
+[593] 2015-02-16T11:06:46.793878-06:00 c0-0c2s2n1 [m[?25h[m[?25hShutting down java.binfmt_misc 7[?25l
+[423] 2015-02-16T11:06:46.793894-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[594] 2015-02-16T11:06:51.818757-06:00 c0-0c2s2n1 [m[?25hERROR: Module lnet has non-zero reference count.
+[595] 2015-02-16T11:06:51.906570-06:00 c0-0c2s2n1 [m[?25hShutting down mcelog... 7[?25l
+[423] 2015-02-16T11:06:51.906583-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[568] 2015-02-16T11:06:52.007500-06:00 c0-0c2s2n1 [m[?25hStopping MUNGE: munged7[?25l
+[423] 2015-02-16T11:06:52.007520-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[585] 2015-02-16T11:06:52.032755-06:00 c0-0c2s2n1 [m[?25hShutting down ncmd 7[?25l
+[423] 2015-02-16T11:06:52.032764-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[1014] 2015-02-16T11:06:52.069362-06:00 c0-0c2s2n1 [m[?25hShutting down kernel based NFS server:nfsd: last server has exited, flushing export cache
+[1015] 2015-02-16T11:06:52.741791-06:00 c0-0c2s2n1 nfsd statd mountd idmapd7[?25l
+[423] 2015-02-16T11:06:52.741800-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[596] 2015-02-16T11:06:52.767009-06:00 c0-0c2s2n1 [m[?25h<node_health> Stopping node_health_recovery
+[597] 2015-02-16T11:06:52.767042-06:00 c0-0c2s2n1 node_health_recovery: no process found
+[598] 2015-02-16T11:06:53.246422-06:00 c0-0c2s2n1 [m[?25hShutting down Name Service Cache Daemon7[?25l
+[423] 2015-02-16T11:06:53.246432-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[599] 2015-02-16T11:06:53.308167-06:00 c0-0c2s2n1 [m[?25h[m[?25h[m[?25h[m[?25hbootnodes are: 1 1 
+[540] 2015-02-16T11:06:53.308175-06:00 c0-0c2s2n1 mynid=137
+[600] 2015-02-16T11:06:53.333476-06:00 c0-0c2s2n1 [m[?25hShutting down alps services
+[601] 2015-02-16T11:06:53.829689-06:00 c0-0c2s2n1 Terminating apsched
+[429] 2015-02-16T11:06:54.346116-06:00 c0-0c2s2n1 7[?25l
+[423] 2015-02-16T11:06:54.346122-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[601] 2015-02-16T11:06:54.346130-06:00 c0-0c2s2n1 Terminating apsys
+[429] 2015-02-16T11:06:54.841361-06:00 c0-0c2s2n1 7[?25l
+[423] 2015-02-16T11:06:54.841371-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[602] 2015-02-16T11:06:54.866631-06:00 c0-0c2s2n1 [m[?25hNOT Disabling ipogif0
+[603] 2015-02-16T11:06:54.891899-06:00 c0-0c2s2n1 [m[?25hSaving random seed7[?25l
+[423] 2015-02-16T11:06:54.891913-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[604] 2015-02-16T11:06:54.892048-06:00 c0-0c2s2n1 [m[?25h[m[?25hDisabling Linux Jobs
+[605] 2015-02-16T11:06:54.917041-06:00 c0-0c2s2n1 No new jobs will be created. If Linux Jobs support was loaded
+[606] 2015-02-16T11:06:54.942250-06:00 c0-0c2s2n1 as a kernel module, you can unload the module once the number of
+[607] 2015-02-16T11:06:54.942277-06:00 c0-0c2s2n1 running jobs is 0 (zero).  Use the lsmod command to find if job
+[608] 2015-02-16T11:06:54.942286-06:00 c0-0c2s2n1 module is loaded and the rmmod command to unload it once the
+[609] 2015-02-16T11:06:54.942318-06:00 c0-0c2s2n1 used-count is 0. The jstat command can be used
+[610] 2015-02-16T11:06:54.942337-06:00 c0-0c2s2n1 to determine what jobs are currently running.
+[611] 2015-02-16T11:06:54.942349-06:00 c0-0c2s2n1 jsethid illegal parameter: 0xffffffff
+[821] 2015-02-16T11:06:54.942385-06:00 c0-0c2s2n1 [m[?25hshutting down sdb
+[1016] 2015-02-16T11:06:54.992774-06:00 c0-0c2s2n1 Shutting down service MySQL 7[?25l
+[423] 2015-02-16T11:06:54.992780-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[423] 2015-02-16T11:06:55.018066-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[612] 2015-02-16T11:06:55.078914-06:00 c0-0c2s2n1 [m[?25hShutting down network time protocol daemon (NTPD)7[?25l
+[423] 2015-02-16T11:06:55.078928-06:00 c0-0c2s2n1 [80C[10D[1;32mdone[m8[?25h
+[613] 2015-02-16T11:06:55.214081-06:00 c0-0c2s2n1 [m[?25hShutting down (remotefs) network interfaces:
+[566] 2015-02-16T11:06:55.239436-06:00 c0-0c2s2n1    sit0      
+[614] 2015-02-16T11:06:55.239520-06:00 c0-0c2s2n1              No configuration found for sit0 
+[615] 2015-02-16T11:06:55.264572-06:00 c0-0c2s2n1              Nevertheless the interface will be shut down.
+[966] 2015-02-16T11:07:25.323598-06:00 c0-0c2s2n1 nfs: server 10.131.255.254 not responding, still trying
+[131] 2015-02-16T14:50:54.529972-06:00 c0-0c2s2n1 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2

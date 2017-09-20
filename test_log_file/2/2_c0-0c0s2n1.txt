@@ -1,0 +1,32 @@
+[697] 2015-02-16T11:06:26.683228-06:00 c0-0c0s2n1 VFS: Busy inodes after unmount of 0:1a. Self-destruct in 5 seconds.  Have a nice day...
+[582] 2015-02-16T11:06:38.824306-06:00 c0-0c0s2n1 INIT: Switching to runlevel: 0
+[583] 2015-02-16T11:06:38.854172-06:00 c0-0c0s2n1 Boot logging started on /dev/ttyS0((no tty)) at Mon Feb 16 11:06:38 2015
+[509] 2015-02-16T11:06:38.854252-06:00 c0-0c0s2n1 Master Resource Control: previous runlevel: 3, switching to runlevel: 
+[510] 2015-02-16T11:06:38.854265-06:00 c0-0c0s2n1 [80C[10D[1m0[m
+[539] 2015-02-16T11:06:38.892376-06:00 c0-0c0s2n1 sdbnodes are: 137 137 
+[540] 2015-02-16T11:06:38.892553-06:00 c0-0c0s2n1 mynid=9
+[584] 2015-02-16T11:06:38.892725-06:00 c0-0c0s2n1 [m[?25hBoot event: Nothing to stop.
+[585] 2015-02-16T11:06:38.932302-06:00 c0-0c0s2n1 [m[?25hShutting down auditd 7[?25l
+[423] 2015-02-16T11:06:38.932313-06:00 c0-0c0s2n1 [80C[10D[1;32mdone[m8[?25h
+[586] 2015-02-16T11:06:38.932437-06:00 c0-0c0s2n1 [m[?25hStopping batchlimitd
+[538] 2015-02-16T11:06:38.932848-06:00 c0-0c0s2n1 [m[?25hCould not start BND as this is not the boot node.
+[539] 2015-02-16T11:06:38.955039-06:00 c0-0c0s2n1 bootnodes are: 1 1 
+[540] 2015-02-16T11:06:38.955062-06:00 c0-0c0s2n1 mynid=9
+[587] 2015-02-16T11:06:38.980600-06:00 c0-0c0s2n1 [m[?25hK02cray-config-service: Unmounting the configuration directory. 
+[542] 2015-02-16T11:06:40.015499-06:00 c0-0c0s2n1 K02cray-config-service:   Success.  
+[512] 2015-02-16T11:06:40.015693-06:00 c0-0c0s2n1 [m[?25hUnloading nic compatibility device7[?25l
+[423] 2015-02-16T11:06:40.015709-06:00 c0-0c0s2n1 [80C[10D[1;32mdone[m8[?25h
+[588] 2015-02-16T11:06:40.040937-06:00 c0-0c0s2n1 [m[?25hbpmcd_exit: No local access to power statistics
+[589] 2015-02-16T11:06:41.776653-06:00 c0-0c0s2n1 [m[?25hStopping DVS service: LNet: 6958:0:(gnilnd.c:761:kgnilnd_complete_closed_conn()) Closed conn 0xffff88100b054c00->2@gni (errno -108, peer errno 0): canceled 1 TX, 0/0 RDMA
+[698] 2015-02-16T11:06:45.031017-06:00 c0-0c0s2n1 LNet: 4654:0:(gnilnd.c:2775:kgnilnd_shutdown()) Waiting for 29 references to clear on net 0
+[590] 2015-02-16T11:06:48.557331-06:00 c0-0c0s2n1 LNet: Removed LNI 9@gni
+[429] 2015-02-16T11:06:50.332435-06:00 c0-0c0s2n1 7[?25l
+[423] 2015-02-16T11:06:50.332445-06:00 c0-0c0s2n1 [80C[10D[1;32mdone[m8[?25h
+[591] 2015-02-16T11:06:50.418536-06:00 c0-0c0s2n1 [m[?25hShutting down haveged daemon 7[?25l
+[423] 2015-02-16T11:06:50.418542-06:00 c0-0c0s2n1 [80C[10D[1;32mdone[m8[?25h
+[592] 2015-02-16T11:06:50.454320-06:00 c0-0c0s2n1 [m[?25hStarting hw_info_init on 9
+[539] 2015-02-16T11:06:50.454348-06:00 c0-0c0s2n1 bootnodes are: 1 1 
+[540] 2015-02-16T11:06:50.454372-06:00 c0-0c0s2n1 mynid=9
+[593] 2015-02-16T11:06:50.505042-06:00 c0-0c0s2n1 [m[?25h[m[?25hShutting down java.binfmt_misc 7[?25l
+[423] 2015-02-16T11:06:50.505056-06:00 c0-0c0s2n1 [80C[10D[1;32mdone[m8[?25h
+[699] 2015-02-16T11:07:25.572608-06:00 c0-0c0s2n1 [m[?25hnfs: server 10.131.255.254 not responding, still trying

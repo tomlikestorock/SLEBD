@@ -1,0 +1,469 @@
+[1071] 2015-02-19T10:12:22.632999-06:00 c0-0c1s5n2 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-19T10:12:22.633009-06:00 c0-0c1s5n2 Unloading nic compatibility device..done
+[1073] 2015-02-19T10:12:22.633015-06:00 c0-0c1s5n2 bpmcd_exit: No local access to power statistics
+[1521] 2015-02-19T10:12:22.633020-06:00 c0-0c1s5n2 GEMINI Performance Counter Daemon Reporting removed
+[1074] 2015-02-19T10:12:22.633029-06:00 c0-0c1s5n2 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-19T10:12:22.633036-06:00 c0-0c1s5n2 S; exiting
+[1077] 2015-02-19T10:12:22.633042-06:00 c0-0c1s5n2 Unloading XPMEM driver
+[1078] 2015-02-19T10:12:22.633047-06:00 c0-0c1s5n2 Unmounting alps spool directory..done
+[1079] 2015-02-19T10:12:22.633052-06:00 c0-0c1s5n2 Initializing Compute node runtime environment
+[1080] 2015-02-19T10:12:22.633056-06:00 c0-0c1s5n2 (stop BIND mounts)
+[1081] 2015-02-19T10:12:23.653913-06:00 c0-0c1s5n2 Stopping DVS service: 
+[1082] 2015-02-19T10:12:23.653923-06:00 c0-0c1s5n2 ..done
+[1083] 2015-02-19T10:12:26.705380-06:00 c0-0c1s5n2 System halted.
+[1084] 2015-02-19T10:12:30.819464-06:00 c0-0c1s5n2 RCADSVCS : shutdown.
+[132] 2015-02-19T13:07:08.737071-06:00 c0-0c1s5n2 Wait4Boot: WRITE: 523 bytes to memory @ 0x90CD0 ... complete
+[133] 2015-02-19T13:07:08.737082-06:00 c0-0c1s5n2 Wait4Boot: Blade Controller Boot Protocol version - 1
+[134] 2015-02-19T13:07:08.737094-06:00 c0-0c1s5n2 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+[1053] 2015-02-19T13:07:08.737105-06:00 c0-0c1s5n2 OnExitBootServices..
+[1054] 2015-02-19T13:07:08.813351-06:00 c0-0c1s5n2 ConfigureXhciAtBoot() Start
+[1055] 2015-02-19T13:07:08.813645-06:00 c0-0c1s5n2 ConfigureXhciAtBoot() End
+[1056] 2015-02-19T13:07:08.838328-06:00 c0-0c1s5n2 (Wdt) RunWdtBeforeOsBoot
+[1056] 2015-02-19T13:07:08.839079-06:00 c0-0c1s5n2 (Wdt) DisableTimer
+[1057] 2015-02-19T13:07:11.885447-06:00 c0-0c1s5n2 Crypto Lib Callback.
+[1058] 2015-02-19T13:07:11.910527-06:00 c0-0c1s5n2 Heap addr before Virtual MemFixup = 7bacb018, After = 7bacb018
+[1059] 2015-02-19T13:07:11.910672-06:00 c0-0c1s5n2 NvramSmi Go Virtual
+[1060] 2015-02-19T13:07:12.061860-06:00 c0-0c1s5n2 Stopping all external HCs
+[1061] 2015-02-19T13:07:12.062223-06:00 c0-0c1s5n2 stopping all HC type 40:
+[339] 2015-02-19T13:07:21.577992-06:00 c0-0c1s5n2 i8042: No controller found
+[646] 2015-02-19T13:07:25.680241-06:00 c0-0c1s5n2 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 86
+[940] 2015-02-19T13:07:25.680249-06:00 c0-0c1s5n2 arp: sdbnode NID 137 = 000101000089
+[400] 2015-02-19T13:07:25.680258-06:00 c0-0c1s5n2 net.core.rmem_max = 16777216
+[400] 2015-02-19T13:07:25.680267-06:00 c0-0c1s5n2 net.core.wmem_max = 16777216
+[401] 2015-02-19T13:07:25.680275-06:00 c0-0c1s5n2 net.core.rmem_default = 16777216
+[401] 2015-02-19T13:07:25.680281-06:00 c0-0c1s5n2 net.core.wmem_default = 16777216
+[400] 2015-02-19T13:07:25.680286-06:00 c0-0c1s5n2 net.core.optmem_max = 16777216
+[402] 2015-02-19T13:07:25.680290-06:00 c0-0c1s5n2 net.ipv4.tcp_mem = 16777216 16777216 16777216
+[402] 2015-02-19T13:07:25.680296-06:00 c0-0c1s5n2 net.ipv4.tcp_rmem = 4096 87380 16777216
+[402] 2015-02-19T13:07:25.680302-06:00 c0-0c1s5n2 net.ipv4.tcp_wmem = 4096 65536 16777216
+[1062] 2015-02-19T13:07:25.680314-06:00 c0-0c1s5n2 nid 86: Linux version 3.0.101-0.31.1_1.0502.8394-cray_ari_c (abuild@cfosbld02) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Sep 10 04:09:26 UTC 2014
+[1559] 2015-02-19T13:07:25.680326-06:00 c0-0c1s5n2 starting pid 6928, tty 'LNet: HW CPU cores: 64, npartitions: 8
+[1560] 2015-02-19T13:07:25.680332-06:00 c0-0c1s5n2 ': '/etc/init.d/rc'
+[396] 2015-02-19T13:07:25.680343-06:00 c0-0c1s5n2 nomtab: 1
+[1196] 2015-02-19T13:07:30.283949-06:00 c0-0c1s5n2 Lustre: Lustre: Build Version: 2.5.1-trunk-1.0502.17198.8.57-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:43
+[1524] 2015-02-19T13:07:30.308091-06:00 c0-0c1s5n2 LNetError: 11a-a: ip2nets does not match any local IP interfaces
+[1198] 2015-02-19T13:07:30.310106-06:00 c0-0c1s5n2 LustreError: 6932:0:(events.c:806:ptlrpc_init_portals()) network initialisation failed
+[1302] 2015-02-19T13:07:30.386336-06:00 c0-0c1s5n2 modprobe: WARNINfid: Unknown symbol req_capsule_client_get (err 0)
+[1303] 2015-02-19T13:07:30.409159-06:00 c0-0c1s5n2 fid: Unknown symbol ptlrpc_queue_wait (err 0)
+[1304] 2015-02-19T13:07:30.410219-06:00 c0-0c1s5n2 fid: Unknown symbol RMF_SEQ_RANGE (err 0)
+[1525] 2015-02-19T13:07:30.411244-06:00 c0-0c1s5n2 G: Error insertifid: Unknown symbol req_capsule_server_get (err 0)
+[1306] 2015-02-19T13:07:30.435444-06:00 c0-0c1s5n2 fid: Unknown symbol ptlrpc_at_set_req_timeout (err 0)
+[1307] 2015-02-19T13:07:30.436655-06:00 c0-0c1s5n2 fid: Unknown symbol ptlrpc_request_alloc_pack (err 0)
+[1308] 2015-02-19T13:07:30.437813-06:00 c0-0c1s5n2 fid: Unknown symbol ptlrpc_request_set_replen (err 0)
+[1309] 2015-02-19T13:07:30.459897-06:00 c0-0c1s5n2 fid: Unknown symbol RMF_SEQ_OPC (err 0)
+[1919] 2015-02-19T13:07:30.461499-06:00 c0-0c1s5n2 ng ptlrpc (/lib/fid: Unknown symbol ptlrpc_req_finished (err 0)
+[1311] 2015-02-19T13:07:30.462205-06:00 c0-0c1s5n2 fid: Unknown symbol RQF_SEQ_QUERY (err 0)
+[1847] 2015-02-19T13:07:30.486193-06:00 c0-0c1s5n2 modules/3.0.101-mdc: Unknown symbol ptlrpc_request_pack (err 0)
+[1313] 2015-02-19T13:07:30.486202-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_DONE_WRITING (err 0)
+[1314] 2015-02-19T13:07:30.487186-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_prep_enqueue_req (err 0)
+[1315] 2015-02-19T13:07:30.510340-06:00 c0-0c1s5n2 mdc: Unknown symbol lprocfs_rd_pinger_recov (err 0)
+[1316] 2015-02-19T13:07:30.511200-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_resource_get (err 0)
+[1317] 2015-02-19T13:07:30.512196-06:00 c0-0c1s5n2 mdc: Unknown symbol lprocfs_wr_import (err 0)
+[1318] 2015-02-19T13:07:30.513560-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_lprocfs_register_obd (err 0)
+[1527] 2015-02-19T13:07:30.536485-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_IS_SUBDIR (err 0)
+[1320] 2015-02-19T13:07:30.537972-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_server_swab_get (err 0)
+[1321] 2015-02-19T13:07:30.538976-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_HSM_PROGRESS (err 0)
+[1322] 2015-02-19T13:07:30.561538-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_EADATA (err 0)
+[1309] 2015-02-19T13:07:30.562499-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDT_MD (err 0)
+[1315] 2015-02-19T13:07:30.563455-06:00 c0-0c1s5n2 mdc: Unknown symbol lprocfs_wr_pinger_recov (err 0)
+[1323] 2015-02-19T13:07:30.587329-06:00 c0-0c1s5n2 mdc: Unknown symbol _ldlm_lock_debug (err 0)
+[1324] 2015-02-19T13:07:30.588014-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_set_size (err 0)
+[1309] 2015-02-19T13:07:30.588743-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_SYNC (err 0)
+[1309] 2015-02-19T13:07:30.589494-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_STATFS (err 0)
+[1742] 2015-02-19T13:07:30.612952-06:00 c0-0c1s5n2 0.31.1_1.0502.83mdc: Unknown symbol ptlrpcd_addref (err 0)
+[1325] 2015-02-19T13:07:30.614203-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_LDLM_INTENT_UNLINK (err 0)
+[1326] 2015-02-19T13:07:30.639287-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_client_get (err 0)
+[1327] 2015-02-19T13:07:30.639296-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_HSM_USER_STATE (err 0)
+[1309] 2015-02-19T13:07:30.639302-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_QUOTACTL (err 0)
+[1328] 2015-02-19T13:07:30.640030-06:00 c0-0c1s5n2 mdc: Unknown symbol client_destroy_import (err 0)
+[1329] 2015-02-19T13:07:30.663458-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDS_HSM_USER_ITEM (err 0)
+[1330] 2015-02-19T13:07:30.664481-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_LDLM_INTENT_GETXATTR (err 0)
+[1331] 2015-02-19T13:07:30.689300-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_request_free (err 0)
+[1332] 2015-02-19T13:07:30.689307-06:00 c0-0c1s5n2 mdc: Unknown symbol lustre_msg_get_last_committed (err 0)
+[1303] 2015-02-19T13:07:30.690489-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_queue_wait (err 0)
+[1444] 2015-02-19T13:07:30.691490-06:00 c0-0c1s5n2 mdc: Unknown symbol sptlrpc_lprocfs_cliobd_attach (err 0)
+[1334] 2015-02-19T13:07:30.714434-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_has_field (err 0)
+[1335] 2015-02-19T13:07:30.715413-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_REINT_SETXATTR (err 0)
+[1330] 2015-02-19T13:07:30.716590-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_LDLM_INTENT_GETATTR (err 0)
+[1336] 2015-02-19T13:07:30.739667-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_HSM_REQUEST (err 0)
+[1337] 2015-02-19T13:07:30.740653-06:00 c0-0c1s5n2 mdc: Unknown symbol client_import_del_conn (err 0)
+[1309] 2015-02-19T13:07:30.741455-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_DLM_REQ (err 0)
+[1335] 2015-02-19T13:07:30.765741-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_REINT_SETATTR (err 0)
+[1338] 2015-02-19T13:07:30.766536-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_request_addref (err 0)
+[1309] 2015-02-19T13:07:30.790723-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_OBD_QUOTACTL (err 0)
+[1340] 2015-02-19T13:07:30.790733-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_PIN (err 0)
+[1341] 2015-02-19T13:07:30.791235-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_SWAP_LAYOUTS (err 0)
+[1342] 2015-02-19T13:07:30.792044-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_shrink (err 0)
+[1450] 2015-02-19T13:07:30.815092-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_invalidate_import (err 0)
+[1344] 2015-02-19T13:07:30.816485-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_completion_ast (err 0)
+[1345] 2015-02-19T13:07:30.817500-06:00 c0-0c1s5n2 mdc: Unknown symbol lustre_msg_add_flags (err 0)
+[1346] 2015-02-19T13:07:30.818299-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_LDLM_ENQUEUE (err 0)
+[1347] 2015-02-19T13:07:30.842743-06:00 c0-0c1s5n2 mdc: Unknown symbol client_obd_setup (err 0)
+[1348] 2015-02-19T13:07:30.842760-06:00 c0-0c1s5n2 mdc: Unknown symbol client_fid_init (err 0)
+[1349] 2015-02-19T13:07:30.843350-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_obd_ping (err 0)
+[1453] 2015-02-19T13:07:30.867331-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_prep_elc_req (err 0)
+[1351] 2015-02-19T13:07:30.867794-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_cancel_resource_local (err 0)
+[1352] 2015-02-19T13:07:30.892653-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_lock_match (err 0)
+[1353] 2015-02-19T13:07:30.892660-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_LAYOUT_INTENT (err 0)
+[1354] 2015-02-19T13:07:30.892677-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_set_import_active (err 0)
+[1530] 2015-02-19T13:07:30.893438-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_HSM_STATE_GET (err 0)
+[1356] 2015-02-19T13:07:30.916235-06:00 c0-0c1s5n2 mdc: Unknown symbol seq_client_flush (err 0)
+[1357] 2015-02-19T13:07:30.918027-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_HSM_STATE_SET (err 0)
+[1358] 2015-02-19T13:07:30.918916-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_GET_INFO (err 0)
+[1359] 2015-02-19T13:07:30.942336-06:00 c0-0c1s5n2 mdc: Unknown symbol __ptlrpc_prep_bulk_page (err 0)
+[1360] 2015-02-19T13:07:30.943540-06:00 c0-0c1s5n2 mdc: Unknown symbol client_obd_cleanup (err 0)
+[1361] 2015-02-19T13:07:30.944786-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_prep_bulk_imp (err 0)
+[1362] 2015-02-19T13:07:30.968569-06:00 c0-0c1s5n2 mdc: Unknown symbol sptlrpc_conf_client_adapt (err 0)
+[1363] 2015-02-19T13:07:30.968575-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_DLM_REP (err 0)
+[1364] 2015-02-19T13:07:30.994092-06:00 c0-0c1s5n2 mdc: Unknown symbol __ldlm_handle2lock (err 0)
+[1365] 2015-02-19T13:07:30.994099-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_HSM_ACTION (err 0)
+[1366] 2015-02-19T13:07:30.994106-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_GETATTR_NAME (err 0)
+[1367] 2015-02-19T13:07:30.994548-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_CLOSE (err 0)
+[1368] 2015-02-19T13:07:30.995779-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_cli_cancel_list (err 0)
+[1369] 2015-02-19T13:07:31.017941-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_EAVALS_LENS (err 0)
+[1370] 2015-02-19T13:07:31.019164-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpcd_add_req (err 0)
+[1371] 2015-02-19T13:07:31.020760-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_HSM_CT_REGISTER (err 0)
+[1338] 2015-02-19T13:07:31.043607-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_request_alloc (err 0)
+[1372] 2015-02-19T13:07:31.045140-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_RELEASE_CLOSE (err 0)
+[1373] 2015-02-19T13:07:31.046459-06:00 c0-0c1s5n2 mdc: Unknown symbol llog_client_ops (err 0)
+[1322] 2015-02-19T13:07:31.069452-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_CAPA2 (err 0)
+[3994] 2015-02-19T13:07:31.070239-06:00 c0-0c1s5n2 94-cray_ari_c/upmdc: Unknown symbol seq_client_alloc_fid (err 0)
+[2392] 2015-02-19T13:07:31.096217-06:00 c0-0c1s5n2 dates/kernel/fs/mdc: Unknown symbol RMF_GENERIC_DATA (err 0)
+[1376] 2015-02-19T13:07:31.096225-06:00 c0-0c1s5n2 mdc: Unknown symbol sptlrpc_import_flush_my_ctx (err 0)
+[1377] 2015-02-19T13:07:31.096231-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_cli_cancel (err 0)
+[1309] 2015-02-19T13:07:31.097437-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_REC_REINT (err 0)
+[1378] 2015-02-19T13:07:31.098470-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_LDLM_INTENT (err 0)
+[1379] 2015-02-19T13:07:31.121425-06:00 c0-0c1s5n2 mdc: Unknown symbol sptlrpc_cli_enlarge_reqbuf (err 0)
+[1380] 2015-02-19T13:07:31.122620-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_lock_put (err 0)
+[1381] 2015-02-19T13:07:31.123159-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_REINT_RENAME (err 0)
+[1382] 2015-02-19T13:07:31.146267-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_REINT_CREATE_RMT_ACL (err 0)
+[1309] 2015-02-19T13:07:31.148363-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_GETINFO_VAL (err 0)
+[1466] 2015-02-19T13:07:31.171878-06:00 c0-0c1s5n2 mdc: Unknown symbol client_import_add_conn (err 0)
+[1384] 2015-02-19T13:07:31.171888-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_lock_addref (err 0)
+[1385] 2015-02-19T13:07:32.331000-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_CLOSE_DATA (err 0)
+[1322] 2015-02-19T13:07:32.331008-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_ACL (err 0)
+[1305] 2015-02-19T13:07:32.331014-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_server_get (err 0)
+[1386] 2015-02-19T13:07:32.331021-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_lock_decref_and_cancel (err 0)
+[1387] 2015-02-19T13:07:32.331034-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_resource_iterate (err 0)
+[1388] 2015-02-19T13:07:32.331042-06:00 c0-0c1s5n2 mdc: Unknown symbol unlock_res_and_lock (err 0)
+[1390] 2015-02-19T13:07:32.331050-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_cli_enqueue (err 0)
+[1336] 2015-02-19T13:07:32.331058-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDS_HSM_REQUEST (err 0)
+[1309] 2015-02-19T13:07:32.331063-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_GETINFO_VALLEN (err 0)
+[1306] 2015-02-19T13:07:32.331069-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_at_set_req_timeout (err 0)
+[1391] 2015-02-19T13:07:32.331080-06:00 c0-0c1s5n2 mdc: Unknown symbol lock_res_and_lock (err 0)
+[1392] 2015-02-19T13:07:32.331088-06:00 c0-0c1s5n2 mdc: Unknown symbol client_disconnect_export (err 0)
+[1393] 2015-02-19T13:07:32.331098-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_cli_cancel_unused_resource (err 0)
+[1394] 2015-02-19T13:07:32.331107-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_free_rq_pool (err 0)
+[1395] 2015-02-19T13:07:32.331115-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_revalidate_lock_handle (err 0)
+[1348] 2015-02-19T13:07:32.331121-06:00 c0-0c1s5n2 mdc: Unknown symbol client_fid_fini (err 0)
+[1307] 2015-02-19T13:07:32.331129-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_request_alloc_pack (err 0)
+[1309] 2015-02-19T13:07:32.331138-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_OBD_STATFS (err 0)
+[1396] 2015-02-19T13:07:32.331146-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_LDLM_INTENT_LAYOUT (err 0)
+[1397] 2015-02-19T13:07:32.331152-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_GETINFO_KEY (err 0)
+[1308] 2015-02-19T13:07:32.331159-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_request_set_replen (err 0)
+[1398] 2015-02-19T13:07:32.331166-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_request_committed (err 0)
+[1399] 2015-02-19T13:07:32.331172-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_server_sized_get (err 0)
+[1400] 2015-02-19T13:07:32.331183-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDT_BODY (err 0)
+[1321] 2015-02-19T13:07:32.331188-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDS_HSM_PROGRESS (err 0)
+[1401] 2015-02-19T13:07:32.331198-06:00 c0-0c1s5n2 mdc: Unknown symbol lustre_swab_mdt_remote_perm (err 0)
+[1402] 2015-02-19T13:07:32.331205-06:00 c0-0c1s5n2 mdc: Unknown symbol lustre_msg_get_opc (err 0)
+[1349] 2015-02-19T13:07:32.331211-06:00 c0-0c1s5n2 mdc: Unknown symbol lprocfs_wr_ping (err 0)
+[1403] 2015-02-19T13:07:32.331220-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_namespace_cleanup (err 0)
+[1404] 2015-02-19T13:07:32.331228-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDT_EPOCH (err 0)
+[1405] 2015-02-19T13:07:32.331237-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_REINT_UNLINK (err 0)
+[1406] 2015-02-19T13:07:32.331243-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_UNPIN (err 0)
+[1322] 2015-02-19T13:07:32.331248-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_CAPA1 (err 0)
+[1535] 2015-02-19T13:07:32.331260-06:00 c0-0c1s5n2 mdc: Unknown symbol llog_initiator_connect (err 0)
+[2604] 2015-02-19T13:07:32.331267-06:00 c0-0c1s5n2 lustre/ptlrpc.komdc: Unknown symbol lustre_msg_get_status (err 0)
+[1409] 2015-02-19T13:07:32.331275-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_resource_putref (err 0)
+[1410] 2015-02-19T13:07:32.331281-06:00 c0-0c1s5n2 mdc: Unknown symbol sptlrpc_cli_unwrap_bulk_read (err 0)
+[1411] 2015-02-19T13:07:32.331308-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDS_HSM_CURRENT_ACTION (err 0)
+[1412] 2015-02-19T13:07:32.331325-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_SWAP_LAYOUTS (err 0)
+[1413] 2015-02-19T13:07:32.331341-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_NAME (err 0)
+[1322] 2015-02-19T13:07:32.331347-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_it2str (err 0)
+[1309] 2015-02-19T13:07:32.331359-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_QUOTACHECK (err 0)
+[1414] 2015-02-19T13:07:32.331364-06:00 c0-0c1s5n2 mdc: Unknown symbol _debug_req (err 0)
+[1415] 2015-02-19T13:07:32.331375-06:00 c0-0c1s5n2 mdc: Unknown symbol lustre_msg_get_type (err 0)
+[1416] 2015-02-19T13:07:32.331391-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_LDLM_INTENT_OPEN (err 0)
+[1417] 2015-02-19T13:07:32.331399-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_REINT_LINK (err 0)
+[1536] 2015-02-19T13:07:32.331408-06:00 c0-0c1s5n2 mdc: Unknown symbol do_set_info_async (err 0)
+[1419] 2015-02-19T13:07:32.331415-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_recover_import (err 0)
+[1420] 2015-02-19T13:07:32.331424-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_MDS_HSM_ARCHIVE (err 0)
+[4670] 2015-02-19T13:07:32.331432-06:00 c0-0c1s5n2 ): Input/output mdc: Unknown symbol client_connect_import (err 0)
+[1322] 2015-02-19T13:07:32.331441-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_SYMTGT (err 0)
+[1422] 2015-02-19T13:07:32.331448-06:00 c0-0c1s5n2 mdc: Unknown symbol req_capsule_get_size (err 0)
+[1322] 2015-02-19T13:07:32.331453-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpcd_decref (err 0)
+[1309] 2015-02-19T13:07:32.331466-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_GETXATTR (err 0)
+[1424] 2015-02-19T13:07:32.331482-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_HSM_CT_UNREGISTER (err 0)
+[1309] 2015-02-19T13:07:32.331491-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_GETSTATUS (err 0)
+[1425] 2015-02-19T13:07:32.331498-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_cli_enqueue_fini (err 0)
+[1322] 2015-02-19T13:07:32.331505-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_LOGCOOKIES (err 0)
+[1309] 2015-02-19T13:07:32.331509-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_GETATTR (err 0)
+[1309] 2015-02-19T13:07:32.331518-06:00 c0-0c1s5n2 mdc: Unknown symbol RQF_MDS_READPAGE (err 0)
+[1322] 2015-02-19T13:07:32.331524-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_EAVALS (err 0)
+[1427] 2015-02-19T13:07:32.331535-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_HSM_STATE_SET (err 0)
+[1310] 2015-02-19T13:07:32.331547-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_req_finished (err 0)
+[1428] 2015-02-19T13:07:32.331557-06:00 c0-0c1s5n2 mdc: Unknown symbol lustre_swab_fid2path (err 0)
+[1384] 2015-02-19T13:07:32.331564-06:00 c0-0c1s5n2 mdc: Unknown symbol ldlm_lock_decref (err 0)
+[1309] 2015-02-19T13:07:32.331571-06:00 c0-0c1s5n2 mdc: Unknown symbol RMF_DLM_LVB (err 0)
+[1335] 2015-02-19T13:07:32.331578-06:00 c0-0c1s5n2 mdc: Unknown symbol ptlrpc_lprocfs_unregister_obd (err 0)
+[1389] 2015-02-19T13:07:32.331595-06:00 c0-0c1s5n2 error
+[1819] 2015-02-19T13:07:32.331602-06:00 c0-0c1s5n2 modproosc: Unknown symbol RQF_OST_BRW_WRITE (err 0)
+[2546] 2015-02-19T13:07:32.331610-06:00 c0-0c1s5n2 be: WARNING: Errosc: Unknown symbol ptlrpc_request_pack (err 0)
+[1315] 2015-02-19T13:07:32.331620-06:00 c0-0c1s5n2 osc: Unknown symbol lprocfs_rd_pinger_recov (err 0)
+[1316] 2015-02-19T13:07:32.331641-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_resource_get (err 0)
+[1317] 2015-02-19T13:07:32.331650-06:00 c0-0c1s5n2 osc: Unknown symbol lprocfs_wr_import (err 0)
+[1539] 2015-02-19T13:07:32.331656-06:00 c0-0c1s5n2 or inserting fidosc: Unknown symbol RQF_OST_GET_INFO_LAST_ID (err 0)
+[1318] 2015-02-19T13:07:32.331663-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_lprocfs_register_obd (err 0)
+[1309] 2015-02-19T13:07:32.331671-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_QUOTACHECK (err 0)
+[1435] 2015-02-19T13:07:32.331678-06:00 c0-0c1s5n2 osc: Unknown symbol req_capsule_server_pack (err 0)
+[1315] 2015-02-19T13:07:32.331686-06:00 c0-0c1s5n2 osc: Unknown symbol lprocfs_wr_pinger_recov (err 0)
+[1436] 2015-02-19T13:07:32.331694-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_cli_cancel_unused (err 0)
+[1323] 2015-02-19T13:07:32.331701-06:00 c0-0c1s5n2 osc: Unknown symbol _ldlm_lock_debug (err 0)
+[1437] 2015-02-19T13:07:32.331717-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_LDLM_ENQUEUE_LVB (err 0)
+[1324] 2015-02-19T13:07:32.331725-06:00 c0-0c1s5n2 osc: Unknown symbol req_capsule_set_size (err 0)
+[1309] 2015-02-19T13:07:32.331731-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_lprocfs_brw (err 0)
+[1322] 2015-02-19T13:07:32.378353-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpcd_addref (err 0)
+[1438] 2015-02-19T13:07:32.378361-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_DESTROY (err 0)
+[1309] 2015-02-19T13:07:32.378367-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_GETATTR (err 0)
+[1326] 2015-02-19T13:07:32.378379-06:00 c0-0c1s5n2 osc: Unknown symbol req_capsule_client_get (err 0)
+[1541] 2015-02-19T13:07:32.378390-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_CREATE (err 0)
+[1328] 2015-02-19T13:07:32.378398-06:00 c0-0c1s5n2 osc: Unknown symbol client_destroy_import (err 0)
+[1440] 2015-02-19T13:07:32.378404-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_deactivate_import (err 0)
+[1309] 2015-02-19T13:07:32.378409-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_SETATTR (err 0)
+[1441] 2015-02-19T13:07:32.378417-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_check_set (err 0)
+[1442] 2015-02-19T13:07:32.378422-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_init_rq_pool (err 0)
+[1331] 2015-02-19T13:07:32.378428-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_request_free (err 0)
+[1303] 2015-02-19T13:07:32.378437-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_queue_wait (err 0)
+[1443] 2015-02-19T13:07:32.378448-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_request_alloc_pool (err 0)
+[1444] 2015-02-19T13:07:32.378459-06:00 c0-0c1s5n2 osc: Unknown symbol sptlrpc_lprocfs_cliobd_attach (err 0)
+[1337] 2015-02-19T13:07:32.378465-06:00 c0-0c1s5n2 osc: Unknown symbol client_import_del_conn (err 0)
+[1543] 2015-02-19T13:07:32.378478-06:00 c0-0c1s5n2 osc: Unknown symbol lustre_msg_set_jobid (err 0)
+[1338] 2015-02-19T13:07:32.378485-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_request_addref (err 0)
+[1544] 2015-02-19T13:07:32.378492-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_extent_shift_kms (err 0)
+[1309] 2015-02-19T13:07:32.378508-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_OBD_QUOTACTL (err 0)
+[1322] 2015-02-19T13:07:32.378522-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_RCS (err 0)
+[1448] 2015-02-19T13:07:32.378530-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_add_timeout_client (err 0)
+[1342] 2015-02-19T13:07:32.378536-06:00 c0-0c1s5n2 osc: Unknown symbol req_capsule_shrink (err 0)
+[1449] 2015-02-19T13:07:32.378549-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpcd_destroy_work (err 0)
+[1450] 2015-02-19T13:07:32.378560-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_invalidate_import (err 0)
+[1451] 2015-02-19T13:07:32.378567-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_fail_match_locked (err 0)
+[1347] 2015-02-19T13:07:32.378573-06:00 c0-0c1s5n2 osc: Unknown symbol client_obd_setup (err 0)
+[1452] 2015-02-19T13:07:32.378577-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_BRW_READ (err 0)
+[1349] 2015-02-19T13:07:32.378585-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_obd_ping (err 0)
+[1453] 2015-02-19T13:07:32.378590-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_prep_elc_req (err 0)
+[1351] 2015-02-19T13:07:32.378615-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_cancel_resource_local (err 0)
+[1352] 2015-02-19T13:07:32.378624-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_match (err 0)
+[1354] 2015-02-19T13:07:32.378632-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_set_import_active (err 0)
+[1545] 2015-02-19T13:07:32.378648-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_fail_match (err 0)
+[1359] 2015-02-19T13:07:32.378656-06:00 c0-0c1s5n2 osc: Unknown symbol __ptlrpc_prep_bulk_page (err 0)
+[1360] 2015-02-19T13:07:32.378671-06:00 c0-0c1s5n2 osc: Unknown symbol client_obd_cleanup (err 0)
+[1455] 2015-02-19T13:07:32.378679-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_del_timeout_client (err 0)
+[1361] 2015-02-19T13:07:32.378685-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_prep_bulk_imp (err 0)
+[1362] 2015-02-19T13:07:32.378697-06:00 c0-0c1s5n2 osc: Unknown symbol sptlrpc_conf_client_adapt (err 0)
+[1363] 2015-02-19T13:07:32.378715-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_DLM_REP (err 0)
+[1456] 2015-02-19T13:07:32.378722-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_set_add_req (err 0)
+[1364] 2015-02-19T13:07:32.378733-06:00 c0-0c1s5n2 osc: Unknown symbol __ldlm_handle2lock (err 0)
+[1457] 2015-02-19T13:07:32.378740-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_GET_INFO_FIEMAP (err 0)
+[1458] 2015-02-19T13:07:32.378747-06:00 c0-0c1s5n2 osc: Unknown symbol sptlrpc_cli_unwrap_bulk_write (err 0)
+[1459] 2015-02-19T13:07:32.378753-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_add_rqs_to_pool (err 0)
+[1370] 2015-02-19T13:07:32.378760-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpcd_add_req (err 0)
+[1338] 2015-02-19T13:07:32.378765-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_request_alloc (err 0)
+[1547] 2015-02-19T13:07:32.378777-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OBD_SET_INFO (err 0)
+[1402] 2015-02-19T13:07:32.378787-06:00 c0-0c1s5n2 osc: Unknown symbol lustre_msg_get_transno (err 0)
+[4593] 2015-02-19T13:07:32.378796-06:00 c0-0c1s5n2 (/lib/modules/3osc: Unknown symbol lustre_pack_reply (err 0)
+[1309] 2015-02-19T13:07:32.378809-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_SETINFO_VAL (err 0)
+[1376] 2015-02-19T13:07:32.378816-06:00 c0-0c1s5n2 osc: Unknown symbol sptlrpc_import_flush_my_ctx (err 0)
+[1463] 2015-02-19T13:07:32.378825-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpcd_queue_work (err 0)
+[1377] 2015-02-19T13:07:32.378830-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_cli_cancel (err 0)
+[1309] 2015-02-19T13:07:32.378835-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_req_xid (err 0)
+[1380] 2015-02-19T13:07:32.378846-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_put (err 0)
+[1465] 2015-02-19T13:07:32.378854-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_OBD_ID (err 0)
+[3391] 2015-02-19T13:07:35.400334-06:00 c0-0c1s5n2 .0.101-0.31.1_1.osc: Unknown symbol client_import_add_conn (err 0)
+[1467] 2015-02-19T13:07:35.400342-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_SET_GRANT_INFO (err 0)
+[1468] 2015-02-19T13:07:35.400348-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_sample_next_xid (err 0)
+[1384] 2015-02-19T13:07:35.400353-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_addref (err 0)
+[1469] 2015-02-19T13:07:35.400359-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_allow_match (err 0)
+[4671] 2015-02-19T13:07:35.400364-06:00 c0-0c1s5n2 0502.8394-cray_aosc: Unknown symbol req_capsule_server_get (err 0)
+[1386] 2015-02-19T13:07:35.400375-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_decref_and_cancel (err 0)
+[3496] 2015-02-19T13:07:35.400383-06:00 c0-0c1s5n2 ri_c/updates/kerosc: Unknown symbol ldlm_resource_iterate (err 0)
+[1388] 2015-02-19T13:07:35.400392-06:00 c0-0c1s5n2 osc: Unknown symbol unlock_res_and_lock (err 0)
+[1548] 2015-02-19T13:07:35.400399-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_PUNCH (err 0)
+[1390] 2015-02-19T13:07:35.400408-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_cli_enqueue (err 0)
+[1549] 2015-02-19T13:07:35.400414-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_allow_match_locked (err 0)
+[1306] 2015-02-19T13:07:35.400422-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_at_set_req_timeout (err 0)
+[1473] 2015-02-19T13:07:35.400427-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpcd_wake (err 0)
+[1391] 2015-02-19T13:07:35.400436-06:00 c0-0c1s5n2 osc: Unknown symbol lock_res_and_lock (err 0)
+[1392] 2015-02-19T13:07:35.400441-06:00 c0-0c1s5n2 osc: Unknown symbol client_disconnect_export (err 0)
+[1394] 2015-02-19T13:07:35.400451-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_free_rq_pool (err 0)
+[1474] 2015-02-19T13:07:35.400455-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_addref_try (err 0)
+[1309] 2015-02-19T13:07:35.400467-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_SYNC (err 0)
+[1309] 2015-02-19T13:07:35.400477-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_FIEMAP_VAL (err 0)
+[1307] 2015-02-19T13:07:35.400482-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_request_alloc_pack (err 0)
+[1309] 2015-02-19T13:07:35.400491-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_OBD_STATFS (err 0)
+[1322] 2015-02-19T13:07:35.400496-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock2handle (err 0)
+[1309] 2015-02-19T13:07:35.400511-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_OST_STATFS (err 0)
+[1475] 2015-02-19T13:07:35.400516-06:00 c0-0c1s5n2 osc: Unknown symbol req_capsule_extend (err 0)
+[1308] 2015-02-19T13:07:35.400525-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_request_set_replen (err 0)
+[1399] 2015-02-19T13:07:35.400530-06:00 c0-0c1s5n2 osc: Unknown symbol req_capsule_server_sized_get (err 0)
+[1402] 2015-02-19T13:07:35.400538-06:00 c0-0c1s5n2 osc: Unknown symbol lustre_msg_get_opc (err 0)
+[1349] 2015-02-19T13:07:35.400544-06:00 c0-0c1s5n2 osc: Unknown symbol lprocfs_wr_ping (err 0)
+[1403] 2015-02-19T13:07:35.400557-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_namespace_cleanup (err 0)
+[1476] 2015-02-19T13:07:35.400566-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_mark_interrupted (err 0)
+[1477] 2015-02-19T13:07:35.400577-06:00 c0-0c1s5n2 osc: Unknown symbol RQF_LDLM_GL_CALLBACK (err 0)
+[1322] 2015-02-19T13:07:35.400585-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_CAPA1 (err 0)
+[1397] 2015-02-19T13:07:35.400594-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_FIEMAP_KEY (err 0)
+[1409] 2015-02-19T13:07:35.400599-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_resource_putref (err 0)
+[1410] 2015-02-19T13:07:35.400607-06:00 c0-0c1s5n2 osc: Unknown symbol sptlrpc_cli_unwrap_bulk_read (err 0)
+[1309] 2015-02-19T13:07:35.400618-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_OBD_IOOBJ (err 0)
+[1397] 2015-02-19T13:07:35.400628-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_SETINFO_KEY (err 0)
+[1478] 2015-02-19T13:07:35.400636-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_completion_ast_async (err 0)
+[1414] 2015-02-19T13:07:35.400647-06:00 c0-0c1s5n2 osc: Unknown symbol _debug_req (err 0)
+[1419] 2015-02-19T13:07:35.400653-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_recover_import (err 0)
+[1826] 2015-02-19T13:07:35.400670-06:00 c0-0c1s5n2 nel/fs/lustre/fiosc: Unknown symbol client_connect_import (err 0)
+[1480] 2015-02-19T13:07:35.400680-06:00 c0-0c1s5n2 osc: Unknown symbol sptlrpc_flavor_has_bulk (err 0)
+[1322] 2015-02-19T13:07:35.400703-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpcd_decref (err 0)
+[1425] 2015-02-19T13:07:35.400709-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_cli_enqueue_fini (err 0)
+[1783] 2015-02-19T13:07:35.400722-06:00 c0-0c1s5n2 d.ko): Unknown sosc: Unknown symbol RQF_OST_QUOTACTL (err 0)
+[1551] 2015-02-19T13:07:35.400733-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_NIOBUF_REMOTE (err 0)
+[1310] 2015-02-19T13:07:35.400739-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_req_finished (err 0)
+[1482] 2015-02-19T13:07:35.400749-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpcd_alloc_work (err 0)
+[1384] 2015-02-19T13:07:35.400758-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_lock_decref (err 0)
+[1309] 2015-02-19T13:07:35.400765-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_DLM_LVB (err 0)
+[1322] 2015-02-19T13:07:35.400778-06:00 c0-0c1s5n2 osc: Unknown symbol ldlm_error2errno (err 0)
+[1335] 2015-02-19T13:07:35.400791-06:00 c0-0c1s5n2 osc: Unknown symbol ptlrpc_lprocfs_unregister_obd (err 0)
+[1400] 2015-02-19T13:07:35.400797-06:00 c0-0c1s5n2 osc: Unknown symbol RMF_OST_BODY (err 0)
+[1929] 2015-02-19T13:07:35.400802-06:00 c0-0c1s5n2 ymbol in module,lov: Unknown symbol ptlrpc_set_destroy (err 0)
+[1485] 2015-02-19T13:07:35.400815-06:00 c0-0c1s5n2 lov: Unknown symbol ptlrpc_prep_set (err 0)
+[2893] 2015-02-19T13:07:35.400822-06:00 c0-0c1s5n2 or unknown paralov: Unknown symbol _ldlm_lock_debug (err 0)
+[1486] 2015-02-19T13:07:35.400834-06:00 c0-0c1s5n2 lov: Unknown symbol osc_update_enqueue (err 0)
+[1487] 2015-02-19T13:07:35.400843-06:00 c0-0c1s5n2 lov: Unknown symbol lustre_swab_lov_user_md_v1 (err 0)
+[1488] 2015-02-19T13:07:35.400849-06:00 c0-0c1s5n2 lov: Unknown symbol ptlrpc_activate_import (err 0)
+[1630] 2015-02-19T13:07:35.400853-06:00 c0-0c1s5n2 meter (see dmesglov: Unknown symbol lustre_swab_lov_user_md_v3 (err 0)
+[1490] 2015-02-19T13:07:35.400861-06:00 c0-0c1s5n2 lov: Unknown symbol lustre_swab_lov_desc (err 0)
+[1491] 2015-02-19T13:07:35.400867-06:00 c0-0c1s5n2 lov: Unknown symbol ptlrpc_set_wait (err 0)
+[1446] 2015-02-19T13:07:35.400886-06:00 c0-0c1s5n2 )
+[1590] 2015-02-19T13:07:35.400894-06:00 c0-0c1s5n2 modprobe: WARNING: Error ilustre: Unknown symbol ptlrpc_set_destroy (err 0)
+[1493] 2015-02-19T13:07:35.400903-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_lock_dump_handle (err 0)
+[1320] 2015-02-19T13:07:35.400911-06:00 c0-0c1s5n2 lustre: Unknown symbol req_capsule_server_swab_get (err 0)
+[1485] 2015-02-19T13:07:35.400920-06:00 c0-0c1s5n2 lustre: Unknown symbol ptlrpc_prep_set (err 0)
+[1322] 2015-02-19T13:07:35.400929-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_EADATA (err 0)
+[1309] 2015-02-19T13:07:35.400936-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_MDT_MD (err 0)
+[1323] 2015-02-19T13:07:35.400950-06:00 c0-0c1s5n2 lustre: Unknown symbol _ldlm_lock_debug (err 0)
+[1338] 2015-02-19T13:07:35.400959-06:00 c0-0c1s5n2 lustre: Unknown symbol ptlrpc_request_addref (err 0)
+[2160] 2015-02-19T13:07:35.400974-06:00 c0-0c1s5n2 nserting mdc (/llustre: Unknown symbol ldlm_flock_completion_ast (err 0)
+[1322] 2015-02-19T13:07:35.400981-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_lockname (err 0)
+[1344] 2015-02-19T13:07:35.400987-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_completion_ast (err 0)
+[1495] 2015-02-19T13:07:35.400993-06:00 c0-0c1s5n2 lustre: Unknown symbol lov_lsm_get (err 0)
+[1364] 2015-02-19T13:07:35.401001-06:00 c0-0c1s5n2 lustre: Unknown symbol __ldlm_handle2lock (err 0)
+[1369] 2015-02-19T13:07:35.401015-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_EAVALS_LENS (err 0)
+[1322] 2015-02-19T13:07:35.401023-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_CAPA2 (err 0)
+[1377] 2015-02-19T13:07:35.401029-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_cli_cancel (err 0)
+[1496] 2015-02-19T13:07:35.401039-06:00 c0-0c1s5n2 lustre: Unknown symbol lov_read_and_clear_async_rc (err 0)
+[1497] 2015-02-19T13:07:35.401986-06:00 c0-0c1s5n2 lustre: Unknown symbol it_open_error (err 0)
+[1380] 2015-02-19T13:07:35.401994-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_lock_put (err 0)
+[1322] 2015-02-19T13:07:35.402000-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_ACL (err 0)
+[1469] 2015-02-19T13:07:35.402012-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_lock_allow_match (err 0)
+[1305] 2015-02-19T13:07:35.402020-06:00 c0-0c1s5n2 lustre: Unknown symbol req_capsule_server_get (err 0)
+[1386] 2015-02-19T13:07:35.402029-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_lock_decref_and_cancel (err 0)
+[1388] 2015-02-19T13:07:35.402037-06:00 c0-0c1s5n2 lustre: Unknown symbol unlock_res_and_lock (err 0)
+[1391] 2015-02-19T13:07:35.402044-06:00 c0-0c1s5n2 lustre: Unknown symbol lock_res_and_lock (err 0)
+[1322] 2015-02-19T13:07:35.402054-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_lock2handle (err 0)
+[1399] 2015-02-19T13:07:35.402074-06:00 c0-0c1s5n2 lustre: Unknown symbol req_capsule_server_sized_get (err 0)
+[1498] 2015-02-19T13:07:35.402082-06:00 c0-0c1s5n2 lustre: Unknown symbol it_clear_disposition (err 0)
+[1400] 2015-02-19T13:07:35.402088-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_MDT_BODY (err 0)
+[1401] 2015-02-19T13:07:35.402093-06:00 c0-0c1s5n2 lustre: Unknown symbol lustre_swab_mdt_remote_perm (err 0)
+[1322] 2015-02-19T13:07:35.402103-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_it2str (err 0)
+[1322] 2015-02-19T13:07:35.402111-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_LOGCOOKIES (err 0)
+[1491] 2015-02-19T13:07:35.402122-06:00 c0-0c1s5n2 lustre: Unknown symbol ptlrpc_set_wait (err 0)
+[1500] 2015-02-19T13:07:35.402133-06:00 c0-0c1s5n2 lustre: Unknown symbol it_disposition (err 0)
+[1322] 2015-02-19T13:07:35.402139-06:00 c0-0c1s5n2 lustre: Unknown symbol RMF_EAVALS (err 0)
+[1501] 2015-02-19T13:07:35.402158-06:00 c0-0c1s5n2 lustre: Unknown symbol lov_lsm_put (err 0)
+[1310] 2015-02-19T13:07:35.402166-06:00 c0-0c1s5n2 lustre: Unknown symbol ptlrpc_req_finished (err 0)
+[1384] 2015-02-19T13:07:35.402182-06:00 c0-0c1s5n2 lustre: Unknown symbol ldlm_lock_decref (err 0)
+[1885] 2015-02-19T13:07:35.402191-06:00 c0-0c1s5n2 ib/modules/3.0.101-0.31.1_1.0502.8394-cray_ari_c/updates/kernel/fs/lustre/mdc.ko): Unknown symbol in module, or unknown parameter (see dmesg)
+[1556] 2015-02-19T13:07:35.402198-06:00 c0-0c1s5n2 modprobe: WARNING: Error inserting osc (/lib/modules/3.0.101-0.31.1_1.0502.8394-cray_ari_c/updates/kernel/fs/lustre/osc.ko): Unknown symbol in module, or unknown parameter (see dmesg)
+[1556] 2015-02-19T13:07:35.402225-06:00 c0-0c1s5n2 modprobe: WARNING: Error inserting lov (/lib/modules/3.0.101-0.31.1_1.0502.8394-cray_ari_c/updates/kernel/fs/lustre/lov.ko): Unknown symbol in module, or unknown parameter (see dmesg)
+[1557] 2015-02-19T13:07:35.402234-06:00 c0-0c1s5n2 modprobe: FATAL: Error inserting lustre (/lib/modules/3.0.101-0.31.1_1.0502.8394-cray_ari_c/updates/kernel/fs/lustre/lustre.ko): Unknown symbol in module, or unknown parameter (see dmesg)
+[1201] 2015-02-19T13:07:35.402248-06:00 c0-0c1s5n2 mount.lustre: mount 192.168.0.3@o2ib:192.168.0.4@o2ib:/snx11137 at /scratch1 failed: No such device
+[1202] 2015-02-19T13:07:35.402256-06:00 c0-0c1s5n2 Are the lustre modules loaded?
+[1203] 2015-02-19T13:07:35.402264-06:00 c0-0c1s5n2 Check /etc/modprobe.conf and /proc/filesystems
+[1558] 2015-02-19T13:07:35.402269-06:00 c0-0c1s5n2 Error mounting lustre filesystem, 192.168.0.3@o2ib:192.168.0.4@o2ib:/snx11137 at /scratch1
+[1064] 2015-02-19T13:07:35.402279-06:00 c0-0c1s5n2 bpmcd_init: Power statistics available in /sys/cray
+[1065] 2015-02-19T13:07:35.402288-06:00 c0-0c1s5n2 DVS: Revision 1873 - Built: Sep 17 2014 @ 06:40:25 for lnet version 2.5
+[562] 2015-02-19T13:07:35.402293-06:00 c0-0c1s5n2 Lustre: kgnilnd build version: 2.5-trunk-1.0502.17198.8.57-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:43
+[1524] 2015-02-19T13:07:35.402307-06:00 c0-0c1s5n2 LNetError: 11a-a: ip2nets does not match any local IP interfaces
+[1205] 2015-02-19T13:07:35.402317-06:00 c0-0c1s5n2 DVS: lnet_init: LNetNIInit failed (-100)
+[1206] 2015-02-19T13:07:35.402325-06:00 c0-0c1s5n2 DVS: transport init failed (-22)
+[1207] 2015-02-19T13:07:35.402333-06:00 c0-0c1s5n2 DVS: init_util: ipc_init() failed (-22)
+[1512] 2015-02-19T13:07:35.402342-06:00 c0-0c1s5n2 FATAL: Error inserting dvsutil (/lib/modules/3.0.101-0.31.1_1.0502.8394-cray_ari_c/updates/dvsutil/dvsutil.ko): Invalid argument
+[1513] 2015-02-19T13:07:35.402349-06:00 c0-0c1s5n2 Error starting dvs
+[1066] 2015-02-19T13:07:35.402367-06:00 c0-0c1s5n2 mcelog: Family 6 Model 3f CPU: only decoding architectural errors
+[1067] 2015-02-19T13:07:35.402381-06:00 c0-0c1s5n2 SGI XPMEM kernel module v2.2 loaded
+[1068] 2015-02-19T13:07:35.402389-06:00 c0-0c1s5n2 <node_health> (xtnhd) xtnhd has started
+[1516] 2015-02-19T13:11:34.063666-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (Filesystem_Test) WARNING: Filesystem /scratch1 is not mounted
+[1516] 2015-02-19T13:11:34.089440-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (Filesystem_Test) WARNING: Filesystem /dsl is not mounted
+[1516] 2015-02-19T13:11:34.089476-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (Filesystem_Test) WARNING: Filesystem /ufs is not mounted
+[1517] 2015-02-19T13:11:34.114535-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (xtnhc) FAILURES: The following tests from the 'application' set have failed in normal mode:
+[1518] 2015-02-19T13:11:34.139972-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (xtnhc) FAILURES: (Admindown) Filesystem_Test on /dsl (dvs)
+[1518] 2015-02-19T13:11:34.140293-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (xtnhc) FAILURES: (Admindown) Filesystem_Test on /scratch1 (lustre)
+[1518] 2015-02-19T13:11:34.190869-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (xtnhc) FAILURES: (Admindown) Filesystem_Test on /ufs (dvs)
+[1519] 2015-02-19T13:11:34.190916-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (xtnhc) FAILURES: End of list of 3 failed test(s)
+[1520] 2015-02-19T13:11:34.216090-06:00 c0-0c1s5n2 <node_health> Boot_Check: NHC declared the node to be unhealthy, so the boot Failed!
+[1069] 2015-02-19T13:11:34.241856-06:00 c0-0c1s5n2 boot_freemem data calculated:  130692428
+[1071] 2015-02-20T11:50:06.714987-06:00 c0-0c1s5n2 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-20T11:50:06.715000-06:00 c0-0c1s5n2 Unloading nic compatibility device..done
+[1073] 2015-02-20T11:50:06.715004-06:00 c0-0c1s5n2 bpmcd_exit: No local access to power statistics
+[1521] 2015-02-20T11:50:06.715009-06:00 c0-0c1s5n2 GEMINI Performance Counter Daemon Reporting removed
+[1074] 2015-02-20T11:50:06.715020-06:00 c0-0c1s5n2 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-20T11:50:06.715028-06:00 c0-0c1s5n2 S; exiting
+[1077] 2015-02-20T11:50:06.715038-06:00 c0-0c1s5n2 Unloading XPMEM driver
+[1078] 2015-02-20T11:50:06.715045-06:00 c0-0c1s5n2 Unmounting alps spool directory..done
+[1079] 2015-02-20T11:50:06.715055-06:00 c0-0c1s5n2 Initializing Compute node runtime environment
+[1080] 2015-02-20T11:50:06.715061-06:00 c0-0c1s5n2 (stop BIND mounts)
+[1081] 2015-02-20T11:50:07.738514-06:00 c0-0c1s5n2 Stopping DVS service: 
+[1082] 2015-02-20T11:50:07.738525-06:00 c0-0c1s5n2 ..done
+[1083] 2015-02-20T11:50:10.827054-06:00 c0-0c1s5n2 System halted.
+[1084] 2015-02-20T11:50:11.332775-06:00 c0-0c1s5n2 RCADSVCS : shutdown.
+[132] 2015-02-20T12:05:48.568213-06:00 c0-0c1s5n2 Wait4Boot: WRITE: 523 bytes to memory @ 0x90CD0 ... complete
+[133] 2015-02-20T12:05:48.568220-06:00 c0-0c1s5n2 Wait4Boot: Blade Controller Boot Protocol version - 1
+[134] 2015-02-20T12:05:48.568227-06:00 c0-0c1s5n2 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+[1053] 2015-02-20T12:05:48.568233-06:00 c0-0c1s5n2 OnExitBootServices..
+[1054] 2015-02-20T12:05:48.643066-06:00 c0-0c1s5n2 ConfigureXhciAtBoot() Start
+[1055] 2015-02-20T12:05:48.643521-06:00 c0-0c1s5n2 ConfigureXhciAtBoot() End
+[1056] 2015-02-20T12:05:48.643754-06:00 c0-0c1s5n2 (Wdt) RunWdtBeforeOsBoot
+[1056] 2015-02-20T12:05:48.644176-06:00 c0-0c1s5n2 (Wdt) DisableTimer
+[1057] 2015-02-20T12:05:51.692584-06:00 c0-0c1s5n2 Crypto Lib Callback.
+[1058] 2015-02-20T12:05:51.717634-06:00 c0-0c1s5n2 Heap addr before Virtual MemFixup = 7bacb018, After = 7bacb018
+[1059] 2015-02-20T12:05:51.717825-06:00 c0-0c1s5n2 NvramSmi Go Virtual
+[1060] 2015-02-20T12:05:51.844595-06:00 c0-0c1s5n2 Stopping all external HCs
+[1061] 2015-02-20T12:05:51.870069-06:00 c0-0c1s5n2 stopping all HC type 40:
+[339] 2015-02-20T12:06:01.275102-06:00 c0-0c1s5n2 i8042: No controller found
+[646] 2015-02-20T12:06:05.340966-06:00 c0-0c1s5n2 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 86
+[940] 2015-02-20T12:06:05.340974-06:00 c0-0c1s5n2 arp: sdbnode NID 137 = 000101000089
+[400] 2015-02-20T12:06:05.340980-06:00 c0-0c1s5n2 net.core.rmem_max = 16777216
+[400] 2015-02-20T12:06:05.340984-06:00 c0-0c1s5n2 net.core.wmem_max = 16777216
+[401] 2015-02-20T12:06:05.340991-06:00 c0-0c1s5n2 net.core.rmem_default = 16777216
+[401] 2015-02-20T12:06:05.340997-06:00 c0-0c1s5n2 net.core.wmem_default = 16777216
+[400] 2015-02-20T12:06:05.341006-06:00 c0-0c1s5n2 net.core.optmem_max = 16777216
+[402] 2015-02-20T12:06:05.341014-06:00 c0-0c1s5n2 net.ipv4.tcp_mem = 16777216 16777216 16777216
+[402] 2015-02-20T12:06:05.341022-06:00 c0-0c1s5n2 net.ipv4.tcp_rmem = 4096 87380 16777216
+[402] 2015-02-20T12:06:05.341027-06:00 c0-0c1s5n2 net.ipv4.tcp_wmem = 4096 65536 16777216
+[1062] 2015-02-20T12:06:05.341040-06:00 c0-0c1s5n2 nid 86: Linux version 3.0.101-0.31.1_1.0502.8394-cray_ari_c (abuild@cfosbld02) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Sep 10 04:09:26 UTC 2014
+[1559] 2015-02-20T12:06:05.341049-06:00 c0-0c1s5n2 starting pid 6945, tty 'LNet: HW CPU cores: 64, npartitions: 8
+[1560] 2015-02-20T12:06:05.341057-06:00 c0-0c1s5n2 ': '/etc/init.d/rc'
+[396] 2015-02-20T12:06:05.341065-06:00 c0-0c1s5n2 nomtab: 1
+[1196] 2015-02-20T12:06:09.960693-06:00 c0-0c1s5n2 Lustre: Lustre: Build Version: 2.5.1-trunk-1.0502.17198.8.57-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:43
+[562] 2015-02-20T12:06:10.011026-06:00 c0-0c1s5n2 Lustre: kgnilnd build version: 2.5-trunk-1.0502.17198.8.57-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:43
+[1211] 2015-02-20T12:06:10.112239-06:00 c0-0c1s5n2 LNet: Enabling LNet peer health for gnilnd, timeout 67s
+[563] 2015-02-20T12:06:10.137271-06:00 c0-0c1s5n2 LNet: Added LNI 86@gni [16/2048/0/67]
+[4305] 2015-02-20T12:06:11.329097-06:00 c0-0c1s5n2 LustreError: 7130:0:(obd_config.c:1341:class_process_proc_param()) lov: snx11137-clilov-ffff880feff45c00 unknown param qos_threshold_rr=100
+[4306] 2015-02-20T12:06:11.329106-06:00 c0-0c1s5n2 Lustre: snx11137-clilov-ffff880feff45c00: disabling xattr cache due to unknown maximum xattr size.
+[4307] 2015-02-20T12:06:11.354384-06:00 c0-0c1s5n2 Lustre: Mounted snx11137-client
+[1064] 2015-02-20T12:06:11.455358-06:00 c0-0c1s5n2 bpmcd_init: Power statistics available in /sys/cray
+[1065] 2015-02-20T12:06:11.480519-06:00 c0-0c1s5n2 DVS: Revision 1873 - Built: Sep 17 2014 @ 06:40:25 for lnet version 2.5
+[1066] 2015-02-20T12:06:27.909829-06:00 c0-0c1s5n2 mcelog: Family 6 Model 3f CPU: only decoding architectural errors
+[1067] 2015-02-20T12:06:27.935826-06:00 c0-0c1s5n2 SGI XPMEM kernel module v2.2 loaded
+[1068] 2015-02-20T12:06:27.935867-06:00 c0-0c1s5n2 <node_health> (xtnhd) xtnhd has started
+[4353] 2015-02-20T12:10:28.287985-06:00 c0-0c1s5n2 <node_health:5.1> <node_health>:1 (Filesystem_Test) WARNING: mkdir of /ufs/.nodehealth.fstest/86 failed: No such file or directory
+[1069] 2015-02-20T12:10:28.338582-06:00 c0-0c1s5n2 boot_freemem data calculated:  129835952

@@ -1,0 +1,44 @@
+[1070] 2015-02-15T01:50:58.241673-06:00 c0-0c2s9n1 hpcc[47101] general protection ip:b6c9fa sp:7fffffffc800 error:0 in hpcc[400000+904000]
+[1070] 2015-02-15T07:18:03.940609-06:00 c0-0c2s9n1 hpcc[50343] general protection ip:b6c9fa sp:7fffffffbc80 error:0 in hpcc[400000+904000]
+[1070] 2015-02-16T01:56:22.265312-06:00 c0-0c2s9n1 hpcc[42691] general protection ip:b6c9fa sp:7fffffffbc80 error:0 in hpcc[400000+904000]
+[1070] 2015-02-16T05:02:36.215301-06:00 c0-0c2s9n1 hpcc[63199] general protection ip:b6c9fa sp:7fffffffc800 error:0 in hpcc[400000+904000]
+[1071] 2015-02-16T11:06:04.192484-06:00 c0-0c2s9n1 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-16T11:06:04.192491-06:00 c0-0c2s9n1 Unloading nic compatibility device..done
+[1073] 2015-02-16T11:06:04.192509-06:00 c0-0c2s9n1 bpmcd_exit: No local access to power statistics
+[1074] 2015-02-16T11:06:04.192517-06:00 c0-0c2s9n1 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-16T11:06:04.192523-06:00 c0-0c2s9n1 S; exiting
+[1077] 2015-02-16T11:06:04.192536-06:00 c0-0c2s9n1 Unloading XPMEM driver
+[1078] 2015-02-16T11:06:04.192543-06:00 c0-0c2s9n1 Unmounting alps spool directory..done
+[1079] 2015-02-16T11:06:04.192551-06:00 c0-0c2s9n1 Initializing Compute node runtime environment
+[1080] 2015-02-16T11:06:04.192558-06:00 c0-0c2s9n1 (stop BIND mounts)
+[1081] 2015-02-16T11:06:05.200722-06:00 c0-0c2s9n1 Stopping DVS service: 
+[1082] 2015-02-16T11:06:05.723198-06:00 c0-0c2s9n1 ..done
+[1083] 2015-02-16T11:06:08.811846-06:00 c0-0c2s9n1 System halted.
+[1112] 2015-02-16T11:06:09.832990-06:00 c0-0c2s9n1 ------------[ cut here ]------------
+[1113] 2015-02-16T11:06:09.832998-06:00 c0-0c2s9n1 WARNING: at arch/x86/kernel/smp.c:118 native_smp_send_reschedule+0x5e/0x60()
+[1114] 2015-02-16T11:06:09.833005-06:00 c0-0c2s9n1 Hardware name: Cascade
+[1115] 2015-02-16T11:06:09.833011-06:00 c0-0c2s9n1 Modules linked in: dvspn(P) dvsof(P) dvsutil(P) dvsipc(P) dvsipc_lnet(P) kgnilnd lnet sha1_generic libcfs dvsproc(P) ib_core pcie_link_bw_monitor kdreg gpcd_ari ipogif_ari kgni_ari hwerr(P) rca hss_os(P) heartbeat simplex(P) ghal_ari craytrace [last unloaded: xpmem]
+[1143] 2015-02-16T11:06:09.833021-06:00 c0-0c2s9n1 Pid: 200, comm: ksoftirqd/63 Tainted: P            3.0.101-0.31.1_1.0502.8394-cray_ari_c #1
+[1117] 2015-02-16T11:06:09.833030-06:00 c0-0c2s9n1 Call Trace:
+[1118] 2015-02-16T11:06:09.833037-06:00 c0-0c2s9n1 [<ffffffff81005eb9>] try_stack_unwind+0x169/0x1b0
+[1119] 2015-02-16T11:06:09.833045-06:00 c0-0c2s9n1 [<ffffffff81004939>] dump_trace+0x89/0x450
+[1120] 2015-02-16T11:06:09.833050-06:00 c0-0c2s9n1 [<ffffffff8100591c>] show_trace_log_lvl+0x5c/0x80
+[1121] 2015-02-16T11:06:09.833057-06:00 c0-0c2s9n1 [<ffffffff81005955>] show_trace+0x15/0x20
+[1122] 2015-02-16T11:06:09.833062-06:00 c0-0c2s9n1 [<ffffffff8141d73b>] dump_stack+0x79/0x84
+[1123] 2015-02-16T11:06:09.833068-06:00 c0-0c2s9n1 [<ffffffff8104efef>] warn_slowpath_common+0x7f/0xe0
+[1124] 2015-02-16T11:06:09.833090-06:00 c0-0c2s9n1 [<ffffffff8104f10a>] warn_slowpath_null+0x1a/0x50
+[1125] 2015-02-16T11:06:09.833123-06:00 c0-0c2s9n1 [<ffffffff8102545e>] native_smp_send_reschedule+0x5e/0x60
+[1126] 2015-02-16T11:06:09.833134-06:00 c0-0c2s9n1 [<ffffffff81045cc0>] try_to_wake_up+0x220/0x290
+[1127] 2015-02-16T11:06:09.833147-06:00 c0-0c2s9n1 [<ffffffff81045d97>] wake_up_process+0x27/0x50
+[1128] 2015-02-16T11:06:09.833156-06:00 c0-0c2s9n1 [<ffffffff8106a034>] wake_up_worker+0x24/0x30
+[1129] 2015-02-16T11:06:09.833163-06:00 c0-0c2s9n1 [<ffffffff8106a0be>] insert_work+0x7e/0x90
+[1130] 2015-02-16T11:06:09.833171-06:00 c0-0c2s9n1 [<ffffffff8106ac3d>] __queue_work+0x20d/0x410
+[1131] 2015-02-16T11:06:09.833178-06:00 c0-0c2s9n1 [<ffffffff8106ae6b>] delayed_work_timer_fn+0x2b/0x30
+[1132] 2015-02-16T11:06:09.833184-06:00 c0-0c2s9n1 [<ffffffff8105edfe>] run_timer_softirq+0x20e/0x350
+[1133] 2015-02-16T11:06:09.833194-06:00 c0-0c2s9n1 [<ffffffff81056230>] __do_softirq+0x120/0x250
+[1144] 2015-02-16T11:06:09.833199-06:00 c0-0c2s9n1 [<ffffffff81056418>] run_ksoftirqd+0xb8/0x170
+[1145] 2015-02-16T11:06:09.833211-06:00 c0-0c2s9n1 [<ffffffff810721ae>] kthread+0x9e/0xb0
+[1146] 2015-02-16T11:06:09.833218-06:00 c0-0c2s9n1 [<ffffffff81429734>] kernel_thread_helper+0x4/0x10
+[1142] 2015-02-16T11:06:09.833223-06:00 c0-0c2s9n1 ---[ end trace 8bde2433a0b7e507 ]---
+[1084] 2015-02-16T11:06:10.346130-06:00 c0-0c2s9n1 RCADSVCS : shutdown.
+[131] 2015-02-16T14:50:57.109673-06:00 c0-0c2s9n1 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2

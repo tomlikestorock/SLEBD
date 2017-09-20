@@ -1,0 +1,19 @@
+[1070] 2015-02-15T03:24:25.872374-06:00 c0-0c0s10n3 hpcc[57382] general protection ip:b6c9fa sp:7fffffffbc80 error:0 in hpcc[400000+904000]
+[1070] 2015-02-15T09:37:22.870475-06:00 c0-0c0s10n3 hpcc[33129] general protection ip:b6c9fa sp:7fffffffbd20 error:0 in hpcc[400000+904000]
+[1070] 2015-02-15T18:57:18.134733-06:00 c0-0c0s10n3 hpcc[29266] general protection ip:b6c9fa sp:7fffffffbc80 error:0 in hpcc[400000+904000]
+[1070] 2015-02-15T21:17:03.617884-06:00 c0-0c0s10n3 hpcc[12078] general protection ip:b6c9fa sp:7fffffffbc80 error:0 in hpcc[400000+904000]
+[1070] 2015-02-16T01:10:01.000562-06:00 c0-0c0s10n3 hpcc[5113] general protection ip:b6c9fa sp:7fffffffc800 error:0 in hpcc[400000+904000]
+[1071] 2015-02-16T11:06:05.722890-06:00 c0-0c0s10n3 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-16T11:06:05.722895-06:00 c0-0c0s10n3 Unloading nic compatibility device..done
+[1073] 2015-02-16T11:06:05.722900-06:00 c0-0c0s10n3 bpmcd_exit: No local access to power statistics
+[1074] 2015-02-16T11:06:05.722905-06:00 c0-0c0s10n3 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-16T11:06:05.722913-06:00 c0-0c0s10n3 S; exiting
+[1077] 2015-02-16T11:06:05.722918-06:00 c0-0c0s10n3 Unloading XPMEM driver
+[1078] 2015-02-16T11:06:05.722943-06:00 c0-0c0s10n3 Unmounting alps spool directory..done
+[1079] 2015-02-16T11:06:05.722950-06:00 c0-0c0s10n3 Initializing Compute node runtime environment
+[1080] 2015-02-16T11:06:05.723030-06:00 c0-0c0s10n3 (stop BIND mounts)
+[1081] 2015-02-16T11:06:07.262725-06:00 c0-0c0s10n3 Stopping DVS service: 
+[1082] 2015-02-16T11:06:07.262749-06:00 c0-0c0s10n3 ..done
+[1083] 2015-02-16T11:06:10.320831-06:00 c0-0c0s10n3 System halted.
+[1084] 2015-02-16T11:06:10.346088-06:00 c0-0c0s10n3 RCADSVCS : shutdown.
+[131] 2015-02-16T14:51:01.166305-06:00 c0-0c0s10n3 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2

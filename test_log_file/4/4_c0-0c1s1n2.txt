@@ -1,0 +1,1770 @@
+[4313] 2015-02-19T10:14:51.624118-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 60 seconds
+[4314] 2015-02-19T10:14:51.674586-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2a88-><?> id 0/0 state GNILND_TX_ALLOCD age 60s  msg@0xffff88100e8d2b18 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4818] 2015-02-19T10:14:51.699938-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:1271:kgnilnd_post_dgram()) dropping failed dgram post id 0xffff8810064ef9f8 type GNILND_DGRAM_REQ reqtype GNILND_CONNREQ_REQ to 66@gni: rc 3
+[4819] 2015-02-19T10:14:51.725070-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2350:kgnilnd_start_outbound_dgrams()) could not start connecting to 66@gni rc -53: Will retry until TX timeout
+[4313] 2015-02-19T10:14:52.669470-06:00 c0-0c1s1n2 LNet: could not send to 130@gni due to connection setup failure after 61 seconds
+[4314] 2015-02-19T10:14:52.704400-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2808-><?> id 0/0 state GNILND_TX_ALLOCD age 62s  msg@0xffff88100e8d2898 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4315] 2015-02-19T10:14:53.527482-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 2@gni timed out @ 62s dgram 0xffff8810064ef068 state GNILND_DGRAM_POSTED conn 0xffff881006df9c00
+[4313] 2015-02-19T10:14:57.727326-06:00 c0-0c1s1n2 LNet: could not send to 2@gni due to connection setup failure after 67 seconds
+[4314] 2015-02-19T10:14:57.752558-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2d08-><?> id 0/0 state GNILND_TX_ALLOCD age 67s  msg@0xffff88100e8d2d98 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[966] 2015-02-19T10:15:00.678870-06:00 c0-0c1s1n2 nfs: server 10.131.255.254 not responding, still trying
+[4315] 2015-02-19T10:15:56.645456-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 130@gni timed out @ 62s dgram 0xffff8810064ef068 state GNILND_DGRAM_POSTED conn 0xffff88100b1ce000
+[4313] 2015-02-19T10:15:56.750240-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4314] 2015-02-19T10:15:56.787350-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2088-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100e8d2118 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4315] 2015-02-19T10:16:03.678947-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 2@gni timed out @ 64s dgram 0xffff8810064ef398 state GNILND_DGRAM_POSTED conn 0xffff88100e772c00
+[4313] 2015-02-19T10:16:03.796990-06:00 c0-0c1s1n2 LNet: could not send to 2@gni due to connection setup failure after 65 seconds
+[4311] 2015-02-19T10:16:03.797004-06:00 c0-0c1s1n2 LNet: Skipped 1 previous similar message
+[4314] 2015-02-19T10:16:03.835654-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2308-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100e8d2398 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[1162] 2015-02-19T10:16:03.835669-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 1 previous similar message
+[4315] 2015-02-19T10:16:59.780798-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 62s dgram 0xffff8810064ef288 state GNILND_DGRAM_POSTED conn 0xffff88100812dc00
+[4313] 2015-02-19T10:17:02.857395-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4314] 2015-02-19T10:17:02.886593-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2808-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100e8d2898 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[966] 2015-02-19T10:17:54.945362-06:00 c0-0c1s1n2 nfs: server 10.131.255.254 not responding, still trying
+[4313] 2015-02-19T10:18:08.897485-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T10:18:08.897497-06:00 c0-0c1s1n2 LNet: Skipped 2 previous similar messages
+[4314] 2015-02-19T10:18:08.936111-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2808-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100e8d2898 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:18:08.936128-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 2 previous similar messages
+[4315] 2015-02-19T10:18:09.878781-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 2@gni timed out @ 60s dgram 0xffff8810064ef178 state GNILND_DGRAM_POSTED conn 0xffff88100b6f5800
+[4321] 2015-02-19T10:18:09.903971-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 1 previous similar message
+[4315] 2015-02-19T10:19:12.994975-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 63s dgram 0xffff8810064ef398 state GNILND_DGRAM_POSTED conn 0xffff88100b33a400
+[4313] 2015-02-19T10:19:14.021921-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T10:19:14.021937-06:00 c0-0c1s1n2 LNet: Skipped 2 previous similar messages
+[4314] 2015-02-19T10:19:14.021943-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2a88-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88100e8d2b18 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:19:14.021949-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 2 previous similar messages
+[4313] 2015-02-19T10:20:20.130834-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T10:20:20.130854-06:00 c0-0c1s1n2 LNet: Skipped 2 previous similar messages
+[4314] 2015-02-19T10:20:20.130860-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2d08-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100e8d2d98 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:20:20.130866-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 2 previous similar messages
+[4315] 2015-02-19T10:20:23.099331-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 2@gni timed out @ 61s dgram 0xffff8810064ef068 state GNILND_DGRAM_POSTED conn 0xffff88100ea98000
+[4321] 2015-02-19T10:20:23.099350-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 1 previous similar message
+[4315] 2015-02-19T10:22:29.308629-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 62s dgram 0xffff8810064ef4a8 state GNILND_DGRAM_POSTED conn 0xffff88100b59c800
+[4313] 2015-02-19T10:22:31.085095-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T10:22:31.110343-06:00 c0-0c1s1n2 LNet: Skipped 5 previous similar messages
+[4314] 2015-02-19T10:22:31.149341-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2d08-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88100e8d2d98 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:22:31.149360-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 5 previous similar messages
+[4315] 2015-02-19T10:24:42.465159-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 130@gni timed out @ 63s dgram 0xffff88100853ce78 state GNILND_DGRAM_POSTED conn 0xffff88100e358000
+[4318] 2015-02-19T10:24:42.507452-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 2 previous similar messages
+[4313] 2015-02-19T10:26:54.136653-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T10:26:54.136682-06:00 c0-0c1s1n2 LNet: Skipped 11 previous similar messages
+[4314] 2015-02-19T10:26:54.185595-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e8d2a88-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100e8d2b18 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:26:54.185610-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 11 previous similar messages
+[4315] 2015-02-19T10:27:58.740955-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 64s dgram 0xffff8810064ef6c8 state GNILND_DGRAM_POSTED conn 0xffff881009a7d400
+[4318] 2015-02-19T10:27:58.740981-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 2 previous similar messages
+[4315] 2015-02-19T10:32:25.105785-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 2@gni timed out @ 62s dgram 0xffff8810065ba068 state GNILND_DGRAM_POSTED conn 0xffff88100b08b800
+[4318] 2015-02-19T10:32:25.130965-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 5 previous similar messages
+[4313] 2015-02-19T10:35:38.201287-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T10:35:38.201306-06:00 c0-0c1s1n2 LNet: Skipped 23 previous similar messages
+[4314] 2015-02-19T10:35:38.241943-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100eb50d08-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88100eb50d98 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:35:38.241958-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 23 previous similar messages
+[4315] 2015-02-19T10:41:10.758657-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 2@gni timed out @ 63s dgram 0xffff8810064ef6c8 state GNILND_DGRAM_POSTED conn 0xffff88100ba19000
+[4318] 2015-02-19T10:41:10.783884-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 8 previous similar messages
+[4313] 2015-02-19T10:46:35.256182-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T10:46:35.256204-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T10:46:35.303156-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100eb50a88-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100eb50b18 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:46:35.303170-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T10:52:02.562846-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 130@gni timed out @ 63s dgram 0xffff8810064ef4a8 state GNILND_DGRAM_POSTED conn 0xffff881006519c00
+[4318] 2015-02-19T10:52:02.562872-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 12 previous similar messages
+[4313] 2015-02-19T10:57:31.302705-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T10:57:31.302724-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T10:57:31.362067-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100eb50308-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100eb50398 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T10:57:31.362081-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T11:04:04.432847-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 130@gni timed out @ 63s dgram 0xffff8810064ef6c8 state GNILND_DGRAM_POSTED conn 0xffff88100e282c00
+[4318] 2015-02-19T11:04:04.458067-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 13 previous similar messages
+[4313] 2015-02-19T11:08:27.379378-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T11:08:27.405274-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T11:08:27.430489-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100f8252c8-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100f825358 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T11:08:27.455734-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T11:16:06.305362-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 65s dgram 0xffff8810064ef6c8 state GNILND_DGRAM_POSTED conn 0xffff88100ba05c00
+[4318] 2015-02-19T11:16:06.305382-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 11 previous similar messages
+[4313] 2015-02-19T11:19:23.440021-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T11:19:23.465237-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T11:19:23.490454-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100e269d08-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100e269d98 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T11:19:23.490473-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T11:26:58.046664-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 130@gni timed out @ 60s dgram 0xffff8810064ef6c8 state GNILND_DGRAM_POSTED conn 0xffff88100fec1c00
+[4318] 2015-02-19T11:26:58.046689-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 12 previous similar messages
+[4313] 2015-02-19T11:30:19.521338-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T11:30:19.521354-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T11:30:19.546554-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff881007f4ba88-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff881007f4bb18 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T11:30:19.546572-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T11:37:56.853129-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 63s dgram 0xffff8810064ef178 state GNILND_DGRAM_POSTED conn 0xffff88100f5bf400
+[4318] 2015-02-19T11:37:56.853145-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 12 previous similar messages
+[4313] 2015-02-19T11:41:15.542215-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T11:41:15.542235-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T11:41:15.581282-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100b920588-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff88100b920618 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T11:41:15.581296-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T11:49:58.727560-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 63s dgram 0xffff8810064ef288 state GNILND_DGRAM_POSTED conn 0xffff88100b7db400
+[4318] 2015-02-19T11:49:58.727596-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 11 previous similar messages
+[4313] 2015-02-19T11:52:11.596639-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 65 seconds
+[4316] 2015-02-19T11:52:11.621866-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T11:52:11.830220-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff881008995a88-><?> id 0/0 state GNILND_TX_ALLOCD age 65s  msg@0xffff881008995b18 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T11:52:11.830234-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T12:00:57.523511-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 130@gni timed out @ 64s dgram 0xffff8810064ef398 state GNILND_DGRAM_POSTED conn 0xffff88101be95400
+[4318] 2015-02-19T12:00:57.523531-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 11 previous similar messages
+[4313] 2015-02-19T12:03:07.669336-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T12:03:07.669354-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T12:03:07.703853-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88101bdd4a48-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88101bdd4ad8 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T12:03:07.729052-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T12:12:59.369280-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 130@gni timed out @ 64s dgram 0xffff8810064ef7d8 state GNILND_DGRAM_POSTED conn 0xffff88100ca10000
+[4318] 2015-02-19T12:12:59.369301-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 12 previous similar messages
+[4313] 2015-02-19T12:14:03.721644-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T12:14:03.721658-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T12:14:03.761571-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88101bdd4048-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88101bdd40d8 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T12:14:03.761586-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T12:23:58.146857-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 2@gni timed out @ 62s dgram 0xffff8810064ef7d8 state GNILND_DGRAM_POSTED conn 0xffff88100c647c00
+[4318] 2015-02-19T12:23:58.172075-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 10 previous similar messages
+[4313] 2015-02-19T12:24:59.782986-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T12:24:59.783000-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T12:24:59.828906-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100cd23cc8-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88100cd23d58 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T12:24:59.828921-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T12:34:49.915444-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 64s dgram 0xffff8810064ef4a8 state GNILND_DGRAM_POSTED conn 0xffff88100be85c00
+[4318] 2015-02-19T12:34:49.940651-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 9 previous similar messages
+[4313] 2015-02-19T12:35:55.844394-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T12:35:55.869582-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T12:35:55.894828-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100de8f808-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88100de8f898 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T12:35:55.920026-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[4315] 2015-02-19T12:45:41.682225-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) GNILND_DGRAM_REQ datagram to 66@gni timed out @ 60s dgram 0xffff8810064ef6c8 state GNILND_DGRAM_POSTED conn 0xffff88100cd12000
+[4318] 2015-02-19T12:45:41.682245-06:00 c0-0c1s1n2 LNet: 5352:0:(gnilnd_conn.c:2223:kgnilnd_reaper_dgram_check()) Skipped 11 previous similar messages
+[4313] 2015-02-19T12:46:51.904504-06:00 c0-0c1s1n2 LNet: could not send to 66@gni due to connection setup failure after 64 seconds
+[4316] 2015-02-19T12:46:51.904518-06:00 c0-0c1s1n2 LNet: Skipped 29 previous similar messages
+[4314] 2015-02-19T12:46:51.947904-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) $$ error -113 on tx 0xffff88100bef32c8-><?> id 0/0 state GNILND_TX_ALLOCD age 64s  msg@0xffff88100bef3358 m/v/ty/ck/pck/pl b00fbabe/8/2/0/0/0 x0:GNILND_MSG_IMMEDIATE
+[4317] 2015-02-19T12:46:51.947918-06:00 c0-0c1s1n2 LNet: 5346:0:(gnilnd_cb.c:1211:kgnilnd_tx_done()) Skipped 29 previous similar messages
+[132] 2015-02-19T13:02:49.529057-06:00 c0-0c1s1n2 Wait4Boot: WRITE: 533 bytes to memory @ 0x90CD0 ... complete
+[133] 2015-02-19T13:02:49.553815-06:00 c0-0c1s1n2 Wait4Boot: Blade Controller Boot Protocol version - 1
+[134] 2015-02-19T13:02:49.554013-06:00 c0-0c1s1n2 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+[135] 2015-02-19T13:02:49.697893-06:00 c0-0c1s1n2 Decompressing Linux... Parsing ELF... done.
+[136] 2015-02-19T13:02:49.697969-06:00 c0-0c1s1n2 Booting the kernel.
+[137] 2015-02-19T13:02:49.722741-06:00 c0-0c1s1n2 Initializing cgroup subsys cpuset
+[137] 2015-02-19T13:02:49.722773-06:00 c0-0c1s1n2 Initializing cgroup subsys cpu
+[138] 2015-02-19T13:02:49.773199-06:00 c0-0c1s1n2 Linux version 3.0.101-0.31.1_1.0502.8394-cray_ari_s (abuild@cfosbld05) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Sep 10 04:03:41 UTC 2014
+[139] 2015-02-19T13:02:49.860167-06:00 c0-0c1s1n2 Command line: earlyprintk=serial,115200 load_ramdisk=1 ramdisk_size=80000 console=ttyS0,115200n8 bootnodeip=10.131.255.254 bootproto=ipog bootpath=/rr/current rootfs=nfs-shared root=/dev/disk/by-id/scsi-3600a09800063789e0000008b54c3a04c-part1 oops=panic bootifnetmask=255.252.0.0 elevator=noop ippob1=10 ippob2=128 pcie_ports=native iommu=on intel_iommu=off bad_page=panic pln_enable=off apei_disable hest_disable erst_disable ghes_disable cgroup_disable=memory active_wlm=ALPS sdbnodeip=10.131.255.253 sessionid=p0-20150219t115150 _cray=marker_ 
+[140] 2015-02-19T13:02:49.860303-06:00 c0-0c1s1n2 KERNEL supported cpus:
+[141] 2015-02-19T13:02:49.860417-06:00 c0-0c1s1n2  Intel GenuineIntel
+[142] 2015-02-19T13:02:49.860559-06:00 c0-0c1s1n2 BIOS-provided physical RAM map:
+[143] 2015-02-19T13:02:49.860700-06:00 c0-0c1s1n2 BIOS-e820: 0000000000000000 - 00000000000a0000 (usable)
+[143] 2015-02-19T13:02:49.860848-06:00 c0-0c1s1n2 BIOS-e820: 0000000000100000 - 000000007e67c000 (usable)
+[144] 2015-02-19T13:02:49.900181-06:00 c0-0c1s1n2 BIOS-e820: 000000007e67c000 - 000000007e790000 (ACPI NVS)
+[145] 2015-02-19T13:02:49.900255-06:00 c0-0c1s1n2 BIOS-e820: 000000007e790000 - 000000007f395000 (reserved)
+[146] 2015-02-19T13:02:49.900349-06:00 c0-0c1s1n2 BIOS-e820: 000000007f395000 - 000000007f410000 (ACPI data)
+[145] 2015-02-19T13:02:49.900477-06:00 c0-0c1s1n2 BIOS-e820: 000000007f410000 - 000000007f491000 (reserved)
+[143] 2015-02-19T13:02:49.900648-06:00 c0-0c1s1n2 BIOS-e820: 000000007f491000 - 000000007f493000 (usable)
+[144] 2015-02-19T13:02:49.940097-06:00 c0-0c1s1n2 BIOS-e820: 000000007f493000 - 000000007f494000 (ACPI NVS)
+[145] 2015-02-19T13:02:49.940257-06:00 c0-0c1s1n2 BIOS-e820: 000000007f494000 - 000000007f49e000 (reserved)
+[144] 2015-02-19T13:02:49.940400-06:00 c0-0c1s1n2 BIOS-e820: 000000007f49e000 - 000000007f4a6000 (ACPI NVS)
+[145] 2015-02-19T13:02:49.949832-06:00 c0-0c1s1n2 BIOS-e820: 000000007f4a6000 - 000000007f4d2000 (reserved)
+[144] 2015-02-19T13:02:49.950028-06:00 c0-0c1s1n2 BIOS-e820: 000000007f4d2000 - 000000007f558000 (ACPI NVS)
+[143] 2015-02-19T13:02:49.950205-06:00 c0-0c1s1n2 BIOS-e820: 000000007f558000 - 000000007f800000 (usable)
+[145] 2015-02-19T13:02:49.975092-06:00 c0-0c1s1n2 BIOS-e820: 0000000080000000 - 0000000090000000 (reserved)
+[145] 2015-02-19T13:02:49.975301-06:00 c0-0c1s1n2 BIOS-e820: 00000000fed1c000 - 00000000fed20000 (reserved)
+[145] 2015-02-19T13:02:49.975506-06:00 c0-0c1s1n2 BIOS-e820: 00000000ff000000 - 0000000100000000 (reserved)
+[143] 2015-02-19T13:02:50.000581-06:00 c0-0c1s1n2 BIOS-e820: 0000000100000000 - 0000001080000000 (usable)
+[147] 2015-02-19T13:02:50.000769-06:00 c0-0c1s1n2 bootconsole [earlyser0] enabled
+[148] 2015-02-19T13:02:50.000777-06:00 c0-0c1s1n2 NX (Execute Disable) protection: active
+[149] 2015-02-19T13:02:50.025565-06:00 c0-0c1s1n2 EFI v2.10 by American Megatrends
+[150] 2015-02-19T13:02:50.025859-06:00 c0-0c1s1n2 ACPI=0x7f395000  ACPI 2.0=0x7f395000  SMBIOS=0xf04c0  MPS=0xfd450 
+[151] 2015-02-19T13:02:50.026077-06:00 c0-0c1s1n2 EFI: mem00: type=3, attr=0xf, range=[0x0000000000000000-0x0000000000008000) (0MB)
+[151] 2015-02-19T13:02:50.050987-06:00 c0-0c1s1n2 EFI: mem01: type=7, attr=0xf, range=[0x0000000000008000-0x0000000000060000) (0MB)
+[151] 2015-02-19T13:02:50.051253-06:00 c0-0c1s1n2 EFI: mem02: type=3, attr=0xf, range=[0x0000000000060000-0x00000000000a0000) (0MB)
+[151] 2015-02-19T13:02:50.076180-06:00 c0-0c1s1n2 EFI: mem03: type=7, attr=0xf, range=[0x0000000000100000-0x0000000001000000) (15MB)
+[151] 2015-02-19T13:02:50.076407-06:00 c0-0c1s1n2 EFI: mem04: type=2, attr=0xf, range=[0x0000000001000000-0x0000000001100000) (1MB)
+[151] 2015-02-19T13:02:50.101505-06:00 c0-0c1s1n2 EFI: mem05: type=4, attr=0xf, range=[0x0000000001100000-0x00000000017ea000) (6MB)
+[151] 2015-02-19T13:02:50.101727-06:00 c0-0c1s1n2 EFI: mem06: type=3, attr=0xf, range=[0x00000000017ea000-0x00000000017ee000) (0MB)
+[151] 2015-02-19T13:02:50.140197-06:00 c0-0c1s1n2 EFI: mem07: type=4, attr=0xf, range=[0x00000000017ee000-0x0000000001886000) (0MB)
+[151] 2015-02-19T13:02:50.140377-06:00 c0-0c1s1n2 EFI: mem08: type=3, attr=0xf, range=[0x0000000001886000-0x000000000188f000) (0MB)
+[151] 2015-02-19T13:02:50.180133-06:00 c0-0c1s1n2 EFI: mem09: type=4, attr=0xf, range=[0x000000000188f000-0x0000000001892000) (0MB)
+[151] 2015-02-19T13:02:50.180291-06:00 c0-0c1s1n2 EFI: mem10: type=3, attr=0xf, range=[0x0000000001892000-0x000000000189e000) (0MB)
+[151] 2015-02-19T13:02:50.180465-06:00 c0-0c1s1n2 EFI: mem11: type=4, attr=0xf, range=[0x000000000189e000-0x00000000018a9000) (0MB)
+[151] 2015-02-19T13:02:50.180621-06:00 c0-0c1s1n2 EFI: mem12: type=3, attr=0xf, range=[0x00000000018a9000-0x00000000018ab000) (0MB)
+[151] 2015-02-19T13:02:50.220106-06:00 c0-0c1s1n2 EFI: mem13: type=4, attr=0xf, range=[0x00000000018ab000-0x00000000018ad000) (0MB)
+[151] 2015-02-19T13:02:50.220247-06:00 c0-0c1s1n2 EFI: mem14: type=3, attr=0xf, range=[0x00000000018ad000-0x00000000018af000) (0MB)
+[151] 2015-02-19T13:02:50.227886-06:00 c0-0c1s1n2 EFI: mem15: type=4, attr=0xf, range=[0x00000000018af000-0x00000000018b7000) (0MB)
+[151] 2015-02-19T13:02:50.228043-06:00 c0-0c1s1n2 EFI: mem16: type=3, attr=0xf, range=[0x00000000018b7000-0x00000000018bb000) (0MB)
+[151] 2015-02-19T13:02:50.253135-06:00 c0-0c1s1n2 EFI: mem17: type=4, attr=0xf, range=[0x00000000018bb000-0x00000000018bd000) (0MB)
+[151] 2015-02-19T13:02:50.253329-06:00 c0-0c1s1n2 EFI: mem18: type=3, attr=0xf, range=[0x00000000018bd000-0x00000000018bf000) (0MB)
+[151] 2015-02-19T13:02:50.278351-06:00 c0-0c1s1n2 EFI: mem19: type=4, attr=0xf, range=[0x00000000018bf000-0x00000000018d1000) (0MB)
+[151] 2015-02-19T13:02:50.278568-06:00 c0-0c1s1n2 EFI: mem20: type=3, attr=0xf, range=[0x00000000018d1000-0x00000000018d7000) (0MB)
+[151] 2015-02-19T13:02:50.303636-06:00 c0-0c1s1n2 EFI: mem21: type=4, attr=0xf, range=[0x00000000018d7000-0x00000000018f9000) (0MB)
+[151] 2015-02-19T13:02:50.303828-06:00 c0-0c1s1n2 EFI: mem22: type=3, attr=0xf, range=[0x00000000018f9000-0x0000000001908000) (0MB)
+[151] 2015-02-19T13:02:50.328793-06:00 c0-0c1s1n2 EFI: mem23: type=4, attr=0xf, range=[0x0000000001908000-0x0000000001921000) (0MB)
+[151] 2015-02-19T13:02:50.329014-06:00 c0-0c1s1n2 EFI: mem24: type=3, attr=0xf, range=[0x0000000001921000-0x000000000192b000) (0MB)
+[151] 2015-02-19T13:02:50.368645-06:00 c0-0c1s1n2 EFI: mem25: type=4, attr=0xf, range=[0x000000000192b000-0x0000000001933000) (0MB)
+[151] 2015-02-19T13:02:50.368798-06:00 c0-0c1s1n2 EFI: mem26: type=3, attr=0xf, range=[0x0000000001933000-0x0000000001936000) (0MB)
+[151] 2015-02-19T13:02:50.408634-06:00 c0-0c1s1n2 EFI: mem27: type=4, attr=0xf, range=[0x0000000001936000-0x000000000193b000) (0MB)
+[151] 2015-02-19T13:02:50.408796-06:00 c0-0c1s1n2 EFI: mem28: type=3, attr=0xf, range=[0x000000000193b000-0x000000000193e000) (0MB)
+[151] 2015-02-19T13:02:50.408973-06:00 c0-0c1s1n2 EFI: mem29: type=4, attr=0xf, range=[0x000000000193e000-0x0000000001964000) (0MB)
+[151] 2015-02-19T13:02:50.409109-06:00 c0-0c1s1n2 EFI: mem30: type=3, attr=0xf, range=[0x0000000001964000-0x0000000001968000) (0MB)
+[151] 2015-02-19T13:02:50.452636-06:00 c0-0c1s1n2 EFI: mem31: type=4, attr=0xf, range=[0x0000000001968000-0x000000000198a000) (0MB)
+[151] 2015-02-19T13:02:50.452834-06:00 c0-0c1s1n2 EFI: mem32: type=3, attr=0xf, range=[0x000000000198a000-0x00000000019b0000) (0MB)
+[151] 2015-02-19T13:02:50.454935-06:00 c0-0c1s1n2 EFI: mem33: type=4, attr=0xf, range=[0x00000000019b0000-0x00000000019be000) (0MB)
+[151] 2015-02-19T13:02:50.455162-06:00 c0-0c1s1n2 EFI: mem34: type=3, attr=0xf, range=[0x00000000019be000-0x00000000019ce000) (0MB)
+[151] 2015-02-19T13:02:50.480267-06:00 c0-0c1s1n2 EFI: mem35: type=4, attr=0xf, range=[0x00000000019ce000-0x00000000019d0000) (0MB)
+[151] 2015-02-19T13:02:50.480511-06:00 c0-0c1s1n2 EFI: mem36: type=3, attr=0xf, range=[0x00000000019d0000-0x00000000019d7000) (0MB)
+[151] 2015-02-19T13:02:50.505610-06:00 c0-0c1s1n2 EFI: mem37: type=4, attr=0xf, range=[0x00000000019d7000-0x00000000019e1000) (0MB)
+[151] 2015-02-19T13:02:50.505723-06:00 c0-0c1s1n2 EFI: mem38: type=3, attr=0xf, range=[0x00000000019e1000-0x00000000019e5000) (0MB)
+[151] 2015-02-19T13:02:50.530749-06:00 c0-0c1s1n2 EFI: mem39: type=4, attr=0xf, range=[0x00000000019e5000-0x0000000001a02000) (0MB)
+[151] 2015-02-19T13:02:50.530934-06:00 c0-0c1s1n2 EFI: mem40: type=3, attr=0xf, range=[0x0000000001a02000-0x0000000001a06000) (0MB)
+[151] 2015-02-19T13:02:50.555991-06:00 c0-0c1s1n2 EFI: mem41: type=4, attr=0xf, range=[0x0000000001a06000-0x0000000001a0a000) (0MB)
+[151] 2015-02-19T13:02:50.556190-06:00 c0-0c1s1n2 EFI: mem42: type=3, attr=0xf, range=[0x0000000001a0a000-0x0000000001a1e000) (0MB)
+[151] 2015-02-19T13:02:50.581231-06:00 c0-0c1s1n2 EFI: mem43: type=4, attr=0xf, range=[0x0000000001a1e000-0x0000000001a22000) (0MB)
+[151] 2015-02-19T13:02:50.581442-06:00 c0-0c1s1n2 EFI: mem44: type=3, attr=0xf, range=[0x0000000001a22000-0x0000000001a26000) (0MB)
+[151] 2015-02-19T13:02:50.581645-06:00 c0-0c1s1n2 EFI: mem45: type=4, attr=0xf, range=[0x0000000001a26000-0x0000000001a34000) (0MB)
+[151] 2015-02-19T13:02:50.606552-06:00 c0-0c1s1n2 EFI: mem46: type=3, attr=0xf, range=[0x0000000001a34000-0x0000000001a3b000) (0MB)
+[151] 2015-02-19T13:02:50.631742-06:00 c0-0c1s1n2 EFI: mem47: type=4, attr=0xf, range=[0x0000000001a3b000-0x0000000001a42000) (0MB)
+[151] 2015-02-19T13:02:50.631938-06:00 c0-0c1s1n2 EFI: mem48: type=3, attr=0xf, range=[0x0000000001a42000-0x0000000001a4a000) (0MB)
+[151] 2015-02-19T13:02:50.656958-06:00 c0-0c1s1n2 EFI: mem49: type=4, attr=0xf, range=[0x0000000001a4a000-0x0000000001a4b000) (0MB)
+[151] 2015-02-19T13:02:50.657138-06:00 c0-0c1s1n2 EFI: mem50: type=3, attr=0xf, range=[0x0000000001a4b000-0x0000000001a4d000) (0MB)
+[151] 2015-02-19T13:02:50.657305-06:00 c0-0c1s1n2 EFI: mem51: type=4, attr=0xf, range=[0x0000000001a4d000-0x0000000001a52000) (0MB)
+[151] 2015-02-19T13:02:50.682263-06:00 c0-0c1s1n2 EFI: mem52: type=3, attr=0xf, range=[0x0000000001a52000-0x0000000001a69000) (0MB)
+[151] 2015-02-19T13:02:50.707405-06:00 c0-0c1s1n2 EFI: mem53: type=4, attr=0xf, range=[0x0000000001a69000-0x0000000001a6f000) (0MB)
+[151] 2015-02-19T13:02:50.707754-06:00 c0-0c1s1n2 EFI: mem54: type=3, attr=0xf, range=[0x0000000001a6f000-0x0000000001a70000) (0MB)
+[151] 2015-02-19T13:02:50.707839-06:00 c0-0c1s1n2 EFI: mem55: type=4, attr=0xf, range=[0x0000000001a70000-0x0000000001a71000) (0MB)
+[151] 2015-02-19T13:02:50.732727-06:00 c0-0c1s1n2 EFI: mem56: type=3, attr=0xf, range=[0x0000000001a71000-0x0000000001a79000) (0MB)
+[151] 2015-02-19T13:02:50.757829-06:00 c0-0c1s1n2 EFI: mem57: type=4, attr=0xf, range=[0x0000000001a79000-0x0000000001a7a000) (0MB)
+[151] 2015-02-19T13:02:50.757961-06:00 c0-0c1s1n2 EFI: mem58: type=3, attr=0xf, range=[0x0000000001a7a000-0x0000000001a83000) (0MB)
+[151] 2015-02-19T13:02:50.783045-06:00 c0-0c1s1n2 EFI: mem59: type=4, attr=0xf, range=[0x0000000001a83000-0x0000000001a85000) (0MB)
+[151] 2015-02-19T13:02:50.783263-06:00 c0-0c1s1n2 EFI: mem60: type=3, attr=0xf, range=[0x0000000001a85000-0x0000000001abe000) (0MB)
+[151] 2015-02-19T13:02:50.808345-06:00 c0-0c1s1n2 EFI: mem61: type=4, attr=0xf, range=[0x0000000001abe000-0x0000000001abf000) (0MB)
+[151] 2015-02-19T13:02:50.808542-06:00 c0-0c1s1n2 EFI: mem62: type=3, attr=0xf, range=[0x0000000001abf000-0x0000000001acc000) (0MB)
+[151] 2015-02-19T13:02:50.833560-06:00 c0-0c1s1n2 EFI: mem63: type=4, attr=0xf, range=[0x0000000001acc000-0x0000000001ad7000) (0MB)
+[151] 2015-02-19T13:02:50.833777-06:00 c0-0c1s1n2 EFI: mem64: type=3, attr=0xf, range=[0x0000000001ad7000-0x0000000001adc000) (0MB)
+[151] 2015-02-19T13:02:50.858855-06:00 c0-0c1s1n2 EFI: mem65: type=4, attr=0xf, range=[0x0000000001adc000-0x0000000001b60000) (0MB)
+[151] 2015-02-19T13:02:50.859068-06:00 c0-0c1s1n2 EFI: mem66: type=3, attr=0xf, range=[0x0000000001b60000-0x0000000001b7c000) (0MB)
+[151] 2015-02-19T13:02:50.896792-06:00 c0-0c1s1n2 EFI: mem67: type=4, attr=0xf, range=[0x0000000001b7c000-0x0000000001b84000) (0MB)
+[151] 2015-02-19T13:02:50.896949-06:00 c0-0c1s1n2 EFI: mem68: type=3, attr=0xf, range=[0x0000000001b84000-0x0000000001b9c000) (0MB)
+[151] 2015-02-19T13:02:50.936653-06:00 c0-0c1s1n2 EFI: mem69: type=4, attr=0xf, range=[0x0000000001b9c000-0x000000000b210000) (150MB)
+[151] 2015-02-19T13:02:50.936913-06:00 c0-0c1s1n2 EFI: mem70: type=3, attr=0xf, range=[0x000000000b210000-0x000000000b216000) (0MB)
+[151] 2015-02-19T13:02:50.937098-06:00 c0-0c1s1n2 EFI: mem71: type=4, attr=0xf, range=[0x000000000b216000-0x000000000b21f000) (0MB)
+[151] 2015-02-19T13:02:50.937275-06:00 c0-0c1s1n2 EFI: mem72: type=3, attr=0xf, range=[0x000000000b21f000-0x000000000b235000) (0MB)
+[151] 2015-02-19T13:02:50.976673-06:00 c0-0c1s1n2 EFI: mem73: type=4, attr=0xf, range=[0x000000000b235000-0x000000000b23b000) (0MB)
+[151] 2015-02-19T13:02:50.976836-06:00 c0-0c1s1n2 EFI: mem74: type=3, attr=0xf, range=[0x000000000b23b000-0x000000000b23e000) (0MB)
+[151] 2015-02-19T13:02:50.985110-06:00 c0-0c1s1n2 EFI: mem75: type=4, attr=0xf, range=[0x000000000b23e000-0x000000000b24c000) (0MB)
+[151] 2015-02-19T13:02:50.985295-06:00 c0-0c1s1n2 EFI: mem76: type=3, attr=0xf, range=[0x000000000b24c000-0x000000000b254000) (0MB)
+[151] 2015-02-19T13:02:51.010271-06:00 c0-0c1s1n2 EFI: mem77: type=4, attr=0xf, range=[0x000000000b254000-0x000000000b272000) (0MB)
+[151] 2015-02-19T13:02:51.010398-06:00 c0-0c1s1n2 EFI: mem78: type=3, attr=0xf, range=[0x000000000b272000-0x000000000b279000) (0MB)
+[151] 2015-02-19T13:02:51.010589-06:00 c0-0c1s1n2 EFI: mem79: type=4, attr=0xf, range=[0x000000000b279000-0x000000000b27d000) (0MB)
+[151] 2015-02-19T13:02:51.035515-06:00 c0-0c1s1n2 EFI: mem80: type=3, attr=0xf, range=[0x000000000b27d000-0x000000000b281000) (0MB)
+[151] 2015-02-19T13:02:51.035692-06:00 c0-0c1s1n2 EFI: mem81: type=4, attr=0xf, range=[0x000000000b281000-0x000000000b285000) (0MB)
+[151] 2015-02-19T13:02:51.060726-06:00 c0-0c1s1n2 EFI: mem82: type=3, attr=0xf, range=[0x000000000b285000-0x000000000b289000) (0MB)
+[151] 2015-02-19T13:02:51.085910-06:00 c0-0c1s1n2 EFI: mem83: type=4, attr=0xf, range=[0x000000000b289000-0x000000000b295000) (0MB)
+[151] 2015-02-19T13:02:51.086130-06:00 c0-0c1s1n2 EFI: mem84: type=3, attr=0xf, range=[0x000000000b295000-0x000000000b2dc000) (0MB)
+[151] 2015-02-19T13:02:51.124102-06:00 c0-0c1s1n2 EFI: mem85: type=4, attr=0xf, range=[0x000000000b2dc000-0x000000000b2de000) (0MB)
+[151] 2015-02-19T13:02:51.124286-06:00 c0-0c1s1n2 EFI: mem86: type=3, attr=0xf, range=[0x000000000b2de000-0x000000000b2e4000) (0MB)
+[151] 2015-02-19T13:02:51.164133-06:00 c0-0c1s1n2 EFI: mem87: type=4, attr=0xf, range=[0x000000000b2e4000-0x000000000b2f0000) (0MB)
+[151] 2015-02-19T13:02:51.164288-06:00 c0-0c1s1n2 EFI: mem88: type=3, attr=0xf, range=[0x000000000b2f0000-0x000000000b2f4000) (0MB)
+[151] 2015-02-19T13:02:51.164425-06:00 c0-0c1s1n2 EFI: mem89: type=4, attr=0xf, range=[0x000000000b2f4000-0x000000000b301000) (0MB)
+[151] 2015-02-19T13:02:51.164580-06:00 c0-0c1s1n2 EFI: mem90: type=3, attr=0xf, range=[0x000000000b301000-0x000000000b30a000) (0MB)
+[151] 2015-02-19T13:02:51.204104-06:00 c0-0c1s1n2 EFI: mem91: type=4, attr=0xf, range=[0x000000000b30a000-0x000000000b30b000) (0MB)
+[151] 2015-02-19T13:02:51.204282-06:00 c0-0c1s1n2 EFI: mem92: type=3, attr=0xf, range=[0x000000000b30b000-0x000000000b343000) (0MB)
+[151] 2015-02-19T13:02:51.204422-06:00 c0-0c1s1n2 EFI: mem93: type=4, attr=0xf, range=[0x000000000b343000-0x000000000b351000) (0MB)
+[151] 2015-02-19T13:02:51.212270-06:00 c0-0c1s1n2 EFI: mem94: type=3, attr=0xf, range=[0x000000000b351000-0x000000000b358000) (0MB)
+[151] 2015-02-19T13:02:51.252799-06:00 c0-0c1s1n2 EFI: mem95: type=4, attr=0xf, range=[0x000000000b358000-0x000000000b360000) (0MB)
+[151] 2015-02-19T13:02:51.252948-06:00 c0-0c1s1n2 EFI: mem96: type=3, attr=0xf, range=[0x000000000b360000-0x000000000b368000) (0MB)
+[151] 2015-02-19T13:02:51.292708-06:00 c0-0c1s1n2 EFI: mem97: type=4, attr=0xf, range=[0x000000000b368000-0x000000000b382000) (0MB)
+[151] 2015-02-19T13:02:51.292861-06:00 c0-0c1s1n2 EFI: mem98: type=3, attr=0xf, range=[0x000000000b382000-0x000000000b388000) (0MB)
+[151] 2015-02-19T13:02:51.293009-06:00 c0-0c1s1n2 EFI: mem99: type=4, attr=0xf, range=[0x000000000b388000-0x000000000b3a3000) (0MB)
+[151] 2015-02-19T13:02:51.293121-06:00 c0-0c1s1n2 EFI: mem100: type=3, attr=0xf, range=[0x000000000b3a3000-0x000000000b3b1000) (0MB)
+[151] 2015-02-19T13:02:51.332672-06:00 c0-0c1s1n2 EFI: mem101: type=4, attr=0xf, range=[0x000000000b3b1000-0x000000000b3b5000) (0MB)
+[151] 2015-02-19T13:02:51.332827-06:00 c0-0c1s1n2 EFI: mem102: type=3, attr=0xf, range=[0x000000000b3b5000-0x000000000b3c7000) (0MB)
+[151] 2015-02-19T13:02:51.338313-06:00 c0-0c1s1n2 EFI: mem103: type=4, attr=0xf, range=[0x000000000b3c7000-0x000000000b45b000) (0MB)
+[151] 2015-02-19T13:02:51.376675-06:00 c0-0c1s1n2 EFI: mem104: type=3, attr=0xf, range=[0x000000000b45b000-0x000000000b45e000) (0MB)
+[151] 2015-02-19T13:02:51.376813-06:00 c0-0c1s1n2 EFI: mem105: type=4, attr=0xf, range=[0x000000000b45e000-0x000000000b466000) (0MB)
+[151] 2015-02-19T13:02:51.376962-06:00 c0-0c1s1n2 EFI: mem106: type=3, attr=0xf, range=[0x000000000b466000-0x000000000b46a000) (0MB)
+[151] 2015-02-19T13:02:51.416685-06:00 c0-0c1s1n2 EFI: mem107: type=4, attr=0xf, range=[0x000000000b46a000-0x000000000b478000) (0MB)
+[151] 2015-02-19T13:02:51.416850-06:00 c0-0c1s1n2 EFI: mem108: type=3, attr=0xf, range=[0x000000000b478000-0x000000000b47f000) (0MB)
+[151] 2015-02-19T13:02:51.417000-06:00 c0-0c1s1n2 EFI: mem109: type=4, attr=0xf, range=[0x000000000b47f000-0x000000000b48e000) (0MB)
+[151] 2015-02-19T13:02:51.417122-06:00 c0-0c1s1n2 EFI: mem110: type=3, attr=0xf, range=[0x000000000b48e000-0x000000000b492000) (0MB)
+[151] 2015-02-19T13:02:51.456060-06:00 c0-0c1s1n2 EFI: mem111: type=4, attr=0xf, range=[0x000000000b492000-0x000000000b4b4000) (0MB)
+[151] 2015-02-19T13:02:51.456229-06:00 c0-0c1s1n2 EFI: mem112: type=3, attr=0xf, range=[0x000000000b4b4000-0x000000000b4b9000) (0MB)
+[151] 2015-02-19T13:02:51.464507-06:00 c0-0c1s1n2 EFI: mem113: type=4, attr=0xf, range=[0x000000000b4b9000-0x000000000b4c5000) (0MB)
+[151] 2015-02-19T13:02:51.464721-06:00 c0-0c1s1n2 EFI: mem114: type=7, attr=0xf, range=[0x000000000b4c5000-0x000000000b4c6000) (0MB)
+[151] 2015-02-19T13:02:51.489773-06:00 c0-0c1s1n2 EFI: mem115: type=4, attr=0xf, range=[0x000000000b4c6000-0x000000000b53a000) (0MB)
+[151] 2015-02-19T13:02:51.489964-06:00 c0-0c1s1n2 EFI: mem116: type=3, attr=0xf, range=[0x000000000b53a000-0x000000000b54e000) (0MB)
+[151] 2015-02-19T13:02:51.528202-06:00 c0-0c1s1n2 EFI: mem117: type=4, attr=0xf, range=[0x000000000b54e000-0x000000000b577000) (0MB)
+[151] 2015-02-19T13:02:51.528340-06:00 c0-0c1s1n2 EFI: mem118: type=3, attr=0xf, range=[0x000000000b577000-0x000000000b580000) (0MB)
+[151] 2015-02-19T13:02:51.528450-06:00 c0-0c1s1n2 EFI: mem119: type=4, attr=0xf, range=[0x000000000b580000-0x000000000b581000) (0MB)
+[151] 2015-02-19T13:02:51.568760-06:00 c0-0c1s1n2 EFI: mem120: type=2, attr=0xf, range=[0x000000000b581000-0x000000000b583000) (0MB)
+[151] 2015-02-19T13:02:51.568911-06:00 c0-0c1s1n2 EFI: mem121: type=7, attr=0xf, range=[0x000000000b583000-0x000000000b585000) (0MB)
+[151] 2015-02-19T13:02:51.569040-06:00 c0-0c1s1n2 EFI: mem122: type=4, attr=0xf, range=[0x000000000b585000-0x000000000b58f000) (0MB)
+[151] 2015-02-19T13:02:51.569158-06:00 c0-0c1s1n2 EFI: mem123: type=7, attr=0xf, range=[0x000000000b58f000-0x000000000b598000) (0MB)
+[151] 2015-02-19T13:02:51.608155-06:00 c0-0c1s1n2 EFI: mem124: type=4, attr=0xf, range=[0x000000000b598000-0x000000000b7ac000) (2MB)
+[151] 2015-02-19T13:02:51.608311-06:00 c0-0c1s1n2 EFI: mem125: type=7, attr=0xf, range=[0x000000000b7ac000-0x000000000b7ba000) (0MB)
+[151] 2015-02-19T13:02:51.616235-06:00 c0-0c1s1n2 EFI: mem126: type=1, attr=0xf, range=[0x000000000b7ba000-0x000000000b7cb000) (0MB)
+[151] 2015-02-19T13:02:51.616411-06:00 c0-0c1s1n2 EFI: mem127: type=7, attr=0xf, range=[0x000000000b7cb000-0x000000007e67c000) (1838MB)
+[151] 2015-02-19T13:02:51.641426-06:00 c0-0c1s1n2 EFI: mem128: type=10, attr=0xf, range=[0x000000007e67c000-0x000000007e790000) (1MB)
+[151] 2015-02-19T13:02:51.641606-06:00 c0-0c1s1n2 EFI: mem129: type=0, attr=0xf, range=[0x000000007e790000-0x000000007e792000) (0MB)
+[151] 2015-02-19T13:02:51.666582-06:00 c0-0c1s1n2 EFI: mem130: type=6, attr=0x800000000000000f, range=[0x000000007e792000-0x000000007f395000) (12MB)
+[151] 2015-02-19T13:02:51.691678-06:00 c0-0c1s1n2 EFI: mem131: type=9, attr=0xf, range=[0x000000007f395000-0x000000007f410000) (0MB)
+[151] 2015-02-19T13:02:51.691927-06:00 c0-0c1s1n2 EFI: mem132: type=5, attr=0x800000000000000f, range=[0x000000007f410000-0x000000007f41a000) (0MB)
+[151] 2015-02-19T13:02:51.716992-06:00 c0-0c1s1n2 EFI: mem133: type=0, attr=0xf, range=[0x000000007f41a000-0x000000007f41c000) (0MB)
+[151] 2015-02-19T13:02:51.717224-06:00 c0-0c1s1n2 EFI: mem134: type=6, attr=0x800000000000000f, range=[0x000000007f41c000-0x000000007f42d000) (0MB)
+[151] 2015-02-19T13:02:51.742355-06:00 c0-0c1s1n2 EFI: mem135: type=0, attr=0xf, range=[0x000000007f42d000-0x000000007f43d000) (0MB)
+[151] 2015-02-19T13:02:51.767459-06:00 c0-0c1s1n2 EFI: mem136: type=6, attr=0x800000000000000f, range=[0x000000007f43d000-0x000000007f45e000) (0MB)
+[151] 2015-02-19T13:02:51.767692-06:00 c0-0c1s1n2 EFI: mem137: type=5, attr=0x800000000000000f, range=[0x000000007f45e000-0x000000007f462000) (0MB)
+[151] 2015-02-19T13:02:51.792766-06:00 c0-0c1s1n2 EFI: mem138: type=0, attr=0xf, range=[0x000000007f462000-0x000000007f46b000) (0MB)
+[151] 2015-02-19T13:02:51.792974-06:00 c0-0c1s1n2 EFI: mem139: type=5, attr=0x800000000000000f, range=[0x000000007f46b000-0x000000007f46d000) (0MB)
+[151] 2015-02-19T13:02:51.818010-06:00 c0-0c1s1n2 EFI: mem140: type=0, attr=0xf, range=[0x000000007f46d000-0x000000007f471000) (0MB)
+[151] 2015-02-19T13:02:51.856200-06:00 c0-0c1s1n2 EFI: mem141: type=5, attr=0x800000000000000f, range=[0x000000007f471000-0x000000007f472000) (0MB)
+[151] 2015-02-19T13:02:51.856403-06:00 c0-0c1s1n2 EFI: mem142: type=6, attr=0x800000000000000f, range=[0x000000007f472000-0x000000007f473000) (0MB)
+[151] 2015-02-19T13:02:51.856649-06:00 c0-0c1s1n2 EFI: mem143: type=5, attr=0x800000000000000f, range=[0x000000007f473000-0x000000007f476000) (0MB)
+[151] 2015-02-19T13:02:51.896769-06:00 c0-0c1s1n2 EFI: mem144: type=0, attr=0xf, range=[0x000000007f476000-0x000000007f486000) (0MB)
+[151] 2015-02-19T13:02:51.896973-06:00 c0-0c1s1n2 EFI: mem145: type=5, attr=0x800000000000000f, range=[0x000000007f486000-0x000000007f491000) (0MB)
+[151] 2015-02-19T13:02:51.897149-06:00 c0-0c1s1n2 EFI: mem146: type=7, attr=0xf, range=[0x000000007f491000-0x000000007f493000) (0MB)
+[151] 2015-02-19T13:02:51.897326-06:00 c0-0c1s1n2 EFI: mem147: type=10, attr=0xf, range=[0x000000007f493000-0x000000007f494000) (0MB)
+[151] 2015-02-19T13:02:51.936279-06:00 c0-0c1s1n2 EFI: mem148: type=6, attr=0x800000000000000f, range=[0x000000007f494000-0x000000007f49b000) (0MB)
+[151] 2015-02-19T13:02:51.936453-06:00 c0-0c1s1n2 EFI: mem149: type=5, attr=0x800000000000000f, range=[0x000000007f49b000-0x000000007f49e000) (0MB)
+[151] 2015-02-19T13:02:51.944106-06:00 c0-0c1s1n2 EFI: mem150: type=10, attr=0xf, range=[0x000000007f49e000-0x000000007f4a6000) (0MB)
+[151] 2015-02-19T13:02:51.969286-06:00 c0-0c1s1n2 EFI: mem151: type=6, attr=0x800000000000000f, range=[0x000000007f4a6000-0x000000007f4a7000) (0MB)
+[151] 2015-02-19T13:02:51.969484-06:00 c0-0c1s1n2 EFI: mem152: type=5, attr=0x800000000000000f, range=[0x000000007f4a7000-0x000000007f4ab000) (0MB)
+[151] 2015-02-19T13:02:51.994635-06:00 c0-0c1s1n2 EFI: mem153: type=6, attr=0x800000000000000f, range=[0x000000007f4ab000-0x000000007f4bd000) (0MB)
+[151] 2015-02-19T13:02:52.019783-06:00 c0-0c1s1n2 EFI: mem154: type=5, attr=0x800000000000000f, range=[0x000000007f4bd000-0x000000007f4cf000) (0MB)
+[151] 2015-02-19T13:02:52.019932-06:00 c0-0c1s1n2 EFI: mem155: type=6, attr=0x800000000000000f, range=[0x000000007f4cf000-0x000000007f4d2000) (0MB)
+[151] 2015-02-19T13:02:52.020080-06:00 c0-0c1s1n2 EFI: mem156: type=10, attr=0xf, range=[0x000000007f4d2000-0x000000007f558000) (0MB)
+[151] 2015-02-19T13:02:52.045564-06:00 c0-0c1s1n2 EFI: mem157: type=3, attr=0xf, range=[0x000000007f558000-0x000000007f7e0000) (2MB)
+[151] 2015-02-19T13:02:52.070293-06:00 c0-0c1s1n2 EFI: mem158: type=4, attr=0xf, range=[0x000000007f7e0000-0x000000007f7ef000) (0MB)
+[151] 2015-02-19T13:02:52.070506-06:00 c0-0c1s1n2 EFI: mem159: type=3, attr=0xf, range=[0x000000007f7ef000-0x000000007f800000) (0MB)
+[151] 2015-02-19T13:02:52.095574-06:00 c0-0c1s1n2 EFI: mem160: type=7, attr=0xf, range=[0x0000000100000000-0x0000001080000000) (63488MB)
+[151] 2015-02-19T13:02:52.095792-06:00 c0-0c1s1n2 EFI: mem161: type=11, attr=0x8000000000000001, range=[0x0000000080000000-0x0000000090000000) (256MB)
+[151] 2015-02-19T13:02:52.120719-06:00 c0-0c1s1n2 EFI: mem162: type=11, attr=0x8000000000000001, range=[0x00000000fed1c000-0x00000000fed20000) (0MB)
+[151] 2015-02-19T13:02:52.120973-06:00 c0-0c1s1n2 EFI: mem163: type=11, attr=0x8000000000000001, range=[0x00000000ff000000-0x0000000100000000) (16MB)
+[152] 2015-02-19T13:02:52.121103-06:00 c0-0c1s1n2 DMI 2.7 present.
+[153] 2015-02-19T13:02:52.146019-06:00 c0-0c1s1n2 last_pfn = 0x1080000 max_arch_pfn = 0x400000000
+[154] 2015-02-19T13:02:52.171174-06:00 c0-0c1s1n2 x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+[153] 2015-02-19T13:02:52.171423-06:00 c0-0c1s1n2 last_pfn = 0x7f800 max_arch_pfn = 0x400000000
+[155] 2015-02-19T13:02:52.171553-06:00 c0-0c1s1n2 found SMP MP-table at [ffff8800000fd830] fd830
+[156] 2015-02-19T13:02:52.171655-06:00 c0-0c1s1n2 Using GB pages for direct mapping
+[157] 2015-02-19T13:02:52.196597-06:00 c0-0c1s1n2 init_memory_mapping: 0000000000000000-000000007f800000
+[157] 2015-02-19T13:02:52.196779-06:00 c0-0c1s1n2 init_memory_mapping: 0000000100000000-0000001080000000
+[158] 2015-02-19T13:02:52.196910-06:00 c0-0c1s1n2 nmi ring buffer: 262144
+[159] 2015-02-19T13:02:52.197041-06:00 c0-0c1s1n2 RAMDISK: 0fa00000 - 1060f000
+[160] 2015-02-19T13:02:52.221849-06:00 c0-0c1s1n2 ACPI: RSDP 000000007f395000 00024 (v02 ALASKA)
+[161] 2015-02-19T13:02:52.222154-06:00 c0-0c1s1n2 ACPI: XSDT 000000007f395088 0008C (v01 ALASKA    A M I 01072009 AMI  00010013)
+[161] 2015-02-19T13:02:52.246990-06:00 c0-0c1s1n2 ACPI: FACP 000000007f39ee50 000F4 (v04 ALASKA    A M I 01072009 AMI  00010013)
+[162] 2015-02-19T13:02:52.247262-06:00 c0-0c1s1n2 ACPI: DSDT 000000007f3951a0 09CAD (v02 ALASKA    A M I 00000016 INTL 20051117)
+[163] 2015-02-19T13:02:52.247390-06:00 c0-0c1s1n2 ACPI: FACS 000000007f4a3f80 00040
+[161] 2015-02-19T13:02:52.272336-06:00 c0-0c1s1n2 ACPI: APIC 000000007f39ef48 00138 (v03 ALASKA    A M I 01072009 AMI  00010013)
+[161] 2015-02-19T13:02:52.272619-06:00 c0-0c1s1n2 ACPI: FPDT 000000007f39f080 00044 (v01 ALASKA    A M I 01072009 AMI  00010013)
+[164] 2015-02-19T13:02:52.297499-06:00 c0-0c1s1n2 ACPI: MCFG 000000007f39f0c8 0003C (v01 ALASKA OEMMCFG. 01072009 MSFT 00000097)
+[165] 2015-02-19T13:02:52.297685-06:00 c0-0c1s1n2 ACPI: HPET 000000007f39f108 00038 (v01 ALASKA    A M I 01072009 AMI. 00000004)
+[166] 2015-02-19T13:02:52.322814-06:00 c0-0c1s1n2 ACPI: PRAD 000000007f39f140 000BE (v02 PRADID  PRADTID 00000001 MSFT 03000001)
+[167] 2015-02-19T13:02:52.323056-06:00 c0-0c1s1n2 ACPI: SSDT 000000007f39f200 70104 (v02  INTEL    CpuPm 00004000 INTL 20051117)
+[168] 2015-02-19T13:02:52.323198-06:00 c0-0c1s1n2 ACPI: SPCR 000000007f40f308 00050 (v01  A M I   APTIO4 01072009 AMI. 00000004)
+[169] 2015-02-19T13:02:52.348081-06:00 c0-0c1s1n2 ACPI: EINJ 000000007f40f358 00130 (v01    AMI AMI EINJ 00000000      00000000)
+[170] 2015-02-19T13:02:52.373171-06:00 c0-0c1s1n2 ACPI: ERST 000000007f40f488 00230 (v01  AMIER AMI ERST 00000000      00000000)
+[171] 2015-02-19T13:02:52.373415-06:00 c0-0c1s1n2 ACPI: HEST 000000007f40f6b8 000A8 (v01    AMI AMI HEST 00000000      00000000)
+[169] 2015-02-19T13:02:52.398457-06:00 c0-0c1s1n2 ACPI: BERT 000000007f40f760 00030 (v01    AMI AMI BERT 00000000      00000000)
+[172] 2015-02-19T13:02:52.398652-06:00 c0-0c1s1n2 ACPI: DMAR 000000007f40f790 000BC (v01 A M I   OEMDMAR 00000001 INTL 00000001)
+[173] 2015-02-19T13:02:52.398759-06:00 c0-0c1s1n2 No NUMA configuration found
+[174] 2015-02-19T13:02:52.423625-06:00 c0-0c1s1n2 Faking a node at 0000000000000000-0000001080000000
+[175] 2015-02-19T13:02:52.423809-06:00 c0-0c1s1n2 Initmem setup node 0 0000000000000000-0000001080000000
+[176] 2015-02-19T13:02:52.423970-06:00 c0-0c1s1n2  NODE_DATA [000000107ffbb000 - 000000107ffbffff]
+[177] 2015-02-19T13:02:52.633310-06:00 c0-0c1s1n2 Zone PFN ranges:
+[178] 2015-02-19T13:02:52.633392-06:00 c0-0c1s1n2  DMA      0x00000010 -> 0x00001000
+[179] 2015-02-19T13:02:52.658460-06:00 c0-0c1s1n2  DMA32    0x00001000 -> 0x00100000
+[180] 2015-02-19T13:02:52.658605-06:00 c0-0c1s1n2  Normal   0x00100000 -> 0x01080000
+[181] 2015-02-19T13:02:52.658716-06:00 c0-0c1s1n2 Movable zone start PFN for each node
+[182] 2015-02-19T13:02:52.658823-06:00 c0-0c1s1n2 early_node_map[5] active PFN ranges
+[183] 2015-02-19T13:02:52.658962-06:00 c0-0c1s1n2    0: 0x00000010 -> 0x000000a0
+[183] 2015-02-19T13:02:52.683662-06:00 c0-0c1s1n2    0: 0x00000100 -> 0x0007e67c
+[183] 2015-02-19T13:02:52.683830-06:00 c0-0c1s1n2    0: 0x0007f491 -> 0x0007f493
+[183] 2015-02-19T13:02:52.683965-06:00 c0-0c1s1n2    0: 0x0007f558 -> 0x0007f800
+[183] 2015-02-19T13:02:52.684126-06:00 c0-0c1s1n2    0: 0x00100000 -> 0x01080000
+[184] 2015-02-19T13:02:53.315108-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[184] 2015-02-19T13:02:53.315209-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+[184] 2015-02-19T13:02:53.340350-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x04] lapic_id[0x04] enabled)
+[184] 2015-02-19T13:02:53.340480-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x06] lapic_id[0x06] enabled)
+[184] 2015-02-19T13:02:53.365532-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x08] lapic_id[0x08] enabled)
+[184] 2015-02-19T13:02:53.365712-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x0a] enabled)
+[184] 2015-02-19T13:02:53.365854-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x0c] enabled)
+[184] 2015-02-19T13:02:53.390862-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x0e] enabled)
+[184] 2015-02-19T13:02:53.391014-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+[184] 2015-02-19T13:02:53.391203-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+[184] 2015-02-19T13:02:53.416185-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x05] lapic_id[0x05] enabled)
+[184] 2015-02-19T13:02:53.416195-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x07] lapic_id[0x07] enabled)
+[184] 2015-02-19T13:02:53.416313-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x09] lapic_id[0x09] enabled)
+[184] 2015-02-19T13:02:53.416479-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x0b] enabled)
+[184] 2015-02-19T13:02:53.441415-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x0d] enabled)
+[184] 2015-02-19T13:02:53.441618-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0f] lapic_id[0x0f] enabled)
+[185] 2015-02-19T13:02:53.441781-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.466666-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.466870-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.467023-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.491871-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.492090-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.492310-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.492421-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.517142-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.517378-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.542241-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.542410-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.542585-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.542751-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.567586-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[185] 2015-02-19T13:02:53.567750-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[186] 2015-02-19T13:02:53.568029-06:00 c0-0c1s1n2 ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+[187] 2015-02-19T13:02:53.593226-06:00 c0-0c1s1n2 IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23
+[186] 2015-02-19T13:02:53.593433-06:00 c0-0c1s1n2 ACPI: IOAPIC (id[0x02] address[0xfec01000] gsi_base[24])
+[187] 2015-02-19T13:02:53.618313-06:00 c0-0c1s1n2 IOAPIC[1]: apic_id 2, version 32, address 0xfec01000, GSI 24-47
+[188] 2015-02-19T13:02:53.618494-06:00 c0-0c1s1n2 ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[189] 2015-02-19T13:02:53.618732-06:00 c0-0c1s1n2 ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[190] 2015-02-19T13:02:53.643578-06:00 c0-0c1s1n2 Using ACPI (MADT) for SMP configuration information
+[191] 2015-02-19T13:02:53.643718-06:00 c0-0c1s1n2 ACPI: HPET id: 0x8086a701 base: 0xfed00000
+[192] 2015-02-19T13:02:53.643839-06:00 c0-0c1s1n2 SMP: Allowing 16 CPUs, 0 hotplug CPUs
+[193] 2015-02-19T13:02:53.644067-06:00 c0-0c1s1n2 Allocating PCI resources starting at 90000000 (gap: 90000000:6ed1c000)
+[194] 2015-02-19T13:02:53.669033-06:00 c0-0c1s1n2 setup_percpu: NR_CPUS:128 nr_cpumask_bits:128 nr_cpu_ids:16 nr_node_ids:1
+[195] 2015-02-19T13:02:53.669284-06:00 c0-0c1s1n2 PERCPU: Embedded 25 pages/cpu @ffff88107fa00000 s72704 r8192 d21504 u131072
+[196] 2015-02-19T13:02:53.694132-06:00 c0-0c1s1n2 Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16534701
+[197] 2015-02-19T13:02:53.694179-06:00 c0-0c1s1n2 Policy zone: Normal
+[198] 2015-02-19T13:02:53.769948-06:00 c0-0c1s1n2 Kernel command line: earlyprintk=serial,115200 load_ramdisk=1 ramdisk_size=80000 console=ttyS0,115200n8 bootnodeip=10.131.255.254 bootproto=ipog bootpath=/rr/current rootfs=nfs-shared root=/dev/disk/by-id/scsi-3600a09800063789e0000008b54c3a04c-part1 oops=panic bootifnetmask=255.252.0.0 elevator=noop ippob1=10 ippob2=128 pcie_ports=native iommu=on intel_iommu=off bad_page=panic pln_enable=off apei_disable hest_disable erst_disable ghes_disable cgroup_disable=memory active_wlm=ALPS sdbnodeip=10.131.255.253 sessionid=p0-20150219t115150 _cray=marker_ 
+[199] 2015-02-19T13:02:53.769963-06:00 c0-0c1s1n2 Intel-IOMMU: disabled
+[200] 2015-02-19T13:02:53.794928-06:00 c0-0c1s1n2 Disabling memory control group subsystem
+[201] 2015-02-19T13:02:53.795050-06:00 c0-0c1s1n2 PID hash table entries: 4096 (order: 3, 32768 bytes)
+[202] 2015-02-19T13:02:53.820166-06:00 c0-0c1s1n2 xsave/xrstor: enabled xstate_bv 0x7, cntxt size 0x340
+[203] 2015-02-19T13:02:54.202872-06:00 c0-0c1s1n2 Memory: 66065384k/69206016k available (5522k kernel code, 2121000k absent, 1019632k reserved, 5307k data, 692k init)
+[204] 2015-02-19T13:02:54.202942-06:00 c0-0c1s1n2 Hierarchical RCU implementation.
+[205] 2015-02-19T13:02:54.227935-06:00 c0-0c1s1n2 NR_IRQS:4352
+[206] 2015-02-19T13:02:54.278382-06:00 c0-0c1s1n2 Extended CMOS year: 2000
+[207] 2015-02-19T13:02:54.278552-06:00 c0-0c1s1n2 Console: colour dummy device 80x25
+[208] 2015-02-19T13:02:54.278650-06:00 c0-0c1s1n2 console [ttyS0] enabled, bootconsole disabled
+[208] 2015-02-19T13:02:54.303707-06:00 c0-0c1s1n2 console [ttyS0] enabled, bootconsole disabled
+[209] 2015-02-19T13:02:54.328979-06:00 c0-0c1s1n2 Fast TSC calibration using PIT
+[210] 2015-02-19T13:02:54.329098-06:00 c0-0c1s1n2 Detected 2599.890 MHz processor.
+[211] 2015-02-19T13:02:54.329274-06:00 c0-0c1s1n2 Calibrating delay loop (skipped), value calculated using timer frequency.. 5199.78 BogoMIPS (lpj=10399560)
+[212] 2015-02-19T13:02:54.354120-06:00 c0-0c1s1n2 pid_max: default: 32768 minimum: 301
+[213] 2015-02-19T13:02:54.404577-06:00 c0-0c1s1n2 Dentry cache hash table entries: 8388608 (order: 14, 67108864 bytes)
+[214] 2015-02-19T13:02:54.429960-06:00 c0-0c1s1n2 Inode-cache hash table entries: 4194304 (order: 13, 33554432 bytes)
+[215] 2015-02-19T13:02:54.455322-06:00 c0-0c1s1n2 Mount-cache hash table entries: 256
+[137] 2015-02-19T13:02:54.455403-06:00 c0-0c1s1n2 Initializing cgroup subsys cpuacct
+[216] 2015-02-19T13:02:54.455528-06:00 c0-0c1s1n2 Initializing cgroup subsys memory
+[217] 2015-02-19T13:02:54.455625-06:00 c0-0c1s1n2 Initializing cgroup subsys devices
+[218] 2015-02-19T13:02:54.480238-06:00 c0-0c1s1n2 Initializing cgroup subsys perf_event
+[219] 2015-02-19T13:02:54.480446-06:00 c0-0c1s1n2 CPU: Physical Processor ID: 0
+[220] 2015-02-19T13:02:54.480516-06:00 c0-0c1s1n2 CPU: Processor Core ID: 0
+[221] 2015-02-19T13:02:54.480632-06:00 c0-0c1s1n2 mce: CPU supports 20 MCE banks
+[222] 2015-02-19T13:02:54.480822-06:00 c0-0c1s1n2 CPU0: Thermal monitoring enabled (TM1)
+[223] 2015-02-19T13:02:54.480888-06:00 c0-0c1s1n2 using mwait in idle threads.
+[224] 2015-02-19T13:02:54.505508-06:00 c0-0c1s1n2 ACPI: Core revision 20110413
+[225] 2015-02-19T13:02:54.556117-06:00 c0-0c1s1n2 ftrace: allocating 20236 entries in 80 pages
+[226] 2015-02-19T13:02:54.556473-06:00 c0-0c1s1n2 DMAR: Host address width 46
+[227] 2015-02-19T13:02:54.581392-06:00 c0-0c1s1n2 DMAR: DRHD base: 0x000000fbffc000 flags: 0x1
+[228] 2015-02-19T13:02:54.581597-06:00 c0-0c1s1n2 IOMMU 0: reg_base_addr fbffc000 ver 1:0 cap d2078c106f0462 ecap f020fe
+[229] 2015-02-19T13:02:54.606478-06:00 c0-0c1s1n2 DMAR: RMRR base: 0x0000007f430000 end: 0x0000007f43cfff
+[230] 2015-02-19T13:02:54.606556-06:00 c0-0c1s1n2 DMAR: ATSR flags: 0x0
+[231] 2015-02-19T13:02:54.606696-06:00 c0-0c1s1n2 DMAR: RHSA base: 0x000000fbffc000 proximity domain: 0x0
+[232] 2015-02-19T13:02:54.606846-06:00 c0-0c1s1n2 Switched APIC routing to physical flat.
+[233] 2015-02-19T13:02:54.631827-06:00 c0-0c1s1n2 ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[234] 2015-02-19T13:02:54.682218-06:00 c0-0c1s1n2 CPU0: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz stepping 07
+[235] 2015-02-19T13:02:54.911427-06:00 c0-0c1s1n2 Performance Events: PEBS fmt1+, 16-deep LBR, SandyBridge events, full-width counters, Intel PMU driver.
+[236] 2015-02-19T13:02:54.911482-06:00 c0-0c1s1n2 ... version:                3
+[237] 2015-02-19T13:02:54.911536-06:00 c0-0c1s1n2 ... bit width:              48
+[238] 2015-02-19T13:02:54.936602-06:00 c0-0c1s1n2 ... generic registers:      4
+[239] 2015-02-19T13:02:54.936663-06:00 c0-0c1s1n2 ... value mask:             0000ffffffffffff
+[240] 2015-02-19T13:02:54.936738-06:00 c0-0c1s1n2 ... max period:             0000ffffffffffff
+[241] 2015-02-19T13:02:54.936791-06:00 c0-0c1s1n2 ... fixed-purpose events:   3
+[242] 2015-02-19T13:02:54.961782-06:00 c0-0c1s1n2 ... event mask:             000000070000000f
+[243] 2015-02-19T13:02:55.412917-06:00 c0-0c1s1n2 Booting Node   0, Processors  #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11 #12 #13 #14 #15 Ok.
+[244] 2015-02-19T13:02:55.438172-06:00 c0-0c1s1n2 Brought up 16 CPUs
+[245] 2015-02-19T13:02:55.438226-06:00 c0-0c1s1n2 Total of 16 processors activated (83196.48 BogoMIPS).
+[246] 2015-02-19T13:02:55.488728-06:00 c0-0c1s1n2 NET: Registered protocol family 16
+[247] 2015-02-19T13:02:55.513894-06:00 c0-0c1s1n2 ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[248] 2015-02-19T13:02:55.513971-06:00 c0-0c1s1n2 ACPI: bus type pci registered
+[249] 2015-02-19T13:02:55.539092-06:00 c0-0c1s1n2 PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0x80000000-0x8fffffff] (base 0x80000000)
+[250] 2015-02-19T13:02:55.539225-06:00 c0-0c1s1n2 PCI: MMCONFIG at [mem 0x80000000-0x8fffffff] reserved in E820
+[251] 2015-02-19T13:02:55.564363-06:00 c0-0c1s1n2 PCI: Using configuration type 1 for base access
+[252] 2015-02-19T13:02:55.564420-06:00 c0-0c1s1n2 bio: create slab <bio-0> at 0
+[253] 2015-02-19T13:02:55.614781-06:00 c0-0c1s1n2 ACPI: Executed 1 blocks of module-level executable AML code
+[254] 2015-02-19T13:02:55.805533-06:00 c0-0c1s1n2 ACPI: Interpreter enabled
+[255] 2015-02-19T13:02:55.830759-06:00 c0-0c1s1n2 ACPI: (supports S0 S1 S3 S5)
+[256] 2015-02-19T13:02:55.830855-06:00 c0-0c1s1n2 ACPI: Using IOAPIC for interrupt routing
+[257] 2015-02-19T13:02:55.856185-06:00 c0-0c1s1n2 ACPI: No dock devices found.
+[258] 2015-02-19T13:02:55.856236-06:00 c0-0c1s1n2 HEST: Table parsing disabled.
+[259] 2015-02-19T13:02:55.881384-06:00 c0-0c1s1n2 PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[260] 2015-02-19T13:02:55.881629-06:00 c0-0c1s1n2 ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[261] 2015-02-19T13:02:55.906560-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [io  0x0000-0x03af]
+[261] 2015-02-19T13:02:55.906804-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [io  0x03e0-0x0cf7]
+[261] 2015-02-19T13:02:55.931904-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [io  0x0d00-0xffff]
+[262] 2015-02-19T13:02:55.932089-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [mem 0x000c0000-0x000dffff]
+[262] 2015-02-19T13:02:55.932266-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [mem 0x80000000-0xfbffffff]
+[262] 2015-02-19T13:02:55.957191-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [mem 0x1080000000-0x3c3fffffffff]
+[263] 2015-02-19T13:02:55.957368-06:00 c0-0c1s1n2 pci 0000:00:02.0: PCI bridge to [bus 01-01]
+[263] 2015-02-19T13:02:55.982368-06:00 c0-0c1s1n2 pci 0000:00:03.0: PCI bridge to [bus 02-02]
+[263] 2015-02-19T13:02:55.982573-06:00 c0-0c1s1n2 pci 0000:00:03.2: PCI bridge to [bus 03-03]
+[263] 2015-02-19T13:02:55.982788-06:00 c0-0c1s1n2 pci 0000:00:11.0: PCI bridge to [bus 04-04]
+[264] 2015-02-19T13:02:56.007582-06:00 c0-0c1s1n2 pci 0000:00:1e.0: PCI bridge to [bus 05-05] (subtractive decode)
+[265] 2015-02-19T13:02:56.007794-06:00 c0-0c1s1n2 pci0000:00: Unable to request _OSC control (_OSC support mask: 0x19)
+[266] 2015-02-19T13:02:56.032981-06:00 c0-0c1s1n2 ACPI: PCI Root Bridge [UNC0] (domain 0000 [bus ff])
+[265] 2015-02-19T13:02:56.058102-06:00 c0-0c1s1n2 pci0000:ff: Unable to request _OSC control (_OSC support mask: 0x19)
+[267] 2015-02-19T13:02:56.058342-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 10 *11 12 14 15)
+[681] 2015-02-19T13:02:56.083368-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 *10 11 12 14 15)
+[270] 2015-02-19T13:02:56.108767-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 *5 6 10 11 12 14 15)
+[682] 2015-02-19T13:02:56.108966-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKD] (IRQs *3 4 5 6 10 11 12 14 15)
+[271] 2015-02-19T13:02:56.109129-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 10 11 12 14 15) *0
+[271] 2015-02-19T13:02:56.134097-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 10 11 12 14 15) *0
+[271] 2015-02-19T13:02:56.134322-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 10 11 12 14 15) *0
+[272] 2015-02-19T13:02:56.134561-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 *7 10 11 12 14 15)
+[273] 2015-02-19T13:02:56.134599-06:00 c0-0c1s1n2 vgaarb: loaded
+[274] 2015-02-19T13:02:56.159340-06:00 c0-0c1s1n2 SCSI subsystem initialized
+[275] 2015-02-19T13:02:56.159507-06:00 c0-0c1s1n2 PCI: Using ACPI for IRQ routing
+[276] 2015-02-19T13:02:56.159730-06:00 c0-0c1s1n2 Switching to clocksource hpet
+[163] 2015-02-19T13:02:56.184695-06:00 c0-0c1s1n2 pnp: PnP ACPI init
+[248] 2015-02-19T13:02:56.184845-06:00 c0-0c1s1n2 ACPI: bus type pnp registered
+[277] 2015-02-19T13:02:56.210196-06:00 c0-0c1s1n2 system 00:01: [mem 0xfc000000-0xfcffffff] has been reserved
+[277] 2015-02-19T13:02:56.248763-06:00 c0-0c1s1n2 system 00:01: [mem 0xfd000000-0xfdffffff] has been reserved
+[277] 2015-02-19T13:02:56.248928-06:00 c0-0c1s1n2 system 00:01: [mem 0xfe000000-0xfeafffff] has been reserved
+[277] 2015-02-19T13:02:56.249083-06:00 c0-0c1s1n2 system 00:01: [mem 0xfeb00000-0xfebfffff] has been reserved
+[278] 2015-02-19T13:02:56.288733-06:00 c0-0c1s1n2 system 00:01: [mem 0xfed00400-0xfed3ffff] could not be reserved
+[277] 2015-02-19T13:02:56.288893-06:00 c0-0c1s1n2 system 00:01: [mem 0xfed45000-0xfedfffff] has been reserved
+[277] 2015-02-19T13:02:56.289030-06:00 c0-0c1s1n2 system 00:02: [mem 0xfbffc000-0xfbffdfff] has been reserved
+[279] 2015-02-19T13:02:56.289186-06:00 c0-0c1s1n2 system 00:06: [io  0x04d0-0x04d1] has been reserved
+[279] 2015-02-19T13:02:56.289320-06:00 c0-0c1s1n2 system 00:08: [io  0x0400-0x0453] has been reserved
+[279] 2015-02-19T13:02:56.289462-06:00 c0-0c1s1n2 system 00:08: [io  0x0458-0x047f] has been reserved
+[279] 2015-02-19T13:02:56.328776-06:00 c0-0c1s1n2 system 00:08: [io  0x1180-0x119f] has been reserved
+[279] 2015-02-19T13:02:56.328905-06:00 c0-0c1s1n2 system 00:08: [io  0x0500-0x057f] has been reserved
+[277] 2015-02-19T13:02:56.336142-06:00 c0-0c1s1n2 system 00:08: [mem 0xfed1c000-0xfed1ffff] has been reserved
+[278] 2015-02-19T13:02:56.336379-06:00 c0-0c1s1n2 system 00:08: [mem 0xfec00000-0xfecfffff] could not be reserved
+[277] 2015-02-19T13:02:56.336586-06:00 c0-0c1s1n2 system 00:08: [mem 0xfed08000-0xfed08fff] has been reserved
+[277] 2015-02-19T13:02:56.361526-06:00 c0-0c1s1n2 system 00:08: [mem 0xff000000-0xffffffff] has been reserved
+[279] 2015-02-19T13:02:56.386570-06:00 c0-0c1s1n2 system 00:09: [io  0x0454-0x0457] has been reserved
+[280] 2015-02-19T13:02:56.386754-06:00 c0-0c1s1n2 pnp: PnP ACPI: found 12 devices
+[281] 2015-02-19T13:02:56.386883-06:00 c0-0c1s1n2 ACPI: ACPI bus type pnp unregistered
+[263] 2015-02-19T13:02:56.387115-06:00 c0-0c1s1n2 pci 0000:00:02.0: PCI bridge to [bus 01-01]
+[282] 2015-02-19T13:02:56.411815-06:00 c0-0c1s1n2 pci 0000:00:02.0:   bridge window [io  disabled]
+[283] 2015-02-19T13:02:56.412100-06:00 c0-0c1s1n2 pci 0000:00:02.0:   bridge window [mem disabled]
+[284] 2015-02-19T13:02:56.437212-06:00 c0-0c1s1n2 pci 0000:00:02.0:   bridge window [mem 0x3c0000000000-0x3c20000fffff 64bit pref]
+[263] 2015-02-19T13:02:56.437394-06:00 c0-0c1s1n2 pci 0000:00:03.0: PCI bridge to [bus 02-02]
+[282] 2015-02-19T13:02:56.437557-06:00 c0-0c1s1n2 pci 0000:00:03.0:   bridge window [io  disabled]
+[283] 2015-02-19T13:02:56.437698-06:00 c0-0c1s1n2 pci 0000:00:03.0:   bridge window [mem disabled]
+[287] 2015-02-19T13:02:56.462543-06:00 c0-0c1s1n2 pci 0000:00:03.0:   bridge window [mem pref disabled]
+[263] 2015-02-19T13:02:56.462739-06:00 c0-0c1s1n2 pci 0000:00:03.2: PCI bridge to [bus 03-03]
+[282] 2015-02-19T13:02:56.487570-06:00 c0-0c1s1n2 pci 0000:00:03.2:   bridge window [io  disabled]
+[283] 2015-02-19T13:02:56.487785-06:00 c0-0c1s1n2 pci 0000:00:03.2:   bridge window [mem disabled]
+[287] 2015-02-19T13:02:56.488029-06:00 c0-0c1s1n2 pci 0000:00:03.2:   bridge window [mem pref disabled]
+[263] 2015-02-19T13:02:56.512903-06:00 c0-0c1s1n2 pci 0000:00:11.0: PCI bridge to [bus 04-04]
+[285] 2015-02-19T13:02:56.513067-06:00 c0-0c1s1n2 pci 0000:00:11.0:   bridge window [io  0xe000-0xefff]
+[286] 2015-02-19T13:02:56.513255-06:00 c0-0c1s1n2 pci 0000:00:11.0:   bridge window [mem 0xfbe00000-0xfbefffff]
+[284] 2015-02-19T13:02:56.538302-06:00 c0-0c1s1n2 pci 0000:00:11.0:   bridge window [mem 0x3c2000400000-0x3c20008fffff 64bit pref]
+[263] 2015-02-19T13:02:56.538468-06:00 c0-0c1s1n2 pci 0000:00:1e.0: PCI bridge to [bus 05-05]
+[282] 2015-02-19T13:02:56.563348-06:00 c0-0c1s1n2 pci 0000:00:1e.0:   bridge window [io  disabled]
+[283] 2015-02-19T13:02:56.563557-06:00 c0-0c1s1n2 pci 0000:00:1e.0:   bridge window [mem disabled]
+[287] 2015-02-19T13:02:56.563742-06:00 c0-0c1s1n2 pci 0000:00:1e.0:   bridge window [mem pref disabled]
+[288] 2015-02-19T13:02:56.588828-06:00 c0-0c1s1n2 pci 0000:00:02.0: PCI INT A -> GSI 32 (level, low) -> IRQ 32
+[288] 2015-02-19T13:02:56.589020-06:00 c0-0c1s1n2 pci 0000:00:03.0: PCI INT A -> GSI 40 (level, low) -> IRQ 40
+[288] 2015-02-19T13:02:56.613934-06:00 c0-0c1s1n2 pci 0000:00:03.2: PCI INT A -> GSI 40 (level, low) -> IRQ 40
+[288] 2015-02-19T13:02:56.614141-06:00 c0-0c1s1n2 pci 0000:00:11.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+[246] 2015-02-19T13:02:56.614215-06:00 c0-0c1s1n2 NET: Registered protocol family 2
+[289] 2015-02-19T13:02:56.639281-06:00 c0-0c1s1n2 IP route cache hash table entries: 524288 (order: 10, 4194304 bytes)
+[290] 2015-02-19T13:02:56.639551-06:00 c0-0c1s1n2 TCP established hash table entries: 524288 (order: 11, 8388608 bytes)
+[291] 2015-02-19T13:02:56.664545-06:00 c0-0c1s1n2 TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+[292] 2015-02-19T13:02:56.664695-06:00 c0-0c1s1n2 TCP: Hash tables configured (established 524288 bind 65536)
+[293] 2015-02-19T13:02:56.664786-06:00 c0-0c1s1n2 TCP reno registered
+[201] 2015-02-19T13:02:56.689651-06:00 c0-0c1s1n2 UDP hash table entries: 32768 (order: 8, 1048576 bytes)
+[294] 2015-02-19T13:02:56.689872-06:00 c0-0c1s1n2 UDP-Lite hash table entries: 32768 (order: 8, 1048576 bytes)
+[246] 2015-02-19T13:02:56.690022-06:00 c0-0c1s1n2 NET: Registered protocol family 1
+[295] 2015-02-19T13:02:56.714961-06:00 c0-0c1s1n2 RPC: Registered named UNIX socket transport module.
+[296] 2015-02-19T13:02:56.715108-06:00 c0-0c1s1n2 RPC: Registered udp transport module.
+[296] 2015-02-19T13:02:56.740079-06:00 c0-0c1s1n2 RPC: Registered tcp transport module.
+[297] 2015-02-19T13:02:56.740298-06:00 c0-0c1s1n2 RPC: Registered tcp NFSv4.1 backchannel transport module.
+[288] 2015-02-19T13:02:56.765346-06:00 c0-0c1s1n2 pci 0000:00:1a.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+[298] 2015-02-19T13:02:56.790401-06:00 c0-0c1s1n2 pci 0000:00:1a.0: PCI INT A disabled
+[288] 2015-02-19T13:02:56.790662-06:00 c0-0c1s1n2 pci 0000:00:1d.0: PCI INT A -> GSI 23 (level, low) -> IRQ 23
+[298] 2015-02-19T13:02:56.815963-06:00 c0-0c1s1n2 pci 0000:00:1d.0: PCI INT A disabled
+[299] 2015-02-19T13:02:56.840945-06:00 c0-0c1s1n2 Trying to unpack rootfs image as initramfs...
+[300] 2015-02-19T13:02:57.246292-06:00 c0-0c1s1n2 Freeing initrd memory: 12348k freed
+[301] 2015-02-19T13:02:57.271423-06:00 c0-0c1s1n2 DMAR: Device scope device [0000:00:01.01] not found
+[301] 2015-02-19T13:02:57.271512-06:00 c0-0c1s1n2 DMAR: Device scope device [0000:00:01.01] not found
+[302] 2015-02-19T13:02:57.296589-06:00 c0-0c1s1n2 PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[303] 2015-02-19T13:02:57.296747-06:00 c0-0c1s1n2 Placing 64MB software IO TLB between ffff88007a67c000 - ffff88007e67c000
+[304] 2015-02-19T13:02:57.296862-06:00 c0-0c1s1n2 software IO TLB at phys 0x7a67c000 - 0x7e67c000
+[305] 2015-02-19T13:02:57.321958-06:00 c0-0c1s1n2 Machine check injector initialized
+[201] 2015-02-19T13:02:57.322122-06:00 c0-0c1s1n2 futex hash table entries: 4096 (order: 6, 262144 bytes)
+[306] 2015-02-19T13:02:57.347072-06:00 c0-0c1s1n2 Registering pnotify support for (name=job)
+[307] 2015-02-19T13:02:57.347126-06:00 c0-0c1s1n2 CSA: initialized
+[308] 2015-02-19T13:02:57.347229-06:00 c0-0c1s1n2 audit: initializing netlink socket (disabled)
+[309] 2015-02-19T13:02:57.347335-06:00 c0-0c1s1n2 type=2000 audit(1424372570.504:1): initialized
+[310] 2015-02-19T13:02:57.397850-06:00 c0-0c1s1n2 HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[311] 2015-02-19T13:02:57.422665-06:00 c0-0c1s1n2 VFS: Disk quotas dquot_6.5.2
+[312] 2015-02-19T13:02:57.422946-06:00 c0-0c1s1n2 Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[313] 2015-02-19T13:02:57.448010-06:00 c0-0c1s1n2 Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+[314] 2015-02-19T13:02:57.448107-06:00 c0-0c1s1n2 fuse init (API version 7.16)
+[315] 2015-02-19T13:02:57.448225-06:00 c0-0c1s1n2 Installing v9fs 9p2000 file system support
+[316] 2015-02-19T13:02:57.448322-06:00 c0-0c1s1n2 msgmni has been set to 32268
+[317] 2015-02-19T13:02:57.448557-06:00 c0-0c1s1n2 Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+[318] 2015-02-19T13:02:57.473179-06:00 c0-0c1s1n2 io scheduler noop registered (default)
+[319] 2015-02-19T13:02:57.473349-06:00 c0-0c1s1n2 io scheduler deadline registered
+[320] 2015-02-19T13:02:57.473402-06:00 c0-0c1s1n2 io scheduler cfq registered
+[321] 2015-02-19T13:02:57.498626-06:00 c0-0c1s1n2 input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+[322] 2015-02-19T13:02:57.498737-06:00 c0-0c1s1n2 ACPI: Power Button [PWRB]
+[323] 2015-02-19T13:02:57.523646-06:00 c0-0c1s1n2 input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+[322] 2015-02-19T13:02:57.523716-06:00 c0-0c1s1n2 ACPI: Power Button [PWRF]
+[324] 2015-02-19T13:02:57.624678-06:00 c0-0c1s1n2 ERST: Error Record Serialization Table (ERST) support is disabled.
+[325] 2015-02-19T13:02:57.624734-06:00 c0-0c1s1n2 GHES: HEST is not enabled!
+[326] 2015-02-19T13:02:57.675222-06:00 c0-0c1s1n2 Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+[327] 2015-02-19T13:02:57.675262-06:00 c0-0c1s1n2 serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+[327] 2015-02-19T13:02:57.775946-06:00 c0-0c1s1n2 serial8250: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+[328] 2015-02-19T13:02:57.876961-06:00 c0-0c1s1n2 Real Time Clock Driver v1.12b
+[329] 2015-02-19T13:02:57.877064-06:00 c0-0c1s1n2 Linux agpgart interface v0.103
+[330] 2015-02-19T13:02:57.877123-06:00 c0-0c1s1n2 brd: module loaded
+[331] 2015-02-19T13:02:57.877190-06:00 c0-0c1s1n2 loop: module loaded
+[332] 2015-02-19T13:02:57.877297-06:00 c0-0c1s1n2 Loading iSCSI transport class v2.0-870.
+[333] 2015-02-19T13:02:57.877374-06:00 c0-0c1s1n2 iscsi: registered transport (tcp)
+[334] 2015-02-19T13:02:57.902303-06:00 c0-0c1s1n2 Rounding down aligned max_sectors from 4294967295 to 4294967288
+[335] 2015-02-19T13:02:57.902358-06:00 c0-0c1s1n2 console [netcon0] enabled
+[336] 2015-02-19T13:02:57.927512-06:00 c0-0c1s1n2 netconsole: network logging started
+[337] 2015-02-19T13:02:57.927634-06:00 c0-0c1s1n2 i8042: PNP: No PS/2 controller found. Probing ports directly.
+[338] 2015-02-19T13:02:58.346502-06:00 c0-0c1s1n2 Refined TSC clocksource calibration: 2599.999 MHz.
+[276] 2015-02-19T13:02:58.346536-06:00 c0-0c1s1n2 Switching to clocksource tsc
+[339] 2015-02-19T13:02:58.943675-06:00 c0-0c1s1n2 i8042: No controller found
+[340] 2015-02-19T13:02:58.968757-06:00 c0-0c1s1n2 EDAC MC: Ver: 2.1.0
+[341] 2015-02-19T13:02:58.968886-06:00 c0-0c1s1n2 cpuidle: using governor ladder
+[342] 2015-02-19T13:02:58.994142-06:00 c0-0c1s1n2 cpuidle: using governor menu
+[343] 2015-02-19T13:02:58.994220-06:00 c0-0c1s1n2 oprofile: using NMI interrupt.
+[344] 2015-02-19T13:02:58.994312-06:00 c0-0c1s1n2 TCP cubic registered
+[246] 2015-02-19T13:02:58.994457-06:00 c0-0c1s1n2 NET: Registered protocol family 10
+[345] 2015-02-19T13:02:58.994494-06:00 c0-0c1s1n2 IPv6 over IPv4 tunneling driver
+[246] 2015-02-19T13:02:59.019312-06:00 c0-0c1s1n2 NET: Registered protocol family 17
+[346] 2015-02-19T13:02:59.019432-06:00 c0-0c1s1n2 Installing 9P2000 support
+[347] 2015-02-19T13:02:59.019498-06:00 c0-0c1s1n2 Registering the dns_resolver key type
+[348] 2015-02-19T13:02:59.019538-06:00 c0-0c1s1n2 registered taskstats version 1
+[349] 2015-02-19T13:02:59.044597-06:00 c0-0c1s1n2 Freeing unused kernel memory: 692k freed
+[350] 2015-02-19T13:02:59.120410-06:00 c0-0c1s1n2 ghal_init:Cray(R) Gemini Hardware Abstraction Layer - version 1.0107
+[351] 2015-02-19T13:02:59.120486-06:00 c0-0c1s1n2 ghal_init:Copyright (C) 2007-1012 Cray Inc.
+[352] 2015-02-19T13:02:59.145665-06:00 c0-0c1s1n2 ghal 0000:01:00.1: enabling device (0000 -> 0002)
+[353] 2015-02-19T13:02:59.170903-06:00 c0-0c1s1n2 udev: starting version 147
+[354] 2015-02-19T13:02:59.170911-06:00 c0-0c1s1n2 simplex: module license 'unspecified' taints kernel.
+[355] 2015-02-19T13:02:59.223158-06:00 c0-0c1s1n2 hss-os: communication area 0xffff88100867b400 (phys 0x100867b400)
+[356] 2015-02-19T13:02:59.968066-06:00 c0-0c1s1n2 hss-os: new channel 1
+[357] 2015-02-19T13:03:00.749547-06:00 c0-0c1s1n2 request_sys_info_from_L0: No tile dimension data
+[356] 2015-02-19T13:03:00.749557-06:00 c0-0c1s1n2 hss-os: new channel 2
+[358] 2015-02-19T13:03:00.749568-06:00 c0-0c1s1n2 kgni_init:Cray(R) Gemini Network Interface - Sep 17 2014 version 0x004500b7 rev 9750
+[359] 2015-02-19T13:03:00.749578-06:00 c0-0c1s1n2 kgni_init:Copyright (C) 2007,2008 Cray Inc.
+[360] 2015-02-19T13:03:00.749588-06:00 c0-0c1s1n2 ipogif_init:Cray(R) Gemini IP over Fabric device driver - version 0.17
+[361] 2015-02-19T13:03:00.749598-06:00 c0-0c1s1n2 ipogif_init:Copyright (C) 2007 Cray Inc.
+[362] 2015-02-19T13:03:00.749608-06:00 c0-0c1s1n2 ipogif_probe:Immediate checksum off
+[363] 2015-02-19T13:03:00.749619-06:00 c0-0c1s1n2 Cray(R) Gemini Performance Counter Daemon - version 0.1
+[364] 2015-02-19T13:03:00.749629-06:00 c0-0c1s1n2 GEMINI Performance Counter Daemon.
+[365] 2015-02-19T13:03:00.749638-06:00 c0-0c1s1n2 Cray(R) Kernel Dynamic Registration (KDREG) Interface - version 0x2243e
+[366] 2015-02-19T13:03:00.749649-06:00 c0-0c1s1n2 Copyright (C) 2004-5 Pete Wyckoff - modified by Cray(R)
+[398] 2015-02-19T13:03:00.749659-06:00 c0-0c1s1n2 ipogif_up:Bringing interface up
+[646] 2015-02-19T13:03:00.749669-06:00 c0-0c1s1n2 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 70
+[940] 2015-02-19T13:03:00.749678-06:00 c0-0c1s1n2 arp: sdbnode NID 137 = 000101000089
+[400] 2015-02-19T13:03:00.749688-06:00 c0-0c1s1n2 net.core.rmem_max = 16777216
+[400] 2015-02-19T13:03:00.749698-06:00 c0-0c1s1n2 net.core.wmem_max = 16777216
+[401] 2015-02-19T13:03:00.749707-06:00 c0-0c1s1n2 net.core.rmem_default = 16777216
+[401] 2015-02-19T13:03:00.749717-06:00 c0-0c1s1n2 net.core.wmem_default = 16777216
+[400] 2015-02-19T13:03:00.749726-06:00 c0-0c1s1n2 net.core.optmem_max = 16777216
+[402] 2015-02-19T13:03:00.749736-06:00 c0-0c1s1n2 net.ipv4.tcp_mem = 16777216 16777216 16777216
+[402] 2015-02-19T13:03:00.749745-06:00 c0-0c1s1n2 net.ipv4.tcp_rmem = 4096 87380 16777216
+[402] 2015-02-19T13:03:00.749753-06:00 c0-0c1s1n2 net.ipv4.tcp_wmem = 4096 65536 16777216
+[403] 2015-02-19T13:03:00.749763-06:00 c0-0c1s1n2 Using rootfs config: nfs-shared...
+[404] 2015-02-19T13:03:00.749772-06:00 c0-0c1s1n2 rootfs mount succeeded.
+[405] 2015-02-19T13:03:00.749779-06:00 c0-0c1s1n2 **********************************************************
+[406] 2015-02-19T13:03:00.749788-06:00 c0-0c1s1n2    HOSTNAME: nid00070
+[405] 2015-02-19T13:03:00.749799-06:00 c0-0c1s1n2 **********************************************************
+[407] 2015-02-19T13:03:00.749809-06:00 c0-0c1s1n2 ipogif0   Link encap:Ethernet  HWaddr 00:01:01:00:00:46  
+[408] 2015-02-19T13:03:00.749820-06:00 c0-0c1s1n2          inet addr:10.128.0.71  Mask:255.252.0.0
+[409] 2015-02-19T13:03:00.749830-06:00 c0-0c1s1n2          inet6 addr: fe80::201:1ff:fe00:46/64 Scope:Link
+[410] 2015-02-19T13:03:00.749840-06:00 c0-0c1s1n2          UP RUNNING NOARP  MTU:65520  Metric:1
+[411] 2015-02-19T13:03:00.749848-06:00 c0-0c1s1n2          RX packets:21 errors:0 dropped:0 overruns:0 frame:0
+[412] 2015-02-19T13:03:00.749859-06:00 c0-0c1s1n2          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+[413] 2015-02-19T13:03:00.749870-06:00 c0-0c1s1n2          collisions:0 txqueuelen:1000 
+[414] 2015-02-19T13:03:00.749880-06:00 c0-0c1s1n2          RX bytes:2496 (2.4 KiB)  TX bytes:2540 (2.4 KiB)
+[415] 2015-02-19T13:03:00.749890-06:00 c0-0c1s1n2 lo        Link encap:Local Loopback  
+[408] 2015-02-19T13:03:00.749899-06:00 c0-0c1s1n2          inet addr:127.0.0.1  Mask:255.0.0.0
+[416] 2015-02-19T13:03:00.749909-06:00 c0-0c1s1n2          inet6 addr: ::1/128 Scope:Host
+[417] 2015-02-19T13:03:00.749919-06:00 c0-0c1s1n2          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+[411] 2015-02-19T13:03:00.749929-06:00 c0-0c1s1n2          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+[412] 2015-02-19T13:03:00.749939-06:00 c0-0c1s1n2          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+[413] 2015-02-19T13:03:00.749949-06:00 c0-0c1s1n2          collisions:0 txqueuelen:0 
+[414] 2015-02-19T13:03:00.749958-06:00 c0-0c1s1n2          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+[418] 2015-02-19T13:03:00.749969-06:00 c0-0c1s1n2 Mounting NID specific /etc (nid=70)...
+[419] 2015-02-19T13:03:00.749978-06:00 c0-0c1s1n2 done.
+[420] 2015-02-19T13:03:00.774702-06:00 c0-0c1s1n2 INIT: version 2.86 booting
+[421] 2015-02-19T13:03:00.813592-06:00 c0-0c1s1n2 System Boot Control: Running /etc/init.d/boot
+[422] 2015-02-19T13:03:00.838619-06:00 c0-0c1s1n2 Mounting sysfs at /sys7[?25l
+[423] 2015-02-19T13:03:00.838631-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[424] 2015-02-19T13:03:00.838937-06:00 c0-0c1s1n2 Copying static /dev content7[?25l
+[423] 2015-02-19T13:03:00.838945-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[425] 2015-02-19T13:03:00.863832-06:00 c0-0c1s1n2 Mounting tmpfs at /dev/shm7[?25l
+[423] 2015-02-19T13:03:00.863843-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[425] 2015-02-19T13:03:00.863851-06:00 c0-0c1s1n2 Mounting devpts at /dev/pts7[?25l
+[423] 2015-02-19T13:03:00.863858-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[631] 2015-02-19T13:03:00.863917-06:00 c0-0c1s1n2 Boot logging started on /dev/ttyS0(/dev/console) at Thu Feb 19 13:02:53 2015
+[427] 2015-02-19T13:03:00.901518-06:00 c0-0c1s1n2 Mounting debugfs at /sys/kernel/debug7[?25l
+[423] 2015-02-19T13:03:00.901527-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[428] 2015-02-19T13:03:01.002418-06:00 c0-0c1s1n2 [m[?25hNo efivars filesystem driver available.[m[?25hStarting udevd: udev: starting version 147
+[429] 2015-02-19T13:03:01.002433-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:03:01.002444-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[430] 2015-02-19T13:03:01.052981-06:00 c0-0c1s1n2 Loading drivers, configuring devices: usbcore: registered new interface driver usbfs
+[432] 2015-02-19T13:03:01.053071-06:00 c0-0c1s1n2 usbcore: registered new interface driver hub
+[288] 2015-02-19T13:03:01.078081-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: PCI INT B -> GSI 19 (level, low) -> IRQ 19
+[431] 2015-02-19T13:03:01.078196-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: forcing PORTS_IMPL to 0x3f
+[433] 2015-02-19T13:03:01.078304-06:00 c0-0c1s1n2 usbcore: registered new device driver usb
+[434] 2015-02-19T13:03:01.103379-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 6 ports 6 Gbps 0x3f impl SATA mode
+[435] 2015-02-19T13:03:01.103581-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: flags: 64bit ncq sntf pm led clo pio slum part ems apst 
+[372] 2015-02-19T13:03:01.103609-06:00 c0-0c1s1n2 scsi0 : ahci
+[436] 2015-02-19T13:03:01.413698-06:00 c0-0c1s1n2 ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[372] 2015-02-19T13:03:01.413709-06:00 c0-0c1s1n2 scsi1 : ahci
+[372] 2015-02-19T13:03:01.413715-06:00 c0-0c1s1n2 scsi2 : ahci
+[372] 2015-02-19T13:03:01.413728-06:00 c0-0c1s1n2 scsi3 : ahci
+[372] 2015-02-19T13:03:01.413736-06:00 c0-0c1s1n2 scsi4 : ahci
+[372] 2015-02-19T13:03:01.413748-06:00 c0-0c1s1n2 scsi5 : ahci
+[439] 2015-02-19T13:03:01.413762-06:00 c0-0c1s1n2 ata2: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00100 irq 164
+[439] 2015-02-19T13:03:01.413770-06:00 c0-0c1s1n2 ata3: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00180 irq 164
+[439] 2015-02-19T13:03:01.413781-06:00 c0-0c1s1n2 ata4: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00200 irq 164
+[439] 2015-02-19T13:03:01.413793-06:00 c0-0c1s1n2 ata5: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00280 irq 164
+[439] 2015-02-19T13:03:01.413805-06:00 c0-0c1s1n2 ata6: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00300 irq 164
+[439] 2015-02-19T13:03:01.413818-06:00 c0-0c1s1n2 ata7: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00380 irq 164
+[452] 2015-02-19T13:03:01.413828-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+[453] 2015-02-19T13:03:01.413838-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: EHCI Host Controller
+[446] 2015-02-19T13:03:01.413847-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: new USB bus registered, assigned bus number 1
+[454] 2015-02-19T13:03:01.413858-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: debug port 2
+[448] 2015-02-19T13:03:01.413868-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: irq 16, io mem 0xfbf02000
+[449] 2015-02-19T13:03:01.413880-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+[450] 2015-02-19T13:03:01.413889-06:00 c0-0c1s1n2 hub 1-0:1.0: USB hub found
+[451] 2015-02-19T13:03:01.413900-06:00 c0-0c1s1n2 hub 1-0:1.0: 2 ports detected
+[452] 2015-02-19T13:03:01.413910-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: PCI INT A -> GSI 23 (level, low) -> IRQ 23
+[453] 2015-02-19T13:03:01.413921-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: EHCI Host Controller
+[446] 2015-02-19T13:03:01.413931-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 2
+[454] 2015-02-19T13:03:01.413941-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: debug port 2
+[448] 2015-02-19T13:03:01.413951-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: irq 23, io mem 0xfbf01000
+[449] 2015-02-19T13:03:01.413962-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+[450] 2015-02-19T13:03:01.413969-06:00 c0-0c1s1n2 hub 2-0:1.0: USB hub found
+[451] 2015-02-19T13:03:01.413977-06:00 c0-0c1s1n2 hub 2-0:1.0: 2 ports detected
+[457] 2015-02-19T13:03:01.617182-06:00 c0-0c1s1n2 usb 1-1: new high-speed USB device number 2 using ehci_hcd
+[450] 2015-02-19T13:03:01.743413-06:00 c0-0c1s1n2 hub 1-1:1.0: USB hub found
+[451] 2015-02-19T13:03:01.743488-06:00 c0-0c1s1n2 hub 1-1:1.0: 6 ports detected
+[457] 2015-02-19T13:03:01.869876-06:00 c0-0c1s1n2 usb 2-1: new high-speed USB device number 2 using ehci_hcd
+[450] 2015-02-19T13:03:01.996137-06:00 c0-0c1s1n2 hub 2-1:1.0: USB hub found
+[451] 2015-02-19T13:03:02.021150-06:00 c0-0c1s1n2 hub 2-1:1.0: 8 ports detected
+[458] 2015-02-19T13:03:02.248411-06:00 c0-0c1s1n2 ata5: failed to resume link (SControl 0)
+[459] 2015-02-19T13:03:02.248466-06:00 c0-0c1s1n2 ata5: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-19T13:03:02.248535-06:00 c0-0c1s1n2 ata6: failed to resume link (SControl 0)
+[459] 2015-02-19T13:03:02.273646-06:00 c0-0c1s1n2 ata6: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-19T13:03:02.273741-06:00 c0-0c1s1n2 ata2: failed to resume link (SControl 0)
+[459] 2015-02-19T13:03:02.273779-06:00 c0-0c1s1n2 ata2: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-19T13:03:02.298854-06:00 c0-0c1s1n2 ata7: failed to resume link (SControl 0)
+[459] 2015-02-19T13:03:02.324028-06:00 c0-0c1s1n2 ata7: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-19T13:03:02.324078-06:00 c0-0c1s1n2 ata3: failed to resume link (SControl 0)
+[459] 2015-02-19T13:03:02.324108-06:00 c0-0c1s1n2 ata3: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-19T13:03:02.324137-06:00 c0-0c1s1n2 ata4: failed to resume link (SControl 0)
+[459] 2015-02-19T13:03:02.349316-06:00 c0-0c1s1n2 ata4: SATA link down (SStatus 0 SControl 0)
+[429] 2015-02-19T13:03:02.374543-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:03:02.374550-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[460] 2015-02-19T13:03:02.450180-06:00 c0-0c1s1n2 [m[?25hMounting /var from 10.131.255.254. Checking for nid=70 existance.
+[429] 2015-02-19T13:03:02.601679-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:03:02.601688-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[461] 2015-02-19T13:03:02.627011-06:00 c0-0c1s1n2 Mounting tmpfs on /tmp7[?25l
+[423] 2015-02-19T13:03:02.627022-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[462] 2015-02-19T13:03:02.627056-06:00 c0-0c1s1n2 Running sysctl using values from /etc/sysctl.conf
+[463] 2015-02-19T13:03:02.627097-06:00 c0-0c1s1n2 net.ipv4.icmp_echo_ignore_broadcasts = 1
+[464] 2015-02-19T13:03:02.627111-06:00 c0-0c1s1n2 net.ipv4.conf.all.rp_filter = 1
+[465] 2015-02-19T13:03:02.627151-06:00 c0-0c1s1n2 fs.inotify.max_user_watches = 65536
+[466] 2015-02-19T13:03:02.627190-06:00 c0-0c1s1n2 net.ipv4.conf.default.promote_secondaries = 1
+[467] 2015-02-19T13:03:02.652159-06:00 c0-0c1s1n2 net.ipv4.conf.all.promote_secondaries = 1
+[468] 2015-02-19T13:03:02.652189-06:00 c0-0c1s1n2 vm.min_free_kbytes = 102400
+[429] 2015-02-19T13:03:02.652245-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:03:02.652258-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[469] 2015-02-19T13:03:02.677402-06:00 c0-0c1s1n2 [m[?25hActivating swap-devices in /etc/fstab...
+[470] 2015-02-19T13:03:02.677444-06:00 c0-0c1s1n2 7[?25l[1A
+[471] 2015-02-19T13:03:02.677451-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25hroot file system (/) is NOT being checked.
+[472] 2015-02-19T13:03:02.801359-06:00 c0-0c1s1n2 [m[?25hSet System Time to the current Hardware Clock7[?25l
+[423] 2015-02-19T13:03:02.801370-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[473] 2015-02-19T13:03:02.826567-06:00 c0-0c1s1n2 [m[?25hActivating device mapper...
+[474] 2015-02-19T13:03:02.826727-06:00 c0-0c1s1n2 device-mapper: ioctl: 4.23.0-ioctl (2012-07-25) initialised: dm-devel@redhat.com
+[429] 2015-02-19T13:03:02.851727-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:03:02.851742-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[475] 2015-02-19T13:03:02.851924-06:00 c0-0c1s1n2 [m[?25hLoading required kernel modules
+[470] 2015-02-19T13:03:02.927460-06:00 c0-0c1s1n2 7[?25l[1A
+[476] 2015-02-19T13:03:02.927472-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h[m[?25h[m[?25hWaiting for udev to settle...
+[477] 2015-02-19T13:03:02.927553-06:00 c0-0c1s1n2 Scanning for LVM volume groups...
+[478] 2015-02-19T13:03:02.927567-06:00 c0-0c1s1n2  Reading all physical volumes.  This may take a while...
+[479] 2015-02-19T13:03:02.927581-06:00 c0-0c1s1n2  No volume groups found
+[479] 2015-02-19T13:03:02.927596-06:00 c0-0c1s1n2  No volume groups found
+[480] 2015-02-19T13:03:02.927610-06:00 c0-0c1s1n2 Activating LVM volume groups...
+[481] 2015-02-19T13:03:02.952696-06:00 c0-0c1s1n2  PARTIAL MODE. Incomplete logical volumes will be processed.
+[479] 2015-02-19T13:03:02.952734-06:00 c0-0c1s1n2  No volume groups found
+[429] 2015-02-19T13:03:02.952768-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:03:02.952776-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[689] 2015-02-19T13:03:02.952793-06:00 c0-0c1s1n2 [m[?25hNo fibre channel cards present.  Not waiting for disk devices. 
+[1177] 2015-02-19T13:03:03.053837-06:00 c0-0c1s1n2 [m[?25hWaiting for fake:
+[1178] 2015-02-19T13:03:03.053846-06:00 c0-0c1s1n2 nomtab:
+[1179] 2015-02-19T13:03:03.053856-06:00 c0-0c1s1n2 arg[0]
+[1179] 2015-02-19T13:03:03.053866-06:00 c0-0c1s1n2 arg[1]
+[1179] 2015-02-19T13:03:03.053876-06:00 c0-0c1s1n2 arg[2]
+[1179] 2015-02-19T13:03:03.053885-06:00 c0-0c1s1n2 arg[3]
+[1179] 2015-02-19T13:03:03.053894-06:00 c0-0c1s1n2 arg[4]
+[1179] 2015-02-19T13:03:03.053904-06:00 c0-0c1s1n2 arg[5]
+[1179] 2015-02-19T13:03:03.053914-06:00 c0-0c1s1n2 arg[6]
+[1179] 2015-02-19T13:03:03.053924-06:00 c0-0c1s1n2 arg[7]
+[1180] 2015-02-19T13:03:03.053931-06:00 c0-0c1s1n2 source
+[1181] 2015-02-19T13:03:03.053938-06:00 c0-0c1s1n2 options
+[1182] 2015-02-19T13:03:03.079036-06:00 c0-0c1s1n2 mounting  no more events
+[903] 2015-02-19T13:03:03.079105-06:00 c0-0c1s1n2 Checking file systems...
+[490] 2015-02-19T13:03:03.079178-06:00 c0-0c1s1n2 fsck from util-linux 2.19.1
+[1183] 2015-02-19T13:03:03.079205-06:00 c0-0c1s1n2 WARNING: Your /etc/fstab does not contain the fsck passno
+[1184] 2015-02-19T13:03:03.079257-06:00 c0-0c1s1n2 	field.  I will kludge around things for you, but you
+[1185] 2015-02-19T13:03:03.079280-06:00 c0-0c1s1n2 	should fix your /etc/fstab file as soon as you can.
+[491] 2015-02-19T13:03:03.104217-06:00 c0-0c1s1n2 Checking all file systems.
+[1186] 2015-02-19T13:03:03.104250-06:00 c0-0c1s1n2 192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137: nonexistent device ("nofail" fstab option may be used to skip this device)
+[470] 2015-02-19T13:03:03.104266-06:00 c0-0c1s1n2 7[?25l[1A
+[492] 2015-02-19T13:03:03.104276-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25hMounting local file systems...
+[1187] 2015-02-19T13:03:03.104392-06:00 c0-0c1s1n2 arg[0] = /sbin/mLNet: HW CPU cores: 16, npartitions: 4
+[1188] 2015-02-19T13:03:03.104400-06:00 c0-0c1s1n2 ount.lustre
+[1189] 2015-02-19T13:03:03.104415-06:00 c0-0c1s1n2 arg[1] = -v
+[1189] 2015-02-19T13:03:03.104428-06:00 c0-0c1s1n2 arg[2] = -o
+[1190] 2015-02-19T13:03:03.104442-06:00 c0-0c1s1n2 arg[3] = rw,flock,lazystatfs
+[1191] 2015-02-19T13:03:03.129398-06:00 c0-0c1s1n2 arg[4] = 192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137
+[1192] 2015-02-19T13:03:03.129457-06:00 c0-0c1s1n2 arg[5] = /scratch1
+[1193] 2015-02-19T13:03:03.154687-06:00 c0-0c1s1n2 source = 192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137 (192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137), target = /scratch1
+[1194] 2015-02-19T13:03:03.154706-06:00 c0-0c1s1n2 options = rw,flock,lazystatfs
+[1195] 2015-02-19T13:03:03.154766-06:00 c0-0c1s1n2 mounting device 192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137 at /scratch1, flags=0x1000000 options=flock,lazystatfs,device=192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137
+[1196] 2015-02-19T13:03:08.236077-06:00 c0-0c1s1n2 Lustre: Lustre: Build Version: 2.5.1-trunk-1.0502.17198.8.51-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:59
+[562] 2015-02-19T13:03:08.311777-06:00 c0-0c1s1n2 Lustre: kgnilnd build version: 2.5-trunk-1.0502.17198.8.51-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:59
+[1211] 2015-02-19T13:03:08.387528-06:00 c0-0c1s1n2 LNet: Enabling LNet peer health for gnilnd, timeout 67s
+[563] 2015-02-19T13:03:08.412819-06:00 c0-0c1s1n2 LNet: Added LNI 70@gni [16/2048/0/67]
+[1212] 2015-02-19T13:03:15.590927-06:00 c0-0c1s1n2 LustreError: 5301:0:(client.c:1083:ptlrpc_import_delay_req()) @@@ send limit expired   req@ffff881016663800 x1493562903494664/t0(0) o101->MGC192.168.0.1@o2ib@192.168.0.1@o2ib:26/25 lens 328/344 e 0 to 0 dl 0 ref 2 fl Rpc:W/0/ffffffff rc 0/-1
+[1212] 2015-02-19T13:03:24.989577-06:00 c0-0c1s1n2 LustreError: 5383:0:(client.c:1083:ptlrpc_import_delay_req()) @@@ send limit expired   req@ffff881016663000 x1493562903494672/t0(0) o101->MGC192.168.0.1@o2ib@192.168.0.1@o2ib:26/25 lens 328/344 e 0 to 0 dl 0 ref 2 fl Rpc:W/0/ffffffff rc 0/-1
+[1213] 2015-02-19T13:04:24.572668-06:00 c0-0c1s1n2 Lustre: 5349:0:(client.c:1908:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1424372582/real 1424372582]  req@ffff881016663c00 x1493562903494660/t0(0) o250->MGC192.168.0.1@o2ib@192.168.0.1@o2ib:26/25 lens 400/544 e 0 to 1 dl 1424372657 ref 1 fl Rpc:XN/0/ffffffff rc 0/-1
+[1212] 2015-02-19T13:04:56.610972-06:00 c0-0c1s1n2 LustreError: 5301:0:(client.c:1083:ptlrpc_import_delay_req()) @@@ send limit expired   req@ffff881016663800 x1493562903494668/t0(0) o101->MGC192.168.0.1@o2ib@192.168.0.2@o2ib:26/25 lens 328/344 e 0 to 0 dl 0 ref 2 fl Rpc:W/0/ffffffff rc 0/-1
+[1214] 2015-02-19T13:04:56.648417-06:00 c0-0c1s1n2 LustreError: 15c-8: MGC192.168.0.1@o2ib: The configuration from log 'snx11137-client' failed (-5). This may be the result of communication errors between this node and the MGS, a bad configuration, or other errors. See the syslog for more information.
+[1215] 2015-02-19T13:04:56.685257-06:00 c0-0c1s1n2 LustreError: 5301:0:(llite_lib.c:1066:ll_fill_super()) Unable to process log: -5
+[1216] 2015-02-19T13:04:56.685290-06:00 c0-0c1s1n2 Lustre: Unmounted snx11137-client
+[1213] 2015-02-19T13:06:04.572711-06:00 c0-0c1s1n2 Lustre: 5349:0:(client.c:1908:ptlrpc_expire_one_request()) @@@ Request sent has timed out for slow reply: [sent 1424372682/real 1424372682]  req@ffff881016663400 x1493562903494676/t0(0) o250->MGC192.168.0.1@o2ib@192.168.0.2@o2ib:26/25 lens 400/544 e 0 to 1 dl 1424372757 ref 1 fl Rpc:XN/0/ffffffff rc 0/-1
+[1217] 2015-02-19T13:06:04.608701-06:00 c0-0c1s1n2 LustreError: 5301:0:(obd_mount.c:1323:lustre_fill_super()) Unable to mount  (-5)
+[1218] 2015-02-19T13:06:04.660064-06:00 c0-0c1s1n2 mount.lustre: mount 192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137 at /scratch1 failed: Input/output error retries left: 0
+[1219] 2015-02-19T13:06:04.660082-06:00 c0-0c1s1n2 mount.lustre: mount 192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137 at /scratch1 failed: Input/output error
+[1220] 2015-02-19T13:06:04.660098-06:00 c0-0c1s1n2 Is the MGS running?
+[470] 2015-02-19T13:06:04.937601-06:00 c0-0c1s1n2 7[?25l[1A
+[642] 2015-02-19T13:06:04.937613-06:00 c0-0c1s1n2 [80C[10D[1;33mskipped[m8[?25h[m[?25hCheck if the profiles matches the system7[?25l
+[423] 2015-02-19T13:06:04.937621-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[495] 2015-02-19T13:06:04.962888-06:00 c0-0c1s1n2 [m[?25hEnabling monitoring on LVM volume groups...
+[479] 2015-02-19T13:06:04.988116-06:00 c0-0c1s1n2  No volume groups found
+[429] 2015-02-19T13:06:04.988132-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:06:04.988149-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[496] 2015-02-19T13:06:05.065358-06:00 c0-0c1s1n2 [m[?25h[m[?25h[m[?25h[m[?25h[m[?25hTurning quota on
+[497] 2015-02-19T13:06:05.065398-06:00 c0-0c1s1n2 Checking quotas. This may take some time.
+[429] 2015-02-19T13:06:05.065415-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:06:05.065426-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[498] 2015-02-19T13:06:05.090646-06:00 c0-0c1s1n2 [m[?25hSetting current sysctl status from /etc/sysctl.conf7[?25l
+[423] 2015-02-19T13:06:05.090657-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[950] 2015-02-19T13:06:05.255450-06:00 c0-0c1s1n2 [m[?25htouch: cannot touch `/.shared/base/default/etc/resolv.conf': Read-only file system
+[951] 2015-02-19T13:06:05.280516-06:00 c0-0c1s1n2 chmod: changing permissions of `/.shared/base/default/etc/resolv.conf': Read-only file system
+[952] 2015-02-19T13:06:05.280580-06:00 c0-0c1s1n2 touch: cannot touch `/.shared/base/default/etc/resolv.conf': Read-only file system
+[501] 2015-02-19T13:06:05.280594-06:00 c0-0c1s1n2 touch: cannot touch `/etc/yp.conf': Read-only file system
+[502] 2015-02-19T13:06:05.280645-06:00 c0-0c1s1n2 chmod: cannot access `/etc/yp.conf': No such file or directory
+[501] 2015-02-19T13:06:05.280683-06:00 c0-0c1s1n2 touch: cannot touch `/etc/yp.conf': Read-only file system
+[503] 2015-02-19T13:06:05.280710-06:00 c0-0c1s1n2 [m[?25hSystem Boot Control: The system has been 
+[504] 2015-02-19T13:06:05.280719-06:00 c0-0c1s1n2 [80C[10D[1mset up[m
+[505] 2015-02-19T13:06:05.280735-06:00 c0-0c1s1n2 Skipped features: [80C[19D[1;33mboot.efivars[m
+[506] 2015-02-19T13:06:05.305739-06:00 c0-0c1s1n2 System Boot Control: Running /etc/init.d/boot.local
+[470] 2015-02-19T13:06:05.331097-06:00 c0-0c1s1n2 7[?25l[1A
+[507] 2015-02-19T13:06:05.331110-06:00 c0-0c1s1n2 [8
+[508] 2015-02-19T13:06:05.331127-06:00 c0-0c1s1n2 INIT: Entering runlevel: 3
+[509] 2015-02-19T13:06:05.381481-06:00 c0-0c1s1n2 Master Resource Control: previous runlevel: N, switching to runlevel: 
+[510] 2015-02-19T13:06:05.381493-06:00 c0-0c1s1n2 [80C[10D[1m3[m
+[511] 2015-02-19T13:06:05.381559-06:00 c0-0c1s1n2 Starting batchlimitd
+[512] 2015-02-19T13:06:05.406771-06:00 c0-0c1s1n2 [m[?25hLoading nic compatibility device7[?25l
+[423] 2015-02-19T13:06:05.406781-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[513] 2015-02-19T13:06:05.543943-06:00 c0-0c1s1n2 [m[?25hbpmcd_init: Power statistics available in /sys/cray
+[514] 2015-02-19T13:06:05.569293-06:00 c0-0c1s1n2 [m[?25hStarting D-Bus daemon7[?25l
+[423] 2015-02-19T13:06:05.569302-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[909] 2015-02-19T13:06:06.060403-06:00 c0-0c1s1n2 [m[?25h[m[?25hiSCSI Enterprise Target Software - version trunk
+[516] 2015-02-19T13:06:06.060476-06:00 c0-0c1s1n2 iscsi_trgt: Registered io type fileio
+[516] 2015-02-19T13:06:06.085645-06:00 c0-0c1s1n2 iscsi_trgt: Registered io type blockio
+[516] 2015-02-19T13:06:06.085740-06:00 c0-0c1s1n2 iscsi_trgt: Registered io type nullio
+[1204] 2015-02-19T13:06:06.085799-06:00 c0-0c1s1n2 [m[?25h/etc/init.d/rc3.d/S01lnet: line 179: lctl: command not found
+[519] 2015-02-19T13:06:06.110940-06:00 c0-0c1s1n2 [m[?25hRemoving old kernel packages...
+[520] 2015-02-19T13:06:06.136174-06:00 c0-0c1s1n2 rm: cannot remove `/boot/do_purge_kernels': Read-only file system
+[521] 2015-02-19T13:06:06.161385-06:00 c0-0c1s1n2 /sbin/purge-kernels: multiversion.kernels not configured in /etc/zypp/zypp.conf, exiting.
+[429] 2015-02-19T13:06:06.161452-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:06:06.161462-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[522] 2015-02-19T13:06:06.186625-06:00 c0-0c1s1n2 [m[?25hInitializing random number generator7[?25l
+[423] 2015-02-19T13:06:06.186635-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[782] 2015-02-19T13:06:06.313561-06:00 c0-0c1s1n2 [m[?25h[m[?25hSetting up (localfs) network interfaces:
+[530] 2015-02-19T13:06:06.439756-06:00 c0-0c1s1n2    lo        
+[531] 2015-02-19T13:06:06.490162-06:00 c0-0c1s1n2    lo        IP address: 127.0.0.1/8   
+[532] 2015-02-19T13:06:06.490211-06:00 c0-0c1s1n2              IP address: 127.0.0.2/8   
+[470] 2015-02-19T13:06:06.599958-06:00 c0-0c1s1n2 7[?25l[1A
+[694] 2015-02-19T13:06:06.599973-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h    ipogif0   
+[534] 2015-02-19T13:06:06.625175-06:00 c0-0c1s1n2              No configuration found for ipogif0
+[470] 2015-02-19T13:06:06.650430-06:00 c0-0c1s1n2 7[?25l[1A
+[537] 2015-02-19T13:06:06.650441-06:00 c0-0c1s1n2 [80C[10D[1munused[m8[?25hSetting up service (localfs) network  .  .  .  .  .  .  .  .  .  .7[?25l
+[423] 2015-02-19T13:06:06.650448-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[538] 2015-02-19T13:06:06.675731-06:00 c0-0c1s1n2 [m[?25hCould not start BND as this is not the boot node.
+[539] 2015-02-19T13:06:06.675745-06:00 c0-0c1s1n2 bootnodes are: 1 1 
+[540] 2015-02-19T13:06:06.675756-06:00 c0-0c1s1n2 mynid=70
+[541] 2015-02-19T13:06:06.700962-06:00 c0-0c1s1n2 [m[?25hS04cray-config-service: Mounting 9p configuration directory. 
+[542] 2015-02-19T13:06:07.741358-06:00 c0-0c1s1n2 S04cray-config-service:   Success.  
+[543] 2015-02-19T13:06:07.781400-06:00 c0-0c1s1n2 [m[?25h[m[?25hStarting hw_info_init on 70
+[539] 2015-02-19T13:06:07.781415-06:00 c0-0c1s1n2 bootnodes are: 1 1 
+[540] 2015-02-19T13:06:07.781456-06:00 c0-0c1s1n2 mynid=70
+[544] 2015-02-19T13:06:08.211182-06:00 c0-0c1s1n2 [m[?25h[m[?25h 
+[545] 2015-02-19T13:06:08.211227-06:00 c0-0c1s1n2 cray-syslog: **WARNING**  /etc/security/limits.conf MAY require hard and soft file limits 
+[546] 2015-02-19T13:06:08.211264-06:00 c0-0c1s1n2 cray-syslog:              greater or equal to 8192 for proper LLM operation 
+[547] 2015-02-19T13:06:08.211293-06:00 c0-0c1s1n2 cray-syslog:              when large number of jobs are launched concurrently.
+[548] 2015-02-19T13:06:08.211359-06:00 c0-0c1s1n2 cray-syslog:              If you have failures running large number of concurrent jobs,
+[549] 2015-02-19T13:06:08.211401-06:00 c0-0c1s1n2 cray-syslog:              you may wish to update the hard and soft nofile entries in 
+[550] 2015-02-19T13:06:08.236354-06:00 c0-0c1s1n2 cray-syslog:              limits.conf as follows.
+[551] 2015-02-19T13:06:08.236391-06:00 c0-0c1s1n2 cray-syslog: /etc/security/limits.conf: 
+[552] 2015-02-19T13:06:08.236404-06:00 c0-0c1s1n2 cray-syslog: *  soft  nofile  8192
+[553] 2015-02-19T13:06:08.236425-06:00 c0-0c1s1n2 cray-syslog: *  hard  nofile  8192
+[554] 2015-02-19T13:06:09.229462-06:00 c0-0c1s1n2 cray-syslog: rsyslogd started as process 7525.
+[555] 2015-02-19T13:06:10.242811-06:00 c0-0c1s1n2 cray-syslog: llmrd started as process  7538.
+[556] 2015-02-19T13:06:10.309735-06:00 c0-0c1s1n2 [m[?25h[m[?25hStarting auditd startproc:  exit status of parent of /sbin/auditd: 6
+[429] 2015-02-19T13:06:10.309750-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:06:10.309757-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[557] 2015-02-19T13:06:10.423829-06:00 c0-0c1s1n2 [m[?25hStarting haveged daemon 7[?25l
+[423] 2015-02-19T13:06:10.423840-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[558] 2015-02-19T13:06:10.449088-06:00 c0-0c1s1n2 [m[?25hStarting rpcbind 7[?25l
+[423] 2015-02-19T13:06:10.449099-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[559] 2015-02-19T13:06:10.474287-06:00 c0-0c1s1n2 [m[?25hbootnodes are: 1 1 
+[540] 2015-02-19T13:06:10.474314-06:00 c0-0c1s1n2 mynid=70
+[560] 2015-02-19T13:06:10.499566-06:00 c0-0c1s1n2 [m[?25hNot starting NFS client services - no NFS found in /etc/fstab:
+[510] 2015-02-19T13:06:10.499576-06:00 c0-0c1s1n2 [80C[10D[1munused[m
+[561] 2015-02-19T13:06:10.524822-06:00 c0-0c1s1n2 [m[?25hStarting DVS service: DVS: Revision 1873 - Built: Sep 17 2014 @ 06:40:29 for lnet version 2.5
+[429] 2015-02-19T13:06:10.585202-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-19T13:06:10.585221-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[564] 2015-02-19T13:06:10.610365-06:00 c0-0c1s1n2 [m[?25hStarting java.binfmt_misc 7[?25l
+[423] 2015-02-19T13:06:10.610375-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[565] 2015-02-19T13:06:10.649398-06:00 c0-0c1s1n2 [m[?25hStarting mcelog... 7[?25l
+[423] 2015-02-19T13:06:10.649407-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[529] 2015-02-19T13:06:10.771156-06:00 c0-0c1s1n2 [m[?25hSetting up (remotefs) network interfaces:
+[566] 2015-02-19T13:06:10.873803-06:00 c0-0c1s1n2    sit0      
+[534] 2015-02-19T13:06:10.899002-06:00 c0-0c1s1n2              No configuration found for sit0
+[470] 2015-02-19T13:06:10.899132-06:00 c0-0c1s1n2 7[?25l[1A
+[537] 2015-02-19T13:06:10.899145-06:00 c0-0c1s1n2 [80C[10D[1munused[m8[?25hSetting up service (remotefs) network  .  .  .  .  .  .  .  .  .  .7[?25l
+[423] 2015-02-19T13:06:10.899151-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[423] 2015-02-19T13:06:10.974722-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[559] 2015-02-19T13:06:10.999953-06:00 c0-0c1s1n2 [m[?25hsdbnodes are: 137 65 
+[540] 2015-02-19T13:06:11.025202-06:00 c0-0c1s1n2 mynid=70
+[567] 2015-02-19T13:06:11.050407-06:00 c0-0c1s1n2 [m[?25hStarting network time protocol daemon (NTPD)7[?25l
+[423] 2015-02-19T13:06:11.050419-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[568] 2015-02-19T13:06:11.126107-06:00 c0-0c1s1n2 [m[?25hStarting MUNGE: munged7[?25l
+[423] 2015-02-19T13:06:11.126118-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[569] 2015-02-19T13:06:11.201879-06:00 c0-0c1s1n2 [m[?25h[m[?25h[m[?25hStarting Name Service Cache Daemon7[?25l
+[423] 2015-02-19T13:06:11.201892-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[570] 2015-02-19T13:06:11.202062-06:00 c0-0c1s1n2 [m[?25hEnabling Linux Jobs
+[571] 2015-02-19T13:06:11.277358-06:00 c0-0c1s1n2 [m[?25hStarting alps services
+[572] 2015-02-19T13:06:11.755861-06:00 c0-0c1s1n2 mkdir: cannot create directory `/ufs/alps_shared': Read-only file system
+[573] 2015-02-19T13:06:11.755876-06:00 c0-0c1s1n2 no ALPS daemon will be started on node nid00070.
+[574] 2015-02-19T13:06:12.284943-06:00 c0-0c1s1n2 [m[?25h<node_health> Starting node_health_recovery
+[559] 2015-02-19T13:06:12.310152-06:00 c0-0c1s1n2 [m[?25hsdbnodes are: 137 65 
+[540] 2015-02-19T13:06:12.310236-06:00 c0-0c1s1n2 mynid=70
+[575] 2015-02-19T13:06:12.310267-06:00 c0-0c1s1n2 [m[?25hblogd: no message logging because /var file system is not accessible
+[576] 2015-02-19T13:06:12.310500-06:00 c0-0c1s1n2 Boot event: Starting
+[577] 2015-02-19T13:06:12.310529-06:00 c0-0c1s1n2 Sending ec_node_info with boot code 8 (NODE_INFO_OS_BOOT_SUCCEEDED) for nid 70
+[578] 2015-02-19T13:06:12.310576-06:00 c0-0c1s1n2 [m[?25hMaster Resource Control: runlevel 3 has been 
+[510] 2015-02-19T13:06:12.310587-06:00 c0-0c1s1n2 [80C[10D[1mreached[m
+[579] 2015-02-19T13:06:12.310682-06:00 c0-0c1s1n2 Failed services in runlevel 3: [80C[11D[1;31mlnet[m
+[580] 2015-02-19T13:06:12.335503-06:00 c0-0c1s1n2 Skipped services in runlevel 3: [80C[10D[1;33mnfs[m
+[581] 2015-02-19T13:06:12.335615-06:00 c0-0c1s1n2 INIT: no more processes left in this runlevel
+[132] 2015-02-20T12:04:08.535602-06:00 c0-0c1s1n2 Wait4Boot: WRITE: 533 bytes to memory @ 0x90CD0 ... complete
+[133] 2015-02-20T12:04:08.535619-06:00 c0-0c1s1n2 Wait4Boot: Blade Controller Boot Protocol version - 1
+[134] 2015-02-20T12:04:08.535656-06:00 c0-0c1s1n2 Wait4Boot: JUMP: KernelStart 0x100000, boot_params 0x90000, CmdLineAddr 0x90CD0
+[135] 2015-02-20T12:04:08.666728-06:00 c0-0c1s1n2 Decompressing Linux... Parsing ELF... done.
+[136] 2015-02-20T12:04:08.666750-06:00 c0-0c1s1n2 Booting the kernel.
+[137] 2015-02-20T12:04:08.692011-06:00 c0-0c1s1n2 Initializing cgroup subsys cpuset
+[137] 2015-02-20T12:04:08.692040-06:00 c0-0c1s1n2 Initializing cgroup subsys cpu
+[138] 2015-02-20T12:04:08.717089-06:00 c0-0c1s1n2 Linux version 3.0.101-0.31.1_1.0502.8394-cray_ari_s (abuild@cfosbld05) (gcc version 4.3.4 [gcc-4_3-branch revision 152973] (SUSE Linux) ) #1 SMP Wed Sep 10 04:03:41 UTC 2014
+[139] 2015-02-20T12:04:08.792768-06:00 c0-0c1s1n2 Command line: earlyprintk=serial,115200 load_ramdisk=1 ramdisk_size=80000 console=ttyS0,115200n8 bootnodeip=10.131.255.254 bootproto=ipog bootpath=/rr/current rootfs=nfs-shared root=/dev/disk/by-id/scsi-3600a09800063789e0000008b54c3a04c-part1 oops=panic bootifnetmask=255.252.0.0 elevator=noop ippob1=10 ippob2=128 pcie_ports=native iommu=on intel_iommu=off bad_page=panic pln_enable=off apei_disable hest_disable erst_disable ghes_disable cgroup_disable=memory active_wlm=ALPS sdbnodeip=10.131.255.253 sessionid=p0-20150220t105316 _cray=marker_ 
+[140] 2015-02-20T12:04:08.792827-06:00 c0-0c1s1n2 KERNEL supported cpus:
+[141] 2015-02-20T12:04:08.792842-06:00 c0-0c1s1n2  Intel GenuineIntel
+[142] 2015-02-20T12:04:08.792899-06:00 c0-0c1s1n2 BIOS-provided physical RAM map:
+[143] 2015-02-20T12:04:08.817941-06:00 c0-0c1s1n2 BIOS-e820: 0000000000000000 - 00000000000a0000 (usable)
+[143] 2015-02-20T12:04:08.818117-06:00 c0-0c1s1n2 BIOS-e820: 0000000000100000 - 000000007e67c000 (usable)
+[144] 2015-02-20T12:04:09.095896-06:00 c0-0c1s1n2 BIOS-e820: 000000007e67c000 - 000000007e790000 (ACPI NVS)
+[145] 2015-02-20T12:04:09.095905-06:00 c0-0c1s1n2 BIOS-e820: 000000007e790000 - 000000007f395000 (reserved)
+[146] 2015-02-20T12:04:09.095912-06:00 c0-0c1s1n2 BIOS-e820: 000000007f395000 - 000000007f410000 (ACPI data)
+[145] 2015-02-20T12:04:09.095919-06:00 c0-0c1s1n2 BIOS-e820: 000000007f410000 - 000000007f491000 (reserved)
+[143] 2015-02-20T12:04:09.095930-06:00 c0-0c1s1n2 BIOS-e820: 000000007f491000 - 000000007f493000 (usable)
+[144] 2015-02-20T12:04:09.095941-06:00 c0-0c1s1n2 BIOS-e820: 000000007f493000 - 000000007f494000 (ACPI NVS)
+[145] 2015-02-20T12:04:09.095951-06:00 c0-0c1s1n2 BIOS-e820: 000000007f494000 - 000000007f49e000 (reserved)
+[144] 2015-02-20T12:04:09.095962-06:00 c0-0c1s1n2 BIOS-e820: 000000007f49e000 - 000000007f4a6000 (ACPI NVS)
+[145] 2015-02-20T12:04:09.095970-06:00 c0-0c1s1n2 BIOS-e820: 000000007f4a6000 - 000000007f4d2000 (reserved)
+[144] 2015-02-20T12:04:09.095980-06:00 c0-0c1s1n2 BIOS-e820: 000000007f4d2000 - 000000007f558000 (ACPI NVS)
+[143] 2015-02-20T12:04:09.095990-06:00 c0-0c1s1n2 BIOS-e820: 000000007f558000 - 000000007f800000 (usable)
+[145] 2015-02-20T12:04:09.095999-06:00 c0-0c1s1n2 BIOS-e820: 0000000080000000 - 0000000090000000 (reserved)
+[145] 2015-02-20T12:04:09.096009-06:00 c0-0c1s1n2 BIOS-e820: 00000000fed1c000 - 00000000fed20000 (reserved)
+[145] 2015-02-20T12:04:09.096020-06:00 c0-0c1s1n2 BIOS-e820: 00000000ff000000 - 0000000100000000 (reserved)
+[143] 2015-02-20T12:04:09.096034-06:00 c0-0c1s1n2 BIOS-e820: 0000000100000000 - 0000001080000000 (usable)
+[147] 2015-02-20T12:04:09.096045-06:00 c0-0c1s1n2 bootconsole [earlyser0] enabled
+[148] 2015-02-20T12:04:09.096053-06:00 c0-0c1s1n2 NX (Execute Disable) protection: active
+[149] 2015-02-20T12:04:09.096063-06:00 c0-0c1s1n2 EFI v2.10 by American Megatrends
+[150] 2015-02-20T12:04:09.096074-06:00 c0-0c1s1n2 ACPI=0x7f395000  ACPI 2.0=0x7f395000  SMBIOS=0xf04c0  MPS=0xfd450 
+[151] 2015-02-20T12:04:09.096085-06:00 c0-0c1s1n2 EFI: mem00: type=3, attr=0xf, range=[0x0000000000000000-0x0000000000008000) (0MB)
+[151] 2015-02-20T12:04:09.096097-06:00 c0-0c1s1n2 EFI: mem01: type=7, attr=0xf, range=[0x0000000000008000-0x0000000000060000) (0MB)
+[151] 2015-02-20T12:04:09.096107-06:00 c0-0c1s1n2 EFI: mem02: type=3, attr=0xf, range=[0x0000000000060000-0x00000000000a0000) (0MB)
+[151] 2015-02-20T12:04:09.096114-06:00 c0-0c1s1n2 EFI: mem03: type=7, attr=0xf, range=[0x0000000000100000-0x0000000001000000) (15MB)
+[151] 2015-02-20T12:04:09.096124-06:00 c0-0c1s1n2 EFI: mem04: type=2, attr=0xf, range=[0x0000000001000000-0x0000000001100000) (1MB)
+[151] 2015-02-20T12:04:09.096134-06:00 c0-0c1s1n2 EFI: mem05: type=4, attr=0xf, range=[0x0000000001100000-0x00000000017ea000) (6MB)
+[151] 2015-02-20T12:04:09.096142-06:00 c0-0c1s1n2 EFI: mem06: type=3, attr=0xf, range=[0x00000000017ea000-0x00000000017ee000) (0MB)
+[151] 2015-02-20T12:04:09.096151-06:00 c0-0c1s1n2 EFI: mem07: type=4, attr=0xf, range=[0x00000000017ee000-0x0000000001886000) (0MB)
+[151] 2015-02-20T12:04:09.096161-06:00 c0-0c1s1n2 EFI: mem08: type=3, attr=0xf, range=[0x0000000001886000-0x000000000188f000) (0MB)
+[151] 2015-02-20T12:04:09.132340-06:00 c0-0c1s1n2 EFI: mem09: type=4, attr=0xf, range=[0x000000000188f000-0x0000000001892000) (0MB)
+[151] 2015-02-20T12:04:09.132627-06:00 c0-0c1s1n2 EFI: mem10: type=3, attr=0xf, range=[0x0000000001892000-0x000000000189e000) (0MB)
+[151] 2015-02-20T12:04:09.132929-06:00 c0-0c1s1n2 EFI: mem11: type=4, attr=0xf, range=[0x000000000189e000-0x00000000018a9000) (0MB)
+[151] 2015-02-20T12:04:09.176563-06:00 c0-0c1s1n2 EFI: mem12: type=3, attr=0xf, range=[0x00000000018a9000-0x00000000018ab000) (0MB)
+[151] 2015-02-20T12:04:09.176711-06:00 c0-0c1s1n2 EFI: mem13: type=4, attr=0xf, range=[0x00000000018ab000-0x00000000018ad000) (0MB)
+[151] 2015-02-20T12:04:09.176885-06:00 c0-0c1s1n2 EFI: mem14: type=3, attr=0xf, range=[0x00000000018ad000-0x00000000018af000) (0MB)
+[151] 2015-02-20T12:04:09.177011-06:00 c0-0c1s1n2 EFI: mem15: type=4, attr=0xf, range=[0x00000000018af000-0x00000000018b7000) (0MB)
+[151] 2015-02-20T12:04:09.196623-06:00 c0-0c1s1n2 EFI: mem16: type=3, attr=0xf, range=[0x00000000018b7000-0x00000000018bb000) (0MB)
+[151] 2015-02-20T12:04:09.196843-06:00 c0-0c1s1n2 EFI: mem17: type=4, attr=0xf, range=[0x00000000018bb000-0x00000000018bd000) (0MB)
+[151] 2015-02-20T12:04:09.221727-06:00 c0-0c1s1n2 EFI: mem18: type=3, attr=0xf, range=[0x00000000018bd000-0x00000000018bf000) (0MB)
+[151] 2015-02-20T12:04:09.221971-06:00 c0-0c1s1n2 EFI: mem19: type=4, attr=0xf, range=[0x00000000018bf000-0x00000000018d1000) (0MB)
+[151] 2015-02-20T12:04:09.246958-06:00 c0-0c1s1n2 EFI: mem20: type=3, attr=0xf, range=[0x00000000018d1000-0x00000000018d7000) (0MB)
+[151] 2015-02-20T12:04:09.272047-06:00 c0-0c1s1n2 EFI: mem21: type=4, attr=0xf, range=[0x00000000018d7000-0x00000000018f9000) (0MB)
+[151] 2015-02-20T12:04:09.272320-06:00 c0-0c1s1n2 EFI: mem22: type=3, attr=0xf, range=[0x00000000018f9000-0x0000000001908000) (0MB)
+[151] 2015-02-20T12:04:09.272548-06:00 c0-0c1s1n2 EFI: mem23: type=4, attr=0xf, range=[0x0000000001908000-0x0000000001921000) (0MB)
+[151] 2015-02-20T12:04:09.297471-06:00 c0-0c1s1n2 EFI: mem24: type=3, attr=0xf, range=[0x0000000001921000-0x000000000192b000) (0MB)
+[151] 2015-02-20T12:04:09.297702-06:00 c0-0c1s1n2 EFI: mem25: type=4, attr=0xf, range=[0x000000000192b000-0x0000000001933000) (0MB)
+[151] 2015-02-20T12:04:09.322691-06:00 c0-0c1s1n2 EFI: mem26: type=3, attr=0xf, range=[0x0000000001933000-0x0000000001936000) (0MB)
+[151] 2015-02-20T12:04:09.347789-06:00 c0-0c1s1n2 EFI: mem27: type=4, attr=0xf, range=[0x0000000001936000-0x0000000001964000) (0MB)
+[151] 2015-02-20T12:04:09.348040-06:00 c0-0c1s1n2 EFI: mem28: type=3, attr=0xf, range=[0x0000000001964000-0x0000000001968000) (0MB)
+[151] 2015-02-20T12:04:09.373017-06:00 c0-0c1s1n2 EFI: mem29: type=4, attr=0xf, range=[0x0000000001968000-0x0000000001987000) (0MB)
+[151] 2015-02-20T12:04:09.412456-06:00 c0-0c1s1n2 EFI: mem30: type=3, attr=0xf, range=[0x0000000001987000-0x00000000019b0000) (0MB)
+[151] 2015-02-20T12:04:09.412590-06:00 c0-0c1s1n2 EFI: mem31: type=4, attr=0xf, range=[0x00000000019b0000-0x00000000019ba000) (0MB)
+[151] 2015-02-20T12:04:09.412779-06:00 c0-0c1s1n2 EFI: mem32: type=3, attr=0xf, range=[0x00000000019ba000-0x00000000019bd000) (0MB)
+[151] 2015-02-20T12:04:09.452455-06:00 c0-0c1s1n2 EFI: mem33: type=4, attr=0xf, range=[0x00000000019bd000-0x00000000019be000) (0MB)
+[151] 2015-02-20T12:04:09.452635-06:00 c0-0c1s1n2 EFI: mem34: type=3, attr=0xf, range=[0x00000000019be000-0x00000000019d0000) (0MB)
+[151] 2015-02-20T12:04:09.452806-06:00 c0-0c1s1n2 EFI: mem35: type=4, attr=0xf, range=[0x00000000019d0000-0x00000000019d3000) (0MB)
+[151] 2015-02-20T12:04:09.452967-06:00 c0-0c1s1n2 EFI: mem36: type=3, attr=0xf, range=[0x00000000019d3000-0x00000000019d5000) (0MB)
+[151] 2015-02-20T12:04:09.492404-06:00 c0-0c1s1n2 EFI: mem37: type=4, attr=0xf, range=[0x00000000019d5000-0x00000000019e1000) (0MB)
+[151] 2015-02-20T12:04:09.492558-06:00 c0-0c1s1n2 EFI: mem38: type=3, attr=0xf, range=[0x00000000019e1000-0x00000000019e5000) (0MB)
+[151] 2015-02-20T12:04:09.499296-06:00 c0-0c1s1n2 EFI: mem39: type=4, attr=0xf, range=[0x00000000019e5000-0x0000000001a02000) (0MB)
+[151] 2015-02-20T12:04:09.499527-06:00 c0-0c1s1n2 EFI: mem40: type=3, attr=0xf, range=[0x0000000001a02000-0x0000000001a06000) (0MB)
+[151] 2015-02-20T12:04:09.524512-06:00 c0-0c1s1n2 EFI: mem41: type=4, attr=0xf, range=[0x0000000001a06000-0x0000000001a0a000) (0MB)
+[151] 2015-02-20T12:04:09.568409-06:00 c0-0c1s1n2 EFI: mem42: type=3, attr=0xf, range=[0x0000000001a0a000-0x0000000001a1e000) (0MB)
+[151] 2015-02-20T12:04:09.568606-06:00 c0-0c1s1n2 EFI: mem43: type=4, attr=0xf, range=[0x0000000001a1e000-0x0000000001a22000) (0MB)
+[151] 2015-02-20T12:04:09.568743-06:00 c0-0c1s1n2 EFI: mem44: type=3, attr=0xf, range=[0x0000000001a22000-0x0000000001a26000) (0MB)
+[151] 2015-02-20T12:04:09.608443-06:00 c0-0c1s1n2 EFI: mem45: type=4, attr=0xf, range=[0x0000000001a26000-0x0000000001a34000) (0MB)
+[151] 2015-02-20T12:04:09.608615-06:00 c0-0c1s1n2 EFI: mem46: type=3, attr=0xf, range=[0x0000000001a34000-0x0000000001a3b000) (0MB)
+[151] 2015-02-20T12:04:09.608755-06:00 c0-0c1s1n2 EFI: mem47: type=4, attr=0xf, range=[0x0000000001a3b000-0x0000000001a42000) (0MB)
+[151] 2015-02-20T12:04:09.608885-06:00 c0-0c1s1n2 EFI: mem48: type=3, attr=0xf, range=[0x0000000001a42000-0x0000000001a4a000) (0MB)
+[151] 2015-02-20T12:04:09.648424-06:00 c0-0c1s1n2 EFI: mem49: type=4, attr=0xf, range=[0x0000000001a4a000-0x0000000001a4b000) (0MB)
+[151] 2015-02-20T12:04:09.648601-06:00 c0-0c1s1n2 EFI: mem50: type=3, attr=0xf, range=[0x0000000001a4b000-0x0000000001a4d000) (0MB)
+[151] 2015-02-20T12:04:09.650688-06:00 c0-0c1s1n2 EFI: mem51: type=4, attr=0xf, range=[0x0000000001a4d000-0x0000000001a52000) (0MB)
+[151] 2015-02-20T12:04:09.650917-06:00 c0-0c1s1n2 EFI: mem52: type=3, attr=0xf, range=[0x0000000001a52000-0x0000000001a69000) (0MB)
+[151] 2015-02-20T12:04:09.688251-06:00 c0-0c1s1n2 EFI: mem53: type=4, attr=0xf, range=[0x0000000001a69000-0x0000000001a6f000) (0MB)
+[151] 2015-02-20T12:04:09.688411-06:00 c0-0c1s1n2 EFI: mem54: type=3, attr=0xf, range=[0x0000000001a6f000-0x0000000001a70000) (0MB)
+[151] 2015-02-20T12:04:09.728511-06:00 c0-0c1s1n2 EFI: mem55: type=4, attr=0xf, range=[0x0000000001a70000-0x0000000001a71000) (0MB)
+[151] 2015-02-20T12:04:09.728647-06:00 c0-0c1s1n2 EFI: mem56: type=3, attr=0xf, range=[0x0000000001a71000-0x0000000001a79000) (0MB)
+[151] 2015-02-20T12:04:09.728860-06:00 c0-0c1s1n2 EFI: mem57: type=4, attr=0xf, range=[0x0000000001a79000-0x0000000001a7a000) (0MB)
+[151] 2015-02-20T12:04:09.729032-06:00 c0-0c1s1n2 EFI: mem58: type=3, attr=0xf, range=[0x0000000001a7a000-0x0000000001a83000) (0MB)
+[151] 2015-02-20T12:04:09.768415-06:00 c0-0c1s1n2 EFI: mem59: type=4, attr=0xf, range=[0x0000000001a83000-0x0000000001a85000) (0MB)
+[151] 2015-02-20T12:04:09.768580-06:00 c0-0c1s1n2 EFI: mem60: type=3, attr=0xf, range=[0x0000000001a85000-0x0000000001abe000) (0MB)
+[151] 2015-02-20T12:04:09.768756-06:00 c0-0c1s1n2 EFI: mem61: type=4, attr=0xf, range=[0x0000000001abe000-0x0000000001abf000) (0MB)
+[151] 2015-02-20T12:04:09.777157-06:00 c0-0c1s1n2 EFI: mem62: type=3, attr=0xf, range=[0x0000000001abf000-0x0000000001acc000) (0MB)
+[151] 2015-02-20T12:04:09.777355-06:00 c0-0c1s1n2 EFI: mem63: type=4, attr=0xf, range=[0x0000000001acc000-0x0000000001ad7000) (0MB)
+[151] 2015-02-20T12:04:09.802457-06:00 c0-0c1s1n2 EFI: mem64: type=3, attr=0xf, range=[0x0000000001ad7000-0x0000000001adc000) (0MB)
+[151] 2015-02-20T12:04:09.827431-06:00 c0-0c1s1n2 EFI: mem65: type=4, attr=0xf, range=[0x0000000001adc000-0x0000000001b60000) (0MB)
+[151] 2015-02-20T12:04:09.827730-06:00 c0-0c1s1n2 EFI: mem66: type=3, attr=0xf, range=[0x0000000001b60000-0x0000000001b7c000) (0MB)
+[151] 2015-02-20T12:04:09.827946-06:00 c0-0c1s1n2 EFI: mem67: type=4, attr=0xf, range=[0x0000000001b7c000-0x0000000001b84000) (0MB)
+[151] 2015-02-20T12:04:09.864468-06:00 c0-0c1s1n2 EFI: mem68: type=3, attr=0xf, range=[0x0000000001b84000-0x0000000001b9c000) (0MB)
+[151] 2015-02-20T12:04:09.864589-06:00 c0-0c1s1n2 EFI: mem69: type=4, attr=0xf, range=[0x0000000001b9c000-0x000000000b210000) (150MB)
+[151] 2015-02-20T12:04:09.904521-06:00 c0-0c1s1n2 EFI: mem70: type=3, attr=0xf, range=[0x000000000b210000-0x000000000b216000) (0MB)
+[151] 2015-02-20T12:04:09.904655-06:00 c0-0c1s1n2 EFI: mem71: type=4, attr=0xf, range=[0x000000000b216000-0x000000000b21f000) (0MB)
+[151] 2015-02-20T12:04:09.904785-06:00 c0-0c1s1n2 EFI: mem72: type=3, attr=0xf, range=[0x000000000b21f000-0x000000000b235000) (0MB)
+[151] 2015-02-20T12:04:09.944415-06:00 c0-0c1s1n2 EFI: mem73: type=4, attr=0xf, range=[0x000000000b235000-0x000000000b23b000) (0MB)
+[151] 2015-02-20T12:04:09.944523-06:00 c0-0c1s1n2 EFI: mem74: type=3, attr=0xf, range=[0x000000000b23b000-0x000000000b23e000) (0MB)
+[151] 2015-02-20T12:04:09.944673-06:00 c0-0c1s1n2 EFI: mem75: type=4, attr=0xf, range=[0x000000000b23e000-0x000000000b246000) (0MB)
+[151] 2015-02-20T12:04:09.953858-06:00 c0-0c1s1n2 EFI: mem76: type=3, attr=0xf, range=[0x000000000b246000-0x000000000b24a000) (0MB)
+[151] 2015-02-20T12:04:09.954040-06:00 c0-0c1s1n2 EFI: mem77: type=4, attr=0xf, range=[0x000000000b24a000-0x000000000b24c000) (0MB)
+[151] 2015-02-20T12:04:09.979112-06:00 c0-0c1s1n2 EFI: mem78: type=3, attr=0xf, range=[0x000000000b24c000-0x000000000b254000) (0MB)
+[151] 2015-02-20T12:04:09.979304-06:00 c0-0c1s1n2 EFI: mem79: type=4, attr=0xf, range=[0x000000000b254000-0x000000000b279000) (0MB)
+[151] 2015-02-20T12:04:10.004388-06:00 c0-0c1s1n2 EFI: mem80: type=3, attr=0xf, range=[0x000000000b279000-0x000000000b280000) (0MB)
+[151] 2015-02-20T12:04:10.004559-06:00 c0-0c1s1n2 EFI: mem81: type=4, attr=0xf, range=[0x000000000b280000-0x000000000b284000) (0MB)
+[151] 2015-02-20T12:04:10.029592-06:00 c0-0c1s1n2 EFI: mem82: type=3, attr=0xf, range=[0x000000000b284000-0x000000000b28c000) (0MB)
+[151] 2015-02-20T12:04:10.054691-06:00 c0-0c1s1n2 EFI: mem83: type=4, attr=0xf, range=[0x000000000b28c000-0x000000000b295000) (0MB)
+[151] 2015-02-20T12:04:10.054896-06:00 c0-0c1s1n2 EFI: mem84: type=3, attr=0xf, range=[0x000000000b295000-0x000000000b2d3000) (0MB)
+[151] 2015-02-20T12:04:10.079943-06:00 c0-0c1s1n2 EFI: mem85: type=4, attr=0xf, range=[0x000000000b2d3000-0x000000000b2d8000) (0MB)
+[151] 2015-02-20T12:04:10.080110-06:00 c0-0c1s1n2 EFI: mem86: type=3, attr=0xf, range=[0x000000000b2d8000-0x000000000b2dd000) (0MB)
+[151] 2015-02-20T12:04:10.080279-06:00 c0-0c1s1n2 EFI: mem87: type=4, attr=0xf, range=[0x000000000b2dd000-0x000000000b2e9000) (0MB)
+[151] 2015-02-20T12:04:10.105354-06:00 c0-0c1s1n2 EFI: mem88: type=3, attr=0xf, range=[0x000000000b2e9000-0x000000000b2ef000) (0MB)
+[151] 2015-02-20T12:04:10.130446-06:00 c0-0c1s1n2 EFI: mem89: type=4, attr=0xf, range=[0x000000000b2ef000-0x000000000b300000) (0MB)
+[151] 2015-02-20T12:04:10.130654-06:00 c0-0c1s1n2 EFI: mem90: type=3, attr=0xf, range=[0x000000000b300000-0x000000000b305000) (0MB)
+[151] 2015-02-20T12:04:10.130829-06:00 c0-0c1s1n2 EFI: mem91: type=4, attr=0xf, range=[0x000000000b305000-0x000000000b30b000) (0MB)
+[151] 2015-02-20T12:04:10.155833-06:00 c0-0c1s1n2 EFI: mem92: type=3, attr=0xf, range=[0x000000000b30b000-0x000000000b343000) (0MB)
+[151] 2015-02-20T12:04:10.156017-06:00 c0-0c1s1n2 EFI: mem93: type=4, attr=0xf, range=[0x000000000b343000-0x000000000b34a000) (0MB)
+[151] 2015-02-20T12:04:10.180984-06:00 c0-0c1s1n2 EFI: mem94: type=3, attr=0xf, range=[0x000000000b34a000-0x000000000b34e000) (0MB)
+[151] 2015-02-20T12:04:10.206193-06:00 c0-0c1s1n2 EFI: mem95: type=4, attr=0xf, range=[0x000000000b34e000-0x000000000b351000) (0MB)
+[151] 2015-02-20T12:04:10.206372-06:00 c0-0c1s1n2 EFI: mem96: type=3, attr=0xf, range=[0x000000000b351000-0x000000000b358000) (0MB)
+[151] 2015-02-20T12:04:10.231481-06:00 c0-0c1s1n2 EFI: mem97: type=4, attr=0xf, range=[0x000000000b358000-0x000000000b35c000) (0MB)
+[151] 2015-02-20T12:04:10.231712-06:00 c0-0c1s1n2 EFI: mem98: type=3, attr=0xf, range=[0x000000000b35c000-0x000000000b360000) (0MB)
+[151] 2015-02-20T12:04:10.231816-06:00 c0-0c1s1n2 EFI: mem99: type=4, attr=0xf, range=[0x000000000b360000-0x000000000b368000) (0MB)
+[151] 2015-02-20T12:04:10.256801-06:00 c0-0c1s1n2 EFI: mem100: type=3, attr=0xf, range=[0x000000000b368000-0x000000000b36c000) (0MB)
+[151] 2015-02-20T12:04:10.256989-06:00 c0-0c1s1n2 EFI: mem101: type=4, attr=0xf, range=[0x000000000b36c000-0x000000000b370000) (0MB)
+[151] 2015-02-20T12:04:10.282071-06:00 c0-0c1s1n2 EFI: mem102: type=3, attr=0xf, range=[0x000000000b370000-0x000000000b374000) (0MB)
+[151] 2015-02-20T12:04:10.307231-06:00 c0-0c1s1n2 EFI: mem103: type=4, attr=0xf, range=[0x000000000b374000-0x000000000b384000) (0MB)
+[151] 2015-02-20T12:04:10.307415-06:00 c0-0c1s1n2 EFI: mem104: type=3, attr=0xf, range=[0x000000000b384000-0x000000000b38a000) (0MB)
+[151] 2015-02-20T12:04:10.332500-06:00 c0-0c1s1n2 EFI: mem105: type=4, attr=0xf, range=[0x000000000b38a000-0x000000000b3ac000) (0MB)
+[151] 2015-02-20T12:04:10.332710-06:00 c0-0c1s1n2 EFI: mem106: type=3, attr=0xf, range=[0x000000000b3ac000-0x000000000b3b3000) (0MB)
+[151] 2015-02-20T12:04:10.357734-06:00 c0-0c1s1n2 EFI: mem107: type=4, attr=0xf, range=[0x000000000b3b3000-0x000000000b3b7000) (0MB)
+[151] 2015-02-20T12:04:10.357916-06:00 c0-0c1s1n2 EFI: mem108: type=3, attr=0xf, range=[0x000000000b3b7000-0x000000000b3c9000) (0MB)
+[151] 2015-02-20T12:04:10.383004-06:00 c0-0c1s1n2 EFI: mem109: type=4, attr=0xf, range=[0x000000000b3c9000-0x000000000b3cc000) (0MB)
+[151] 2015-02-20T12:04:10.383197-06:00 c0-0c1s1n2 EFI: mem110: type=3, attr=0xf, range=[0x000000000b3cc000-0x000000000b3d7000) (0MB)
+[151] 2015-02-20T12:04:10.408268-06:00 c0-0c1s1n2 EFI: mem111: type=4, attr=0xf, range=[0x000000000b3d7000-0x000000000b45c000) (0MB)
+[151] 2015-02-20T12:04:10.408548-06:00 c0-0c1s1n2 EFI: mem112: type=3, attr=0xf, range=[0x000000000b45c000-0x000000000b45f000) (0MB)
+[151] 2015-02-20T12:04:10.433421-06:00 c0-0c1s1n2 EFI: mem113: type=4, attr=0xf, range=[0x000000000b45f000-0x000000000b475000) (0MB)
+[151] 2015-02-20T12:04:10.433636-06:00 c0-0c1s1n2 EFI: mem114: type=3, attr=0xf, range=[0x000000000b475000-0x000000000b47c000) (0MB)
+[151] 2015-02-20T12:04:10.458745-06:00 c0-0c1s1n2 EFI: mem115: type=4, attr=0xf, range=[0x000000000b47c000-0x000000000b48b000) (0MB)
+[151] 2015-02-20T12:04:10.458970-06:00 c0-0c1s1n2 EFI: mem116: type=3, attr=0xf, range=[0x000000000b48b000-0x000000000b48f000) (0MB)
+[151] 2015-02-20T12:04:10.484163-06:00 c0-0c1s1n2 EFI: mem117: type=4, attr=0xf, range=[0x000000000b48f000-0x000000000b4b1000) (0MB)
+[151] 2015-02-20T12:04:10.484347-06:00 c0-0c1s1n2 EFI: mem118: type=3, attr=0xf, range=[0x000000000b4b1000-0x000000000b4b6000) (0MB)
+[151] 2015-02-20T12:04:10.509378-06:00 c0-0c1s1n2 EFI: mem119: type=4, attr=0xf, range=[0x000000000b4b6000-0x000000000b4c5000) (0MB)
+[151] 2015-02-20T12:04:10.509590-06:00 c0-0c1s1n2 EFI: mem120: type=7, attr=0xf, range=[0x000000000b4c5000-0x000000000b4c6000) (0MB)
+[151] 2015-02-20T12:04:10.534502-06:00 c0-0c1s1n2 EFI: mem121: type=4, attr=0xf, range=[0x000000000b4c6000-0x000000000b53e000) (0MB)
+[151] 2015-02-20T12:04:10.534687-06:00 c0-0c1s1n2 EFI: mem122: type=3, attr=0xf, range=[0x000000000b53e000-0x000000000b552000) (0MB)
+[151] 2015-02-20T12:04:10.559876-06:00 c0-0c1s1n2 EFI: mem123: type=4, attr=0xf, range=[0x000000000b552000-0x000000000b577000) (0MB)
+[151] 2015-02-20T12:04:10.560059-06:00 c0-0c1s1n2 EFI: mem124: type=3, attr=0xf, range=[0x000000000b577000-0x000000000b580000) (0MB)
+[151] 2015-02-20T12:04:10.585187-06:00 c0-0c1s1n2 EFI: mem125: type=4, attr=0xf, range=[0x000000000b580000-0x000000000b581000) (0MB)
+[151] 2015-02-20T12:04:10.585352-06:00 c0-0c1s1n2 EFI: mem126: type=2, attr=0xf, range=[0x000000000b581000-0x000000000b583000) (0MB)
+[151] 2015-02-20T12:04:10.610318-06:00 c0-0c1s1n2 EFI: mem127: type=7, attr=0xf, range=[0x000000000b583000-0x000000000b585000) (0MB)
+[151] 2015-02-20T12:04:10.610527-06:00 c0-0c1s1n2 EFI: mem128: type=4, attr=0xf, range=[0x000000000b585000-0x000000000b58f000) (0MB)
+[151] 2015-02-20T12:04:10.635612-06:00 c0-0c1s1n2 EFI: mem129: type=7, attr=0xf, range=[0x000000000b58f000-0x000000000b598000) (0MB)
+[151] 2015-02-20T12:04:10.635788-06:00 c0-0c1s1n2 EFI: mem130: type=4, attr=0xf, range=[0x000000000b598000-0x000000000b7ac000) (2MB)
+[151] 2015-02-20T12:04:10.660966-06:00 c0-0c1s1n2 EFI: mem131: type=7, attr=0xf, range=[0x000000000b7ac000-0x000000000b7ba000) (0MB)
+[151] 2015-02-20T12:04:10.661158-06:00 c0-0c1s1n2 EFI: mem132: type=1, attr=0xf, range=[0x000000000b7ba000-0x000000000b7cb000) (0MB)
+[151] 2015-02-20T12:04:10.686162-06:00 c0-0c1s1n2 EFI: mem133: type=7, attr=0xf, range=[0x000000000b7cb000-0x000000007e67c000) (1838MB)
+[151] 2015-02-20T12:04:10.711323-06:00 c0-0c1s1n2 EFI: mem134: type=10, attr=0xf, range=[0x000000007e67c000-0x000000007e790000) (1MB)
+[151] 2015-02-20T12:04:10.711523-06:00 c0-0c1s1n2 EFI: mem135: type=0, attr=0xf, range=[0x000000007e790000-0x000000007e792000) (0MB)
+[151] 2015-02-20T12:04:10.736653-06:00 c0-0c1s1n2 EFI: mem136: type=6, attr=0x800000000000000f, range=[0x000000007e792000-0x000000007f395000) (12MB)
+[151] 2015-02-20T12:04:10.736847-06:00 c0-0c1s1n2 EFI: mem137: type=9, attr=0xf, range=[0x000000007f395000-0x000000007f410000) (0MB)
+[151] 2015-02-20T12:04:10.762061-06:00 c0-0c1s1n2 EFI: mem138: type=5, attr=0x800000000000000f, range=[0x000000007f410000-0x000000007f41a000) (0MB)
+[151] 2015-02-20T12:04:10.762237-06:00 c0-0c1s1n2 EFI: mem139: type=0, attr=0xf, range=[0x000000007f41a000-0x000000007f41c000) (0MB)
+[151] 2015-02-20T12:04:10.787280-06:00 c0-0c1s1n2 EFI: mem140: type=6, attr=0x800000000000000f, range=[0x000000007f41c000-0x000000007f42d000) (0MB)
+[151] 2015-02-20T12:04:10.824393-06:00 c0-0c1s1n2 EFI: mem141: type=0, attr=0xf, range=[0x000000007f42d000-0x000000007f43d000) (0MB)
+[151] 2015-02-20T12:04:10.824612-06:00 c0-0c1s1n2 EFI: mem142: type=6, attr=0x800000000000000f, range=[0x000000007f43d000-0x000000007f45e000) (0MB)
+[151] 2015-02-20T12:04:10.868320-06:00 c0-0c1s1n2 EFI: mem143: type=5, attr=0x800000000000000f, range=[0x000000007f45e000-0x000000007f462000) (0MB)
+[151] 2015-02-20T12:04:10.868467-06:00 c0-0c1s1n2 EFI: mem144: type=0, attr=0xf, range=[0x000000007f462000-0x000000007f46b000) (0MB)
+[151] 2015-02-20T12:04:10.868685-06:00 c0-0c1s1n2 EFI: mem145: type=5, attr=0x800000000000000f, range=[0x000000007f46b000-0x000000007f46d000) (0MB)
+[151] 2015-02-20T12:04:10.868787-06:00 c0-0c1s1n2 EFI: mem146: type=0, attr=0xf, range=[0x000000007f46d000-0x000000007f471000) (0MB)
+[151] 2015-02-20T12:04:10.908411-06:00 c0-0c1s1n2 EFI: mem147: type=5, attr=0x800000000000000f, range=[0x000000007f471000-0x000000007f472000) (0MB)
+[151] 2015-02-20T12:04:10.913409-06:00 c0-0c1s1n2 EFI: mem148: type=6, attr=0x800000000000000f, range=[0x000000007f472000-0x000000007f473000) (0MB)
+[151] 2015-02-20T12:04:10.913664-06:00 c0-0c1s1n2 EFI: mem149: type=5, attr=0x800000000000000f, range=[0x000000007f473000-0x000000007f476000) (0MB)
+[151] 2015-02-20T12:04:10.938644-06:00 c0-0c1s1n2 EFI: mem150: type=0, attr=0xf, range=[0x000000007f476000-0x000000007f486000) (0MB)
+[151] 2015-02-20T12:04:10.938905-06:00 c0-0c1s1n2 EFI: mem151: type=5, attr=0x800000000000000f, range=[0x000000007f486000-0x000000007f491000) (0MB)
+[151] 2015-02-20T12:04:10.939113-06:00 c0-0c1s1n2 EFI: mem152: type=7, attr=0xf, range=[0x000000007f491000-0x000000007f493000) (0MB)
+[151] 2015-02-20T12:04:10.964078-06:00 c0-0c1s1n2 EFI: mem153: type=10, attr=0xf, range=[0x000000007f493000-0x000000007f494000) (0MB)
+[151] 2015-02-20T12:04:10.989089-06:00 c0-0c1s1n2 EFI: mem154: type=6, attr=0x800000000000000f, range=[0x000000007f494000-0x000000007f49b000) (0MB)
+[151] 2015-02-20T12:04:10.989344-06:00 c0-0c1s1n2 EFI: mem155: type=5, attr=0x800000000000000f, range=[0x000000007f49b000-0x000000007f49e000) (0MB)
+[151] 2015-02-20T12:04:11.014466-06:00 c0-0c1s1n2 EFI: mem156: type=10, attr=0xf, range=[0x000000007f49e000-0x000000007f4a6000) (0MB)
+[151] 2015-02-20T12:04:11.039685-06:00 c0-0c1s1n2 EFI: mem157: type=6, attr=0x800000000000000f, range=[0x000000007f4a6000-0x000000007f4a7000) (0MB)
+[151] 2015-02-20T12:04:11.039866-06:00 c0-0c1s1n2 EFI: mem158: type=5, attr=0x800000000000000f, range=[0x000000007f4a7000-0x000000007f4ab000) (0MB)
+[151] 2015-02-20T12:04:11.065018-06:00 c0-0c1s1n2 EFI: mem159: type=6, attr=0x800000000000000f, range=[0x000000007f4ab000-0x000000007f4bd000) (0MB)
+[151] 2015-02-20T12:04:11.065242-06:00 c0-0c1s1n2 EFI: mem160: type=5, attr=0x800000000000000f, range=[0x000000007f4bd000-0x000000007f4cf000) (0MB)
+[151] 2015-02-20T12:04:11.090381-06:00 c0-0c1s1n2 EFI: mem161: type=6, attr=0x800000000000000f, range=[0x000000007f4cf000-0x000000007f4d2000) (0MB)
+[151] 2015-02-20T12:04:11.090522-06:00 c0-0c1s1n2 EFI: mem162: type=10, attr=0xf, range=[0x000000007f4d2000-0x000000007f558000) (0MB)
+[151] 2015-02-20T12:04:11.115684-06:00 c0-0c1s1n2 EFI: mem163: type=3, attr=0xf, range=[0x000000007f558000-0x000000007f7e0000) (2MB)
+[151] 2015-02-20T12:04:11.140698-06:00 c0-0c1s1n2 EFI: mem164: type=4, attr=0xf, range=[0x000000007f7e0000-0x000000007f7ef000) (0MB)
+[151] 2015-02-20T12:04:11.140910-06:00 c0-0c1s1n2 EFI: mem165: type=3, attr=0xf, range=[0x000000007f7ef000-0x000000007f800000) (0MB)
+[151] 2015-02-20T12:04:11.141068-06:00 c0-0c1s1n2 EFI: mem166: type=7, attr=0xf, range=[0x0000000100000000-0x0000001080000000) (63488MB)
+[151] 2015-02-20T12:04:11.166217-06:00 c0-0c1s1n2 EFI: mem167: type=11, attr=0x8000000000000001, range=[0x0000000080000000-0x0000000090000000) (256MB)
+[151] 2015-02-20T12:04:11.191361-06:00 c0-0c1s1n2 EFI: mem168: type=11, attr=0x8000000000000001, range=[0x00000000fed1c000-0x00000000fed20000) (0MB)
+[151] 2015-02-20T12:04:11.191614-06:00 c0-0c1s1n2 EFI: mem169: type=11, attr=0x8000000000000001, range=[0x00000000ff000000-0x0000000100000000) (16MB)
+[152] 2015-02-20T12:04:11.191698-06:00 c0-0c1s1n2 DMI 2.7 present.
+[153] 2015-02-20T12:04:11.216540-06:00 c0-0c1s1n2 last_pfn = 0x1080000 max_arch_pfn = 0x400000000
+[154] 2015-02-20T12:04:11.241843-06:00 c0-0c1s1n2 x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+[153] 2015-02-20T12:04:11.241996-06:00 c0-0c1s1n2 last_pfn = 0x7f800 max_arch_pfn = 0x400000000
+[155] 2015-02-20T12:04:11.242109-06:00 c0-0c1s1n2 found SMP MP-table at [ffff8800000fd830] fd830
+[156] 2015-02-20T12:04:11.242158-06:00 c0-0c1s1n2 Using GB pages for direct mapping
+[157] 2015-02-20T12:04:11.267028-06:00 c0-0c1s1n2 init_memory_mapping: 0000000000000000-000000007f800000
+[157] 2015-02-20T12:04:11.267157-06:00 c0-0c1s1n2 init_memory_mapping: 0000000100000000-0000001080000000
+[158] 2015-02-20T12:04:11.267217-06:00 c0-0c1s1n2 nmi ring buffer: 262144
+[159] 2015-02-20T12:04:11.267305-06:00 c0-0c1s1n2 RAMDISK: 0fa00000 - 10610000
+[160] 2015-02-20T12:04:11.292266-06:00 c0-0c1s1n2 ACPI: RSDP 000000007f395000 00024 (v02 ALASKA)
+[161] 2015-02-20T12:04:11.292528-06:00 c0-0c1s1n2 ACPI: XSDT 000000007f395088 0008C (v01 ALASKA    A M I 01072009 AMI  00010013)
+[161] 2015-02-20T12:04:11.292704-06:00 c0-0c1s1n2 ACPI: FACP 000000007f39ee50 000F4 (v04 ALASKA    A M I 01072009 AMI  00010013)
+[162] 2015-02-20T12:04:11.317713-06:00 c0-0c1s1n2 ACPI: DSDT 000000007f3951a0 09CAD (v02 ALASKA    A M I 00000016 INTL 20051117)
+[163] 2015-02-20T12:04:11.317761-06:00 c0-0c1s1n2 ACPI: FACS 000000007f4a3f80 00040
+[161] 2015-02-20T12:04:11.342724-06:00 c0-0c1s1n2 ACPI: APIC 000000007f39ef48 00138 (v03 ALASKA    A M I 01072009 AMI  00010013)
+[161] 2015-02-20T12:04:11.342984-06:00 c0-0c1s1n2 ACPI: FPDT 000000007f39f080 00044 (v01 ALASKA    A M I 01072009 AMI  00010013)
+[164] 2015-02-20T12:04:11.368003-06:00 c0-0c1s1n2 ACPI: MCFG 000000007f39f0c8 0003C (v01 ALASKA OEMMCFG. 01072009 MSFT 00000097)
+[165] 2015-02-20T12:04:11.368308-06:00 c0-0c1s1n2 ACPI: HPET 000000007f39f108 00038 (v01 ALASKA    A M I 01072009 AMI. 00000004)
+[166] 2015-02-20T12:04:11.393215-06:00 c0-0c1s1n2 ACPI: PRAD 000000007f39f140 000BE (v02 PRADID  PRADTID 00000001 MSFT 03000001)
+[167] 2015-02-20T12:04:11.393465-06:00 c0-0c1s1n2 ACPI: SSDT 000000007f39f200 70104 (v02  INTEL    CpuPm 00004000 INTL 20051117)
+[168] 2015-02-20T12:04:11.418385-06:00 c0-0c1s1n2 ACPI: SPCR 000000007f40f308 00050 (v01  A M I   APTIO4 01072009 AMI. 00000004)
+[169] 2015-02-20T12:04:11.418627-06:00 c0-0c1s1n2 ACPI: EINJ 000000007f40f358 00130 (v01    AMI AMI EINJ 00000000      00000000)
+[170] 2015-02-20T12:04:11.443720-06:00 c0-0c1s1n2 ACPI: ERST 000000007f40f488 00230 (v01  AMIER AMI ERST 00000000      00000000)
+[171] 2015-02-20T12:04:11.443931-06:00 c0-0c1s1n2 ACPI: HEST 000000007f40f6b8 000A8 (v01    AMI AMI HEST 00000000      00000000)
+[169] 2015-02-20T12:04:11.468966-06:00 c0-0c1s1n2 ACPI: BERT 000000007f40f760 00030 (v01    AMI AMI BERT 00000000      00000000)
+[172] 2015-02-20T12:04:11.469168-06:00 c0-0c1s1n2 ACPI: DMAR 000000007f40f790 000BC (v01 A M I   OEMDMAR 00000001 INTL 00000001)
+[173] 2015-02-20T12:04:11.469221-06:00 c0-0c1s1n2 No NUMA configuration found
+[174] 2015-02-20T12:04:11.494202-06:00 c0-0c1s1n2 Faking a node at 0000000000000000-0000001080000000
+[175] 2015-02-20T12:04:11.494349-06:00 c0-0c1s1n2 Initmem setup node 0 0000000000000000-0000001080000000
+[176] 2015-02-20T12:04:11.494457-06:00 c0-0c1s1n2  NODE_DATA [000000107ffbb000 - 000000107ffbffff]
+[177] 2015-02-20T12:04:11.721414-06:00 c0-0c1s1n2 Zone PFN ranges:
+[178] 2015-02-20T12:04:11.721478-06:00 c0-0c1s1n2  DMA      0x00000010 -> 0x00001000
+[179] 2015-02-20T12:04:11.746627-06:00 c0-0c1s1n2  DMA32    0x00001000 -> 0x00100000
+[180] 2015-02-20T12:04:11.746680-06:00 c0-0c1s1n2  Normal   0x00100000 -> 0x01080000
+[181] 2015-02-20T12:04:11.746721-06:00 c0-0c1s1n2 Movable zone start PFN for each node
+[182] 2015-02-20T12:04:11.746745-06:00 c0-0c1s1n2 early_node_map[5] active PFN ranges
+[183] 2015-02-20T12:04:11.771874-06:00 c0-0c1s1n2    0: 0x00000010 -> 0x000000a0
+[183] 2015-02-20T12:04:11.771892-06:00 c0-0c1s1n2    0: 0x00000100 -> 0x0007e67c
+[183] 2015-02-20T12:04:11.771933-06:00 c0-0c1s1n2    0: 0x0007f491 -> 0x0007f493
+[183] 2015-02-20T12:04:11.771953-06:00 c0-0c1s1n2    0: 0x0007f558 -> 0x0007f800
+[183] 2015-02-20T12:04:11.771988-06:00 c0-0c1s1n2    0: 0x00100000 -> 0x01080000
+[184] 2015-02-20T12:04:12.408973-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+[184] 2015-02-20T12:04:12.409009-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+[184] 2015-02-20T12:04:12.409073-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x04] lapic_id[0x04] enabled)
+[184] 2015-02-20T12:04:12.434151-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x06] lapic_id[0x06] enabled)
+[184] 2015-02-20T12:04:12.434198-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x08] lapic_id[0x08] enabled)
+[184] 2015-02-20T12:04:12.434269-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0a] lapic_id[0x0a] enabled)
+[184] 2015-02-20T12:04:12.434321-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0c] lapic_id[0x0c] enabled)
+[184] 2015-02-20T12:04:12.459316-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0e] lapic_id[0x0e] enabled)
+[184] 2015-02-20T12:04:12.459401-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x01] lapic_id[0x01] enabled)
+[184] 2015-02-20T12:04:12.459469-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x03] lapic_id[0x03] enabled)
+[184] 2015-02-20T12:04:12.459525-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x05] lapic_id[0x05] enabled)
+[184] 2015-02-20T12:04:12.484664-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x07] lapic_id[0x07] enabled)
+[184] 2015-02-20T12:04:12.484758-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x09] lapic_id[0x09] enabled)
+[184] 2015-02-20T12:04:12.484873-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0b] lapic_id[0x0b] enabled)
+[184] 2015-02-20T12:04:12.509894-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0d] lapic_id[0x0d] enabled)
+[184] 2015-02-20T12:04:12.510038-06:00 c0-0c1s1n2 ACPI: LAPIC (acpi_id[0x0f] lapic_id[0x0f] enabled)
+[185] 2015-02-20T12:04:12.510179-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x00] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.548435-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x02] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.548587-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x04] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.548712-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x06] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.592450-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x08] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.592612-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0a] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.592795-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0c] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.592979-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0e] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.593125-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x01] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.593337-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.636070-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x05] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.636236-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x07] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.636402-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x09] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.636565-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0b] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.636812-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0d] high edge lint[0x1])
+[185] 2015-02-20T12:04:12.636957-06:00 c0-0c1s1n2 ACPI: LAPIC_NMI (acpi_id[0x0f] high edge lint[0x1])
+[186] 2015-02-20T12:04:12.661389-06:00 c0-0c1s1n2 ACPI: IOAPIC (id[0x00] address[0xfec00000] gsi_base[0])
+[187] 2015-02-20T12:04:12.661688-06:00 c0-0c1s1n2 IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23
+[186] 2015-02-20T12:04:12.661865-06:00 c0-0c1s1n2 ACPI: IOAPIC (id[0x02] address[0xfec01000] gsi_base[24])
+[187] 2015-02-20T12:04:12.686675-06:00 c0-0c1s1n2 IOAPIC[1]: apic_id 2, version 32, address 0xfec01000, GSI 24-47
+[188] 2015-02-20T12:04:12.686912-06:00 c0-0c1s1n2 ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[189] 2015-02-20T12:04:12.711742-06:00 c0-0c1s1n2 ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[190] 2015-02-20T12:04:12.711932-06:00 c0-0c1s1n2 Using ACPI (MADT) for SMP configuration information
+[191] 2015-02-20T12:04:12.712105-06:00 c0-0c1s1n2 ACPI: HPET id: 0x8086a701 base: 0xfed00000
+[192] 2015-02-20T12:04:12.712269-06:00 c0-0c1s1n2 SMP: Allowing 16 CPUs, 0 hotplug CPUs
+[193] 2015-02-20T12:04:12.737172-06:00 c0-0c1s1n2 Allocating PCI resources starting at 90000000 (gap: 90000000:6ed1c000)
+[194] 2015-02-20T12:04:12.737384-06:00 c0-0c1s1n2 setup_percpu: NR_CPUS:128 nr_cpumask_bits:128 nr_cpu_ids:16 nr_node_ids:1
+[195] 2015-02-20T12:04:12.762492-06:00 c0-0c1s1n2 PERCPU: Embedded 25 pages/cpu @ffff88107fa00000 s72704 r8192 d21504 u131072
+[196] 2015-02-20T12:04:12.762708-06:00 c0-0c1s1n2 Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 16534701
+[197] 2015-02-20T12:04:12.762744-06:00 c0-0c1s1n2 Policy zone: Normal
+[198] 2015-02-20T12:04:12.863211-06:00 c0-0c1s1n2 Kernel command line: earlyprintk=serial,115200 load_ramdisk=1 ramdisk_size=80000 console=ttyS0,115200n8 bootnodeip=10.131.255.254 bootproto=ipog bootpath=/rr/current rootfs=nfs-shared root=/dev/disk/by-id/scsi-3600a09800063789e0000008b54c3a04c-part1 oops=panic bootifnetmask=255.252.0.0 elevator=noop ippob1=10 ippob2=128 pcie_ports=native iommu=on intel_iommu=off bad_page=panic pln_enable=off apei_disable hest_disable erst_disable ghes_disable cgroup_disable=memory active_wlm=ALPS sdbnodeip=10.131.255.253 sessionid=p0-20150220t105316 _cray=marker_ 
+[199] 2015-02-20T12:04:12.863244-06:00 c0-0c1s1n2 Intel-IOMMU: disabled
+[200] 2015-02-20T12:04:12.863407-06:00 c0-0c1s1n2 Disabling memory control group subsystem
+[201] 2015-02-20T12:04:12.863542-06:00 c0-0c1s1n2 PID hash table entries: 4096 (order: 3, 32768 bytes)
+[202] 2015-02-20T12:04:12.913678-06:00 c0-0c1s1n2 xsave/xrstor: enabled xstate_bv 0x7, cntxt size 0x340
+[203] 2015-02-20T12:04:13.294639-06:00 c0-0c1s1n2 Memory: 66065380k/69206016k available (5522k kernel code, 2121000k absent, 1019636k reserved, 5307k data, 692k init)
+[204] 2015-02-20T12:04:13.319870-06:00 c0-0c1s1n2 Hierarchical RCU implementation.
+[205] 2015-02-20T12:04:13.319924-06:00 c0-0c1s1n2 NR_IRQS:4352
+[206] 2015-02-20T12:04:13.345300-06:00 c0-0c1s1n2 Extended CMOS year: 2000
+[207] 2015-02-20T12:04:13.370324-06:00 c0-0c1s1n2 Console: colour dummy device 80x25
+[208] 2015-02-20T12:04:13.370396-06:00 c0-0c1s1n2 console [ttyS0] enabled, bootconsole disabled
+[208] 2015-02-20T12:04:13.370417-06:00 c0-0c1s1n2 console [ttyS0] enabled, bootconsole disabled
+[209] 2015-02-20T12:04:13.395821-06:00 c0-0c1s1n2 Fast TSC calibration using PIT
+[210] 2015-02-20T12:04:13.395889-06:00 c0-0c1s1n2 Detected 2599.928 MHz processor.
+[211] 2015-02-20T12:04:13.420922-06:00 c0-0c1s1n2 Calibrating delay loop (skipped), value calculated using timer frequency.. 5199.85 BogoMIPS (lpj=10399712)
+[212] 2015-02-20T12:04:13.420973-06:00 c0-0c1s1n2 pid_max: default: 32768 minimum: 301
+[213] 2015-02-20T12:04:13.496607-06:00 c0-0c1s1n2 Dentry cache hash table entries: 8388608 (order: 14, 67108864 bytes)
+[214] 2015-02-20T12:04:13.521808-06:00 c0-0c1s1n2 Inode-cache hash table entries: 4194304 (order: 13, 33554432 bytes)
+[215] 2015-02-20T12:04:13.522076-06:00 c0-0c1s1n2 Mount-cache hash table entries: 256
+[137] 2015-02-20T12:04:13.522176-06:00 c0-0c1s1n2 Initializing cgroup subsys cpuacct
+[216] 2015-02-20T12:04:13.522217-06:00 c0-0c1s1n2 Initializing cgroup subsys memory
+[217] 2015-02-20T12:04:13.547159-06:00 c0-0c1s1n2 Initializing cgroup subsys devices
+[218] 2015-02-20T12:04:13.547198-06:00 c0-0c1s1n2 Initializing cgroup subsys perf_event
+[219] 2015-02-20T12:04:13.547261-06:00 c0-0c1s1n2 CPU: Physical Processor ID: 0
+[220] 2015-02-20T12:04:13.572281-06:00 c0-0c1s1n2 CPU: Processor Core ID: 0
+[221] 2015-02-20T12:04:13.572390-06:00 c0-0c1s1n2 mce: CPU supports 20 MCE banks
+[222] 2015-02-20T12:04:13.572441-06:00 c0-0c1s1n2 CPU0: Thermal monitoring enabled (TM1)
+[223] 2015-02-20T12:04:13.572520-06:00 c0-0c1s1n2 using mwait in idle threads.
+[224] 2015-02-20T12:04:13.572659-06:00 c0-0c1s1n2 ACPI: Core revision 20110413
+[225] 2015-02-20T12:04:13.623145-06:00 c0-0c1s1n2 ftrace: allocating 20236 entries in 80 pages
+[226] 2015-02-20T12:04:13.648167-06:00 c0-0c1s1n2 DMAR: Host address width 46
+[227] 2015-02-20T12:04:13.648321-06:00 c0-0c1s1n2 DMAR: DRHD base: 0x000000fbffc000 flags: 0x1
+[228] 2015-02-20T12:04:13.673284-06:00 c0-0c1s1n2 IOMMU 0: reg_base_addr fbffc000 ver 1:0 cap d2078c106f0462 ecap f020fe
+[229] 2015-02-20T12:04:13.673429-06:00 c0-0c1s1n2 DMAR: RMRR base: 0x0000007f430000 end: 0x0000007f43cfff
+[230] 2015-02-20T12:04:13.673567-06:00 c0-0c1s1n2 DMAR: ATSR flags: 0x0
+[231] 2015-02-20T12:04:13.698506-06:00 c0-0c1s1n2 DMAR: RHSA base: 0x000000fbffc000 proximity domain: 0x0
+[232] 2015-02-20T12:04:13.698627-06:00 c0-0c1s1n2 Switched APIC routing to physical flat.
+[233] 2015-02-20T12:04:13.723768-06:00 c0-0c1s1n2 ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[234] 2015-02-20T12:04:13.774191-06:00 c0-0c1s1n2 CPU0: Intel(R) Xeon(R) CPU E5-2670 0 @ 2.60GHz stepping 07
+[235] 2015-02-20T12:04:14.001391-06:00 c0-0c1s1n2 Performance Events: PEBS fmt1+, 16-deep LBR, SandyBridge events, full-width counters, Intel PMU driver.
+[236] 2015-02-20T12:04:14.001428-06:00 c0-0c1s1n2 ... version:                3
+[237] 2015-02-20T12:04:14.026572-06:00 c0-0c1s1n2 ... bit width:              48
+[238] 2015-02-20T12:04:14.026592-06:00 c0-0c1s1n2 ... generic registers:      4
+[239] 2015-02-20T12:04:14.026648-06:00 c0-0c1s1n2 ... value mask:             0000ffffffffffff
+[240] 2015-02-20T12:04:14.051771-06:00 c0-0c1s1n2 ... max period:             0000ffffffffffff
+[241] 2015-02-20T12:04:14.051799-06:00 c0-0c1s1n2 ... fixed-purpose events:   3
+[242] 2015-02-20T12:04:14.051809-06:00 c0-0c1s1n2 ... event mask:             000000070000000f
+[243] 2015-02-20T12:04:14.511203-06:00 c0-0c1s1n2 Booting Node   0, Processors  #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11 #12 #13 #14 #15 Ok.
+[244] 2015-02-20T12:04:14.561747-06:00 c0-0c1s1n2 Brought up 16 CPUs
+[245] 2015-02-20T12:04:14.561800-06:00 c0-0c1s1n2 Total of 16 processors activated (83197.69 BogoMIPS).
+[246] 2015-02-20T12:04:14.587084-06:00 c0-0c1s1n2 NET: Registered protocol family 16
+[247] 2015-02-20T12:04:14.587156-06:00 c0-0c1s1n2 ACPI FADT declares the system doesn't support PCIe ASPM, so disable it
+[248] 2015-02-20T12:04:14.612237-06:00 c0-0c1s1n2 ACPI: bus type pci registered
+[249] 2015-02-20T12:04:14.637576-06:00 c0-0c1s1n2 PCI: MMCONFIG for domain 0000 [bus 00-ff] at [mem 0x80000000-0x8fffffff] (base 0x80000000)
+[250] 2015-02-20T12:04:14.637623-06:00 c0-0c1s1n2 PCI: MMCONFIG at [mem 0x80000000-0x8fffffff] reserved in E820
+[251] 2015-02-20T12:04:14.662732-06:00 c0-0c1s1n2 PCI: Using configuration type 1 for base access
+[252] 2015-02-20T12:04:14.662893-06:00 c0-0c1s1n2 bio: create slab <bio-0> at 0
+[253] 2015-02-20T12:04:14.688128-06:00 c0-0c1s1n2 ACPI: Executed 1 blocks of module-level executable AML code
+[254] 2015-02-20T12:04:15.142769-06:00 c0-0c1s1n2 ACPI: Interpreter enabled
+[255] 2015-02-20T12:04:15.142776-06:00 c0-0c1s1n2 ACPI: (supports S0 S1 S3 S5)
+[256] 2015-02-20T12:04:15.142783-06:00 c0-0c1s1n2 ACPI: Using IOAPIC for interrupt routing
+[257] 2015-02-20T12:04:15.142788-06:00 c0-0c1s1n2 ACPI: No dock devices found.
+[258] 2015-02-20T12:04:15.142800-06:00 c0-0c1s1n2 HEST: Table parsing disabled.
+[259] 2015-02-20T12:04:15.142812-06:00 c0-0c1s1n2 PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[260] 2015-02-20T12:04:15.142820-06:00 c0-0c1s1n2 ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-fe])
+[261] 2015-02-20T12:04:15.142843-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [io  0x0000-0x03af]
+[261] 2015-02-20T12:04:15.142849-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [io  0x03e0-0x0cf7]
+[261] 2015-02-20T12:04:15.142872-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [io  0x0d00-0xffff]
+[262] 2015-02-20T12:04:15.142879-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [mem 0x000c0000-0x000dffff]
+[262] 2015-02-20T12:04:15.142890-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [mem 0x80000000-0xfbffffff]
+[262] 2015-02-20T12:04:15.142897-06:00 c0-0c1s1n2 pci_root PNP0A08:00: host bridge window [mem 0x1080000000-0x3c3fffffffff]
+[263] 2015-02-20T12:04:15.142907-06:00 c0-0c1s1n2 pci 0000:00:02.0: PCI bridge to [bus 01-01]
+[263] 2015-02-20T12:04:15.142918-06:00 c0-0c1s1n2 pci 0000:00:03.0: PCI bridge to [bus 02-02]
+[263] 2015-02-20T12:04:15.142924-06:00 c0-0c1s1n2 pci 0000:00:03.2: PCI bridge to [bus 03-03]
+[263] 2015-02-20T12:04:15.142936-06:00 c0-0c1s1n2 pci 0000:00:11.0: PCI bridge to [bus 04-04]
+[264] 2015-02-20T12:04:15.142944-06:00 c0-0c1s1n2 pci 0000:00:1e.0: PCI bridge to [bus 05-05] (subtractive decode)
+[265] 2015-02-20T12:04:15.142953-06:00 c0-0c1s1n2 pci0000:00: Unable to request _OSC control (_OSC support mask: 0x19)
+[266] 2015-02-20T12:04:15.142958-06:00 c0-0c1s1n2 ACPI: PCI Root Bridge [UNC0] (domain 0000 [bus ff])
+[265] 2015-02-20T12:04:15.142970-06:00 c0-0c1s1n2 pci0000:ff: Unable to request _OSC control (_OSC support mask: 0x19)
+[267] 2015-02-20T12:04:15.142981-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 7 10 *11 12 14 15)
+[681] 2015-02-20T12:04:15.143191-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 *10 11 12 14 15)
+[270] 2015-02-20T12:04:15.167626-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKC] (IRQs 3 4 *5 6 10 11 12 14 15)
+[682] 2015-02-20T12:04:15.192715-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKD] (IRQs *3 4 5 6 10 11 12 14 15)
+[271] 2015-02-20T12:04:15.192900-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 10 11 12 14 15) *0
+[271] 2015-02-20T12:04:15.193074-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 7 10 11 12 14 15) *0
+[271] 2015-02-20T12:04:15.218034-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 10 11 12 14 15) *0
+[272] 2015-02-20T12:04:15.218227-06:00 c0-0c1s1n2 ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 *7 10 11 12 14 15)
+[273] 2015-02-20T12:04:15.243077-06:00 c0-0c1s1n2 vgaarb: loaded
+[274] 2015-02-20T12:04:15.243224-06:00 c0-0c1s1n2 SCSI subsystem initialized
+[275] 2015-02-20T12:04:15.243307-06:00 c0-0c1s1n2 PCI: Using ACPI for IRQ routing
+[276] 2015-02-20T12:04:15.268401-06:00 c0-0c1s1n2 Switching to clocksource hpet
+[163] 2015-02-20T12:04:15.268622-06:00 c0-0c1s1n2 pnp: PnP ACPI init
+[248] 2015-02-20T12:04:15.268711-06:00 c0-0c1s1n2 ACPI: bus type pnp registered
+[277] 2015-02-20T12:04:15.293612-06:00 c0-0c1s1n2 system 00:01: [mem 0xfc000000-0xfcffffff] has been reserved
+[277] 2015-02-20T12:04:15.293880-06:00 c0-0c1s1n2 system 00:01: [mem 0xfd000000-0xfdffffff] has been reserved
+[277] 2015-02-20T12:04:15.294045-06:00 c0-0c1s1n2 system 00:01: [mem 0xfe000000-0xfeafffff] has been reserved
+[277] 2015-02-20T12:04:15.318880-06:00 c0-0c1s1n2 system 00:01: [mem 0xfeb00000-0xfebfffff] has been reserved
+[278] 2015-02-20T12:04:15.319168-06:00 c0-0c1s1n2 system 00:01: [mem 0xfed00400-0xfed3ffff] could not be reserved
+[277] 2015-02-20T12:04:15.344183-06:00 c0-0c1s1n2 system 00:01: [mem 0xfed45000-0xfedfffff] has been reserved
+[277] 2015-02-20T12:04:15.344376-06:00 c0-0c1s1n2 system 00:02: [mem 0xfbffc000-0xfbffdfff] has been reserved
+[279] 2015-02-20T12:04:15.369366-06:00 c0-0c1s1n2 system 00:06: [io  0x04d0-0x04d1] has been reserved
+[279] 2015-02-20T12:04:15.369609-06:00 c0-0c1s1n2 system 00:08: [io  0x0400-0x0453] has been reserved
+[279] 2015-02-20T12:04:15.369767-06:00 c0-0c1s1n2 system 00:08: [io  0x0458-0x047f] has been reserved
+[279] 2015-02-20T12:04:15.394520-06:00 c0-0c1s1n2 system 00:08: [io  0x1180-0x119f] has been reserved
+[279] 2015-02-20T12:04:15.394849-06:00 c0-0c1s1n2 system 00:08: [io  0x0500-0x057f] has been reserved
+[277] 2015-02-20T12:04:15.419965-06:00 c0-0c1s1n2 system 00:08: [mem 0xfed1c000-0xfed1ffff] has been reserved
+[278] 2015-02-20T12:04:15.420074-06:00 c0-0c1s1n2 system 00:08: [mem 0xfec00000-0xfecfffff] could not be reserved
+[277] 2015-02-20T12:04:15.420251-06:00 c0-0c1s1n2 system 00:08: [mem 0xfed08000-0xfed08fff] has been reserved
+[277] 2015-02-20T12:04:15.445118-06:00 c0-0c1s1n2 system 00:08: [mem 0xff000000-0xffffffff] has been reserved
+[279] 2015-02-20T12:04:15.445311-06:00 c0-0c1s1n2 system 00:09: [io  0x0454-0x0457] has been reserved
+[280] 2015-02-20T12:04:15.445491-06:00 c0-0c1s1n2 pnp: PnP ACPI: found 12 devices
+[281] 2015-02-20T12:04:15.470227-06:00 c0-0c1s1n2 ACPI: ACPI bus type pnp unregistered
+[263] 2015-02-20T12:04:15.470547-06:00 c0-0c1s1n2 pci 0000:00:02.0: PCI bridge to [bus 01-01]
+[282] 2015-02-20T12:04:15.470748-06:00 c0-0c1s1n2 pci 0000:00:02.0:   bridge window [io  disabled]
+[283] 2015-02-20T12:04:15.495484-06:00 c0-0c1s1n2 pci 0000:00:02.0:   bridge window [mem disabled]
+[284] 2015-02-20T12:04:15.495793-06:00 c0-0c1s1n2 pci 0000:00:02.0:   bridge window [mem 0x3c0000000000-0x3c20000fffff 64bit pref]
+[263] 2015-02-20T12:04:15.520871-06:00 c0-0c1s1n2 pci 0000:00:03.0: PCI bridge to [bus 02-02]
+[282] 2015-02-20T12:04:15.521095-06:00 c0-0c1s1n2 pci 0000:00:03.0:   bridge window [io  disabled]
+[283] 2015-02-20T12:04:15.521237-06:00 c0-0c1s1n2 pci 0000:00:03.0:   bridge window [mem disabled]
+[287] 2015-02-20T12:04:15.545900-06:00 c0-0c1s1n2 pci 0000:00:03.0:   bridge window [mem pref disabled]
+[263] 2015-02-20T12:04:15.546122-06:00 c0-0c1s1n2 pci 0000:00:03.2: PCI bridge to [bus 03-03]
+[282] 2015-02-20T12:04:15.546302-06:00 c0-0c1s1n2 pci 0000:00:03.2:   bridge window [io  disabled]
+[283] 2015-02-20T12:04:15.571160-06:00 c0-0c1s1n2 pci 0000:00:03.2:   bridge window [mem disabled]
+[287] 2015-02-20T12:04:15.571407-06:00 c0-0c1s1n2 pci 0000:00:03.2:   bridge window [mem pref disabled]
+[263] 2015-02-20T12:04:15.571520-06:00 c0-0c1s1n2 pci 0000:00:11.0: PCI bridge to [bus 04-04]
+[285] 2015-02-20T12:04:15.596601-06:00 c0-0c1s1n2 pci 0000:00:11.0:   bridge window [io  0xe000-0xefff]
+[286] 2015-02-20T12:04:15.596777-06:00 c0-0c1s1n2 pci 0000:00:11.0:   bridge window [mem 0xfbe00000-0xfbefffff]
+[284] 2015-02-20T12:04:15.621576-06:00 c0-0c1s1n2 pci 0000:00:11.0:   bridge window [mem 0x3c2000400000-0x3c20008fffff 64bit pref]
+[263] 2015-02-20T12:04:15.621792-06:00 c0-0c1s1n2 pci 0000:00:1e.0: PCI bridge to [bus 05-05]
+[282] 2015-02-20T12:04:15.621904-06:00 c0-0c1s1n2 pci 0000:00:1e.0:   bridge window [io  disabled]
+[283] 2015-02-20T12:04:15.646898-06:00 c0-0c1s1n2 pci 0000:00:1e.0:   bridge window [mem disabled]
+[287] 2015-02-20T12:04:15.647064-06:00 c0-0c1s1n2 pci 0000:00:1e.0:   bridge window [mem pref disabled]
+[288] 2015-02-20T12:04:15.647288-06:00 c0-0c1s1n2 pci 0000:00:02.0: PCI INT A -> GSI 32 (level, low) -> IRQ 32
+[288] 2015-02-20T12:04:15.672091-06:00 c0-0c1s1n2 pci 0000:00:03.0: PCI INT A -> GSI 40 (level, low) -> IRQ 40
+[288] 2015-02-20T12:04:15.672403-06:00 c0-0c1s1n2 pci 0000:00:03.2: PCI INT A -> GSI 40 (level, low) -> IRQ 40
+[288] 2015-02-20T12:04:15.697267-06:00 c0-0c1s1n2 pci 0000:00:11.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+[246] 2015-02-20T12:04:15.697365-06:00 c0-0c1s1n2 NET: Registered protocol family 2
+[289] 2015-02-20T12:04:15.697640-06:00 c0-0c1s1n2 IP route cache hash table entries: 524288 (order: 10, 4194304 bytes)
+[290] 2015-02-20T12:04:15.722721-06:00 c0-0c1s1n2 TCP established hash table entries: 524288 (order: 11, 8388608 bytes)
+[291] 2015-02-20T12:04:15.722943-06:00 c0-0c1s1n2 TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+[292] 2015-02-20T12:04:15.747873-06:00 c0-0c1s1n2 TCP: Hash tables configured (established 524288 bind 65536)
+[293] 2015-02-20T12:04:15.747974-06:00 c0-0c1s1n2 TCP reno registered
+[201] 2015-02-20T12:04:15.772993-06:00 c0-0c1s1n2 UDP hash table entries: 32768 (order: 8, 1048576 bytes)
+[294] 2015-02-20T12:04:15.773206-06:00 c0-0c1s1n2 UDP-Lite hash table entries: 32768 (order: 8, 1048576 bytes)
+[246] 2015-02-20T12:04:15.773365-06:00 c0-0c1s1n2 NET: Registered protocol family 1
+[295] 2015-02-20T12:04:15.773481-06:00 c0-0c1s1n2 RPC: Registered named UNIX socket transport module.
+[296] 2015-02-20T12:04:15.798130-06:00 c0-0c1s1n2 RPC: Registered udp transport module.
+[296] 2015-02-20T12:04:15.798292-06:00 c0-0c1s1n2 RPC: Registered tcp transport module.
+[297] 2015-02-20T12:04:15.798519-06:00 c0-0c1s1n2 RPC: Registered tcp NFSv4.1 backchannel transport module.
+[288] 2015-02-20T12:04:15.823678-06:00 c0-0c1s1n2 pci 0000:00:1a.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+[298] 2015-02-20T12:04:15.848700-06:00 c0-0c1s1n2 pci 0000:00:1a.0: PCI INT A disabled
+[288] 2015-02-20T12:04:15.848903-06:00 c0-0c1s1n2 pci 0000:00:1d.0: PCI INT A -> GSI 23 (level, low) -> IRQ 23
+[298] 2015-02-20T12:04:15.874182-06:00 c0-0c1s1n2 pci 0000:00:1d.0: PCI INT A disabled
+[299] 2015-02-20T12:04:15.874312-06:00 c0-0c1s1n2 Trying to unpack rootfs image as initramfs...
+[300] 2015-02-20T12:04:16.329106-06:00 c0-0c1s1n2 Freeing initrd memory: 12352k freed
+[301] 2015-02-20T12:04:16.329246-06:00 c0-0c1s1n2 DMAR: Device scope device [0000:00:01.01] not found
+[301] 2015-02-20T12:04:16.354181-06:00 c0-0c1s1n2 DMAR: Device scope device [0000:00:01.01] not found
+[302] 2015-02-20T12:04:16.379436-06:00 c0-0c1s1n2 PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[303] 2015-02-20T12:04:16.379460-06:00 c0-0c1s1n2 Placing 64MB software IO TLB between ffff88007a67c000 - ffff88007e67c000
+[304] 2015-02-20T12:04:16.404646-06:00 c0-0c1s1n2 software IO TLB at phys 0x7a67c000 - 0x7e67c000
+[305] 2015-02-20T12:04:16.404730-06:00 c0-0c1s1n2 Machine check injector initialized
+[201] 2015-02-20T12:04:16.404797-06:00 c0-0c1s1n2 futex hash table entries: 4096 (order: 6, 262144 bytes)
+[306] 2015-02-20T12:04:16.404896-06:00 c0-0c1s1n2 Registering pnotify support for (name=job)
+[307] 2015-02-20T12:04:16.404924-06:00 c0-0c1s1n2 CSA: initialized
+[308] 2015-02-20T12:04:16.429903-06:00 c0-0c1s1n2 audit: initializing netlink socket (disabled)
+[309] 2015-02-20T12:04:16.429968-06:00 c0-0c1s1n2 type=2000 audit(1424455450.492:1): initialized
+[310] 2015-02-20T12:04:16.480445-06:00 c0-0c1s1n2 HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[311] 2015-02-20T12:04:16.480586-06:00 c0-0c1s1n2 VFS: Disk quotas dquot_6.5.2
+[312] 2015-02-20T12:04:16.480770-06:00 c0-0c1s1n2 Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[313] 2015-02-20T12:04:16.505761-06:00 c0-0c1s1n2 Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+[314] 2015-02-20T12:04:16.505853-06:00 c0-0c1s1n2 fuse init (API version 7.16)
+[315] 2015-02-20T12:04:16.505956-06:00 c0-0c1s1n2 Installing v9fs 9p2000 file system support
+[316] 2015-02-20T12:04:16.530958-06:00 c0-0c1s1n2 msgmni has been set to 32268
+[317] 2015-02-20T12:04:16.531178-06:00 c0-0c1s1n2 Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+[318] 2015-02-20T12:04:16.531298-06:00 c0-0c1s1n2 io scheduler noop registered (default)
+[319] 2015-02-20T12:04:16.556205-06:00 c0-0c1s1n2 io scheduler deadline registered
+[320] 2015-02-20T12:04:16.556271-06:00 c0-0c1s1n2 io scheduler cfq registered
+[321] 2015-02-20T12:04:16.581396-06:00 c0-0c1s1n2 input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input0
+[322] 2015-02-20T12:04:16.581476-06:00 c0-0c1s1n2 ACPI: Power Button [PWRB]
+[323] 2015-02-20T12:04:16.581570-06:00 c0-0c1s1n2 input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input1
+[322] 2015-02-20T12:04:16.581644-06:00 c0-0c1s1n2 ACPI: Power Button [PWRF]
+[324] 2015-02-20T12:04:16.682611-06:00 c0-0c1s1n2 ERST: Error Record Serialization Table (ERST) support is disabled.
+[325] 2015-02-20T12:04:16.707660-06:00 c0-0c1s1n2 GHES: HEST is not enabled!
+[326] 2015-02-20T12:04:16.732922-06:00 c0-0c1s1n2 Serial: 8250/16550 driver, 2 ports, IRQ sharing disabled
+[327] 2015-02-20T12:04:16.758090-06:00 c0-0c1s1n2 serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+[327] 2015-02-20T12:04:16.859059-06:00 c0-0c1s1n2 serial8250: ttyS1 at I/O 0x2f8 (irq = 3) is a 16550A
+[328] 2015-02-20T12:04:16.960040-06:00 c0-0c1s1n2 Real Time Clock Driver v1.12b
+[329] 2015-02-20T12:04:16.960082-06:00 c0-0c1s1n2 Linux agpgart interface v0.103
+[330] 2015-02-20T12:04:16.960141-06:00 c0-0c1s1n2 brd: module loaded
+[331] 2015-02-20T12:04:16.960156-06:00 c0-0c1s1n2 loop: module loaded
+[332] 2015-02-20T12:04:16.985338-06:00 c0-0c1s1n2 Loading iSCSI transport class v2.0-870.
+[333] 2015-02-20T12:04:16.985399-06:00 c0-0c1s1n2 iscsi: registered transport (tcp)
+[334] 2015-02-20T12:04:16.985480-06:00 c0-0c1s1n2 Rounding down aligned max_sectors from 4294967295 to 4294967288
+[335] 2015-02-20T12:04:17.010494-06:00 c0-0c1s1n2 console [netcon0] enabled
+[336] 2015-02-20T12:04:17.010540-06:00 c0-0c1s1n2 netconsole: network logging started
+[337] 2015-02-20T12:04:17.010638-06:00 c0-0c1s1n2 i8042: PNP: No PS/2 controller found. Probing ports directly.
+[338] 2015-02-20T12:04:17.389070-06:00 c0-0c1s1n2 Refined TSC clocksource calibration: 2599.999 MHz.
+[276] 2015-02-20T12:04:17.414270-06:00 c0-0c1s1n2 Switching to clocksource tsc
+[339] 2015-02-20T12:04:18.045453-06:00 c0-0c1s1n2 i8042: No controller found
+[340] 2015-02-20T12:04:18.045473-06:00 c0-0c1s1n2 EDAC MC: Ver: 2.1.0
+[341] 2015-02-20T12:04:18.070563-06:00 c0-0c1s1n2 cpuidle: using governor ladder
+[342] 2015-02-20T12:04:18.070591-06:00 c0-0c1s1n2 cpuidle: using governor menu
+[343] 2015-02-20T12:04:18.095824-06:00 c0-0c1s1n2 oprofile: using NMI interrupt.
+[344] 2015-02-20T12:04:18.095887-06:00 c0-0c1s1n2 TCP cubic registered
+[246] 2015-02-20T12:04:18.095899-06:00 c0-0c1s1n2 NET: Registered protocol family 10
+[345] 2015-02-20T12:04:18.095975-06:00 c0-0c1s1n2 IPv6 over IPv4 tunneling driver
+[246] 2015-02-20T12:04:18.096027-06:00 c0-0c1s1n2 NET: Registered protocol family 17
+[346] 2015-02-20T12:04:18.096082-06:00 c0-0c1s1n2 Installing 9P2000 support
+[347] 2015-02-20T12:04:18.096145-06:00 c0-0c1s1n2 Registering the dns_resolver key type
+[348] 2015-02-20T12:04:18.096188-06:00 c0-0c1s1n2 registered taskstats version 1
+[349] 2015-02-20T12:04:18.121291-06:00 c0-0c1s1n2 Freeing unused kernel memory: 692k freed
+[350] 2015-02-20T12:04:19.787652-06:00 c0-0c1s1n2 ghal_init:Cray(R) Gemini Hardware Abstraction Layer - version 1.0107
+[351] 2015-02-20T12:04:19.787660-06:00 c0-0c1s1n2 ghal_init:Copyright (C) 2007-1012 Cray Inc.
+[352] 2015-02-20T12:04:19.787666-06:00 c0-0c1s1n2 ghal 0000:01:00.1: enabling device (0000 -> 0002)
+[353] 2015-02-20T12:04:19.787677-06:00 c0-0c1s1n2 udev: starting version 147
+[354] 2015-02-20T12:04:19.787689-06:00 c0-0c1s1n2 simplex: module license 'unspecified' taints kernel.
+[355] 2015-02-20T12:04:19.787696-06:00 c0-0c1s1n2 hss-os: communication area 0xffff881008920800 (phys 0x1008920800)
+[356] 2015-02-20T12:04:19.787709-06:00 c0-0c1s1n2 hss-os: new channel 1
+[357] 2015-02-20T12:04:19.846865-06:00 c0-0c1s1n2 request_sys_info_from_L0: No tile dimension data
+[356] 2015-02-20T12:04:19.885481-06:00 c0-0c1s1n2 hss-os: new channel 2
+[358] 2015-02-20T12:04:19.885495-06:00 c0-0c1s1n2 kgni_init:Cray(R) Gemini Network Interface - Sep 17 2014 version 0x004500b7 rev 9750
+[359] 2015-02-20T12:04:19.885506-06:00 c0-0c1s1n2 kgni_init:Copyright (C) 2007,2008 Cray Inc.
+[360] 2015-02-20T12:04:19.981432-06:00 c0-0c1s1n2 ipogif_init:Cray(R) Gemini IP over Fabric device driver - version 0.17
+[361] 2015-02-20T12:04:19.981486-06:00 c0-0c1s1n2 ipogif_init:Copyright (C) 2007 Cray Inc.
+[362] 2015-02-20T12:04:19.981841-06:00 c0-0c1s1n2 ipogif_probe:Immediate checksum off
+[363] 2015-02-20T12:04:19.981870-06:00 c0-0c1s1n2 Cray(R) Gemini Performance Counter Daemon - version 0.1
+[364] 2015-02-20T12:04:19.981882-06:00 c0-0c1s1n2 GEMINI Performance Counter Daemon.
+[365] 2015-02-20T12:04:19.981904-06:00 c0-0c1s1n2 Cray(R) Kernel Dynamic Registration (KDREG) Interface - version 0x2243e
+[366] 2015-02-20T12:04:19.981991-06:00 c0-0c1s1n2 Copyright (C) 2004-5 Pete Wyckoff - modified by Cray(R)
+[398] 2015-02-20T12:04:20.222436-06:00 c0-0c1s1n2 ipogif_up:Bringing interface up
+[646] 2015-02-20T12:04:20.298188-06:00 c0-0c1s1n2 Sending ec_node_info with boot code 0 (NODE_INFO_OS_BOOT) for nid 70
+[940] 2015-02-20T12:04:20.298194-06:00 c0-0c1s1n2 arp: sdbnode NID 137 = 000101000089
+[400] 2015-02-20T12:04:20.298202-06:00 c0-0c1s1n2 net.core.rmem_max = 16777216
+[400] 2015-02-20T12:04:20.298228-06:00 c0-0c1s1n2 net.core.wmem_max = 16777216
+[401] 2015-02-20T12:04:20.298236-06:00 c0-0c1s1n2 net.core.rmem_default = 16777216
+[401] 2015-02-20T12:04:20.298241-06:00 c0-0c1s1n2 net.core.wmem_default = 16777216
+[400] 2015-02-20T12:04:20.298259-06:00 c0-0c1s1n2 net.core.optmem_max = 16777216
+[402] 2015-02-20T12:04:20.323349-06:00 c0-0c1s1n2 net.ipv4.tcp_mem = 16777216 16777216 16777216
+[402] 2015-02-20T12:04:20.323415-06:00 c0-0c1s1n2 net.ipv4.tcp_rmem = 4096 87380 16777216
+[402] 2015-02-20T12:04:20.323488-06:00 c0-0c1s1n2 net.ipv4.tcp_wmem = 4096 65536 16777216
+[403] 2015-02-20T12:04:20.323499-06:00 c0-0c1s1n2 Using rootfs config: nfs-shared...
+[404] 2015-02-20T12:04:20.323508-06:00 c0-0c1s1n2 rootfs mount succeeded.
+[405] 2015-02-20T12:04:20.323547-06:00 c0-0c1s1n2 **********************************************************
+[406] 2015-02-20T12:04:20.323572-06:00 c0-0c1s1n2    HOSTNAME: nid00070
+[405] 2015-02-20T12:04:20.323592-06:00 c0-0c1s1n2 **********************************************************
+[407] 2015-02-20T12:04:20.323643-06:00 c0-0c1s1n2 ipogif0   Link encap:Ethernet  HWaddr 00:01:01:00:00:46  
+[408] 2015-02-20T12:04:20.323666-06:00 c0-0c1s1n2          inet addr:10.128.0.71  Mask:255.252.0.0
+[409] 2015-02-20T12:04:20.323703-06:00 c0-0c1s1n2          inet6 addr: fe80::201:1ff:fe00:46/64 Scope:Link
+[410] 2015-02-20T12:04:20.323726-06:00 c0-0c1s1n2          UP RUNNING NOARP  MTU:65520  Metric:1
+[411] 2015-02-20T12:04:20.323745-06:00 c0-0c1s1n2          RX packets:21 errors:0 dropped:0 overruns:0 frame:0
+[412] 2015-02-20T12:04:20.323792-06:00 c0-0c1s1n2          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0
+[413] 2015-02-20T12:04:20.348489-06:00 c0-0c1s1n2          collisions:0 txqueuelen:1000 
+[414] 2015-02-20T12:04:20.348550-06:00 c0-0c1s1n2          RX bytes:2496 (2.4 KiB)  TX bytes:2540 (2.4 KiB)
+[415] 2015-02-20T12:04:20.348561-06:00 c0-0c1s1n2 lo        Link encap:Local Loopback  
+[408] 2015-02-20T12:04:20.389417-06:00 c0-0c1s1n2          inet addr:127.0.0.1  Mask:255.0.0.0
+[416] 2015-02-20T12:04:20.389441-06:00 c0-0c1s1n2          inet6 addr: ::1/128 Scope:Host
+[417] 2015-02-20T12:04:20.389453-06:00 c0-0c1s1n2          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+[411] 2015-02-20T12:04:20.389481-06:00 c0-0c1s1n2          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+[412] 2015-02-20T12:04:20.389493-06:00 c0-0c1s1n2          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+[413] 2015-02-20T12:04:20.389504-06:00 c0-0c1s1n2          collisions:0 txqueuelen:0 
+[414] 2015-02-20T12:04:20.389521-06:00 c0-0c1s1n2          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+[418] 2015-02-20T12:04:20.389530-06:00 c0-0c1s1n2 Mounting NID specific /etc (nid=70)...
+[419] 2015-02-20T12:04:20.389547-06:00 c0-0c1s1n2 done.
+[420] 2015-02-20T12:04:20.495141-06:00 c0-0c1s1n2 INIT: version 2.86 booting
+[421] 2015-02-20T12:04:20.545616-06:00 c0-0c1s1n2 System Boot Control: Running /etc/init.d/boot
+[422] 2015-02-20T12:04:20.545804-06:00 c0-0c1s1n2 Mounting sysfs at /sys7[?25l
+[423] 2015-02-20T12:04:20.545809-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[424] 2015-02-20T12:04:20.570892-06:00 c0-0c1s1n2 Copying static /dev content7[?25l
+[423] 2015-02-20T12:04:20.570905-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[425] 2015-02-20T12:04:20.570928-06:00 c0-0c1s1n2 Mounting tmpfs at /dev/shm7[?25l
+[423] 2015-02-20T12:04:20.570954-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[425] 2015-02-20T12:04:20.570976-06:00 c0-0c1s1n2 Mounting devpts at /dev/pts7[?25l
+[423] 2015-02-20T12:04:20.570985-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[631] 2015-02-20T12:04:20.571005-06:00 c0-0c1s1n2 Boot logging started on /dev/ttyS0(/dev/console) at Fri Feb 20 12:04:14 2015
+[427] 2015-02-20T12:04:20.596219-06:00 c0-0c1s1n2 Mounting debugfs at /sys/kernel/debug7[?25l
+[423] 2015-02-20T12:04:20.596233-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[428] 2015-02-20T12:04:20.721561-06:00 c0-0c1s1n2 [m[?25hNo efivars filesystem driver available.[m[?25hStarting udevd: udev: starting version 147
+[429] 2015-02-20T12:04:20.721589-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:20.721597-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[430] 2015-02-20T12:04:20.761486-06:00 c0-0c1s1n2 Loading drivers, configuring devices: usbcore: registered new interface driver usbfs
+[288] 2015-02-20T12:04:20.761509-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: PCI INT B -> GSI 19 (level, low) -> IRQ 19
+[431] 2015-02-20T12:04:20.811932-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: forcing PORTS_IMPL to 0x3f
+[432] 2015-02-20T12:04:20.811985-06:00 c0-0c1s1n2 usbcore: registered new interface driver hub
+[433] 2015-02-20T12:04:20.812028-06:00 c0-0c1s1n2 usbcore: registered new device driver usb
+[434] 2015-02-20T12:04:20.837174-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 6 ports 6 Gbps 0x3f impl SATA mode
+[435] 2015-02-20T12:04:20.837288-06:00 c0-0c1s1n2 ahci 0000:00:1f.2: flags: 64bit ncq sntf pm led clo pio slum part ems apst 
+[372] 2015-02-20T12:04:21.064234-06:00 c0-0c1s1n2 scsi0 : ahci
+[436] 2015-02-20T12:04:21.064247-06:00 c0-0c1s1n2 ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[372] 2015-02-20T12:04:21.064252-06:00 c0-0c1s1n2 scsi1 : ahci
+[372] 2015-02-20T12:04:21.064257-06:00 c0-0c1s1n2 scsi2 : ahci
+[372] 2015-02-20T12:04:21.064262-06:00 c0-0c1s1n2 scsi3 : ahci
+[372] 2015-02-20T12:04:21.064266-06:00 c0-0c1s1n2 scsi4 : ahci
+[372] 2015-02-20T12:04:21.064270-06:00 c0-0c1s1n2 scsi5 : ahci
+[439] 2015-02-20T12:04:21.064275-06:00 c0-0c1s1n2 ata2: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00100 irq 164
+[439] 2015-02-20T12:04:21.064286-06:00 c0-0c1s1n2 ata3: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00180 irq 164
+[439] 2015-02-20T12:04:21.064292-06:00 c0-0c1s1n2 ata4: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00200 irq 164
+[439] 2015-02-20T12:04:21.064297-06:00 c0-0c1s1n2 ata5: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00280 irq 164
+[439] 2015-02-20T12:04:21.064310-06:00 c0-0c1s1n2 ata6: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00300 irq 164
+[439] 2015-02-20T12:04:21.064332-06:00 c0-0c1s1n2 ata7: SATA max UDMA/133 abar m2048@0xfbf00000 port 0xfbf00380 irq 164
+[452] 2015-02-20T12:04:21.064339-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: PCI INT A -> GSI 16 (level, low) -> IRQ 16
+[453] 2015-02-20T12:04:21.064348-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: EHCI Host Controller
+[446] 2015-02-20T12:04:21.064379-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: new USB bus registered, assigned bus number 1
+[454] 2015-02-20T12:04:21.064388-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: debug port 2
+[448] 2015-02-20T12:04:21.064395-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: irq 16, io mem 0xfbf02000
+[449] 2015-02-20T12:04:21.064400-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+[450] 2015-02-20T12:04:21.064410-06:00 c0-0c1s1n2 hub 1-0:1.0: USB hub found
+[451] 2015-02-20T12:04:21.064425-06:00 c0-0c1s1n2 hub 1-0:1.0: 2 ports detected
+[452] 2015-02-20T12:04:21.064433-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: PCI INT A -> GSI 23 (level, low) -> IRQ 23
+[453] 2015-02-20T12:04:21.064440-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: EHCI Host Controller
+[446] 2015-02-20T12:04:21.064451-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: new USB bus registered, assigned bus number 2
+[454] 2015-02-20T12:04:21.064465-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: debug port 2
+[448] 2015-02-20T12:04:21.064475-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: irq 23, io mem 0xfbf01000
+[449] 2015-02-20T12:04:21.064586-06:00 c0-0c1s1n2 ehci_hcd 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+[450] 2015-02-20T12:04:21.064635-06:00 c0-0c1s1n2 hub 2-0:1.0: USB hub found
+[451] 2015-02-20T12:04:21.064673-06:00 c0-0c1s1n2 hub 2-0:1.0: 2 ports detected
+[457] 2015-02-20T12:04:21.341925-06:00 c0-0c1s1n2 usb 1-1: new high-speed USB device number 2 using ehci_hcd
+[450] 2015-02-20T12:04:21.468108-06:00 c0-0c1s1n2 hub 1-1:1.0: USB hub found
+[451] 2015-02-20T12:04:21.468117-06:00 c0-0c1s1n2 hub 1-1:1.0: 6 ports detected
+[457] 2015-02-20T12:04:21.599483-06:00 c0-0c1s1n2 usb 2-1: new high-speed USB device number 2 using ehci_hcd
+[450] 2015-02-20T12:04:21.725626-06:00 c0-0c1s1n2 hub 2-1:1.0: USB hub found
+[451] 2015-02-20T12:04:21.725663-06:00 c0-0c1s1n2 hub 2-1:1.0: 8 ports detected
+[458] 2015-02-20T12:04:21.966207-06:00 c0-0c1s1n2 ata3: failed to resume link (SControl 0)
+[459] 2015-02-20T12:04:21.966302-06:00 c0-0c1s1n2 ata3: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-20T12:04:21.966368-06:00 c0-0c1s1n2 ata5: failed to resume link (SControl 0)
+[459] 2015-02-20T12:04:21.966410-06:00 c0-0c1s1n2 ata5: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-20T12:04:21.991359-06:00 c0-0c1s1n2 ata4: failed to resume link (SControl 0)
+[459] 2015-02-20T12:04:22.016616-06:00 c0-0c1s1n2 ata4: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-20T12:04:22.016654-06:00 c0-0c1s1n2 ata2: failed to resume link (SControl 0)
+[459] 2015-02-20T12:04:22.016685-06:00 c0-0c1s1n2 ata2: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-20T12:04:22.016703-06:00 c0-0c1s1n2 ata6: failed to resume link (SControl 0)
+[459] 2015-02-20T12:04:22.041896-06:00 c0-0c1s1n2 ata6: SATA link down (SStatus 0 SControl 0)
+[458] 2015-02-20T12:04:22.041960-06:00 c0-0c1s1n2 ata7: failed to resume link (SControl 0)
+[459] 2015-02-20T12:04:22.041981-06:00 c0-0c1s1n2 ata7: SATA link down (SStatus 0 SControl 0)
+[429] 2015-02-20T12:04:22.067222-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:22.067235-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[460] 2015-02-20T12:04:22.167992-06:00 c0-0c1s1n2 [m[?25hMounting /var from 10.131.255.254. Checking for nid=70 existance.
+[429] 2015-02-20T12:04:22.319317-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:22.319328-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[461] 2015-02-20T12:04:22.344554-06:00 c0-0c1s1n2 Mounting tmpfs on /tmp7[?25l
+[423] 2015-02-20T12:04:22.344573-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[462] 2015-02-20T12:04:22.344593-06:00 c0-0c1s1n2 Running sysctl using values from /etc/sysctl.conf
+[463] 2015-02-20T12:04:22.344602-06:00 c0-0c1s1n2 net.ipv4.icmp_echo_ignore_broadcasts = 1
+[464] 2015-02-20T12:04:22.344617-06:00 c0-0c1s1n2 net.ipv4.conf.all.rp_filter = 1
+[465] 2015-02-20T12:04:22.344622-06:00 c0-0c1s1n2 fs.inotify.max_user_watches = 65536
+[466] 2015-02-20T12:04:22.344648-06:00 c0-0c1s1n2 net.ipv4.conf.default.promote_secondaries = 1
+[467] 2015-02-20T12:04:22.369781-06:00 c0-0c1s1n2 net.ipv4.conf.all.promote_secondaries = 1
+[468] 2015-02-20T12:04:22.369853-06:00 c0-0c1s1n2 vm.min_free_kbytes = 102400
+[429] 2015-02-20T12:04:22.369879-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:22.369887-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[469] 2015-02-20T12:04:22.369898-06:00 c0-0c1s1n2 [m[?25hActivating swap-devices in /etc/fstab...
+[470] 2015-02-20T12:04:22.395061-06:00 c0-0c1s1n2 7[?25l[1A
+[471] 2015-02-20T12:04:22.395067-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25hroot file system (/) is NOT being checked.
+[472] 2015-02-20T12:04:22.697882-06:00 c0-0c1s1n2 [m[?25hSet System Time to the current Hardware Clock7[?25l
+[423] 2015-02-20T12:04:22.697893-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[473] 2015-02-20T12:04:22.697968-06:00 c0-0c1s1n2 [m[?25hActivating device mapper...
+[474] 2015-02-20T12:04:22.723089-06:00 c0-0c1s1n2 device-mapper: ioctl: 4.23.0-ioctl (2012-07-25) initialised: dm-devel@redhat.com
+[429] 2015-02-20T12:04:22.723144-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:22.723149-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[475] 2015-02-20T12:04:22.748333-06:00 c0-0c1s1n2 [m[?25hLoading required kernel modules
+[470] 2015-02-20T12:04:22.798823-06:00 c0-0c1s1n2 7[?25l[1A
+[476] 2015-02-20T12:04:22.798831-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h[m[?25h[m[?25hWaiting for udev to settle...
+[477] 2015-02-20T12:04:22.798875-06:00 c0-0c1s1n2 Scanning for LVM volume groups...
+[478] 2015-02-20T12:04:22.798884-06:00 c0-0c1s1n2  Reading all physical volumes.  This may take a while...
+[479] 2015-02-20T12:04:22.824020-06:00 c0-0c1s1n2  No volume groups found
+[479] 2015-02-20T12:04:22.824058-06:00 c0-0c1s1n2  No volume groups found
+[480] 2015-02-20T12:04:22.824076-06:00 c0-0c1s1n2 Activating LVM volume groups...
+[481] 2015-02-20T12:04:22.824114-06:00 c0-0c1s1n2  PARTIAL MODE. Incomplete logical volumes will be processed.
+[479] 2015-02-20T12:04:22.824126-06:00 c0-0c1s1n2  No volume groups found
+[429] 2015-02-20T12:04:22.824156-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:22.824164-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[689] 2015-02-20T12:04:22.824183-06:00 c0-0c1s1n2 [m[?25hNo fibre channel cards present.  Not waiting for disk devices. 
+[1177] 2015-02-20T12:04:22.874477-06:00 c0-0c1s1n2 [m[?25hWaiting for fake:
+[4778] 2015-02-20T12:04:22.899796-06:00 c0-0c1s1n2 nomtab:  no more events
+[903] 2015-02-20T12:04:22.899836-06:00 c0-0c1s1n2 Checking file systems...
+[490] 2015-02-20T12:04:22.899853-06:00 c0-0c1s1n2 fsck from util-linux 2.19.1
+[1183] 2015-02-20T12:04:22.924978-06:00 c0-0c1s1n2 WARNING: Your /etc/fstab does not contain the fsck passno
+[1184] 2015-02-20T12:04:22.925003-06:00 c0-0c1s1n2 	field.  I will kludge around things for you, but you
+[1185] 2015-02-20T12:04:22.925013-06:00 c0-0c1s1n2 	should fix your /etc/fstab file as soon as you can.
+[491] 2015-02-20T12:04:22.925023-06:00 c0-0c1s1n2 Checking all file systems.
+[1186] 2015-02-20T12:04:22.925071-06:00 c0-0c1s1n2 192.168.0.1@o2ib:192.168.0.2@o2ib:/snx11137: nonexistent device ("nofail" fstab option may be used to skip this device)
+[470] 2015-02-20T12:04:22.925080-06:00 c0-0c1s1n2 7[?25l[1A
+[492] 2015-02-20T12:04:22.925105-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25hMounting local file systems...
+[4779] 2015-02-20T12:04:22.950231-06:00 c0-0c1s1n2 warning: /scratch1: cannot resolve: No such file or directory
+[470] 2015-02-20T12:04:23.181638-06:00 c0-0c1s1n2 7[?25l[1A
+[642] 2015-02-20T12:04:23.181646-06:00 c0-0c1s1n2 [80C[10D[1;31mfailed[m8[?25h[m[?25hCheck if the profiles matches the system7[?25l
+[423] 2015-02-20T12:04:23.181655-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[495] 2015-02-20T12:04:23.206838-06:00 c0-0c1s1n2 [m[?25hEnabling monitoring on LVM volume groups...
+[479] 2015-02-20T12:04:23.206864-06:00 c0-0c1s1n2  No volume groups found
+[429] 2015-02-20T12:04:23.206873-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:23.206884-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[496] 2015-02-20T12:04:23.282546-06:00 c0-0c1s1n2 [m[?25h[m[?25h[m[?25h[m[?25h[m[?25hTurning quota on
+[497] 2015-02-20T12:04:23.282572-06:00 c0-0c1s1n2 Checking quotas. This may take some time.
+[429] 2015-02-20T12:04:23.282585-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:23.282599-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[498] 2015-02-20T12:04:23.282617-06:00 c0-0c1s1n2 [m[?25hSetting current sysctl status from /etc/sysctl.conf7[?25l
+[423] 2015-02-20T12:04:23.282627-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[499] 2015-02-20T12:04:23.466679-06:00 c0-0c1s1n2 [m[?25hATTENTION: You have modified /etc/resolv.conf.  Leaving it untouched...
+[500] 2015-02-20T12:04:23.466720-06:00 c0-0c1s1n2 You can find my version in /tmp/resolv.conf.wwDvwQ ...
+[501] 2015-02-20T12:04:23.466777-06:00 c0-0c1s1n2 touch: cannot touch `/etc/yp.conf': Read-only file system
+[502] 2015-02-20T12:04:23.466789-06:00 c0-0c1s1n2 chmod: cannot access `/etc/yp.conf': No such file or directory
+[501] 2015-02-20T12:04:23.466811-06:00 c0-0c1s1n2 touch: cannot touch `/etc/yp.conf': Read-only file system
+[503] 2015-02-20T12:04:23.466917-06:00 c0-0c1s1n2 [m[?25hSystem Boot Control: The system has been 
+[504] 2015-02-20T12:04:23.466925-06:00 c0-0c1s1n2 [80C[10D[1mset up[m
+[505] 2015-02-20T12:04:23.466936-06:00 c0-0c1s1n2 Skipped features: [80C[19D[1;33mboot.efivars[m
+[506] 2015-02-20T12:04:23.491853-06:00 c0-0c1s1n2 System Boot Control: Running /etc/init.d/boot.local
+[470] 2015-02-20T12:04:23.517183-06:00 c0-0c1s1n2 7[?25l[1A
+[507] 2015-02-20T12:04:23.517198-06:00 c0-0c1s1n2 [8
+[508] 2015-02-20T12:04:23.517203-06:00 c0-0c1s1n2 INIT: Entering runlevel: 3
+[509] 2015-02-20T12:04:23.567538-06:00 c0-0c1s1n2 Master Resource Control: previous runlevel: N, switching to runlevel: 
+[510] 2015-02-20T12:04:23.567558-06:00 c0-0c1s1n2 [80C[10D[1m3[m
+[511] 2015-02-20T12:04:23.567633-06:00 c0-0c1s1n2 Starting batchlimitd
+[512] 2015-02-20T12:04:23.618005-06:00 c0-0c1s1n2 [m[?25hLoading nic compatibility device7[?25l
+[423] 2015-02-20T12:04:23.618020-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[513] 2015-02-20T12:04:23.744213-06:00 c0-0c1s1n2 [m[?25hbpmcd_init: Power statistics available in /sys/cray
+[514] 2015-02-20T12:04:23.769470-06:00 c0-0c1s1n2 [m[?25hStarting D-Bus daemon7[?25l
+[423] 2015-02-20T12:04:23.769490-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[909] 2015-02-20T12:04:24.275528-06:00 c0-0c1s1n2 [m[?25h[m[?25hiSCSI Enterprise Target Software - version trunk
+[516] 2015-02-20T12:04:24.275555-06:00 c0-0c1s1n2 iscsi_trgt: Registered io type fileio
+[516] 2015-02-20T12:04:24.275564-06:00 c0-0c1s1n2 iscsi_trgt: Registered io type blockio
+[516] 2015-02-20T12:04:24.275574-06:00 c0-0c1s1n2 iscsi_trgt: Registered io type nullio
+[517] 2015-02-20T12:04:24.300740-06:00 c0-0c1s1n2 [m[?25hLNet: HW CPU cores: 16, npartitions: 4
+[518] 2015-02-20T12:04:29.346739-06:00 c0-0c1s1n2 /etc/init.d/rc3.d/S01lnet: line 179: lctl: command not found
+[519] 2015-02-20T12:04:29.397170-06:00 c0-0c1s1n2 [m[?25hRemoving old kernel packages...
+[520] 2015-02-20T12:04:29.397195-06:00 c0-0c1s1n2 rm: cannot remove `/boot/do_purge_kernels': Read-only file system
+[521] 2015-02-20T12:04:29.397220-06:00 c0-0c1s1n2 /sbin/purge-kernels: multiversion.kernels not configured in /etc/zypp/zypp.conf, exiting.
+[429] 2015-02-20T12:04:29.422410-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:29.422420-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[522] 2015-02-20T12:04:29.447629-06:00 c0-0c1s1n2 [m[?25hInitializing random number generator7[?25l
+[423] 2015-02-20T12:04:29.447647-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[782] 2015-02-20T12:04:29.554979-06:00 c0-0c1s1n2 [m[?25h[m[?25hSetting up (localfs) network interfaces:
+[530] 2015-02-20T12:04:29.706262-06:00 c0-0c1s1n2    lo        
+[531] 2015-02-20T12:04:29.731503-06:00 c0-0c1s1n2    lo        IP address: 127.0.0.1/8   
+[532] 2015-02-20T12:04:29.756709-06:00 c0-0c1s1n2              IP address: 127.0.0.2/8   
+[470] 2015-02-20T12:04:29.862284-06:00 c0-0c1s1n2 7[?25l[1A
+[694] 2015-02-20T12:04:29.862297-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h    ipogif0   
+[534] 2015-02-20T12:04:29.862370-06:00 c0-0c1s1n2              No configuration found for ipogif0
+[470] 2015-02-20T12:04:29.912651-06:00 c0-0c1s1n2 7[?25l[1A
+[537] 2015-02-20T12:04:29.912663-06:00 c0-0c1s1n2 [80C[10D[1munused[m8[?25hSetting up service (localfs) network  .  .  .  .  .  .  .  .  .  .7[?25l
+[423] 2015-02-20T12:04:29.912675-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[538] 2015-02-20T12:04:29.937895-06:00 c0-0c1s1n2 [m[?25hCould not start BND as this is not the boot node.
+[539] 2015-02-20T12:04:29.937916-06:00 c0-0c1s1n2 bootnodes are: 1 1 
+[540] 2015-02-20T12:04:29.937932-06:00 c0-0c1s1n2 mynid=70
+[541] 2015-02-20T12:04:29.988385-06:00 c0-0c1s1n2 [m[?25hS04cray-config-service: Mounting 9p configuration directory. 
+[542] 2015-02-20T12:04:30.983522-06:00 c0-0c1s1n2 S04cray-config-service:   Success.  
+[543] 2015-02-20T12:04:31.059180-06:00 c0-0c1s1n2 [m[?25h[m[?25hStarting hw_info_init on 70
+[539] 2015-02-20T12:04:31.059209-06:00 c0-0c1s1n2 bootnodes are: 1 1 
+[540] 2015-02-20T12:04:31.059224-06:00 c0-0c1s1n2 mynid=70
+[544] 2015-02-20T12:04:31.469615-06:00 c0-0c1s1n2 [m[?25h[m[?25h 
+[545] 2015-02-20T12:04:31.494862-06:00 c0-0c1s1n2 cray-syslog: **WARNING**  /etc/security/limits.conf MAY require hard and soft file limits 
+[546] 2015-02-20T12:04:31.494899-06:00 c0-0c1s1n2 cray-syslog:              greater or equal to 8192 for proper LLM operation 
+[547] 2015-02-20T12:04:31.494942-06:00 c0-0c1s1n2 cray-syslog:              when large number of jobs are launched concurrently.
+[548] 2015-02-20T12:04:31.494955-06:00 c0-0c1s1n2 cray-syslog:              If you have failures running large number of concurrent jobs,
+[549] 2015-02-20T12:04:31.494964-06:00 c0-0c1s1n2 cray-syslog:              you may wish to update the hard and soft nofile entries in 
+[550] 2015-02-20T12:04:31.494975-06:00 c0-0c1s1n2 cray-syslog:              limits.conf as follows.
+[551] 2015-02-20T12:04:31.495001-06:00 c0-0c1s1n2 cray-syslog: /etc/security/limits.conf: 
+[552] 2015-02-20T12:04:31.495013-06:00 c0-0c1s1n2 cray-syslog: *  soft  nofile  8192
+[553] 2015-02-20T12:04:31.520069-06:00 c0-0c1s1n2 cray-syslog: *  hard  nofile  8192
+[554] 2015-02-20T12:04:32.487857-06:00 c0-0c1s1n2 cray-syslog: rsyslogd started as process 7479.
+[555] 2015-02-20T12:04:33.519742-06:00 c0-0c1s1n2 cray-syslog: llmrd started as process  7492.
+[556] 2015-02-20T12:04:33.570200-06:00 c0-0c1s1n2 [m[?25h[m[?25hStarting auditd startproc:  exit status of parent of /sbin/auditd: 6
+[429] 2015-02-20T12:04:33.570213-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:33.570225-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[557] 2015-02-20T12:04:33.671121-06:00 c0-0c1s1n2 [m[?25hStarting haveged daemon 7[?25l
+[423] 2015-02-20T12:04:33.671131-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[558] 2015-02-20T12:04:33.696428-06:00 c0-0c1s1n2 [m[?25hStarting rpcbind 7[?25l
+[423] 2015-02-20T12:04:33.696442-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[559] 2015-02-20T12:04:33.721663-06:00 c0-0c1s1n2 [m[?25hbootnodes are: 1 1 
+[540] 2015-02-20T12:04:33.721694-06:00 c0-0c1s1n2 mynid=70
+[560] 2015-02-20T12:04:33.772085-06:00 c0-0c1s1n2 [m[?25hNot starting NFS client services - no NFS found in /etc/fstab:
+[510] 2015-02-20T12:04:33.772092-06:00 c0-0c1s1n2 [80C[10D[1munused[m
+[561] 2015-02-20T12:04:33.797271-06:00 c0-0c1s1n2 [m[?25hStarting DVS service: DVS: Revision 1873 - Built: Sep 17 2014 @ 06:40:29 for lnet version 2.5
+[562] 2015-02-20T12:04:33.847745-06:00 c0-0c1s1n2 Lustre: kgnilnd build version: 2.5-trunk-1.0502.17198.8.51-abuild-RB-5.2UP02_2.5.1-2014-09-17-06:59
+[1211] 2015-02-20T12:04:33.924054-06:00 c0-0c1s1n2 LNet: Enabling LNet peer health for gnilnd, timeout 67s
+[563] 2015-02-20T12:04:33.924083-06:00 c0-0c1s1n2 LNet: Added LNI 70@gni [16/2048/0/67]
+[429] 2015-02-20T12:04:35.017410-06:00 c0-0c1s1n2 7[?25l
+[423] 2015-02-20T12:04:35.017435-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[564] 2015-02-20T12:04:35.017463-06:00 c0-0c1s1n2 [m[?25hStarting java.binfmt_misc 7[?25l
+[423] 2015-02-20T12:04:35.017472-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[565] 2015-02-20T12:04:35.017626-06:00 c0-0c1s1n2 [m[?25hStarting mcelog... 7[?25l
+[423] 2015-02-20T12:04:35.017642-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[529] 2015-02-20T12:04:35.118266-06:00 c0-0c1s1n2 [m[?25hSetting up (remotefs) network interfaces:
+[566] 2015-02-20T12:04:35.233382-06:00 c0-0c1s1n2    sit0      
+[534] 2015-02-20T12:04:35.258594-06:00 c0-0c1s1n2              No configuration found for sit0
+[470] 2015-02-20T12:04:35.283851-06:00 c0-0c1s1n2 7[?25l[1A
+[537] 2015-02-20T12:04:35.283860-06:00 c0-0c1s1n2 [80C[10D[1munused[m8[?25hSetting up service (remotefs) network  .  .  .  .  .  .  .  .  .  .7[?25l
+[423] 2015-02-20T12:04:35.283866-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[423] 2015-02-20T12:04:35.334367-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[559] 2015-02-20T12:04:35.384819-06:00 c0-0c1s1n2 [m[?25hsdbnodes are: 137 65 
+[540] 2015-02-20T12:04:35.384846-06:00 c0-0c1s1n2 mynid=70
+[567] 2015-02-20T12:04:35.435214-06:00 c0-0c1s1n2 [m[?25hStarting network time protocol daemon (NTPD)7[?25l
+[423] 2015-02-20T12:04:35.435227-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[568] 2015-02-20T12:04:35.510939-06:00 c0-0c1s1n2 [m[?25hStarting MUNGE: munged7[?25l
+[423] 2015-02-20T12:04:35.510957-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[569] 2015-02-20T12:04:35.561492-06:00 c0-0c1s1n2 [m[?25h[m[?25h[m[?25hStarting Name Service Cache Daemon7[?25l
+[423] 2015-02-20T12:04:35.561498-06:00 c0-0c1s1n2 [80C[10D[1;32mdone[m8[?25h
+[570] 2015-02-20T12:04:35.586751-06:00 c0-0c1s1n2 [m[?25hEnabling Linux Jobs
+[571] 2015-02-20T12:04:35.586840-06:00 c0-0c1s1n2 [m[?25hStarting alps services
+[572] 2015-02-20T12:04:36.129054-06:00 c0-0c1s1n2 mkdir: cannot create directory `/ufs/alps_shared': Read-only file system
+[573] 2015-02-20T12:04:36.154345-06:00 c0-0c1s1n2 no ALPS daemon will be started on node nid00070.
+[574] 2015-02-20T12:04:36.642707-06:00 c0-0c1s1n2 [m[?25h<node_health> Starting node_health_recovery
+[4302] 2015-02-20T12:04:36.642730-06:00 c0-0c1s1n2 [m[?25h+ case "$1" in
+[4322] 2015-02-20T12:04:36.690192-06:00 c0-0c1s1n2 + echo 'Initiating local script boot.last'
+[4323] 2015-02-20T12:04:36.690576-06:00 c0-0c1s1n2 Initiating local script boot.last
+[4326] 2015-02-20T12:04:36.690607-06:00 c0-0c1s1n2 ++ cat /proc/cray_xt/nid
+[4327] 2015-02-20T12:04:36.690619-06:00 c0-0c1s1n2 + NID=70
+[4328] 2015-02-20T12:04:36.690629-06:00 c0-0c1s1n2 ++ grep '^70:' /etc/opt/cray/sdb/node_classes
+[4329] 2015-02-20T12:04:36.690642-06:00 c0-0c1s1n2 ++ cut -d : -f2
+[4330] 2015-02-20T12:04:36.690654-06:00 c0-0c1s1n2 + class=ssd
+[4331] 2015-02-20T12:04:36.690670-06:00 c0-0c1s1n2 + case "$class" in
+[4322] 2015-02-20T12:04:36.690712-06:00 c0-0c1s1n2 + echo 'Completed local script boot.last'
+[4333] 2015-02-20T12:04:36.690725-06:00 c0-0c1s1n2 Completed local script boot.last
+[575] 2015-02-20T12:04:36.690751-06:00 c0-0c1s1n2 [m[?25hblogd: no message logging because /var file system is not accessible
+[539] 2015-02-20T12:04:36.690764-06:00 c0-0c1s1n2 sdbnodes are: 137 65 
+[540] 2015-02-20T12:04:36.715339-06:00 c0-0c1s1n2 mynid=70
+[815] 2015-02-20T12:04:36.715373-06:00 c0-0c1s1n2 [m[?25hBoot event: Starting
+[577] 2015-02-20T12:04:36.715405-06:00 c0-0c1s1n2 Sending ec_node_info with boot code 8 (NODE_INFO_OS_BOOT_SUCCEEDED) for nid 70
+[578] 2015-02-20T12:04:36.715418-06:00 c0-0c1s1n2 [m[?25hMaster Resource Control: runlevel 3 has been 
+[510] 2015-02-20T12:04:36.715424-06:00 c0-0c1s1n2 [80C[10D[1mreached[m
+[579] 2015-02-20T12:04:36.715435-06:00 c0-0c1s1n2 Failed services in runlevel 3: [80C[11D[1;31mlnet[m
+[580] 2015-02-20T12:04:36.715444-06:00 c0-0c1s1n2 Skipped services in runlevel 3: [80C[10D[1;33mnfs[m
+[581] 2015-02-20T12:04:36.715465-06:00 c0-0c1s1n2 INIT: no more processes left in this runlevel

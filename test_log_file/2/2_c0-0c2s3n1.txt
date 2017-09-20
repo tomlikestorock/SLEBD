@@ -1,0 +1,14 @@
+[1071] 2015-02-16T11:06:02.666194-06:00 c0-0c2s3n1 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-16T11:06:02.666200-06:00 c0-0c2s3n1 Unloading nic compatibility device..done
+[1073] 2015-02-16T11:06:02.666214-06:00 c0-0c2s3n1 bpmcd_exit: No local access to power statistics
+[1074] 2015-02-16T11:06:02.666219-06:00 c0-0c2s3n1 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-16T11:06:02.666224-06:00 c0-0c2s3n1 S; exiting
+[1077] 2015-02-16T11:06:02.666229-06:00 c0-0c2s3n1 Unloading XPMEM driver
+[1078] 2015-02-16T11:06:02.666236-06:00 c0-0c2s3n1 Unmounting alps spool directory..done
+[1079] 2015-02-16T11:06:02.666241-06:00 c0-0c2s3n1 Initializing Compute node runtime environment
+[1080] 2015-02-16T11:06:02.666245-06:00 c0-0c2s3n1 (stop BIND mounts)
+[1081] 2015-02-16T11:06:03.679026-06:00 c0-0c2s3n1 Stopping DVS service: 
+[1082] 2015-02-16T11:06:04.192189-06:00 c0-0c2s3n1 ..done
+[1083] 2015-02-16T11:06:07.262925-06:00 c0-0c2s3n1 System halted.
+[1084] 2015-02-16T11:06:09.832804-06:00 c0-0c2s3n1 RCADSVCS : shutdown.
+[131] 2015-02-16T14:50:57.084637-06:00 c0-0c2s3n1 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2

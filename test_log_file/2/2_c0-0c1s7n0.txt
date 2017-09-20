@@ -1,0 +1,48 @@
+[1070] 2015-02-15T15:03:50.174648-06:00 c0-0c1s7n0 hpcc[36236] general protection ip:b6c9fa sp:7fffffffbcc0 error:0 in hpcc[400000+904000]
+[1070] 2015-02-16T07:22:18.242573-06:00 c0-0c1s7n0 hpcc[45762] general protection ip:b6c9fa sp:7fffffffbd20 error:0 in hpcc[400000+904000]
+[1071] 2015-02-16T11:06:03.274455-06:00 c0-0c1s7n0 <node_health> Boot_Check: Nothing to stop.
+[1072] 2015-02-16T11:06:03.274468-06:00 c0-0c1s7n0 Unloading nic compatibility device..done
+[1073] 2015-02-16T11:06:03.274474-06:00 c0-0c1s7n0 bpmcd_exit: No local access to power statistics
+[1074] 2015-02-16T11:06:03.274481-06:00 c0-0c1s7n0 This is not a native WLM environment; WLM is ALPSGI XPMEM kernel module v2.2 unloaded
+[1076] 2015-02-16T11:06:03.274486-06:00 c0-0c1s7n0 S; exiting
+[1077] 2015-02-16T11:06:03.274497-06:00 c0-0c1s7n0 Unloading XPMEM driver
+[1078] 2015-02-16T11:06:03.274515-06:00 c0-0c1s7n0 Unmounting alps spool directory..done
+[1079] 2015-02-16T11:06:03.274524-06:00 c0-0c1s7n0 Initializing Compute node runtime environment
+[1080] 2015-02-16T11:06:03.274537-06:00 c0-0c1s7n0 (stop BIND mounts)
+[1081] 2015-02-16T11:06:04.317275-06:00 c0-0c1s7n0 Stopping DVS service: 
+[1082] 2015-02-16T11:06:04.808125-06:00 c0-0c1s7n0 ..done
+[1083] 2015-02-16T11:06:07.870287-06:00 c0-0c1s7n0 System halted.
+[1112] 2015-02-16T11:06:08.891352-06:00 c0-0c1s7n0 ------------[ cut here ]------------
+[1113] 2015-02-16T11:06:08.891361-06:00 c0-0c1s7n0 WARNING: at arch/x86/kernel/smp.c:118 native_smp_send_reschedule+0x5e/0x60()
+[1114] 2015-02-16T11:06:08.891366-06:00 c0-0c1s7n0 Hardware name: Cascade
+[1115] 2015-02-16T11:06:08.891372-06:00 c0-0c1s7n0 Modules linked in: dvspn(P) dvsof(P) dvsutil(P) dvsipc(P) dvsipc_lnet(P) kgnilnd lnet sha1_generic libcfs dvsproc(P) ib_core pcie_link_bw_monitor kdreg gpcd_ari ipogif_ari kgni_ari hwerr(P) rca hss_os(P) heartbeat simplex(P) ghal_ari craytrace [last unloaded: xpmem]
+[1116] 2015-02-16T11:06:08.891378-06:00 c0-0c1s7n0 Pid: 0, comm: swapper/63 Tainted: P            3.0.101-0.31.1_1.0502.8394-cray_ari_c #1
+[1117] 2015-02-16T11:06:08.891383-06:00 c0-0c1s7n0 Call Trace:
+[1118] 2015-02-16T11:06:08.891391-06:00 c0-0c1s7n0 [<ffffffff81005eb9>] try_stack_unwind+0x169/0x1b0
+[1119] 2015-02-16T11:06:08.891416-06:00 c0-0c1s7n0 [<ffffffff81004939>] dump_trace+0x89/0x450
+[1120] 2015-02-16T11:06:08.891434-06:00 c0-0c1s7n0 [<ffffffff8100591c>] show_trace_log_lvl+0x5c/0x80
+[1121] 2015-02-16T11:06:08.891439-06:00 c0-0c1s7n0 [<ffffffff81005955>] show_trace+0x15/0x20
+[1122] 2015-02-16T11:06:08.891451-06:00 c0-0c1s7n0 [<ffffffff8141d73b>] dump_stack+0x79/0x84
+[1123] 2015-02-16T11:06:08.891460-06:00 c0-0c1s7n0 [<ffffffff8104efef>] warn_slowpath_common+0x7f/0xe0
+[1124] 2015-02-16T11:06:08.891465-06:00 c0-0c1s7n0 [<ffffffff8104f10a>] warn_slowpath_null+0x1a/0x50
+[1125] 2015-02-16T11:06:08.891480-06:00 c0-0c1s7n0 [<ffffffff8102545e>] native_smp_send_reschedule+0x5e/0x60
+[1126] 2015-02-16T11:06:08.891487-06:00 c0-0c1s7n0 [<ffffffff81045cc0>] try_to_wake_up+0x220/0x290
+[1127] 2015-02-16T11:06:08.891493-06:00 c0-0c1s7n0 [<ffffffff81045d97>] wake_up_process+0x27/0x50
+[1128] 2015-02-16T11:06:08.891499-06:00 c0-0c1s7n0 [<ffffffff8106a034>] wake_up_worker+0x24/0x30
+[1129] 2015-02-16T11:06:08.891505-06:00 c0-0c1s7n0 [<ffffffff8106a0be>] insert_work+0x7e/0x90
+[1130] 2015-02-16T11:06:08.891510-06:00 c0-0c1s7n0 [<ffffffff8106ac3d>] __queue_work+0x20d/0x410
+[1131] 2015-02-16T11:06:08.891515-06:00 c0-0c1s7n0 [<ffffffff8106ae6b>] delayed_work_timer_fn+0x2b/0x30
+[1132] 2015-02-16T11:06:08.891520-06:00 c0-0c1s7n0 [<ffffffff8105edfe>] run_timer_softirq+0x20e/0x350
+[1133] 2015-02-16T11:06:08.891529-06:00 c0-0c1s7n0 [<ffffffff81056230>] __do_softirq+0x120/0x250
+[1134] 2015-02-16T11:06:08.891544-06:00 c0-0c1s7n0 [<ffffffff8142982c>] call_softirq+0x1c/0x30
+[1135] 2015-02-16T11:06:08.891550-06:00 c0-0c1s7n0 [<ffffffff81004425>] do_softirq+0x85/0xc0
+[1136] 2015-02-16T11:06:08.891561-06:00 c0-0c1s7n0 [<ffffffff81055f65>] irq_exit+0xd5/0xf0
+[1137] 2015-02-16T11:06:08.891567-06:00 c0-0c1s7n0 [<ffffffff8142a09e>] smp_apic_timer_interrupt+0x6e/0x99
+[1138] 2015-02-16T11:06:08.891582-06:00 c0-0c1s7n0 [<ffffffff81428fd3>] apic_timer_interrupt+0x13/0x20
+[1139] 2015-02-16T11:06:08.891587-06:00 c0-0c1s7n0 [<ffffffff81248504>] intel_idle+0xc4/0x150
+[1140] 2015-02-16T11:06:08.891611-06:00 c0-0c1s7n0 [<ffffffff81359418>] cpuidle_idle_call+0x128/0x220
+[1139] 2015-02-16T11:06:08.891620-06:00 c0-0c1s7n0 [<ffffffff810020f6>] cpu_idle+0x76/0xd0
+[1141] 2015-02-16T11:06:08.891629-06:00 c0-0c1s7n0 [<ffffffff81416d0d>] start_secondary+0x1dc/0x26f
+[1142] 2015-02-16T11:06:08.891634-06:00 c0-0c1s7n0 ---[ end trace fc9ccafdc09c379c ]---
+[1084] 2015-02-16T11:06:09.941387-06:00 c0-0c1s7n0 RCADSVCS : shutdown.
+[131] 2015-02-16T14:50:55.045682-06:00 c0-0c1s7n0 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2

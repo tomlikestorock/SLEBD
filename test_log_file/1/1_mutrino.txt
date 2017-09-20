@@ -1,0 +1,3 @@
+[128] 2015-02-13T13:10:56.644952-06:00 mutrino craylog: message type: console, connected to port: 5150
+[129] 2015-02-13T13:10:56.645012-06:00 mutrino craylog: testing connectivity
+[130] 2015-02-13T13:10:56.894580-06:00 mutrino starting

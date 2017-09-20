@@ -1,0 +1,73 @@
+[582] 2015-02-16T11:06:38.854040-06:00 c0-0c0s1n1 INIT: Switching to runlevel: 0
+[583] 2015-02-16T11:06:38.892433-06:00 c0-0c0s1n1 Boot logging started on /dev/ttyS0((no tty)) at Mon Feb 16 11:06:38 2015
+[509] 2015-02-16T11:06:38.892629-06:00 c0-0c0s1n1 Master Resource Control: previous runlevel: 3, switching to runlevel: 
+[510] 2015-02-16T11:06:38.892637-06:00 c0-0c0s1n1 [80C[10D[1m0[m
+[539] 2015-02-16T11:06:38.892829-06:00 c0-0c0s1n1 sdbnodes are: 137 137 
+[540] 2015-02-16T11:06:38.892925-06:00 c0-0c0s1n1 mynid=5
+[584] 2015-02-16T11:06:38.932233-06:00 c0-0c0s1n1 [m[?25hBoot event: Nothing to stop.
+[585] 2015-02-16T11:06:38.932537-06:00 c0-0c0s1n1 [m[?25hShutting down auditd 7[?25l
+[423] 2015-02-16T11:06:38.932541-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[586] 2015-02-16T11:06:38.932701-06:00 c0-0c0s1n1 [m[?25hStopping batchlimitd
+[538] 2015-02-16T11:06:38.955211-06:00 c0-0c0s1n1 [m[?25hCould not start BND as this is not the boot node.
+[539] 2015-02-16T11:06:38.955333-06:00 c0-0c0s1n1 bootnodes are: 1 1 
+[540] 2015-02-16T11:06:38.955356-06:00 c0-0c0s1n1 mynid=5
+[587] 2015-02-16T11:06:39.005558-06:00 c0-0c0s1n1 [m[?25hK02cray-config-service: Unmounting the configuration directory. 
+[542] 2015-02-16T11:06:40.015616-06:00 c0-0c0s1n1 K02cray-config-service:   Success.  
+[512] 2015-02-16T11:06:40.040765-06:00 c0-0c0s1n1 [m[?25hUnloading nic compatibility device7[?25l
+[423] 2015-02-16T11:06:40.040771-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[588] 2015-02-16T11:06:40.041148-06:00 c0-0c0s1n1 [m[?25hbpmcd_exit: No local access to power statistics
+[589] 2015-02-16T11:06:41.822330-06:00 c0-0c0s1n1 [m[?25hStopping DVS service: LNet: 6940:0:(gnilnd.c:761:kgnilnd_complete_closed_conn()) Closed conn 0xffff88100e5b1c00->2@gni (errno -108, peer errno 0): canceled 1 TX, 0/0 RDMA
+[590] 2015-02-16T11:06:44.448458-06:00 c0-0c0s1n1 LNet: Removed LNI 5@gni
+[429] 2015-02-16T11:06:46.410781-06:00 c0-0c0s1n1 7[?25l
+[423] 2015-02-16T11:06:46.410790-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[591] 2015-02-16T11:06:46.486488-06:00 c0-0c0s1n1 [m[?25hShutting down haveged daemon 7[?25l
+[423] 2015-02-16T11:06:46.486496-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[592] 2015-02-16T11:06:46.511697-06:00 c0-0c0s1n1 [m[?25hStarting hw_info_init on 5
+[539] 2015-02-16T11:06:46.549342-06:00 c0-0c0s1n1 bootnodes are: 1 1 
+[540] 2015-02-16T11:06:46.549367-06:00 c0-0c0s1n1 mynid=5
+[593] 2015-02-16T11:06:46.574576-06:00 c0-0c0s1n1 [m[?25h[m[?25hShutting down java.binfmt_misc 7[?25l
+[423] 2015-02-16T11:06:46.574590-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[594] 2015-02-16T11:06:51.594999-06:00 c0-0c0s1n1 [m[?25hERROR: Module lnet has non-zero reference count.
+[595] 2015-02-16T11:06:51.676770-06:00 c0-0c0s1n1 [m[?25hShutting down mcelog... 7[?25l
+[423] 2015-02-16T11:06:51.676790-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[568] 2015-02-16T11:06:51.793515-06:00 c0-0c0s1n1 [m[?25hStopping MUNGE: munged7[?25l
+[423] 2015-02-16T11:06:51.793525-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[596] 2015-02-16T11:06:51.793566-06:00 c0-0c0s1n1 [m[?25h<node_health> Stopping node_health_recovery
+[597] 2015-02-16T11:06:51.818729-06:00 c0-0c0s1n1 node_health_recovery: no process found
+[598] 2015-02-16T11:06:52.094540-06:00 c0-0c0s1n1 [m[?25hShutting down Name Service Cache Daemon7[?25l
+[423] 2015-02-16T11:06:52.094555-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[599] 2015-02-16T11:06:52.181330-06:00 c0-0c0s1n1 [m[?25h[m[?25h[m[?25h[m[?25hbootnodes are: 1 1 
+[540] 2015-02-16T11:06:52.181354-06:00 c0-0c0s1n1 mynid=5
+[600] 2015-02-16T11:06:52.206590-06:00 c0-0c0s1n1 [m[?25hShutting down alps services
+[601] 2015-02-16T11:06:52.440524-06:00 c0-0c0s1n1 Terminating apsys
+[429] 2015-02-16T11:06:52.968849-06:00 c0-0c0s1n1 7[?25l
+[423] 2015-02-16T11:06:52.968858-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[602] 2015-02-16T11:06:52.994109-06:00 c0-0c0s1n1 [m[?25hNOT Disabling ipogif0
+[603] 2015-02-16T11:06:53.019434-06:00 c0-0c0s1n1 [m[?25hSaving random seed7[?25l
+[423] 2015-02-16T11:06:53.019451-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[604] 2015-02-16T11:06:53.044666-06:00 c0-0c0s1n1 [m[?25h[m[?25hDisabling Linux Jobs
+[605] 2015-02-16T11:06:53.044680-06:00 c0-0c0s1n1 No new jobs will be created. If Linux Jobs support was loaded
+[606] 2015-02-16T11:06:53.044701-06:00 c0-0c0s1n1 as a kernel module, you can unload the module once the number of
+[607] 2015-02-16T11:06:53.044715-06:00 c0-0c0s1n1 running jobs is 0 (zero).  Use the lsmod command to find if job
+[608] 2015-02-16T11:06:53.044724-06:00 c0-0c0s1n1 module is loaded and the rmmod command to unload it once the
+[609] 2015-02-16T11:06:53.044736-06:00 c0-0c0s1n1 used-count is 0. The jstat command can be used
+[610] 2015-02-16T11:06:53.044759-06:00 c0-0c0s1n1 to determine what jobs are currently running.
+[611] 2015-02-16T11:06:53.044770-06:00 c0-0c0s1n1 jsethid illegal parameter: 0xffffffff
+[559] 2015-02-16T11:06:53.069832-06:00 c0-0c0s1n1 [m[?25hsdbnodes are: 137 137 
+[540] 2015-02-16T11:06:53.095053-06:00 c0-0c0s1n1 mynid=5
+[423] 2015-02-16T11:06:53.120315-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[612] 2015-02-16T11:06:53.195998-06:00 c0-0c0s1n1 [m[?25hShutting down network time protocol daemon (NTPD)7[?25l
+[423] 2015-02-16T11:06:53.196025-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[613] 2015-02-16T11:06:53.282915-06:00 c0-0c0s1n1 [m[?25hShutting down (remotefs) network interfaces:
+[566] 2015-02-16T11:06:53.333390-06:00 c0-0c0s1n1    sit0      
+[614] 2015-02-16T11:06:53.333424-06:00 c0-0c0s1n1              No configuration found for sit0 
+[615] 2015-02-16T11:06:53.333433-06:00 c0-0c0s1n1              Nevertheless the interface will be shut down.
+[470] 2015-02-16T11:06:53.855136-06:00 c0-0c0s1n1 7[?25l[1A
+[616] 2015-02-16T11:06:53.855144-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25hShutting down service (remotefs) network  .  .  .  .  .  .  .  .  .7[?25l
+[423] 2015-02-16T11:06:53.855151-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[617] 2015-02-16T11:06:53.855219-06:00 c0-0c0s1n1 [m[?25hShutting down NFS client services: root filesystem is on NFS
+[618] 2015-02-16T11:06:53.855224-06:00 c0-0c0s1n1 [80C[10D[1;33mskipped[m
+[585] 2015-02-16T11:06:53.905635-06:00 c0-0c0s1n1 [m[?25hShutting down rpcbind 7[?25l
+[423] 2015-02-16T11:06:53.905643-06:00 c0-0c0s1n1 [80C[10D[1;32mdone[m8[?25h
+[889] 2015-02-16T11:07:26.090664-06:00 c0-0c0s1n1 [m[?25hcray-syslog: Sent shutdown to llmrd at process  6820...nfs: server 10.131.255.254 not responding, still trying
+[131] 2015-02-16T14:50:54.529964-06:00 c0-0c0s1n1 ERROR: Type:2; Severity:80; Class:3; Subclass:D; Operation: 2
