@@ -19,10 +19,10 @@ def main (cmd_1):
 	global_APIs.global_folder_initializer(cmd_1)
 	time_1 = time.time()
 	#EBD learning
-	#multi_file_folder.whole_daily_folder_block_learning(cmd_1)
+	multi_file_folder.whole_daily_folder_block_learning(cmd_1)
 	time_2 = time.time()
 	#EB list extraction
-	#multi_file_folder.whole_daily_folder_block_extract (cmd_1)
+	multi_file_folder.whole_daily_folder_block_extract (cmd_1)
 	time_3 = time.time()
 	
 	print "EB learning time"
